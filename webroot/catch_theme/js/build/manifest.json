@@ -1,0 +1,22 @@
+{
+  "vendor.js": "/catch_theme/js/build/vendor.77afd9822338973df70c.bundle.js",
+  "checkout.js": "/catch_theme/js/build/checkout.cdc298c948fae4aee315.bundle.js",
+  "success.js": "/catch_theme/js/build/success.bf5c0d40b67c14456360.bundle.js",
+  "vip.js": "/catch_theme/js/build/vip.8b6962980ae6e0131420.bundle.js",
+  "../../img/sepa.png": "/catch_theme/js/build/../../img/391e79a0ec94cde5b1848cc140a9a9c1.png",
+  "../../img/ebay-money-back.svg": "/catch_theme/js/build/../../img/747e19ccb4d51f8544424c8e40f518eb.svg",
+  "../../img/express.png": "/catch_theme/js/build/../../img/e35b9b0f84e9b675541b80d81a47f500.png",
+  "../../img/success-background.png": "/catch_theme/js/build/../../img/fffc14b9d02c69c13902833b7c917bcd.png",
+  "../../translations/de/checkout.json": "/catch_theme/js/build/../../translations/de/checkout.json",
+  "../../translations/de/common.json": "/catch_theme/js/build/../../translations/de/common.json",
+  "../../translations/de/error.json": "/catch_theme/js/build/../../translations/de/error.json",
+  "../../translations/de/form.json": "/catch_theme/js/build/../../translations/de/form.json",
+  "../../translations/de/translation.json": "/catch_theme/js/build/../../translations/de/translation.json",
+  "../../translations/de/vip.json": "/catch_theme/js/build/../../translations/de/vip.json",
+  "../../translations/en/checkout.json": "/catch_theme/js/build/../../translations/en/checkout.json",
+  "../../translations/en/common.json": "/catch_theme/js/build/../../translations/en/common.json",
+  "../../translations/en/error.json": "/catch_theme/js/build/../../translations/en/error.json",
+  "../../translations/en/form.json": "/catch_theme/js/build/../../translations/en/form.json",
+  "../../translations/en/translation.json": "/catch_theme/js/build/../../translations/en/translation.json",
+  "../../translations/en/vip.json": "/catch_theme/js/build/../../translations/en/vip.json"
+}

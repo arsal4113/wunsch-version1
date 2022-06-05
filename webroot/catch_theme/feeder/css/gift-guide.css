@@ -1,0 +1,849 @@
+@charset "UTF-8";
+/* line 4, src/gift-guide.scss */
+body.gift-guide {
+  background-color: #04352B;
+  color: #ffffff;
+}
+/* line 7, src/gift-guide.scss */
+body.gift-guide #header .orange-message {
+  display: none;
+}
+/* line 10, src/gift-guide.scss */
+body.gift-guide #content {
+  padding-top: 110px;
+  border-bottom: 0 solid;
+  min-height: calc(100vh - 194px);
+}
+@media only screen and (min-width: 768px) {
+  /* line 10, src/gift-guide.scss */
+  body.gift-guide #content {
+    padding-top: 60px;
+  }
+}
+/* line 17, src/gift-guide.scss */
+body.gift-guide #content #mega-navi {
+  z-index: 5;
+}
+@media only screen and (max-width: 1024px) {
+  /* line 17, src/gift-guide.scss */
+  body.gift-guide #content #mega-navi {
+    display: none;
+  }
+}
+/* line 23, src/gift-guide.scss */
+body.gift-guide #content .content-container-row {
+  width: 100%;
+}
+/* line 25, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area {
+  background-color: transparent;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 25, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area {
+    margin: 0;
+  }
+}
+/* line 30, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area h1 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  font-family: visuelt-regular;
+  font-weight: normal;
+}
+@media only screen and (min-width: 768px) {
+  /* line 30, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area h1 {
+    font-size: 23px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 30, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area h1 {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 20px;
+  }
+}
+/* line 47, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+@media only screen and (min-width: 480px) {
+  /* line 47, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 47, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 59, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .mobile-content {
+    display: none;
+  }
+}
+/* line 64, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper {
+  padding: 50px 0 35px;
+}
+@media only screen and (min-width: 480px) {
+  /* line 64, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper {
+    padding: 38px 0 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 64, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper {
+    padding: 70px 30px 60px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* line 64, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper {
+    padding: 80px 35px 45px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 64, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper {
+    padding: 80px 35px 70px;
+  }
+}
+/* line 80, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 479px) {
+  /* line 80, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container {
+    max-width: 290px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 85, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card {
+    padding: 0 50px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 89, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline {
+    text-align: center;
+    width: 260px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 89, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline {
+    padding-top: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 89, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline {
+    width: 240px;
+    padding-top: 30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 89, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline {
+    padding-top: 40px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 89, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline {
+    margin-left: 15px;
+  }
+}
+/* line 108, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: -20px;
+  background-image: url("../img/gift-guide/splash.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 479px) {
+  /* line 108, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+    margin-left: 220px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 108, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+    left: 130%;
+    top: -30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 108, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+    top: -45px;
+    left: 135%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 108, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+    top: -30px;
+    left: 820px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 108, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .headline::before {
+    left: 860px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 138, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content {
+    text-align: center;
+    width: 206px;
+    margin: 0 auto 30px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 138, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content {
+    margin-top: -190px;
+    width: 190px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 138, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content {
+    margin-top: -270px;
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 138, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content {
+    margin-top: -280px;
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 138, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content {
+    margin-left: 15px;
+    margin-top: -280px;
+  }
+}
+/* line 160, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: -15px;
+  width: 70px;
+  height: 114px;
+  background-image: url("../img/gift-guide/baum.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 479px) {
+  /* line 160, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+    transform: rotate(-6.73deg);
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 160, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+    top: -120px;
+    left: 180px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 160, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+    top: -205px;
+    left: 250px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 160, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+    top: -135px;
+    left: 180px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 160, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .text-card .content::after {
+    top: -140px;
+    left: 220px;
+  }
+}
+/* line 193, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card {
+  margin-bottom: 30px;
+}
+/* line 195, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a {
+  color: #000;
+}
+/* line 197, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card {
+  background-color: #fff;
+  padding: 12px;
+  width: 264px;
+  transform: rotate(0.3deg);
+  margin: auto;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 197, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 197, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card {
+    width: 294px;
+    padding: 12px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 197, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card {
+    width: 298px;
+    padding: 14px;
+  }
+}
+/* line 214, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card.rotate-left {
+  transform: rotate(-2.38deg);
+}
+/* line 218, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card.rotate-right {
+  transform: rotate(1.44deg);
+}
+/* line 221, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .img-wrapper {
+  width: 100%;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 221, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .img-wrapper {
+    width: auto;
+  }
+}
+/* line 226, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .img-wrapper img {
+  width: 100%;
+}
+/* line 230, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 5px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 25px;
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 230, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .text-wrapper {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+/* line 245, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .particles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 200;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+/* line 255, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card a .img-card .particle {
+  border-radius: 50%;
+  filter: blur(3px);
+  position: absolute;
+}
+@keyframes bg {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10% ,90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(45vh);
+    opacity: 0;
+  }
+}
+/* line 279, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-2 {
+  /* Geschenke für Frauen */
+}
+/* line 282, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-2 a .img-card.rotate-left {
+  transform: rotate(-2.38deg);
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 282, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-2 a .img-card.rotate-left {
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 282, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-2 a .img-card.rotate-left {
+    margin-left: -25px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 282, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-2 a .img-card.rotate-left {
+    margin-left: -15px;
+  }
+}
+/* line 297, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 {
+  /* Geschenke für Männer */
+}
+@media only screen and (min-width: 480px) {
+  /* line 299, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 a .img-card {
+    margin-top: -300px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 299, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 a .img-card {
+    margin-top: -430px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 299, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 a .img-card {
+    margin-top: 20px;
+  }
+}
+/* line 309, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 a .img-card.rotate-right {
+  transform: rotate(2.02deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 309, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-4 a .img-card.rotate-right {
+    width: 252px;
+    margin-right: 0;
+  }
+}
+/* line 319, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 {
+  /* Geschenke für Unter 10€ */
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 321, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* line 321, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card {
+    margin-top: -385px;
+  }
+}
+/* line 328, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card.rotate-left {
+  transform: rotate(-2.62deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 328, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card.rotate-left {
+    width: 266px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 328, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card.rotate-left {
+    width: 284px;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 328, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-5 a .img-card.rotate-left {
+    width: 288px;
+    margin-left: auto;
+  }
+}
+/* line 346, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 {
+  /* Geschenke für die Schwiegereltern */
+}
+@media only screen and (min-width: 480px) {
+  /* line 348, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card {
+    margin-top: -300px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 348, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card {
+    margin-top: -440px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 348, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card {
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 348, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card {
+    margin-top: -400px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 364, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card.rotate-right {
+    width: 250px;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+  /* line 364, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card.rotate-right {
+    width: 274px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 364, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-6 a .img-card.rotate-right {
+    transform: rotate(-4.53deg);
+    width: 278px;
+  }
+}
+/* line 381, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 {
+  /* Geschenke für Musikfans */
+}
+/* line 383, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+  transform: rotate(0.5deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 383, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 383, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 383, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+    margin-top: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 383, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 383, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-7 a .img-card {
+    margin-top: 0;
+    margin-left: 20px;
+    width: 298px;
+  }
+}
+/* line 406, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 {
+  /* Geschenke für Leute die schon alles haben */
+}
+/* line 408, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+  width: 274px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 408, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 408, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+    margin-top: -295px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 408, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+    margin-top: -470px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 408, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+    margin-top: -390px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 408, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 278px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  /* line 428, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-8 a .img-card.rotate-right {
+    transform: rotate(-2.43deg);
+  }
+}
+/* line 436, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 {
+  /* Geschenke für Weltenbummler */
+}
+@media only screen and (max-width: 479px) {
+  /* line 438, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 438, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card {
+    margin-top: 30px;
+    margin-left: 7px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 438, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card {
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 438, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card {
+    margin-left: auto;
+    margin-right: -10px;
+  }
+}
+/* line 454, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card.rotate-left {
+  transform: rotate(0.3deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 454, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card.rotate-left {
+    width: 272px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 454, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-9 a .img-card.rotate-left {
+    width: 294px;
+  }
+}
+/* line 466, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 {
+  /* Geschenke für Nerds */
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 466, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 471, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card {
+    margin-top: -315px;
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 471, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card {
+    margin-top: -490px;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1399px) {
+  /* line 471, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card {
+    margin-top: 50px;
+  }
+}
+/* line 483, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card.rotate-right {
+  transform: rotate(-2.62deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 483, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card.rotate-right {
+    width: 284px;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 483, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card.rotate-right {
+    width: 284px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 483, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-10 a .img-card.rotate-right {
+    margin-left: -60px;
+    width: 288px;
+  }
+}
+/* line 504, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 {
+  /* Geschenke für Tierliebhaber */
+}
+/* line 505, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  background-image: url("../img/gift-guide/zucker.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 307px;
+  left: 163px;
+}
+@media only screen and (max-width: 479px) {
+  /* line 505, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+    z-index: -1;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 505, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+    left: -100px;
+    bottom: -70px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 505, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+    left: -150px;
+    bottom: -30px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 505, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+    top: 125px;
+    right: -210px;
+    left: auto;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 505, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11::after {
+    top: 125px;
+    right: -125px;
+  }
+}
+/* line 538, src/gift-guide.scss */
+body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+  transform: rotate(0.73deg);
+}
+@media only screen and (max-width: 479px) {
+  /* line 538, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+    margin-top: 70px;
+    width: 273px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 538, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 538, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  /* line 538, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+    margin-top: -30px;
+    margin-left: -15px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  /* line 538, src/gift-guide.scss */
+  body.gift-guide #content .content-container-row .content-area .content-wrapper .cards-container .card.order-11 a .img-card {
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+}
+
+/*# sourceMappingURL=gift-guide.css.map */

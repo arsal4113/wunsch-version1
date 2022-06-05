@@ -1,0 +1,1236 @@
+body {
+    #header .row .logo-container .header .guarantee-message{
+        display: none;
+    }
+    &.ebaycheckout {
+        &.cart{
+            #header .row .logo-container .header{
+                .guarantee-message{
+                    display: none;
+                }
+                .magic{
+                    display: block;
+                    #search-switch, #mini-cart-icon, #wishlist{
+                        display: none;
+                    }
+                }
+            }
+        }
+        #header {
+            .row {
+                .logo-container {
+                    height: 60px;
+                    .header .guarantee-message{
+                        @media(min-width: 768px) {
+                            display: block;
+                        }
+                    }
+                    .header .magic {
+                        display: none;
+                    }
+                }
+            }
+            #login-box-container {
+                #login-box {
+                    margin-right: 6px;
+                    &::before {
+                        margin: -30px -67px 20px;
+                        @media only screen and (min-width: 768px) {
+                            margin: -30px -3px 20px;
+                        }
+                    }
+                }
+            }
+        }
+        &.ebaycheckoutsessions.view {
+            #header {
+                .row {
+                    .logo-container {
+                        .header .left-wrapper span#burger-switch {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.success{
+        #header .search-wrapper{
+            display: none;
+        }
+    }
+    &.itoolcustomer {
+        &.account {
+            #header .row .logo-container .header .magic span#user-account {
+                background-image: url('../img/account-orange.svg');
+            }
+        }
+        &.wishlist {
+            #header {
+                .row .logo-container .header .magic span#wishlist {
+                    background-image: url("../img/wishlist-orange.svg");
+                }
+            }
+        }
+    }
+    &.browse, &.view, &.feeder, &.error404 {
+        #header {
+            background: white;
+        }
+    }
+    &.feeder.homepage {
+        #header {
+            background: none;
+            .logo-container {
+                background-color: transparent;
+                transition: padding 1s;
+                @media only screen and (min-width: 768px) {
+                    height: 60px;
+                }
+                .header {
+                    .left-wrapper{
+                        #burger-switch {
+                            .icon {
+                                display: none;
+                            }
+                            .homepage {
+                                display: block;
+                            }
+                            .active {
+                                display: none;
+                            }
+                        }
+
+                        &.scrolled{
+                            #burger-switch {
+                                .icon {
+                                    display: block;
+                                }
+                                .homepage {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .magic {
+                        z-index: 103;
+                        span {
+                            &#search-switch {
+                                .icon {
+                                    display: block;
+                                }
+                                .icon-shown {
+                                    display: none;
+                                }
+                                .homepage {
+                                    display: none;
+                                }
+                                .active {
+                                    display: none;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .icon-shown {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: block;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .icon-shown {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &.search-shown {
+                                    .icon-shown {
+                                        display: block;
+                                    }
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            &#discover-my-world {
+                                background-image: url("../img/user-white.svg");
+                            }
+                            &#user-account {
+                                .icon {
+                                    display: none;
+                                }
+                                .homepage {
+                                    display: block;
+                                }
+                                .active {
+                                    display: none;
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                            &#wishlist {
+                                .icon {
+                                    display: none;
+                                }
+                                .homepage {
+                                    display: block;
+                                }
+                                .active {
+                                    display: none;
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                            &#mini-cart-icon {
+                                .icon {
+                                    display: none;
+                                }
+                                .homepage {
+                                    display: block;
+                                }
+                                .active {
+                                    display: none;
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &.scrolled {
+                            span {
+                                &#search-switch {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .icon-shown {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .icon-shown {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                    &.search-shown {
+                                        .icon-shown {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                        .active {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &#discover-my-world {
+                                    background-image: url("../img/user.svg");
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            background-image: url("../img/user-orange.svg");
+                                        }
+                                    }
+                                }
+                                &#user-account {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                &#wishlist {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                &#mini-cart-icon {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .search-wrapper {
+                    .search {
+                        #searchfield {
+                            background-color: rgba(255,255,255,0.7);
+                            &::placeholder {
+                                color: #333333;
+                            }
+                        }
+                    }
+                }
+                #login-box-container {
+                    position: absolute;
+                    width: 100%;
+                    background-color: rgba(0,0,0,0.8);
+                    @media only screen and (max-width: 767px) {
+                        height: calc(100vh - 65px) !important;
+                        z-index: 101;
+                    }
+                    @media only screen and (min-width: 768px) {
+                        height: 454px;
+                        background-color: rgba(219, 226, 227, 0.3);
+                        margin-top: -60px;
+                        padding-top: 60px;
+                    }
+                }
+                #mini-cart-background {
+                    @media only screen and (max-width: 767px) {
+                        height: calc(100vh - 65px) !important;
+                    }
+                    @media only screen and (min-width: 768px) {
+                        height: 454px;
+                        background-color: rgba(219, 226, 227, 0.3);
+                        margin-top: -60px;
+                        padding-top: 60px;
+                    }
+                }
+            }
+            &.scrolled {
+                background-color: white;
+                .logo-container {
+                    .header {
+                        .left-wrapper{
+                            #burger-switch {
+                                .icon {
+                                    display: block !important;
+                                }
+                                .homepage {
+                                    display: none !important;
+                                }
+                            }
+                        }
+                        .magic {
+                            span {
+                                &#search-switch {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .icon-shown {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .icon-shown {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                    &.search-shown {
+                                        .icon-shown {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                        .active {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &#discover-my-world {
+                                    background-image: url("../img/user.svg");
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            background-image: url("../img/user-orange.svg");
+                                        }
+                                    }
+                                }
+                                &#user-account {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                &#wishlist {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                                &#mini-cart-icon {
+                                    .icon {
+                                        display: block;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                    &:hover {
+                                        @media only screen and (min-width: 1024px) {
+                                            .active {
+                                                display: block;
+                                            }
+                                            .icon {
+                                                display: none;
+                                            }
+                                            .homepage {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .search-wrapper {
+                        .search {
+                            #searchfield {
+                                background-color: rgba(226, 226, 226, 0.7);
+                            }
+                        }
+                    }
+                    #login-box-container {
+                        background-color: transparent;
+                        @media only screen and (max-width: 767px)  {
+                            background-color: rgba(0,0,0,0.8);
+                        }
+                    }
+                    #mini-cart-background {
+                        background-color: transparent;
+                        @media only screen and (max-width: 767px)  {
+                            background-color: rgba(0,0,0,0.8);
+                        }
+                    }
+                }
+            }
+            &.user-account-clicked {
+                .row {
+                    .logo-container {
+                        background-color: white;
+                        .header {
+                            .magic#user-account {
+                                .icon {
+                                    display: none;
+                                }
+                                .homepage {
+                                    display: none;
+                                }
+                                .active {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #header {
+        padding: 0;
+        position: fixed;
+        top: 0;
+        z-index: 101;
+        .row {
+            margin: 0;
+            .logo-container {
+                width: 100%;
+                position: relative;
+                height: 110px;
+                background-color: white;
+                @media only screen and (min-width: 768px) {
+                    height: 60px;
+                }
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 15px 10px;
+                    @media only screen and (min-width: 768px) {
+                        padding: 10px 25px 10px;
+                    }
+                    .left-wrapper{
+                        display: flex;
+                        align-items: center;
+                        span {
+                            display: inline-block;
+                            text-indent: -100000px;
+                            margin-right: 10px;
+                            width: 20px;
+                            height: 20px;
+                            background: no-repeat center;
+                            float: left;
+                            span {
+                                display: block;
+                                position: absolute;
+                                width: 20px;
+                                height: 20px;
+                                background: no-repeat center;
+                                margin: 0;
+                            }
+                            &#burger-switch {
+                                .icon {
+                                    background-image: url('../img/burger.svg');
+                                }
+                                .homepage {
+                                    display: none;
+                                    background-image: url("../img/burger-white.svg");
+                                }
+                                .active {
+                                    display: none;
+                                    background-image: url("../img/burger-orange.svg");
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    display: none;
+                                }
+                                &:hover{
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .logo {
+                            font-size: 24px;
+                            font-weight: bold;
+                            display: inline-block;
+                            &.hidden {
+                                @media (max-width: 767px) {
+                                    display: none;
+                                }
+                            }
+                            > a,
+                            > a:hover {
+                                color: #111;
+                                text-decoration: none;
+                                font-family: $font-family-bold;
+                            }
+                            #logo {
+                                height: 38px;
+                            }
+                        }
+
+                    }
+                    .magic {
+                        cursor: pointer;
+                        z-index: 10;
+                        span {
+                            display: inline-block;
+                            text-indent: -100000px;
+                            margin-left: 20px;
+                            width: 20px;
+                            height: 20px;
+                            background: no-repeat center;
+                            float: left;
+                            span {
+                                display: block;
+                                position: absolute;
+                                width: 20px;
+                                height: 20px;
+                                background: no-repeat center;
+                                background-size: contain;
+                                margin: 0;
+                            }
+                            &#discover-my-world{
+                                background-image: url("../img/user.svg");
+                            }
+                            &#search-switch {
+                                .icon {
+                                    background-image: url("../img/search.svg");
+                                    @media only screen and (max-width: 767px) {
+                                        background-image: url("../img/search-grey.svg");
+                                    }
+                                }
+                                .icon-shown {
+                                    display: none;
+                                    background-image: url("../img/search-grey.svg");
+                                }
+                                .homepage {
+                                    display: none;
+                                    background-image: url("../img/search-white.svg");
+                                }
+                                .active {
+                                    display: none;
+                                    background-image: url("../img/search-orange.svg");
+                                }
+                                @media only screen and (max-width: 767px) {
+                                    position: absolute;
+                                    top: 73px;
+                                    right: 30px;
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &.search-shown {
+                                    .icon-shown {
+                                        display: block;
+                                    }
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                    .active {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            &#user-account {
+                                .icon {
+                                    background-image: url("../img/user.svg");
+                                }
+                                .homepage {
+                                    display: none;
+                                    background-image: url("../img/user-white.svg");
+                                }
+                                .active {
+                                    display: none;
+                                    background-image: url("../img/user-orange.svg");
+                                }
+                                &.show-info-box {
+                                    .active {
+                                        display: block;
+                                    }
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &#wishlist {
+                                .icon {
+                                    background-image: url('../img/wishlist.svg');
+                                    @-moz-document url-prefix() {
+                                        background-image: url('../img/wishlist.svg');
+                                    }
+                                }
+                                .homepage {
+                                    display: none;
+                                    background-image: url("../img/wishlist-white.svg");
+                                }
+                                .active {
+                                    display: none;
+                                    background-image: url("../img/wishlist-orange.svg");
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &#mini-cart-icon {
+                                .icon {
+                                    background-image: url('../img/shopping-bag-icon-black.svg');
+                                }
+                                .homepage {
+                                    display: none;
+                                    background-image: url("../img/shopping-bag-icon.svg");
+                                }
+                                .active {
+                                    display: none;
+                                    background-image: url("../img/shopping-bag-icon-hover.svg");
+                                }
+                                &:hover {
+                                    @media only screen and (min-width: 1024px) {
+                                        .active {
+                                            display: block;
+                                        }
+                                        .icon {
+                                            display: none;
+                                        }
+                                        .homepage {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                &.shown {
+                                    .active {
+                                        display: block;
+                                    }
+                                    .icon {
+                                        display: none;
+                                    }
+                                    .homepage {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .item-count {
+                            display: grid;
+                            position: absolute;
+                            background-color: #FAB60D;
+                            border-radius: 100%;
+                            text-indent: 0 !important;
+                            color: #142735;
+                            font-family: $font-family-base;
+                            font-size: 8px;
+                            align-items: center;
+                            margin-top: -28px;
+                            margin-left: 14px;
+                            width: 14px;
+                            height: 14px;
+                            text-align: center;
+                        }
+                        &.hidden {
+                            @media (max-width: 480px) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .search-wrapper {
+            position: absolute;
+            top: 65px;
+            right: 0;
+            width: calc(100% - 30px);
+            margin: auto;
+            height: 36px;
+            line-height: 36px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            @media only screen and (max-width: 767px) {
+                left: 0;
+            }
+            @media only screen and (min-width: 768px) {
+                display: none;
+                top: 12px;
+                right: 135px; // 175px; this is IMHO wrong here..
+                width: 384px;
+            }
+            @media only screen and (min-width: 1024px) {
+                right:135px;
+            }
+            &.search-shown {
+                display: block;
+                .search {
+                    display: block;
+                }
+            }
+            #search-form {
+                position: relative;
+                z-index: 1;
+            }
+            .search {
+                position: relative;
+                margin-left: 0;
+                margin-right: 0;
+                font-size: 14px;
+                line-height: 19px;
+                &.active {
+                    .clearable {
+                        background: linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        border: 1px solid transparent;
+                    }
+                }
+
+                &.typing {
+                    opacity: 1;
+                }
+                #searchfield {
+                    background-color: rgba(226, 226, 226, 0.7);
+                    @media only screen and (min-width: 768px) {
+                        background: linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        border: 1px solid transparent;
+                    }
+                }
+                #searchfield::-ms-clear {
+                    display: none;
+                }
+
+                #close-searchfield {
+                    display: none;
+                }
+
+                /* (jQ) Show icon */
+                .clearable.onX {
+                    cursor: pointer;
+                }
+
+                input {
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 34px;
+                    padding: 0 30px 0 26px;
+                    outline: none;
+                    border: 1px solid transparent;
+                    border-radius: 20px;
+                }
+            }
+
+            #search-suggestions {
+                width: 100%;
+                position: absolute;
+                margin-top: -17px;
+                color: #333;
+                background-color: white;
+                border-radius: 0 0 20px 20px;
+                z-index: -1;
+            }
+
+            input[type=submit] {
+                position: absolute;
+                right: 0;
+                margin-top: -35px;
+                height: 35px;
+                width: 60px;
+                background: transparent;
+                border: none;
+                text-indent: -10000px;
+                overflow: hidden;
+                cursor: pointer;
+                outline: none;
+                @media only screen and (max-width: 767px) {
+                    display: none;
+                }
+            }
+
+            #item-list {
+                width: 100%;
+                list-style: none;
+                text-align: left;
+                z-index: 100;
+                padding: 21px 0 17px;
+                outline: none;
+                margin: 1px 0 0;
+                border-radius: 0 0 20px 20px;
+                overflow: hidden;
+
+                li {
+                    width: 100%;
+
+                    a {
+                        font-size: 15px;
+                        line-height: 41px;
+                        letter-spacing: 0.0026px;
+                        color: #9B9B9B;
+                        text-decoration: none;
+                        display: inline-block;
+                        width: 100%;
+                        padding: 0 26px;
+                    }
+
+                    span {
+                        color: #000000;
+                    }
+                }
+
+                li:hover {
+                    background-color: #E5E5E5;
+                }
+            }
+
+            #item-list.show {
+                display: block;
+            }
+
+            #item-list.hidden {
+                display: none;
+            }
+        }
+
+        #mini-cart-background{
+            z-index: 102;
+        }
+        #login-box-container {
+            z-index: 102;
+            display: none;
+            position: absolute;
+            top: 61px;
+            left: 0;
+            width: 100%;
+            height: calc(100vh - 61px);
+            background-color: rgba(0,0,0,0.1);
+            #login-box {
+                display: none;
+                background-color: #1E0339;
+                padding: 20px 80px;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                @media only screen and (max-width: 767px) {
+                    top: 0;
+                }
+                @media only screen and (min-width: 768px) {
+                    width: 223px;
+                    border-radius: 13px;
+                    padding: 20px;
+                    margin-top: 5px;
+                    margin-right: 50px;
+                    float: right;
+                }
+                @media only screen and (min-width: 1024px) {
+                    width: 260px;
+                    margin-right: 65px;
+                }
+
+                &::before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 12px 10px 12px;
+                    border-color: transparent transparent #1E0339 transparent;
+                    margin: -30px 14px 20px;
+                    display: block;
+                    -webkit-transform: rotate(360deg);
+                    float: right;
+                    @media only screen and (min-width: 768px) {
+                        margin: -30px 33px 20px;
+                    }
+                    @media only screen and (min-width: 1024px) {
+                        margin: -30px 18px 20px;
+                    }
+                }
+                a {
+                    color: #fff;
+                }
+
+                .login-wrapper {
+                    text-align: center;
+                    display: none;
+                    @media only screen and (max-width: 767px) {
+                        width: 167px;
+                        margin: 0 auto;
+                    }
+                    &.user-not-logged {
+                        display: block;
+                    }
+                    .button.login-button {
+                        background-color: #FDBE51;
+                        color: #fff;
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 20px;
+                        line-height: 40px;
+                        text-align: center;
+
+                        &:hover {
+                            background: linear-gradient(90deg, #FAD170 0%, #FDE988 32.6%, #F9C665 100%);
+                            cursor: pointer;
+                        }
+                    }
+
+                    .registration-link {
+                        padding: 10px 20px 15px;
+                        font-size: 11px;
+                        line-height: 17px;
+                        border-bottom: 1px solid rgba(255,255,255,0.5);
+                        width: 167px;
+                        margin: 0 auto 20px;
+                        @media only screen and (min-width: 768px) {
+                            width: 159px;
+                        }
+                        @media only screen and (min-width: 1200px) {
+                            width: 176px;
+                        }
+                        span {
+                            opacity: .7;
+                        }
+
+                        a {
+                            color: #FDBE51;
+                            text-decoration: underline;
+                            font-family: $font-family-bold;
+                        }
+                    }
+                }
+                #account-navigation {
+                    text-align: left;
+                    list-style: none;
+                    line-height: 40px;
+                    padding: 0px 15px;
+                    margin: 0 auto;
+                    font-size: 13px;
+                    @media only screen and (max-width: 767px) {
+                        width: 167px;
+                        padding: 0;
+                        margin: 0 auto;
+                    }
+                    @media only screen and (min-width: 1200px) {
+                        font-size: 15px;
+                        padding: 0px 20px;
+                    }
+                    li {
+                        display: inline-block;
+                        vertical-align: middle;
+                        &::before {
+                            content: '';
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-position: center;
+                            height: 17px;
+                            width: 17px;
+                            margin: -5px 10px 0 0;
+                            vertical-align: middle;
+                            @media only screen and (min-width: 1200px) {
+                                margin: 0px 15px 0 0;
+                                height: 22px;
+                                width: 22px;
+                                vertical-align: text-top;
+                            }
+                        }
+                        &.settings::before {
+                            background-image: url("../itool_customer/img/settings-icon.svg");
+                        }
+                        &.orders::before {
+                            background-image: url("../itool_customer/img/orders-icon.svg");
+                        }
+                        &.my-world::before {
+                            background-image: url("../itool_customer/img/my-world-icon.svg");
+                        }
+                    }
+                }
+                .logout-wrapper {
+                    font-size: 11px;
+                    line-height: 25px;
+                    border-top: 1px solid rgba(255,255,255,0.5);
+                    width: 167px;
+                    margin: 20px auto;
+                    color: #8E8E8E;
+                    text-align: left;
+                    display: none;
+                    @media only screen and (min-width: 768px) {
+                        width: 159px;
+                    }
+                    @media only screen and (min-width: 1200px) {
+                        width: 176px;
+                    }
+                    &.user-logged {
+                        display: block;
+                    }
+                    a {
+                        color: #8E8E8E;
+                    }
+                }
+            }
+        }
+
+        #navigation-container:not(:empty) {
+            background-color: #ffffff;
+            height: 147px;
+            overflow-y: hidden;
+            margin-top: -1px;
+
+            .row .container {
+                margin: 0 auto;
+                max-width: 1340px;
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+@import "variables";
+
+.legal-page {
+    margin-top: 25px;
+    font-family: $font-family-base;
+    font-size: 14px;
+    background-color: #ffffff;
+    overflow: hidden;
+    ol {
+        padding-inline-start: 0;
+        &.roman,
+        &.decimal {
+            padding-inline-start: 12px;
+        }
+    }
+    ul {
+        list-style-type: initial;
+        margin-bottom: 15px;
+    }
+    .border {
+        border: 1px solid;
+    }
+    .content-overview {
+        list-style: none;
+        padding-left: 100px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid rgba(161,161,161,0.5);
+        &::before {
+            content: '';
+            background-image: url('../img/legal-pages/iconArticle_69x76.gif');
+            background-position: left;
+            background-repeat: no-repeat;
+            display: block;
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 15px;
+        }
+    }
+    h1, h2, h3 {
+        font-family: $font-family-bold;
+        font-size: 16px;
+    }
+    h1 {
+        margin-bottom: 30px;
+    }
+    section {
+        border-bottom: 1px solid rgba(161,161,161,0.5);
+        margin-bottom: 30px;
+        &#google-analytics, &#custom-audiences{
+            border-bottom: none;
+        }
+        summary {
+            display: block;
+            cursor: default;
+            border: 1px solid rgba(161,161,161,0.5);
+            margin: 15px 0;
+            padding: 20px;
+        }
+    }
+    .collecting-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Collect_Color.png);
+            }
+        }
+        .using-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Use_Color.png);
+            }
+        }
+        .selecting-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Choices_Color.png);
+            }
+        }
+        .info-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Access_Color.png);
+            }
+        }
+        .handle-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Share_Color.png);
+            }
+        }
+        .saving-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Data_Color.png);
+            }
+        }
+        .ebay-privacy h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_GlobalStandards_Color.png);
+            }
+        }
+        .contact-info h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Questions_Color.png);
+            }
+        }
+        .cookies h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Cookies_Color.png);
+            }
+        }
+        .protecting-data h2 {
+            &::before {
+                content: ' ';
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                vertical-align: middle;
+                background-image: url(../img/legal-pages/UPN_Protect_Color.png);
+            }
+        }
+
+    .bold {
+        font-family: $font-family-bold;
+    }
+}
+
+#uebersicht:target, #verwendung:target, #auswahl-cookies:target, #externe-anbieter:target, #anzeigen:target, #google-analytics:target, #custom-audiences:target, #scope-summary:target, #scope:target, #collecting-data-summary:target, #collecting-data:target, #using-data-summary:target, #using-data:target, #selecting-data-summary:target, #selecting-data:target, #info-data-summary:target, #info-data:target, #handle-data-summary:target, #handle-data:target, #saving-data-summary:target, #saving-data:target, #ebay-privacy-summary:target, #ebay-privacy:target, #contact-info:target, #cookies:target, #protecting-data:target, #privacy-info-summary:target, #privacy-info:target {
+    padding-top: 125px;
+}

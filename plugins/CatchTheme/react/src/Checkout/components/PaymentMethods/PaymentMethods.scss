@@ -1,0 +1,89 @@
+.payment-wrapper {
+    @media (max-width: 767px) {
+        border-radius: 20px 20px 0 0 !important;
+    }
+    .selected-method-name{
+        display: inline-block;
+        margin: 0;
+    }
+    .green-tick{
+        background: url("../../assets/green-tick.svg") center center/ 15px 15px no-repeat;
+        display: inline-block;
+        height: 13px;
+        width: 16px;
+        margin-left: 4px;
+    }
+    .payment-container{
+        transition: filter 0.4s ease-in-out;
+        .error{
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 10px;
+            color: #e53238;
+        }
+        &.blurred{
+            filter: blur(3px);
+        }
+        .grey-round-box.empty-payment {
+            .img-wrapper {
+                height: 42px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    &.pp{
+                        height: 16px;
+                    }
+                    &.visa{
+                        height: 14px;
+                    }
+                    &.amex{
+                        height: 26px;
+                    }
+                    &.mastercard{
+                        height: 30px;
+                    }
+                    &.lastschrift{
+                        height: 21px;
+                    }
+                }
+            }
+        }
+        .grey-round-box.payment-completed {
+            span.tick {
+                display: inline-block;
+                margin-left: 10px;
+            }
+        }
+        .shipping-address-wrapper {
+            margin-bottom: 13px;
+            .headline-wrapper {
+                .top-container {
+                    justify-content: flex-start;
+
+                    .change-button {
+                        opacity: 0.5;
+                        margin-top: 6px;
+                    }
+                }
+
+                .subtext {
+                    opacity: 0.5;
+                }
+            }
+            &.mobile {
+                .headline-wrapper {
+                    .top-container {
+                        justify-content: space-between;
+                    }
+                }
+            }
+            address {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+    }
+}

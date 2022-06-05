@@ -1,0 +1,19 @@
+button {
+    border: none;
+    background: none;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none !important;
+    -webkit-appearance: none !important;
+    &.button {
+        border-radius: 22px;
+        font-size: 14px;
+        line-height: 44px;
+        padding: 0 30px;
+        &.yellow {
+            border: 1px solid #ffffff;
+            background-color: #FDBE51;
+            color: #fff;
+        }
+    }
+}

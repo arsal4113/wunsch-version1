@@ -1,0 +1,130 @@
+.mobile-items-slider {
+    height: 315px;
+    z-index: 10;
+
+    .swipe-container {
+        .items-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 300px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            @media only screen and (min-width: 768px) {
+                width: 480px;
+            }
+            .card-wrapper {
+                z-index: 10;
+            }
+            .card {
+                .card-price {
+                    font-size: 12px !important;
+                }
+            }
+
+            .small-cards-wrapper {
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                height: 219px;
+
+                .card-wrapper {
+                    position: absolute;
+                    .card-overlay {
+                        position: absolute;
+                        background: rgba(72, 72, 74, 0.4);
+                    }
+
+                    .card {
+                        margin: 0;
+                    }
+
+                    &.first {
+                        margin-left: -90px;
+                        z-index: 5;
+                        @media only screen and (min-width: 768px) {
+                            margin-left: -40px;
+                        }
+
+                        .card-overlay {
+                            height: 219px;
+                            width: 123px;
+                            @media only screen and (min-width: 768px) {
+                                width: 157px;
+                            }
+                        }
+
+                        .card {
+                            height: 219px;
+                            width: 123px;
+                            @media only screen and (min-width: 768px) {
+                                width: 157px;
+                            }
+
+                            .image-wrapper {
+                                height: 123px;
+                                @media only screen and (min-width: 768px) {
+                                    height: 159px;
+                                }
+                            }
+                        }
+                    }
+
+                    &.second {
+                        margin-left: -30px;
+                        z-index: 4;
+                        @media only screen and (min-width: 768px) {
+                            margin-left: 76px;
+                        }
+
+                        .card-overlay {
+                            height: 177px;
+                            width: 100px;
+                            @media only screen and (min-width: 768px) {
+                                width: 127px;
+                            }
+                        }
+
+                        .card {
+                            height: 177px;
+                            width: 100px;
+                            @media only screen and (min-width: 768px) {
+                                width: 127px;
+                            }
+
+                            .image-wrapper {
+                                height: 100px;
+                                @media only screen and (min-width: 768px) {
+                                    height: 131px;
+                                }
+                            }
+                        }
+                    }
+
+                    &.third {
+                        margin-left: 173px;
+                        z-index: 3;
+                        .card-overlay {
+                            height: 140px;
+                            width: 100px;
+                        }
+
+                        .card {
+                            height: 140px;
+                            width: 100px;
+
+                            .image-wrapper {
+                                height: 104px;
+                            }
+
+                            .card-price {
+                                font-size: 11px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

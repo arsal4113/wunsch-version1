@@ -1,0 +1,19 @@
+.image-gallery {
+    border-radius: 13px;
+}
+
+@media only screen and (max-width: 767px) {
+    .image-gallery {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .image-gallery {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: calc(100% - 362px);
+        max-width: 780px;
+    }
+}

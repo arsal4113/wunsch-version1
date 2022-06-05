@@ -1,0 +1,28 @@
+#fb-root {
+    .fb_dialog {
+        bottom: 15px !important;
+        right: 15px !important;
+        box-shadow: none;
+    }
+    .fb_customer_chat_bounce_in_v2 {
+        bottom: 77px !important;
+        right: 3px !important;
+    }
+}
+
+#back-to-top-control {
+    position: fixed;
+    right: 15px;
+    bottom: 90px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    transition: all 0.3s ease-in;
+    &.hidden {
+        display: none;
+    }
+    #back-to-top-icon {
+        width: 100%;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,37 @@
+.more-items-wrapper {
+    @media only screen and (max-width: 480px) {
+        text-align: left;
+    }
+    .slider-headline {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 auto 36px;
+        text-align: left;
+        @media only screen and (min-width:481px) {
+            text-align: center;
+            max-width: 265px;
+        }
+    }
+    .card {
+        width: 207px;
+        .image-wrapper {
+            height: 229px;
+        }
+        .card-price {
+            line-height: 56px;
+        }
+    }
+    .swipe-like-its-hot {
+        font-family: Visuelt-Regular, sans-serif;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: left;
+        display: flex;
+        @media only screen and (min-width: 768px) {
+            justify-content: flex-end;
+        }
+        span {
+            margin-right: 30px;
+        }
+    }
+}

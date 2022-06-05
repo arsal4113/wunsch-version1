@@ -1,0 +1,109 @@
+#messages .popup-shown {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-message {
+  width: 475px;
+  height: 475px;
+  position:fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:200 !important;
+  background-image: url("../img/catch-universe.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.11);
+  .popup-close {
+    text-align: right;
+    button {
+      background: url("../img/close-white.png") center;
+      height: 15px;
+      width: 15px;
+      border: unset;
+      margin: 20px;
+      cursor: pointer;
+    }
+  }
+}
+.message-box {
+  display:inline-block;
+  position: absolute;
+  top: 218px;
+  color: #FFFFFF;
+  font-family: visuelt-bold;
+  margin-left: 27px;
+  .msg {
+    height: 55px;
+    width: 270px;
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 0;
+    &.popup-email {
+      width: 249px;
+    }
+  }
+  .email-sent{
+    height: 80px;
+    width: 315px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+  }
+  .text-email-repeat {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  input {
+    width: 262px;
+    margin-bottom: 10px;
+  }
+  .popup-button {
+    width: 203px;
+  }
+  .popup-email-button {
+    width: 247px;
+    padding: 0 17px;
+  }
+  p {
+    font-size: 12px;
+    line-height : 17px;
+    margin-top: 17px;
+    letter-spacing: 0.3px;
+    a {
+      color: #F9B500;
+    }
+  }
+}
+
+// RWD
+
+@media (max-width: 767px){
+  #messages .popup-shown {
+    height: 100vh;
+    top: 0;
+  }
+  .popup-message {
+    height: 345px;
+    width: 298px;
+    background-size: cover;
+    box-shadow: unset;
+    .message-box {
+      width: 260px;
+      height: 98px;
+      top: 95px;
+      margin-left: 20px;
+      .email-sent {
+        width: 227px;
+      }
+      .popup-button {
+        width: 260px;
+        margin-top: 13px;
+      }
+    }
+  }
+}

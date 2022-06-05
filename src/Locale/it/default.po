@@ -1,0 +1,1312 @@
+msgid "User Credentials"
+msgstr "Utente"
+
+msgid "Company"
+msgstr "Azienda"
+
+
+
+
+#change email
+msgid "E-Mail Address Change Request"
+msgstr "Cambiare Email"
+
+msgid "You’ve requested to change your email address on file to {0}. Just click the link below and you’ll be all set."
+msgstr "Ci hai chiesto di cambiare il tuo indirizzo email con cui ti sei registrato sulla nostra piattaforma con {0}. Per farlo, clicca semplicemente il link qui sotto:"
+
+msgid "Click here to confirm your request."
+msgstr "Cambiare email riuscito"
+
+#new email notice
+msgid "E-Mail Address Change Request Confirmation"
+msgstr "Cambiare Email"
+
+msgid "Nice job - you’ve successfully changed your email address on file to {0}."
+msgstr "hai cambiato correttamente il tuo indirizzo email registrato presso di noi in {0}."
+
+msgid "If you didn’t request this change, please get in touch and let us know immediately."
+msgstr "Se non hai richiesto tu questo cambiamento, contattaci immediatamente."
+
+msgid "If you did not change your E-Mail, please contact us immediately."
+msgstr "Se non hai richiesto tu questo cambiamento, contattaci immediatamente."
+
+#reset password
+msgid "Nice job – you’ve successfully changed your password."
+msgstr "hai reimpostato correttamente la tua password."
+
+msgid "If you didn’t change your password, please get in touch and let us know immediately."
+msgstr "Se non hai reimpostato la tua password, contattaci immediatamente."
+
+#forgot password
+msgid "You recently requested to reset your password for your eBay Free Template account with i-ways. Don’t worry - we all forget sometimes."
+msgstr "Di recente ci hai chiesto di reimpostare la tua password per il tuo account su i-ways. Per reimpostare la tua password, clicca sul link qui sotto:"
+
+msgid "Reset your password now"
+msgstr "Reimpostare la Password"
+
+msgid "Forgot Password Request"
+msgstr "Reimpostare la Password"
+
+msgid "Thanks,"
+msgstr "Grazie"
+
+msgid "If you didn’t request a password reset, you can ignore this email or reply to let us know."
+msgstr "Se non hai richiesto di reimpostare la password, puoi ignorare questa mail."
+
+msgid "This password reset link is only valid for the next 24 hours."
+msgstr "Il link per reimpostare la password è valido solo per le prossime 24 ore."
+
+#free template registration email start
+msgid "Welcome to i-ways eBay Template Creator"
+msgstr "Benvenuto"
+
+msgid "Hello"
+msgstr "Ciao"
+
+msgid "Due to a technical issue, we are resending your activation email."
+msgstr "Purtroppo ci è stato un problema tecnico e abbiamo dovuto inviarti di nuovo l’e-mail di attivazione."
+
+msgid "Hi"
+msgstr "Ciao"
+
+msgid "Welcome to the i-ways eBay Template Creator, made in partnership with eBay!"
+msgstr "Benvenuto sul Modello per inserzioni su eBay di i-ways in collaborazione con eBay!"
+
+msgid "With our free template design tool, you’ll be able to add attractive, fully-customisable design to your eBay item descriptions and your eBay shop."
+msgstr "Con il nostro strumento gratuito per creare modelli di inserzione, potrai aggiungere ai tuoi Negozi eBay e alle tue descrizioni degli oggetti un design accattivante e completamente personalizzabile."
+
+msgid "You’ve specified the following login details to use our system:"
+msgstr "Per utilizzare il nostro sistema hai specificato il seguente dettaglio:"
+
+msgid "Your login data is your secret password and your user name:"
+msgstr "Per utilizzare il nostro sistema hai specificato il seguente dettaglio:"
+
+msgid "User name:"
+msgstr "Nome utente:"
+
+msgid "Simply click the link below to start using our i-ways eBay Template Creator immediately. In just a few steps, you’ll be able to design and download your own template. Our templates are compatible with most common listing providers and tools."
+msgstr "In pochi, semplici passaggi potrai subito disegnare e scaricare il tuo modello. I nostri modelli sono compatibili con la maggior parte dei fornitori di inserzioni e strumenti."
+
+msgid "Activation link:"
+msgstr "Link di Attivazione"
+
+msgid "Get started designing your template now"
+msgstr "Link di Attivazione"
+
+msgid "Have a great day,"
+msgstr "Ti auguriamo una buona giornata,"
+
+msgid "Your i-ways eBay Template Creator Team"
+msgstr "Il tuo team i-ways per eBay"
+
+
+
+msgid "Welcome to Free eBay Template"
+msgstr "Benvenuto su Modelli per inserzioni su eBay in collaborazione con eBay"
+
+msgid "Sign in"
+msgstr "Log in"
+
+msgid "Forgot your password?"
+msgstr "Dimenticato la password?"
+
+msgid "Not registered yet?"
+msgstr "Non sei ancora registrato?"
+
+msgid "Available after 1.12.2016"
+msgstr "Disponibile dopo il 01-12-2016"
+
+msgid "Free eBay Template is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+msgstr "Modelli per inserzioni su eBay in collaborazione con eBay è creato con <i class=\"fa fa-heart red\"></i> a Berlino, Germania"
+
+msgid "Please sign in"
+msgstr "La preghiamo di registrarsi"
+
+msgid "Store Name"
+msgstr "Nome Store"
+
+msgid "Already registered? Log in here."
+msgstr "Già registrato? Effettua qui il login"
+
+msgid "i-Tool 3 is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+
+msgstr "i-Tool 3 è creato con <i class=\"fa fa-heart red\"></i> a Berlino, Germania"
+
+msgid "Colour Theme"
+msgstr "Colore Tema"
+
+msgid "Registration could not be completed."
+msgstr "La registrazione non può essere completata."
+
+msgid "An account with this email already exists."
+msgstr "Esiste già un account collegato a questa e-mail."
+
+msgid "Your account was successfully activated! Please login."
+msgstr "Il tuo account è stato attivato con successo! Effettua il login."
+
+msgid "Please check the captcha box."
+msgstr "Controlla il riquadro captcha."
+
+msgid "Thank You for signing up!"
+msgstr "Grazie per esserti registrato"
+
+msgid "Password reset instructions have been sent to your email address. You have 24 hours to complete the request."
+msgstr "Le istruzioni per il reset della password sono state inviate al tuo indirizzo e-mail. Hai 24 ore di tempo per completare la richiesta."
+
+msgid "in cooperation with eBay"
+msgstr "in collaborazione con eBay"
+
+msgid "eBay Template Creator in cooperation with eBay is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+msgstr " Modelli per i zserzioni su eBay in collaborazione con eBay è creato con <i class=\"fa fa-heart red\"></i> a Berlino, Germania"
+
+msgid "Do you want to "
+msgstr "Vuoi "
+
+msgid "login?"
+msgstr "effettuare il login?"
+
+msgid "If it says <b>\"Connected\"</b>, then you all set up :)"
+msgstr "Se dice <b>\"Connected\"</b>, significa che è stato tutto impostato :)"
+
+msgid "Your eBay account connection"
+msgstr "Il collegamento al tuo account eBay"
+
+msgid "Show account information"
+msgstr "Mostra informazioni sull’account"
+
+msgid "Edit connection"
+msgstr "Modifica collegamento"
+
+msgid "Token exp. date"
+msgstr "Data scadenza token"
+
+msgid "No Style"
+msgstr "Nessuno Stile"
+
+msgid "Your template status"
+msgstr "Lo status del tuo modello"
+
+msgid "Customize template"
+msgstr "Personalizza modello"
+
+msgid "Help Center"
+msgstr "Centro Assistenza"
+
+msgid "Read Documentation"
+msgstr "Leggi la Documentazione"
+
+msgid "Did You forget Your password?"
+msgstr "Dimenticato la Tua Password?"
+
+msgid "Please type your email here..."
+msgstr "Ti preghiamo di inserire qui la tua e-mail..."
+
+msgid "Send request"
+msgstr "Invia richiesta"
+
+msgid "Back to login"
+msgstr "Indietro al login"
+
+msgid "Manage Your Store"
+msgstr "Gestisci il Tuo Store"
+
+msgid "Profile"
+msgstr "Profilo"
+
+#change email
+msgid ". To confirm it click the link below."
+msgstr "Per confermarlo clicca sul seguente link."
+
+msgid "Click here to confirm your request."
+msgstr "Clicca qui per confermare la tua richiesta."
+
+#new email notice
+msgid "Your E-Mail has been changed to "
+msgstr "La tua E-Mail è stata cambiata in "
+
+msgid "If you did not change your E-Mail, please contact us immediately."
+msgstr "Se non hai cambiato la tua E-Mail, ti preghiamo di contattarci immediatamente."
+
+msgid "If you did not change your E-Mail, please contact us immediately."
+msgstr "Se non hai cambiato la tua E-Mail, ti preghiamo di contattarci immediatamente."
+
+#reset password
+msgid "Your password has been changed successfully."
+msgstr "La tua password è stata modificata con successo."
+
+msgid "If you did not change your password, please contact us immediately."
+msgstr "Se non hai cambiato la tua password, ti preghiamo di contattarci immediatamente."
+
+#forgot password
+msgid "You recently requested to reset your password for Your eBay Free Template account. Click the button below to reset it."
+msgstr "Di recente hai chiesto di resettare la tua password per il Tuo account Modelli per inserzioni su eBay. Clicca il seguente pulsante per resettarla."
+
+msgid "Reset your password"
+msgstr "Resetta la tua password"
+
+msgid "If You did not request a password reset, please ignore this email or reply to let us know. <br/><br/>This password reset is only valid for the next 24 hours."
+msgstr "Se non hai richiesto un reset della password, ti preghiamo di ignorare questa e-mail o di rispondere per farcelo sapere. <br/><br/>Questo reset della password è valido solo per le prossime 24 ore."
+
+#free template registration email start
+msgid "Hello"
+msgstr "Ciao"
+
+msgid "and welcome to eBay Template Creator in cooperation with eBay."
+msgstr "e benvenuto su Modelli per inserzioni su eBay in collaborazione con eBay."
+
+msgid "With the Free eBay Template You will be able to provide Your Negozi and Your articles with a nice and modern look."
+msgstr "Con Modelli per inserzioni su eBay potrai fornire al tuo Negozi e ai Tuoi articoli un aspetto nuovo e moderno."
+
+msgid "Your login data is your secret password and your user name:"
+msgstr "I tuoi dati per il login sono la tua password segreta e il tuo user name:"
+
+msgid "More products on"
+msgstr "Più prodotti su"
+
+msgid "Click the activation link and start with the customization of Your template. In a few steps You will be able to download Your personal template and use it with various Middlewares (e.g. AfterBuy, DreamRobot etc.)"
+msgstr "Clicca sul link di attivazione e inizia la personalizzazione del Tuo modello. In pochissimi passaggi Sarai in grado si scaricare il Tuo modello personale ed utilizzarlo con vari Middlewares (es. AfterBuy, DreamRobot ecc.)"
+
+msgid "Activation link:"
+msgstr "Link di attivazione:"
+
+msgid "Please click here."
+msgstr "Ti preghiamo di cliccare qui."
+
+msgid "Your eBay Template Creator Team"
+msgstr "Il tuo Team Modelli per inserzioni su eBay in collaborazione con eBay"
+
+#legal information
+msgid "Proprietor: Silvio von Krüchten, Arturas Sendrauskas<br>CRB-Nr: 103417B, Lower Regional Court Berlin<br>Headquarters of the company: Berlin<br>Sales tax ID: DE 814727405"
+msgstr "Titolare: Silvio von Krüchten, Arturas Sendrauskas<br>CRB-Nr: 103417B, Lower Regional Court Berlino<br>Sede della società: Berlino<br>Partita IVA: DE 814727405"
+
+msgid "This email message (including attachments) contains information which may be confidential and/or legally privileged. Unless you are the intended recipient, you may not use, copy or disclose to anyone the message or any information contained in the message or from any attachments that were sent with this email, and If you have received this email message in error, please advise the sender by email, and delete the message. Unauthorised disclosure and/or use of information contained in this email may result in civil and criminal liability."
+msgstr "Questo messaggio e-mail (inclusi gli allegati) contiene informazioni che possono essere riservate e/o legalmente privilegiate. Se non è il destinatario, non potrà usare, copiare o rivelare a nessuno il messaggio o le informazioni contenute nel messaggio o qualsiasi allegato inviato con questa e-mail, e se ha ricevuto questo messaggio di posta elettronica per errore, si prega di informare il mittente via e-mail, e cancellare il messaggio. La divulgazione e/o l'uso non autorizzato di informazioni contenute in questa e-mail possono causare responsabilità civile e penale."
+
+msgid "Read Documentation"
+msgstr "Leggi la Documentazione"
+
+#: Controller/AppController.php:83
+msgid "Unfortunately the authentication has failed."
+msgstr "Purtroppo l’autenticazione è fallita."
+
+#: Controller/CoreUsersController.php:151
+msgid "Password and password confirmation do not match. Please input your password again."
+msgstr "La Password e la conferma della password non corrispondono. Si prega di reinserire nuovamente la password."
+
+#: Controller/CoreUsersController.php:219
+msgid "Invalid username or password, please try again."
+msgstr "Nome utente o password non validi. Si prega di riprovare."
+
+#: Controller/CoreUsersController.php:273
+msgid "The password reset request has either expired or is invalid."
+msgstr "La richiesta di reset della password è scaduta o non è valida."
+
+#: Controller/CoreUsersController.php:277;279
+msgid "You didn't specify any email or reset password token."
+msgstr "Non si è specificato alcuna e-mail o token di reset della password."
+
+#: Controller/CoreUsersController.php:285
+msgid "Please enter new password."
+msgstr "Si prega di inserire una nuova password."
+
+#: Controller/CoreUsersController.php:289
+msgid "Password mismatch. Please make sure that new password & password confirmation are identical."
+msgstr "Password non corrispondente. Si prega di fare attenzione che la nuova password e la conferma della password siano identiche."
+
+#: Controller/CoreUsersController.php:303;304
+msgid "Your password has been successfully changed."
+msgstr "La password è stata modificata con successo."
+
+#: Controller/CoreUsersController.php:324
+msgid "Sorry, the email you entered ({0}) was not found."
+msgstr "Ci dispiace, ma l’e-mail inserita ({0}) non è stata trovata."
+
+#: Controller/CoreUsersController.php:337
+msgid "Please enter your email address."
+msgstr "Si prega di inserire l’indirizzo e-mail."
+
+#: Template/CoreSellers/add.ctp:27
+#: Template/CoreSellers/edit.ctp:36
+msgid "code"
+msgstr "codice"
+
+#: Template/CoreSellers/add.ctp:33
+#: Template/CoreSellers/edit.ctp:42
+msgid "name"
+msgstr "nome"
+
+#: Template/CoreSellers/add.ctp:39
+#: Template/CoreSellers/edit.ctp:48
+#: Template/CoreSellers/index.ctp:29
+msgid "Seller Type"
+msgstr "Tipo Venditore"
+
+#: Template/CoreSellers/add.ctp:45
+#: Template/CoreSellers/edit.ctp:54
+#: Template/CoreSellers/index.ctp:30
+#: Template/CoreSellers/view.ctp:58
+msgid "Language"
+msgstr "Lingua"
+
+#: Template/CoreSellers/add.ctp:51
+#: Template/CoreSellers/edit.ctp:60
+#: Template/CoreSellers/index.ctp:31
+#: Template/CoreSellers/view.ctp:62
+msgid "Country"
+msgstr "Nazione"
+
+#: Template/CoreSellers/add.ctp:57
+#: Template/CoreSellers/edit.ctp:66
+#: Template/CoreSellers/index.ctp:32
+#: Template/CoreSellers/view.ctp:46;133;177
+msgid "Status"
+msgstr "Stato"
+
+#: Template/CoreSellers/add.ctp:65
+msgid "Marketplaces"
+msgstr "Marketplaces"
+
+#: Template/CoreSellers/add.ctp:73
+#: Template/CoreSellers/edit.ctp:82
+msgid "Cancel"
+msgstr "Cancella"
+
+#: Template/CoreSellers/add.ctp:74
+#: Template/CoreSellers/edit.ctp:83
+msgid "Submit"
+msgstr "Invia"
+
+#: Template/CoreSellers/edit.ctp:3
+#: Template/CoreSellers/view.ctp:20
+msgid "Edit Seller"
+msgstr "Modifica Venditore"
+
+#: Template/CoreSellers/edit.ctp:18
+#: Template/CoreSellers/index.ctp:64
+#: Template/CoreSellers/view.ctp:109;149;195
+msgid "Delete"
+msgstr "Cancella"
+
+#: Template/CoreSellers/edit.ctp:20
+#: Template/CoreSellers/index.ctp:64
+#: Template/CoreSellers/view.ctp:22;109;149;195
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Si è sicuri di voler cancellare # {0}?"
+
+#: Template/CoreSellers/edit.ctp:74
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: Template/CoreSellers/index.ctp:59
+#: Template/CoreSellers/view.ctp:97;137;180
+msgid "Actions"
+msgstr "Azioni"
+
+#: Template/CoreSellers/index.ctp:62
+#: Template/CoreSellers/view.ctp:107;147;193
+msgid "View"
+msgstr "Visualizza"
+
+#: Template/CoreSellers/index.ctp:63
+#: Template/CoreSellers/view.ctp:108;148;194
+msgid "Edit"
+msgstr "Modifica"
+
+#: Template/CoreSellers/register.ctp:1
+msgid "Please sign up"
+msgstr "Si prega di registrarsi"
+
+#: Template/CoreSellers/register.ctp:16
+msgid "Choose a language"
+msgstr "Scegli una lingua"
+
+#: Template/CoreSellers/register.ctp:19
+msgid "First name"
+msgstr "Nome"
+
+#: Template/CoreSellers/register.ctp:22
+msgid "Last name"
+msgstr "Cognome"
+
+#: Template/CoreSellers/register.ctp:25
+#: Template/CoreSellers/view.ctp:134
+msgid "Email"
+msgstr "E-mail"
+
+#: Template/CoreSellers/register.ctp:28
+msgid "Password"
+msgstr "Password"
+
+#: Template/CoreSellers/register.ctp:31
+msgid "Confirm password"
+msgstr "Conferma password"
+
+#: Template/CoreSellers/register.ctp:35
+msgid "Register"
+msgstr "Registra"
+
+#: Template/CoreSellers/view.ctp:14
+msgid "Sellers"
+msgstr "Venditori"
+
+#: Template/CoreSellers/view.ctp:22
+msgid "Delete Seller"
+msgstr "Cancella Venditore"
+
+#: Template/CoreSellers/view.ctp:33
+msgid "General Information"
+msgstr "Informazioni Generali"
+
+#: Template/CoreSellers/view.ctp:42;92;132;172
+msgid "Id"
+msgstr "Id"
+
+#: Template/CoreSellers/view.ctp:50;93;174
+msgid "Code"
+msgstr "Codice"
+
+#: Template/CoreSellers/view.ctp:54;94;175
+msgid "Name"
+msgstr "Nome"
+
+
+#: Controller/EbayFashionCoreUsersController.php:55
+msgid "A User already exists with mail {0}"
+msgstr "Esiste già un Utente con e-mail {0}"
+
+#: Controller/EbayFashionCoreUsersController.php:118
+msgid "{0} Admin"
+msgstr "{0} Admin"
+
+#: Controller/EbayFashionCoreUsersController.php:201
+msgid "Welcome to your Ebay Fashion template"
+msgstr "Benvenuto nel tuo modello eBay Fashion"
+
+#: Controller/EbayFashionStoresController.php:104
+msgid "Your profile has been successfuly updated."
+msgstr "Il tuo profilo è stato aggiornato con successo."
+
+#: Controller/EbayFashionStoresController.php:107
+msgid "Your profile can't be saved. Please try again."
+msgstr "Il tuo profilo non può essere salvato. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:161
+msgid "The new E-Mail couldn't be saved. Please try again."
+msgstr "La nuova E-Mail non può essere salvata. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:164
+msgid "Please enter the correct password."
+msgstr "Si prega di inserire la password corretta."
+
+#: Controller/EbayFashionStoresController.php:202
+msgid "The link isn't valid. Please be sure that it isn't older than 24 hours."
+msgstr "Il collegamento non è valido. Si prega di verificare che non sia più vecchio di 24 ore."
+
+#: Controller/EbayFashionStoresController.php:224
+msgid "Your password has been successfuly changed."
+msgstr "La password è stata cambiata con successo."
+
+#: Controller/EbayFashionStoresController.php:227
+msgid "Your new password can't be saved. Please try again."
+msgstr "La nuova password non può essere salvata. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:230
+msgid "Passwords don't match. Please try again."
+msgstr "Le password non corrispondono. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:233
+msgid "Your password isn't correct. Please try again."
+msgstr "La password non è corretta. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:273
+msgid "The ebay fashion store has been deleted."
+msgstr "Il fashion store eBay è stato cancellato."
+
+#: Controller/EbayFashionStoresController.php:275
+msgid "The ebay fashion store could not be deleted. Please, try again."
+msgstr "Il fashion store eBay non può essere cancellato. Si prega di riprovare."
+
+#: Controller/EbayFashionStoresController.php:326
+msgid "EbayAccount is not active"
+msgstr "Account eBay non attivo"
+
+#: Controller/EbayFashionStoresController.php:332
+msgid "The ebay item {0} has been updated."
+msgstr "L’articolo eBay {0} è stato aggiornato."
+
+#: Controller/EbayFashionTemplatesController.php:74;101
+msgid "The ebay fashion template has been saved."
+msgstr "Il modello eBay fashion è stato salvato."
+
+#: Controller/EbayFashionTemplatesController.php:77;104
+msgid "The ebay fashion template could not be saved. Please, try again."
+msgstr "Il modello eBay fashion non può essere salvato. Si prega di riprovare."
+
+#: Controller/EbayFashionTemplatesController.php:125
+msgid "The ebay fashion template has been deleted."
+msgstr "Il modello eBay fashion è stato cancellato."
+
+#: Controller/EbayFashionTemplatesController.php:127
+msgid "The ebay fashion template could not be deleted. Please, try again."
+msgstr "Il modello eBay fashion non può essere cancellato. Si prega di riprovare."
+
+#: Controller/Component/TemplatePlatformConverterComponent.php:67
+msgid "***Add your product description here*** <br>\n                Add product picture in the code.<br>\n                How to edit this file?<br>\n                1. Open free-item-template.html with text editor<br>\n                2. Change code.<br>\n                3. Save. Copy all code from this file.<br>\n                4. Create eBay product.<br>\n                5. In product description form, choose HTML, Paste the code.<br>\n                6. Save the product.<br>\n                7. Voila!"
+msgstr "***Aggiungi la descrizione del prodotto qui*** <br>\n                Aggiungi la foto del prodotto nel codice.<br>\n                Come modificare questo file?<br>\n                1. Apri free-item-template.html con l’editor di testo<br>\n                2. Cambia il codice.<br>\n                3. Salva. Copia tutti i codici di questo file.<br>\n                4. Crea prodotto eBay.<br>\n                5. Nel modulo di descrizione del prodotto, scegli HTML, Incolla il codice.<br>\n                6. Salva il prodotto.<br>\n                7. Ecco fatto!"
+
+#: Controller/Component/TemplatePlatformConverterComponent.php:77
+msgid "***Add your product title here***"
+msgstr "***Aggiungi il titolo del prodotto qui***"
+
+#: Event/AppEvents.php:39
+msgid "Assistant"
+msgstr "Assistente"
+
+#: Template/Cell/EbayTemplateNavigatorFree/create_ebay_account.ctp:15
+msgid "ebay Store Name"
+msgstr "Nome Store eBay "
+
+#: Template/Cell/EbayTemplateNavigatorFree/create_ebay_account.ctp:26
+msgid "Proceed without Token"
+msgstr "Procedi senza Token"
+
+#: Template/Cell/EbayTemplateNavigatorFree/create_ebay_account.ctp:29
+msgid "Get Your eBay Token"
+msgstr "Ottieni il Tuo Token eBay"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:4
+msgid "Download your eBay template"
+msgstr "Scarica il tuo modello eBay"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:15
+msgid "Choose Your Platform"
+msgstr "Scegli la Tua Piattaforma"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:23
+msgid "Customize"
+msgstr "Personalizza"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:26
+msgid "Download"
+msgstr "Scarica"
+
+#: Template/Cell/EbayTemplateNavigatorFree/generate_token.ctp:3
+msgid "Link your eBay account - Step 2 of 2"
+msgstr "Collega il tuo account eBay – Step 2 di 2"
+
+#: Template/Cell/EbayTemplateNavigatorFree/manage.ctp:4
+msgid "Create your own template now"
+msgstr "Crea ora il tuo modello"
+
+#: Template/Cell/EbayTemplateNavigatorFree/start_configuration.ctp:3
+msgid "Add your company information - Step 1 of 2"
+msgstr "Aggiungi le informazioni della tua azienda – Step 1 di 2"
+
+#: Template/EbayFashionCoreUsers/create.ctp:3
+msgid "Create Ebay Fashion Account"
+msgstr "Crea eBay Fashion Account"
+
+#: Template/EbayFashionCoreUsers/create.ctp:20
+msgid "Merchant mail "
+msgstr "E-mail esercente"
+
+#: Template/EbayFashionCoreUsers/create.ctp:28
+msgid "Ebay store name"
+msgstr "Nome store eBay "
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:44
+#: Template/EbayFashionCrossSellingItems/index.ctp:42
+#: Template/EbayFashionStoreBrands/index.ctp:58
+#: Template/EbayFashionStores/index.ctp:46
+#: Template/EbayFashionTemplates/index.ctp:46
+#: Template/EbayFashionTemplates/view.ctp:100
+msgid "Actions"
+msgstr "Azioni"
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:47
+#: Template/EbayFashionCrossSellingItems/index.ctp:45
+#: Template/EbayFashionStoreBrands/index.ctp:61
+#: Template/EbayFashionStores/index.ctp:49
+#: Template/EbayFashionTemplates/index.ctp:49
+#: Template/EbayFashionTemplates/view.ctp:118
+msgid "View"
+msgstr "Visualizza"
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:48
+#: Template/EbayFashionCrossSellingItems/index.ctp:46
+#: Template/EbayFashionStoreBrands/index.ctp:62
+#: Template/EbayFashionStores/profile.ctp:38
+#: Template/EbayFashionTemplates/index.ctp:50
+#: Template/EbayFashionTemplates/view.ctp:119
+msgid "Edit"
+msgstr "Modifica"
+
+#: Template/EbayFashionCrossSellingCategories/upload.ctp:35
+#: Template/EbayFashionCrossSellingItems/upload.ctp:35
+msgid "file_name"
+msgstr "nome_file"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:29
+#: Template/EbayFashionCrossSellingItems/view.ctp:29
+#: Template/EbayFashionStoreBrands/view.ctp:33
+#: Template/EbayFashionStores/view.ctp:29
+#: Template/EbayFashionTemplates/view.ctp:33
+msgid "General Information"
+msgstr "Informazioni Generali"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:38
+#: Template/EbayFashionCrossSellingItems/view.ctp:38
+#: Template/EbayFashionStores/view.ctp:38
+msgid "Ebay Account"
+msgstr "Account eBay"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:42
+msgid "Ebay Category"
+msgstr "Categoria Ebay"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:46
+#: Template/EbayFashionStoreBrands/view.ctp:86
+#: Template/EbayFashionTemplates/view.ctp:50;98
+msgid "Created"
+msgstr "Creato"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:50
+#: Template/EbayFashionStoreBrands/view.ctp:90
+#: Template/EbayFashionTemplates/view.ctp:54;99
+msgid "Modified"
+msgstr "Modificato"
+
+#: Template/EbayFashionStoreBrands/add.ctp:33
+#: Template/EbayFashionStoreBrands/edit.ctp:45
+msgid "ebay_fashion_store_id"
+msgstr "id_ store_eBay_fashion "
+
+#: Template/EbayFashionStoreBrands/add.ctp:39
+#: Template/EbayFashionStoreBrands/edit.ctp:52
+msgid "ebay_fashion_template_id"
+msgstr "id_modello_eBay_fashion"
+
+#: Template/EbayFashionStoreBrands/add.ctp:45
+#: Template/EbayFashionTemplates/add.ctp:33
+#: Template/EbayFashionTemplates/edit.ctp:42
+msgid "name"
+msgstr "nome"
+
+#: Template/EbayFashionStoreBrands/add.ctp:51
+#: Template/EbayFashionStoreBrands/edit.ctp:65
+msgid "description"
+msgstr "descrizione"
+
+#: Template/EbayFashionStoreBrands/add.ctp:57
+#: Template/EbayFashionStoreBrands/edit.ctp:58
+msgid "slogan"
+msgstr "slogan"
+
+#: Template/EbayFashionStoreBrands/add.ctp:63
+#: Template/EbayFashionStoreBrands/edit.ctp:72
+msgid "logo"
+msgstr "logo"
+
+#: Template/EbayFashionStoreBrands/add.ctp:69
+#: Template/EbayFashionStoreBrands/edit.ctp:78
+msgid "banner"
+msgstr "banner"
+
+#: Template/EbayFashionStoreBrands/add.ctp:75
+msgid "promo_banner"
+msgstr "banner_promo"
+
+#: Template/EbayFashionStoreBrands/add.ctp:81
+msgid "promo_banner_link"
+msgstr "collegamento_banner_promo"
+
+#: Template/EbayFashionStoreBrands/add.ctp:87
+#: Template/EbayFashionStoreBrands/edit.ctp:84
+msgid "is_active"
+msgstr "è_attivo"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:3
+msgid "Edit eBay Fashion Store Brand"
+msgstr "Modifica Brand eBay Fashion Store "
+
+#: Template/EbayFashionStoreBrands/edit.ctp:36
+msgid "Brand Name"
+msgstr "Nome Brand"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:45
+msgid "eBay Fashion Store"
+msgstr "Store Fashion eBay"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:52
+msgid "eBay Fashion Template"
+msgstr "Modello Fashion eBay"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:58
+#: Template/EbayFashionStoreBrands/view.ctp:62
+#: Template/EbayFashionTemplates/view.ctp:94
+msgid "Slogan"
+msgstr "Slogan"
+
+#: Template/EbayFashionStoreBrands/view.ctp:14
+msgid "Ebay Fashion Store Brands"
+msgstr "Brands Store Fashion eBay"
+
+#: Template/EbayFashionStoreBrands/view.ctp:18
+msgid "List of Ebay Fashion Store Brands"
+msgstr "Elenco Brands Store Fashion eBay"
+
+#: Template/EbayFashionStoreBrands/view.ctp:19
+msgid "Add New Ebay Fashion Store Brand"
+msgstr "Aggiungi Nuovo Brand Store eBay Fashion"
+
+#: Template/EbayFashionStoreBrands/view.ctp:20
+msgid "Edit Ebay Fashion Store Brand"
+msgstr "Modifica Brand Store eBay Fashion"
+
+#: Template/EbayFashionStoreBrands/view.ctp:22
+msgid "Delete Ebay Fashion Store Brand"
+msgstr "Cancella Brand Store eBay Fashion"
+
+#: Template/EbayFashionStoreBrands/view.ctp:42
+#: Template/EbayFashionStores/view.ctp:42
+msgid "Core Seller"
+msgstr "Venditore Core"
+
+#: Template/EbayFashionStoreBrands/view.ctp:46
+msgid "Ebay Fashion Store"
+msgstr "Store eBay Fashion"
+
+#: Template/EbayFashionStoreBrands/view.ctp:50
+msgid "Ebay Fashion Template"
+msgstr "Modello eBay Fashion "
+
+#: Template/EbayFashionStoreBrands/view.ctp:54
+#: Template/EbayFashionStores/view.ctp:58
+#: Template/EbayFashionTemplates/view.ctp:46;92
+msgid "Name"
+msgstr "Nome"
+
+#: Template/EbayFashionStoreBrands/view.ctp:58
+#: Template/EbayFashionStores/view.ctp:66
+#: Template/EbayFashionTemplates/view.ctp:93
+msgid "Description"
+msgstr "Descrizione"
+
+#: Template/EbayFashionStoreBrands/view.ctp:66
+#: Template/EbayFashionStores/view.ctp:70
+#: Template/EbayFashionTemplates/view.ctp:95
+msgid "Logo"
+msgstr "Logo"
+
+#: Template/EbayFashionStoreBrands/view.ctp:70
+#: Template/EbayFashionStores/view.ctp:74
+#: Template/EbayFashionTemplates/view.ctp:96
+msgid "Banner"
+msgstr "Banner"
+
+#: Template/EbayFashionStoreBrands/view.ctp:74
+#: Template/EbayFashionStores/view.ctp:78
+#: Template/EbayFashionTemplates/view.ctp:97
+msgid "Promo Banner"
+msgstr "Banner Promo"
+
+#: Template/EbayFashionStoreBrands/view.ctp:78
+msgid "Promo Banner Link"
+msgstr "Collegamento Banner Promo"
+
+#: Template/EbayFashionStoreBrands/view.ctp:82
+#: Template/EbayFashionTemplates/view.ctp:87
+msgid "Id"
+msgstr "Id"
+
+#: Template/EbayFashionStoreBrands/view.ctp:94
+msgid "Is Active"
+msgstr "È Attivo"
+
+#: Template/EbayFashionStoreBrands/view.ctp:95
+msgid "Yes"
+msgstr "Si"
+
+#: Template/EbayFashionStoreBrands/view.ctp:95
+msgid "No"
+msgstr "No"
+
+#: Template/EbayFashionStores/ebay_connection.ctp:3
+msgid "Edit your eBay connection"
+msgstr "Modifica il tuo collegamento eBay"
+
+#: Template/EbayFashionStores/edit_email.ctp:3
+msgid "Change E-Mail Address"
+msgstr "Modifica Indirizzo E-mail"
+
+#: Template/EbayFashionStores/edit_email.ctp:10
+msgid "New E-Mail"
+msgstr "Nuova E-Mail"
+
+#: Template/EbayFashionStores/edit_email.ctp:16
+msgid "Confirm New E-Mail"
+msgstr "Conferma Nuova E-Mail"
+
+#: Template/EbayFashionStores/edit_email.ctp:22
+msgid "Current Password"
+msgstr "Password Attuale"
+
+#: Template/EbayFashionStores/edit_email.ctp:32
+#: Template/EbayFashionStores/edit_password.ctp:32
+#: Template/EbayFashionStores/edit_profile.ctp:59
+msgid "Save Changes"
+msgstr "Salva Modifiche"
+
+#: Template/EbayFashionStores/edit_password.ctp:3
+#: Template/EbayFashionStores/profile.ctp:74
+msgid "Change Password"
+msgstr "Cambia Password"
+
+#: Template/EbayFashionStores/edit_password.ctp:10
+msgid "Old Password"
+msgstr "Vecchia Password"
+
+#: Template/EbayFashionStores/edit_password.ctp:16
+msgid "New Password"
+msgstr "Nuova Password"
+
+#: Template/EbayFashionStores/edit_password.ctp:22
+msgid "Confirm New Password"
+msgstr "Conferma Nuova Password"
+
+#: Template/EbayFashionStores/edit_profile.ctp:3
+msgid "Edit Account Data"
+msgstr "Modifica Dati Account"
+
+#: Template/EbayFashionStores/edit_profile.ctp:10
+#: Template/EbayFashionStores/profile.ctp:20
+#: Template/Element/core_seller_address.ctp:8
+msgid "Company Name"
+msgstr "Nome Azienda"
+
+#: Template/EbayFashionStores/edit_profile.ctp:16
+msgid "Street"
+msgstr "Strada"
+
+#: Template/EbayFashionStores/edit_profile.ctp:21
+msgid "House"
+msgstr "Edificio"
+
+#: Template/EbayFashionStores/edit_profile.ctp:27
+#: Template/Element/core_seller_address.ctp:35
+msgid "City"
+msgstr "Città"
+
+#: Template/EbayFashionStores/edit_profile.ctp:33
+#: Template/Element/core_seller_address.ctp:44
+msgid "Country"
+msgstr "Nazione"
+
+#: Template/EbayFashionStores/edit_profile.ctp:37
+msgid "ZIP Code"
+msgstr "CAP"
+
+#: Template/EbayFashionStores/edit_profile.ctp:43
+#: Template/EbayFashionStores/profile.ctp:28
+#: Template/Element/core_seller_address.ctp:62
+msgid "Phone Number"
+msgstr "Numero di Telefono"
+
+#: Template/EbayFashionStores/edit_profile.ctp:49
+#: Template/EbayFashionStores/profile.ctp:32
+msgid "Webshop/Site"
+msgstr "Webshop/Sito"
+
+#: Template/EbayFashionStores/index.ctp:3
+#: Template/EbayFashionStores/view.ctp:14
+msgid "List of Ebay Stores"
+msgstr "Elenco degli Store eBay"
+
+#: Template/EbayFashionStores/index.ctp:51
+msgid "Test Item Template"
+msgstr "Prova Modello Articolo"
+
+#: Template/EbayFashionStores/profile.ctp:24
+msgid "Address"
+msgstr "Indirizzo"
+
+#: Template/EbayFashionStores/profile.ctp:58
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: Template/EbayFashionStores/profile.ctp:63
+msgid "Change E-Mail"
+msgstr "Modifica E-Mail"
+
+#: Template/EbayFashionStores/profile.ctp:69
+msgid "Password"
+msgstr "Password"
+
+#: Template/EbayFashionStores/test_mode.ctp:3
+msgid "Test Your eBay Template"
+msgstr "Prova il tuo Modello eBay"
+
+#: Template/EbayFashionStores/test_mode.ctp:14
+msgid "Ebay Item Id"
+msgstr "Id Articolo eBay"
+
+#: Template/EbayFashionStores/view.ctp:10
+msgid "Ebay Fashion Stores"
+msgstr "Store eBay Fashion"
+
+#: Template/EbayFashionStores/view.ctp:15
+msgid "Add New Ebay Store"
+msgstr "Aggiungi Nuovo Store eBay"
+
+#: Template/EbayFashionStores/view.ctp:16
+msgid "Edit Ebay Store"
+msgstr "Modifica Store eBay"
+
+#: Template/EbayFashionStores/view.ctp:18
+msgid "Delete Ebay Store"
+msgstr "Cancella Store eBay"
+
+#: Template/EbayFashionStores/view.ctp:46
+msgid "Product Template"
+msgstr "Modello Prodotto"
+
+#: Template/EbayFashionStores/view.ctp:50
+#: Template/EbayFashionTemplates/view.ctp:58
+msgid "Store Template"
+msgstr "Modello Store"
+
+#: Template/EbayFashionStores/view.ctp:54
+#: Template/EbayFashionTemplates/view.ctp:42;91
+msgid "Code"
+msgstr "Codice"
+
+#: Template/EbayFashionStores/view.ctp:62
+msgid "Test Mode"
+msgstr "Modalità di Prova"
+
+#: Template/EbayFashionTemplates/add.ctp:3
+#: Template/EbayFashionTemplates/index.ctp:11
+#: Template/EbayFashionTemplates/view.ctp:19
+msgid "Add New Ebay Fashion Template"
+msgstr "Aggiungi Nuovo Modello eBay Fashion"
+
+#: Template/EbayFashionTemplates/add.ctp:13
+#: Template/EbayFashionTemplates/edit.ctp:13
+#: Template/EbayFashionTemplates/index.ctp:3
+#: Template/EbayFashionTemplates/view.ctp:18
+msgid "List of Ebay Fashion Templates"
+msgstr "Elenco di Modelli eBay Fashion"
+
+#: Template/EbayFashionTemplates/add.ctp:27
+#: Template/EbayFashionTemplates/edit.ctp:36
+msgid "code"
+msgstr "codice"
+
+#: Template/EbayFashionTemplates/add.ctp:39
+#: Template/EbayFashionTemplates/edit.ctp:48
+msgid "store_template"
+msgstr "modello_store"
+
+#: Template/EbayFashionTemplates/add.ctp:45
+#: Template/EbayFashionTemplates/edit.ctp:54
+msgid "item_template"
+msgstr "modello_articolo"
+
+#: Template/EbayFashionTemplates/add.ctp:51
+#: Template/EbayFashionTemplates/edit.ctp:60
+msgid "css"
+msgstr "css"
+
+#: Template/EbayFashionTemplates/add.ctp:57
+#: Template/EbayFashionTemplates/edit.ctp:66
+msgid "CoreSellerTypes"
+msgstr "CoreSeller Types"
+
+#: Template/EbayFashionTemplates/edit.ctp:3
+#: Template/EbayFashionTemplates/view.ctp:20
+msgid "Edit Ebay Fashion Template"
+msgstr "Modifica Modello eBay Fashion"
+
+#: Template/EbayFashionTemplates/view.ctp:14
+msgid "Ebay Fashion Templates"
+msgstr "Modelli eBay Fashion"
+
+#: Template/EbayFashionTemplates/view.ctp:22
+msgid "Delete Ebay Fashion Template"
+msgstr "Cancella Modello eBay Fashion"
+
+#: Template/EbayFashionTemplates/view.ctp:62
+#: Template/Element/manage.ctp:123
+msgid "Item Template"
+msgstr "Modello Articolo"
+
+#: Template/EbayFashionTemplates/view.ctp:66
+msgid "Css"
+msgstr "Css"
+
+#: Template/EbayFashionTemplates/view.ctp:77
+msgid "Related Ebay Fashion Stores"
+msgstr "Store eBay Fashion Correlati"
+
+#: Template/EbayFashionTemplates/view.ctp:88
+msgid "Ebay Account Id"
+msgstr "Id Account eBay"
+
+#: Template/EbayFashionTemplates/view.ctp:89
+msgid "Core Seller Id"
+msgstr "Id Venditore Core"
+
+#: Template/EbayFashionTemplates/view.ctp:90
+msgid "Ebay Fashion Template Id"
+msgstr "Id Modello eBay Fashion"
+
+#: Template/Element/core_seller_address.ctp:12
+msgid "Add your company name to get proper invoices from us."
+msgstr "Aggiungi la tua azienda per ottenere fatture corrette da parte nostra."
+
+#: Template/Element/core_seller_address.ctp:18
+msgid "Street Name"
+msgstr "Nome Via"
+
+#: Template/Element/core_seller_address.ctp:26
+msgid "House Number"
+msgstr "Numero Civico"
+
+#: Template/Element/core_seller_address.ctp:46
+msgid "Choose a country"
+msgstr "Scegli una nazione"
+
+#: Template/Element/core_seller_address.ctp:53
+msgid "Zip Code"
+msgstr "CAP"
+
+#: Template/Element/core_seller_address.ctp:69
+msgid "Website"
+msgstr "Sito"
+
+#: Template/Element/core_seller_address.ctp:81
+msgid "Next step"
+msgstr "Prossimo passaggio"
+
+#: Template/Element/ebay_connection.ctp:8
+msgid "We need to link eBay Template Creator to your eBay account in order to update the templates automatically."
+msgstr "Abbiamo bisogno di collegare eBay Template Creator al tuo account eBay per aggiornare automaticamente i modelli."
+
+#: Template/Element/ebay_connection.ctp:11
+msgid "Please press <strong>\"Connect your eBay account\"</strong> to do so."
+msgstr "Premere <strong>\"Collega il tuo account eBay \"</strong> per fare questo."
+
+#: Template/Element/ebay_connection.ctp:13
+msgid "Then proceed with <strong>\"Get token\"</strong> in order to complete this step."
+msgstr "Quindi prosegui con <strong>\"Ottieni token\"</strong> per completare questo passaggio."
+
+#: Template/Element/ebay_connection.ctp:10
+msgid "Please pay attention to the fact that both steps need to be done within 5 minutes."
+msgstr "Attenzione, entrambi i passaggi devono essere eseguiti entro 5 minuti."
+
+#: Template/Element/ebay_connection.ctp:14
+msgid "eBay account status"
+msgstr "Stato account eBay"
+
+#: Template/Element/ebay_connection.ctp:17
+msgid "Connected"
+msgstr "Collegato"
+
+#: Template/Element/ebay_connection.ctp:17
+msgid "Not connected"
+msgstr "Non collegato"
+
+#: Template/Element/ebay_connection.ctp:20
+msgid "Connect your eBay account"
+msgstr "Collega il tuo account eBay"
+
+#: Template/Element/ebay_connection.ctp:22
+msgid "Get token"
+msgstr "Ottieni token"
+
+#: Template/Element/ebay_connection.ctp:29
+msgid "Next"
+msgstr "Avanti"
+
+#: Template/Element/ebay_connection.ctp:29
+msgid "Proceed without token"
+msgstr "Procedi senza token"
+
+#: Template/Element/manage.ctp:9
+msgid "eBay Account Name"
+msgstr "Nome Account eBay"
+
+#: Template/Element/manage.ctp:12
+msgid "If you ever changed your eBay store name, put the old name here."
+msgstr "Se hai cambiato il nome del tuo store eBay, inserisci qui il vecchio nome."
+
+#: Template/Element/manage.ctp:17
+msgid "eBay Store Name"
+msgstr "Nome Store eBay "
+
+#: Template/Element/manage.ctp:20
+msgid "Your actual store name. If you ever changed your eBay store name, put the new name here."
+msgstr "Il nome attuale del tuo store. Se hai cambiato il nome del tuo store eBay, inserisci qui il vecchio nome."
+
+#: Template/Element/manage.ctp:25
+msgid "Shop Template Design"
+msgstr "Design Modello Shop"
+
+#: Template/Element/manage.ctp:27;35
+msgid "No Template"
+msgstr "Nessun Modello"
+
+#: Template/Element/manage.ctp:32
+msgid "Item Template Design"
+msgstr "Design Modello Articolo"
+
+#: Template/Element/manage.ctp:41
+msgid "Store Slogan"
+msgstr "Slogan Store"
+
+#: Template/Element/manage.ctp:45
+msgid "(max 80 symbols)"
+msgstr "(max. 80 caratteri)"
+
+#: Template/Element/manage.ctp:51
+msgid "Store Description"
+msgstr "Descrizione Store"
+
+#: Template/Element/manage.ctp:55
+msgid "(max 160 symbols)"
+msgstr "(max. 160 caratteri)"
+
+#: Template/Element/manage.ctp:67
+msgid "Change Store Logo"
+msgstr "Modifica Store logo"
+
+#: Template/Element/manage.ctp:70
+msgid "PNG- or JPG-file with max. 200x150px and {0} MB"
+msgstr "File-JPG o PNG con max. 200x150px e {0} MB"
+
+#: Template/Element/manage.ctp:82
+msgid "Change Store Banner"
+msgstr "Modifica Store banner"
+
+#: Template/Element/manage.ctp:85
+msgid "PNG- or JPG-file with max. 1140x450px and {0} MB"
+msgstr "File-JPG o PNG con max. 1140x450px e {0} MB"
+
+#: Template/Element/manage.ctp:90
+msgid "Main Colour"
+msgstr "Colore Principale"
+
+#: Template/Element/manage.ctp:100
+msgid "Accent Colour"
+msgstr "Colore Accento"
+
+#: Template/Element/manage.ctp:110
+msgid "Store Text Colour"
+msgstr "Colore Testo"
+
+#: Template/Element/manage.ctp:124
+msgid "Shop Template"
+msgstr "Modello Shop"
+
+#: Template/Element/manage.ctp:125
+msgid "Mobile Item Template"
+msgstr "Modello Articolo Mobile"
+
+#: Template/Element/manage.ctp:182
+msgid "Reset"
+msgstr "Resetta"
+
+#: Template/Element/manage.ctp:185
+msgid "Download template"
+msgstr "Scarica modello"
+
+#: Template/Element/manage.ctp:188
+msgid "Save"
+msgstr "Salva"
+
+#: View/Cell/EbayTemplateNavigatorFreeCell.php:159
+msgid "The store was sucessful updated."
+msgstr "Lo store è stato aggiornato con successo."
+
+#: View/Cell/EbayTemplateNavigatorFreeCell.php:169
+msgid "The store could not be saved, please try again."
+msgstr "Lo store non può essere salvato, si prega di riprovare."
+
+msgid "Already registered? Log in here."
+msgstr "Già registrato? Accedi qui."
+
+msgid "eBay Template Creator in cooperation with eBay is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+msgstr "Modelli per inserzioni su eBay in collaborazione con eBay realizzati con <i class=\"fa fa-heart red\"></i> a Berlino, in Germania"
+
+msgid "Forgot your password?"
+msgstr "Password dimenticata?"
+
+msgid "Not registered yet?"
+msgstr "Non sei ancora registrato?"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Create Your Template"
+msgstr "Crea il tuo modello"
+
+msgid "Profile"
+msgstr "Profilo"
+
+msgid "User Credentials"
+msgstr "Credenziali utente"
+
+msgid "E-Mail Address Change Request Confirmation"
+msgstr "Conferma della richiesta di modifica dell'indirizzo E-Mail"
+
+msgid "Forgot Password Request"
+msgstr "Richiesta di modifica dell'indirizzo E-Mail"
+
+msgid "E-Mail Address Change Request"
+msgstr "E-Mail Richiesta di modifica"
+
+msgid "Welcome to i-ways eBay Template Creator"
+msgstr "Benvenuto su Modelli per inserzioni su eBay in collaborazione con eBay"
+
+msgid "Welcome to eBay Template Creator"
+msgstr "Benvenuto su Modelli per inserzioni su eBay"
+
+msgid "We have sent you an email with an account activation link. Please check Your emails."
+msgstr "Ti abbiamo inviato una E-Mail con un link di attivazione per il tuo account, ti preghiamo di controllare la tua casella di posta."
+
+msgid "Your E-Mail has been successfully changed."
+msgstr "Il tuo indirizzo E-Mail è stato cambiato con successo."
+
+msgid "The confirmation link has been successfully sent to you. Please, check your E-Mail."
+msgstr "Il link di conferma é stato inviato con successo, ti preghiamo di controllare la tua casella di posta."
+
+msgid "Activate Your Account"
+msgstr "Attiva il tuo account"
+
+msgid "Activate Account"
+msgstr "Attiva l'account"
+
+msgid "Log out"
+msgstr "Esci"
+
+msgid "Your i-Tool3 profile is being prepared.."
+msgstr "Il tuo profilo i-Tool3 è in preparazione .."
+
+msgid "https://support.i-ways.net/hc/en-us/sections/202737349"
+msgstr "https://support.i-ways.net/hc/it/sections/202737349"
+
+#: Template/Element/paginator.ctp:39
+msgid "Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} total, starting on record {{start}}, ending on {{end}}"
+msgstr ""
+
+msgid "100% free of charge"
+msgstr "100% gratuito"
+
+msgid "Fully mobile responsive"
+msgstr "Ottimizzato per dispositivi mobili"
+
+msgid "100% eBay conform"
+msgstr "100% conforme a eBay"
+
+msgid "Item Description"
+msgstr "Descrizione dell'articolo"

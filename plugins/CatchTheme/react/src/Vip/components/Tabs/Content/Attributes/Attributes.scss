@@ -1,0 +1,29 @@
+.tab-content {
+    &.attributes {
+        dl {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            line-height: 18px;
+            margin: 0;
+            font-family: Visuelt-Regular, sans-serif;
+            @media only screen and (min-width: 768px) {
+                font-size: 13px;
+                line-height: 22px;
+            }
+        }
+        dt {
+            width: 35%;
+            @media only screen and (min-width: 768px){
+                width: 156px;
+            }
+        }
+        dd {
+            margin-left: 0;
+            width: 60%;
+            @media only screen and (min-width: 768px) {
+                width: calc(100% - 176px);
+            }
+        }
+    }
+}

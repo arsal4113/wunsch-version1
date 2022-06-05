@@ -1,0 +1,194 @@
+#footer {
+    //padding: 0; // causes SAFARI border bug (hallo, it is a container-fluid!)
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: #3E304B;
+    footer {
+        #footer-content {
+            background-color: #1E0339;
+            color: #ffffff;
+            padding: 30px 0;
+            > .container {
+                @media only screen and (max-width: 767px){
+                    max-width: 480px;
+                }
+                @media only screen and (max-width: 480px){
+                    width: calc(100% - 30px);
+                }
+                @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                    padding: 0 185px;
+                }
+                a {
+                    color: #ffffff;
+                }
+                .link-container {
+                    @media only screen and (max-width: 767px){
+                        margin-bottom: 35px;
+                    }
+                    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                        margin-bottom: 44px;
+                    }
+                }
+                .newsletter-container {
+                    @media only screen and (max-width: 1023px) {
+                        margin-bottom: 42px;
+                    }
+                    @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                        max-width: 470px;
+                    }
+                    .newsletter-wrapper {
+                        @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                            padding-left: 40px;
+                        }
+                        @media only screen and (min-width: 1400px) {
+                            padding-left: 55px;
+                        }
+
+                        .newsletter-form {
+                            line-height: 19px;
+
+                            .input {
+                                margin-bottom: 20px;
+
+                                &.email {
+                                    input.newsletter-email {
+                                        background: #1E0339;
+                                        border: 1px solid #ffffff;
+                                        height: 36px;
+                                        border-radius: 20px;
+                                        padding: 0 23px;
+                                        line-height: 36px;
+                                        color: #ffffff !important;
+                                        outline: none;
+
+                                        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                                            color: #ffffff;
+                                            opacity: 1; /* Firefox */
+                                        }
+
+                                        &:active, &:focus {
+                                            background: linear-gradient(#1E0339, #1E0339) padding-box, linear-gradient(to right, #EAE466, #6FC3C1) border-box;
+                                            border: 1px solid transparent;
+                                        }
+
+                                        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+                                            color: #ffffff;
+                                        }
+
+                                        &::-ms-input-placeholder { /* Microsoft Edge */
+                                            color: #ffffff;
+                                        }
+
+                                        &:-webkit-autofill, &:-webkit-autofill:hover, &:-webkit-autofill:focus, &:-webkit-autofill:active {
+                                            -webkit-box-shadow: 0 0 0 30px #1E0339 inset !important;
+                                            -webkit-text-fill-color: white !important;
+                                            border: 1px solid #A3D19B;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .separator {
+                                position: absolute;
+                                top: 0;
+                                right: 15px;
+                                .newsletter-button {
+                                    height: 36px;
+                                    width: 179px;
+                                    font-size: 13px;
+                                    line-height: 36px;
+                                    padding: 0;
+                                    border-radius: 20px;
+                                    background: #FAB60D;
+                                    text-align: center;
+                                    @media only screen and (min-width: 768px) {
+                                        width: 205px;
+                                    }
+                                    &:hover:not(.typing) {
+                                        background-image: radial-gradient(47.21% 1683.83% at 50% 50%, #FDE888 18.54%, #FDBE51 100%);
+                                    }
+                                    &.typing {
+                                        @media only screen and (max-width: 1024px) {
+                                            background: #FAB60D url("../img/footer/newsletter-send.svg") no-repeat center;
+                                            background-size: 24px 16px;
+                                            width: 54px;
+                                            font-size: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            .newsletter-text {
+                                width: 216px;
+                                margin: 0 auto;
+                                @media only screen and (min-width: 480px) {
+                                    width: 342px;
+                                }
+                                p {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .social-container {
+                    @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                        max-width: 192px;
+                    }
+                    ul.social-icons {
+                        display: flex;
+                        justify-content: center;
+                        padding: 0;
+                        @media only screen and (min-width: 1024px) {
+                            justify-content: flex-end;
+                        }
+                        li.icons-item {
+                            width: 40px;
+                            height: 40px;
+                            border-bottom: none;
+                            border-radius: 20px;
+                            background: #ffffff no-repeat center;
+                            margin: 0 7px;
+                            cursor: pointer;
+                            padding: 0;
+                            overflow: hidden;
+
+                            &.facebook-icon {
+                                background-image: url("../img/footer/facebook.svg");
+                                background-size: 6.88px 13.75px;
+                            }
+
+                            &.instagram-icon {
+                                background-image: url("../img/footer/instagram.svg");
+                                background-size: 13.25px;
+                            }
+
+                            &.pinterest-icon {
+                                background-image: url("../img/footer/pinterest.svg");
+                                background-size: 15.47px;
+                            }
+
+                            a {
+                                text-indent: -10000px;
+                                display: block;
+                                height: 100%;
+
+                                &::before {
+                                    width: 40px;
+                                    height: 40px;
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #copyright {
+            color: rgba(255,255,255,0.7);
+            font-size: 10px;
+            line-height: 19px;
+            padding: 8px 0 13px;
+        }
+    }
+}

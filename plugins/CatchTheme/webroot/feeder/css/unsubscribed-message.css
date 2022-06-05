@@ -1,0 +1,64 @@
+/* line 1, src/unsubscribed-message.scss */
+body {
+  background-color: #E5E5E5;
+}
+
+/* line 4, src/unsubscribed-message.scss */
+#content {
+  border-bottom: none;
+}
+/* line 6, src/unsubscribed-message.scss */
+#content .content-container-row .content-area {
+  background-color: #E5E5E5;
+}
+
+/* line 10, src/unsubscribed-message.scss */
+.unsubscribed-message {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 13, src/unsubscribed-message.scss */
+.unsubscribed-message h2 {
+  font-size: 20px;
+  font-family: Visuelt-bold, sans-serif;
+}
+/* line 17, src/unsubscribed-message.scss */
+.unsubscribed-message p {
+  margin: 28px 0;
+  font-size: 15px;
+  line-height: 24px;
+}
+/* line 22, src/unsubscribed-message.scss */
+.unsubscribed-message .redesign-button {
+  font-family: Visuelt-Regular, sans-serif;
+  display: block;
+  font-size: 15px;
+  line-height: 38px;
+  width: 200px;
+  height: 40px;
+  background: #FDBE51;
+  border: none;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin: auto;
+}
+/* line 34, src/unsubscribed-message.scss */
+.unsubscribed-message .redesign-button:hover {
+  background: linear-gradient(to right, #FAD170 0%, #FDE988 32.6%, #F9C665 100%), #C4C4C4;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 42, src/unsubscribed-message.scss */
+  .unsubscribed-message p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 50, src/unsubscribed-message.scss */
+  .unsubscribed-message p {
+    margin: 22px 0;
+  }
+}
+
+/*# sourceMappingURL=unsubscribed-message.css.map */

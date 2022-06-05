@@ -1,0 +1,78 @@
+.bestseller-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1164px;
+    margin: auto;
+    .headline{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .item-card-wrapper{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .button-container{
+        width: 100%;
+        text-align: center;
+        .button-wrapper{
+            width: 170px;
+            height: 40px;
+            position: relative;
+            margin: auto;
+            .loader{
+                border: 5px solid #F2F2F3; /* Light grey */
+                border-top: 5px solid #3e304b; /* Blue */
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                animation: spin 2s linear infinite;
+                position: absolute;
+                top: 7px;
+                left: 70px;
+                opacity: 0;
+                transition: opacity 0.2s ease-in-out;
+                pointer-events: none;
+            }
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+            .load-more{
+                background: transparent;
+                border: 1px solid #3e304b;
+                border-radius: 20px;
+                width: 100%;
+                line-height: 40px;
+                font-size: 14px;
+                font-family: Visuelt-Bold, sans-serif;
+                transition: background-color 0.1s ease-in-out, opacity 0.2s ease-in-out;
+                &:hover{
+                    color: #fff;
+                    background-color: #242529;
+                }
+            }
+            &.loading{
+                .loader{
+                    opacity: 1;
+                }
+                .load-more{
+                    opacity: 0.3;
+                    &:hover{
+                        cursor: default;
+                        background: transparent;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .bestseller-wrapper{
+        .headline{
+            text-align: left;
+            margin-bottom: 20px;
+        }
+    }
+}

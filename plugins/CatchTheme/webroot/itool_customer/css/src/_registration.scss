@@ -1,0 +1,390 @@
+@import "variables";
+
+body.itoolcustomer.registration {
+    #header .logo-container {
+        @media (max-width: 767px) {
+            box-shadow: none;
+        }
+    }
+    #content {
+        padding-right: 0;
+        padding-left: 0;
+        min-height: 100vh;
+        background: #193D3B url("../img/weird-shape-bg.svg") center 137px no-repeat;
+        .content-container-row {
+            padding-bottom: 72px;
+            #main-registration-page {
+                margin: 57px auto 0;
+                .customer-registration-form{
+                    width: 440px;
+                    background: #fff;
+                    padding: 14px 35px 40px;
+                    border-radius: 20px;
+                    position: relative;
+                    .customer-registration{
+                        position: relative;
+                        .back-button{
+                            display: inline-block;
+                            position: absolute;
+                            left: -15px;
+                            top: 3px;
+                            width: 17.5px;
+                            height: 14.5px;
+                            cursor: pointer;
+                            z-index: 2;
+                            background: url('../img/long-arrow-left.svg') center/contain no-repeat;
+                        }
+                        .customer-info-wrapper {
+                            .col-12{
+                                padding: 0;
+                            }
+                            text-align: center;
+                            color: #B3B3B3;
+                            font-size: 15px;
+                            line-height: 20px;
+                            padding: 0;
+                            .customer-info {
+                                .title{
+                                    margin: 0 0 32px;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    color: #B3B3B3;
+                                }
+                                .look-at-this{
+                                    position: absolute;
+                                    text-align: left;
+                                    left: -225px;
+                                    top: 33px;
+                                    height: 110px;
+                                    padding: 79px 0 0;
+                                    width: 243px;
+                                    background: url('../img/weird-arrow.svg') top right no-repeat;
+                                    p{
+                                        margin: 0 100px 0 0;
+                                        text-align: center;
+                                        font-size: 20px;
+                                        line-height: 29px;
+                                        color: #193D3B;
+                                    }
+                                }
+                                fieldset{
+                                    max-width: 280px;
+                                    margin: 0 auto 23px;
+                                    .input{
+                                        input{
+                                            border: none;
+                                            border-bottom: 1px solid #B3B3B3;
+                                        }
+                                        &.error{
+                                            input{
+                                                border-color: #D0021B;
+                                            }
+                                            .error-message{
+                                                color: #D0021B;
+                                                font-size: 14px;
+                                                padding-bottom: 0;
+                                                padding-left: 2px;
+                                                text-align: left;
+                                            }
+                                        }
+                                    }
+                                }
+                                label {
+                                    color: $font-color-login;
+                                    position: relative;
+                                    margin-right: 55px;
+                                    margin-bottom: 23px;
+                                    font-size: 13px;
+                                    line-height: 11px;
+                                    @media only screen and (min-width: 768px) {
+                                        font-size: 15px;
+                                    }
+                                    &:last-of-type {
+                                        margin-right: 0;
+                                    }
+                                    &:hover {
+                                        .checkmark {
+                                            @media only screen and (min-width: 1025px) {
+                                                border: 1px solid transparent;
+                                                background: $checkbox-gradient;
+                                            }
+                                        }
+                                    }
+
+                                    input[type="radio"] {
+                                        margin-right: 5px;
+                                        opacity: 0;
+                                        width: 16px;
+                                        height: 16px;
+                                        margin-top: -3px;
+                                    }
+
+                                    .checkmark {
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        height: 16px;
+                                        width: 16px !important;
+                                        cursor: pointer;
+                                        border: 1px solid $box-border-color;
+                                        border-radius: 8px;
+                                    }
+
+                                    .checkmark:after {
+                                        content: "";
+                                        position: absolute;
+                                        display: none;
+                                    }
+
+                                    input[type="radio"]:checked ~ .checkmark {
+                                        border: 1px solid transparent;
+                                        background: $checkbox-gradient;
+                                    }
+
+                                    input[type="radio"]:checked ~ .checkmark:after {
+                                        display: block;
+                                    }
+
+                                    .checkmark:after {
+                                        top: 3px;
+                                        left: 3px;
+                                        width: 8px;
+                                        height: 8px;
+                                        border-radius: 4px;
+                                        background-color: #000;
+                                    }
+                                }
+                                .registration-submit-text{
+                                    font-size: 11px;
+                                    line-height: 17px;
+                                    margin-bottom: 23px;
+                                    p{
+                                        margin: 0;
+                                        color: #B3B3B3;
+                                    }
+                                }
+                                .registration-ebay-text {
+                                    font-size: 11px;
+                                    line-height: 17px;
+                                    margin: 30px 0 35px;
+                                    p{
+                                        margin: 0;
+                                        color: #B3B3B3;
+                                    }
+                                    a {
+                                        color: #B3B3B3;
+                                        text-decoration: underline;
+                                    }
+                                }
+                                .g-recaptcha{
+                                    transform: scale(0.905);
+                                    div{
+                                        width: 100% !important;
+                                    }
+                                }
+                                .captcha-error{
+                                    color: #D0021B;
+                                    font-size: 14px;
+                                    text-align: center;
+                                }
+                                #register-button{
+                                    width: 218px;
+                                    margin: 0 auto;
+                                    display: block;
+                                    height: 40px;
+                                    border-radius: 20px;
+                                    border: none;
+                                    background: #FDBE51;
+                                    font-size: 15px;
+                                    line-height: 38px;
+                                    padding: 0 20px;
+                                    &:hover{
+                                        background: linear-gradient(to right, #FAD170 0%, #FDE988 32.6%, #F9C665 100%),#C4C4C4;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+a, a:hover {
+    text-decoration:none;
+}
+.register-burger,
+.password-burger {
+    display: none;
+}
+
+#registration-confirm,
+#password-reset-confirm {
+    display: none;
+    padding-bottom: 15px;
+    text-align: left;
+    .small-text {
+
+        color: #010101;
+        font-family: $font-family-base;
+        font-size: 13px;
+        line-height: 18px;
+        .email-placeholder {
+            color: $link-color;
+            font-family: $font-family-bold;
+        }
+    }
+}
+
+
+// Place holder design
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $font-color-light;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: $font-color-light;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: $font-color-light;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: $font-color-light;
+}
+
+/** for burger menu */
+.customer-registration .customer-info-wrapper {
+    padding: 0 0 25px;
+    margin: auto;
+    text-align: left;
+    .customer-info {
+        p {
+            color: #000;
+            font-size: 11px;
+            margin: 20px auto;
+        }
+        .registration-ebay-text a {
+            color: #000;
+            text-decoration: underline;
+        }
+        label {
+            color: #B3B3B3;
+            position: relative;
+            margin-right: 55px;
+            margin-bottom: 23px;
+            font-size: 13px;
+            line-height: 1;
+
+            input[type="radio"] {
+                margin-right: 5px;
+                opacity: 0;
+                width: 16px;
+                margin-top: -3px;
+                height: 16px;
+                &:checked ~ .checkmark {
+                    border: 1px solid transparent;
+                    background: $checkbox-gradient;
+                }
+            }
+            .checkmark {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 16px;
+                width: 16px !important;
+                cursor: pointer;
+                border: 1px solid #C4C4C4;
+                border-radius: 8px;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    display: none;
+                    top: 3px;
+                    left: 3px;
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 4px;
+                    background-color: #000;
+                }
+            }
+            input[type="radio"]:checked ~ .checkmark:after {
+                display: block;
+            }
+            &:hover {
+                .checkmark{
+                    border: 1px solid transparent;
+                    background: linear-gradient(#fff, #fff) padding-box,linear-gradient(to right, #A9D396 0%, #6BC2C4 100%) border-box;
+                }
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+// RWD
+
+@media (max-width: 1023px){
+    body.itoolcustomer.registration {
+        #content {
+            background-image: url("../img/weird-shape-bg-mobile.svg");
+            background-position: 25% 113px;
+            .content-container-row {
+                #main-registration-page {
+                    .customer-registration-form {
+                        .look-at-this {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body.itoolcustomer.registration {
+        #content {
+            background: #193D3B;
+            .content-container-row {
+                #main-registration-page {
+                    min-width: 0;
+                    .customer-registration-form {
+                        padding: 14px 40px 66px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    body.itoolcustomer.registration {
+        #content {
+            .content-container-row {
+                #main-registration-page {
+                    .customer-registration-form {
+                        padding: 14px 20px 66px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .customer-registration .customer-info-wrapper .customer-info label {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px){
+    body.itoolcustomer.registration #content .content-container-row #main-registration-page
+    .customer-registration-form .customer-registration .back-button {
+        left: 0;
+    }
+}
+

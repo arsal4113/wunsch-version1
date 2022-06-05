@@ -1,0 +1,184 @@
+body.feeder.worlds.homepage {
+    #header{
+        background: #fff;
+    }
+    @media (max-width: 767px) {
+        #content {
+            padding-top: 42px;
+        }
+    }
+}
+
+.column-wrap {
+    width: 50%;
+    padding: 0 7px;
+}
+
+.worlds-column-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#worlds-homepage-contents {
+    background-color: white;
+    margin-top: 60px;
+}
+
+.orange-worlds-header {
+    h1 {
+        color: #000;
+        font-weight: 400;
+        margin-top: 56px;
+        text-align: center;
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+.worlds-category-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.worlds-category-image {
+    > img {
+        width: 100%;
+    }
+}
+
+.worlds-category-text {
+    position: absolute;
+    color: #FFFFFF;
+    font-family: $font-family-bold;
+    & > p {
+        background-color: rgba(0, 0, 0, .25);
+        box-decoration-break: clone;
+-webkit-box-decoration-break: clone;
+        display: inline;//inline-block;
+        hyphens: auto;
+        line-height: normal;
+        padding: 0 .25em;
+        word-wrap: anywhere;
+    }
+}
+
+.discover-button {
+    position: absolute;
+    background-color: #F9B500;
+}
+
+//  RWD Home Page Contents
+@media screen and (min-width: 0px) { // ???
+    .worlds-category-text {
+        font-size: 6vw;
+        line-height: 6.5vw;
+        bottom: 21px;
+        left: 6.5%;
+        right: 6.5%;
+    }
+    .discover-button {
+        width: 60px;
+        height: 17px;
+        border-radius: 2.16px;
+        font-size: 9px;
+        bottom: 10px;
+        left: 6.5%;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        span {
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .worlds-category-text {
+        bottom: 38px;
+    }
+    .discover-button {
+        bottom: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .worlds-category-text {
+        font-size: 29px;
+        line-height: 31px;
+        bottom: 36px;
+        left: 7.5%;
+        right: 7.5%;
+    }
+    .discover-button {
+        width: 74px;
+        height: 22px;
+        border-radius: 2.7px;
+        font-size: 11px;
+        bottom: 16px;
+        left: 7.5%;
+        > a {
+            width: 74px;
+            height: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .worlds-category-box {
+        margin-bottom: 4.5%;
+    }
+    .worlds-category-text {
+        font-size: 38px;
+        line-height: 41px;
+        bottom: 61px;
+    }
+    .discover-button {
+        bottom: 22px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .worlds-category-box {
+        margin-bottom: 7.5%;
+    }
+    .worlds-category-text {
+        font-size: 54px;
+        line-height: 56px;
+        bottom: 85px;
+        left: 37px;//calc(34px - .25em);
+        right: 37px;//calc(34px - .25em);
+    }
+    .discover-button {
+        width: 137px;
+        height: 39px;
+        border-radius: 5px;
+        font-family: $font-family-base;
+        font-size: 20px;
+        bottom: 30px;
+        left: 37px;
+        line-height: 1;
+        padding: 10px;
+        > a {
+            width: 137px;
+            height: 39px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #worlds-homepage-contents .container {
+        max-width: none;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #banners-carousel {
+        .slick-list .banner-slide a span {
+            height: 250px;
+        }
+    }
+}
+@media (min-width: 0px) and (max-width: 1399px) {
+    #worlds-homepage-contents .col-6 {
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+}

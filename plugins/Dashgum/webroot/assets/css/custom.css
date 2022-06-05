@@ -1,0 +1,160 @@
+/* General element */
+hr {
+	border-color: #bdc3c7;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #DADFE1;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: #DADFE1;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #DADFE1;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #DADFE1;  
+}
+
+/* Typography */
+.product-headline {
+	margin: 30px 0px 30px 0px;
+}
+
+/* Logo */
+.logo {
+	margin: 100px auto 10px;
+	max-width: 330px;
+	text-align: center;
+}
+
+.logo img {
+	width: 110px;
+}
+
+/* Login */
+.login-image {
+	width: 200px !important;
+}
+
+#login-page .message {
+	margin: 20px auto 0;
+	max-width: 430px;
+	padding-left: 10px;
+	font-weight: bolder;
+}
+
+/* Container */
+#unseen {
+	border-top: solid 1px #bdc3c7;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+/* Flash message */
+.message {
+	margin-top: 20px;	
+}
+
+.error {
+	color: #96281B !important;
+}
+
+.success {
+	color: #049372 !important;
+}
+
+/* Search box */
+.search-box {
+	margin-bottom: 20px;
+	float: right;
+}
+
+/* Form */
+.form-control {
+	margin-bottom: 10px;
+}
+
+.custom-checkbox {
+    margin-left: -1px !important;
+    margin-top: 1px !important;
+}
+
+.form-actions {
+	margin-top: 10px;
+	float: right;
+}
+
+.aro-form {
+	margin-bottom: 20px;
+	float: right;
+}
+
+.acl-plugin-input  {
+	margin-left: -5px;
+}
+
+/* Table */
+.td-divider {
+	background: #6C7A89 !important; 
+	color: #FFFFFF !important;
+}
+
+/* Buttons */
+.btn-actions {
+	margin-top: 20px;
+}
+
+#addMoreImage {
+	margin-bottom: 10px;
+}
+
+.btn-block {
+	margin-bottom: 5px;
+}
+
+/* Pagination */
+.pagination {
+	border-radius: 4px;
+	display: inline-block;
+	float: right;
+	margin: 20px 0;
+	padding-left: 0;
+}
+
+.pagination > li > a, .pagination > li > a:hover {
+	color: #9b9b9b;
+}
+
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+	background-color: #9b9b9b;
+	border-color: #9b9b9b;
+}
+
+/* Tab */
+.tab-content {
+	margin-top: 30px;
+}
+
+/* Dropdown */
+.dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+/* Copyright */
+.copyright {
+	border-radius: 5px;
+	margin: 10px auto;
+	max-width: 330px;
+	color: #9b9b9b;
+	text-align: center;
+}

@@ -1,0 +1,30 @@
+.slider-controls {
+    &.dark {
+        .control {
+            &.prev {
+                background-image: url("../../../assets/slider-prev-white.svg");
+            }
+            &.next {
+                background-image: url("../../../assets/slider-next-white.svg");
+            }
+        }
+    }
+    .control {
+        background: center no-repeat;
+        background-size: contain;
+        width: 12px;
+        height: 16px;
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        &.next {
+            background: url("../../../assets/larg-slider-next.svg") center no-repeat;
+        }
+        &.prev {
+            background: url("../../../assets/larg-slider-prev.svg") center no-repeat;
+        }
+        &.disabled {
+            opacity: 1;
+        }
+    }
+}

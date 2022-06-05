@@ -1,0 +1,5 @@
+/composer.lock
+/phpunit.xml
+/vendor
+package-lock.json
+local.config.json

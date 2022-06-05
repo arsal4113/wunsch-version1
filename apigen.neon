@@ -1,0 +1,5 @@
+source:
+    - src
+    - plugins
+
+destination: build/api/

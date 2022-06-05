@@ -1,0 +1,301 @@
+.itoolcustomer.account.orderview {
+    #header .container .magic span#user-account {
+        background-image: url('../../img/account-orange.svg');
+    }
+    #header #orange-message-container {
+        display: block !important;
+    }
+    #content .content-container-row .container .content-area {
+        .content-wrapper {
+            @media only screen and (max-width: 1023px) {
+                margin-top: 20px;
+            }
+            @media only screen and (max-width: 767px) {
+                margin-top: -7px;
+            }
+        }
+    }
+    address {
+        font-size: $font-size + 1;
+        line-height: 19px;
+    }
+    h3 {
+        font-size: $font-size + 1;
+    }
+    .order-wrapper {
+        color: $font-color;
+        font-family: $font-family-base;
+        margin: 0;
+        padding: 0 5px;
+        background-color: #ffffff;
+        border-radius: 13px;
+        @media only screen and (min-width: 1024px) {
+            padding: 0 20px;
+        }
+        @media only screen and (max-width: 480px) {
+            padding: 0;
+        }
+        .order-info {
+            margin: auto;
+            padding: 11px 5px 8px;
+            font-size: $font-size + 1;
+            @media only screen and (max-width: 1399px) {
+                padding: 11px 0 8px;
+            }
+            .back-button {
+                margin-bottom: 30px;
+                @media only screen and (max-width: 1023px) {
+                    position: absolute;
+                    top: -55px;
+                }
+                @media only screen and (max-width: 480px) {
+                    top: -55px;
+                }
+                a {
+                    font-family: $font-family-base;
+                    font-size: $font-size + 5;
+                    cursor: pointer;
+                    @media only screen and (max-width: 767px) {
+                        font-size: $font-size + 2;
+                    }
+                    &:before {
+                        content: ' ';
+                        display: inline-block;
+                        width: 10px;
+                        height: 13px;
+                        margin-right: 13px;
+                        margin-top: 0;
+                        background: url('../img/back-vector.svg') no-repeat center;
+                    }
+                }
+            }
+            .order-details-header {
+                display: flex;
+                @media only screen and (max-width: 1023px) {
+                    font-size: $font-size + 1;
+                    line-height: 26px;
+                }
+                @media only screen and (max-width: 767px) {
+                    border-bottom: 1px solid #C4C4C4;
+                }
+                .order-details {
+                    display: flex;
+                }
+                .order-total-wrapper {
+                    padding-left: 42px;
+                    @media only screen and (min-width: 1400px) {
+                        padding-left: 44px;
+                    }
+                    @media only screen and (max-width: 767px) {
+                        padding-left: 0;
+                        padding-right: 0;
+                        text-align: right;
+                    }
+                }
+            }
+            .tax-info {
+                font-size: $font-size + 1;
+            }
+            .order-date {
+                margin-right: 72px;
+                @media only screen and (min-width: 1400px) {
+                    margin-right: 100px;
+                }
+            }
+            .order-number {
+                @media only screen and (max-width: 767px) {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .item-box {
+            margin: 0;
+            font-size: $font-size + 1;
+            @media only screen and (min-width: 1400px) {
+                padding: 0 5px;
+            }
+            @media only screen and (max-width: 1023px) {
+                font-size: $font-size - 1;
+                line-height: 17px;
+                .item-price span {
+                    font-size: $font-size + 1;
+                    line-height: 17px;
+                }
+            }
+        }
+        .send-info {
+            margin: 0;
+            font-size: $font-size + 1;
+            @media only screen and (min-width: 1400px) {
+                padding: 0 5px;
+            }
+            @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                font-size: $font-size - 1;
+                line-height: 17px;
+                .item-price span {
+                    font-size: $font-size;
+                    line-height: 18px;
+                }
+                .info-middle {
+                    margin-left: 48px !important;
+                }
+            }
+        }
+        .last-row {
+            padding: 20px 0 15px;
+            margin: 0 0 13px;
+            border-bottom: 1px solid #C4C4C4;
+            font-size: $font-size - 1;
+            line-height: 17px;
+            .order-price-overview {
+                padding-right: 0;
+                h3 {
+                    margin-bottom: 15px;
+                }
+                .invoice-total {
+                    margin-top: 15px;
+                }
+                .tax-info {
+                    margin-bottom: 5px;
+                }
+                .total-price {
+                    font-size: $font-size - 1;
+                    text-align: right;
+
+                }
+                @media only screen and (max-width: 767px) {
+                    border-top: 1px solid #C4C4C4;
+                    padding-top: 25px;
+                }
+            }
+        }
+        .item-row {
+            padding: 12px 0 0;
+            margin: 0;
+            @media only screen and (max-width: 767px) {
+                margin-bottom: 8px;
+            }
+            .item-image {
+                padding: 0;
+                .img-wrapper {
+                    padding-top: 5px;
+                    text-align: center;
+                    @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                        width: 50%;
+                    }
+                    img {
+                        min-width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+            .item-info {
+                .item-title {
+                    max-width: 210px;
+                    @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                        margin-left: 22px;
+                    }
+
+                }
+                .item-seller {
+                    .seller-name {
+                        color: $font-color-light;
+                    }
+                }
+            }
+            .info-middle {
+                @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                    margin-left: 130px;
+                }
+                @media only screen and (max-width: 767px) {
+                    margin-top: 20px;
+                }
+            }
+            .item-price {
+                @media only screen and (max-width: 767px) {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    padding: 0 0 0 15px;
+
+                }
+            }
+            .bought {
+                .col-12 {
+                    padding-right: 0;
+                }
+            }
+        }
+        .info-wrapper {
+            @media only screen and (min-width: 768px) {
+                margin-left: 12px;
+                padding: 0;
+                max-width: 200px;
+            }
+
+        }
+        .justify-content-end {
+            margin-right: 0;
+            margin-left: auto;
+        }
+        .separator {
+            flex: 0 0 90%;
+            max-width: 89.2%;
+            padding: 30px 0 0;
+            margin-bottom: 11px;
+            border-bottom: 1px solid #C4C4C4;
+            @media only screen and (min-width: 1400px) {
+                margin-right: 6px;
+            }
+            @media only screen and (max-width: 1023px) {
+                max-width: 89.8%;
+            }
+        }
+    }
+    .ebay-money-back-guarantee {
+        .ebay-money-back-image {
+            display: inline-block;
+            background: url("../../img/sprEBPnew.png") no-repeat 0 -56px;
+            width: 100%;
+            height: 24px;
+            margin-top: -3px;
+            margin-bottom: 5px;
+        }
+        a {
+            color:  #8E8E8E;
+            text-decoration: underline;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .itoolcustomer.account.orderview .order-wrapper {
+        .item-box .item-row .info-middle,
+        .send-info > .col-12,
+        .last-row > .col-12 {
+            padding-left: 0;
+        }
+        .separator {
+            max-width: 100%;
+            flex: 0 0 100%;
+            padding: 18px 0 0;
+        }
+        .send-info .info-middle .info-wrapper {
+            width: calc(100% + 15px);
+            border-bottom: 1px solid #C4C4C4;
+        }
+        .shipping-address {
+            margin-bottom: 15px;
+        }
+        .item-row .bought {
+            margin-top: 22px;
+        }
+        .buyer-protection {
+            padding-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.rating{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #000;
+    .star-wrapper{
+        width: 89px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10px;
+        .star{
+            width: 13px;
+            height: 13px;
+            &.full{
+                background: url("../../assets/star-full.svg") center/13px no-repeat;
+            }
+            &.half{
+                background: url("../../assets/star-half.svg") center/13px no-repeat;
+            }
+            &.empty{
+                background: url("../../assets/star-empty.svg") center/13px no-repeat;
+            }
+        }
+    }
+    .avg{
+        margin-right: 10px;
+    }
+}

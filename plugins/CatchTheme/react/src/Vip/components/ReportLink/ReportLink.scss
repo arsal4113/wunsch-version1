@@ -1,0 +1,30 @@
+.report-link-button-wrapper {
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 767px) {
+        justify-content: flex-start;
+        margin-left: 15px;
+    }
+    .link-wrapper {
+        width: 170px;
+        height: 40px;
+        border: 1px solid #3E304B;
+        border-radius: 20px;
+        @media only screen and (max-width: 767px) {
+            margin-bottom: 17px;
+        }
+        @media only screen and (min-width: 768px) {
+            margin-bottom: 20px;
+        }
+        @media only screen and (min-width: 1024px) {
+            margin-bottom: 28px;
+        }
+        .report-item-link {
+            font-family: Visuelt-Bold, sans-serif;
+            color: #000000;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 2.5;
+        }
+    }
+}

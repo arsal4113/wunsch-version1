@@ -1,0 +1,25 @@
+.checkout-back-button {
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.4;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+.checkout-back-button .back-arrow-image {
+    background: url('../../ebay_checkout/img/back-arrow.png') no-repeat center center;
+    height:15px;
+    width: 20px;
+    float:left;
+    margin-right: 5px;
+}
+
+.checkout-back-button a {
+    border: none;
+    background: none;
+    text-decoration: underline !important;
+}
+
+.checkout-back-button a:hover {
+    cursor: pointer;
+}

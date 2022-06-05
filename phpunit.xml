@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    colors="true"
+    processIsolation="false"
+    stopOnFailure="false"
+    bootstrap="tests/bootstrap.php"
+    backupGlobals="false"
+    backupStaticAttributes="false"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    syntaxCheck="false"
+>
+    <php>
+        <ini name="memory_limit" value="-1"/>
+        <ini name="apc.enable_cli" value="1"/>
+    </php>
+
+    <!-- Add any additional test suites you want to run here -->
+    <testsuites>
+        <!--<testsuite name="ebay_auth">
+            <directory>plugins/EbayAuth/tests/TestCase/</directory>
+        </testsuite>
+        <testsuite name="auction_seller">
+            <directory>plugins/AuctionSeller/tests/TestCase/</directory>
+        </testsuite>
+        <testsuite name="auction_buyer">
+            <directory>plugins/AuctionBuyer/tests/TestCase/</directory>
+        </testsuite>
+        <testsuite name="auction_banner">
+            <directory>plugins/AuctionBanner/tests/TestCase/</directory>
+        </testsuite>
+        <testsuite name="auction_event">
+            <directory>plugins/AuctionEvent/tests/TestCase/</directory>
+        </testsuite>-->
+        <testsuite name="dashboard">
+            <directory>plugins/Dashboard/tests/TestCase/Controller</directory>
+        </testsuite>
+
+        <!-- Add plugin test suites here. -->
+    </testsuites>
+
+    <!-- Setup a listener for fixtures -->
+    <listeners>
+        <listener
+            class="\Cake\TestSuite\Fixture\FixtureInjector">
+            <arguments>
+                <object class="\Cake\TestSuite\Fixture\FixtureManager" />
+            </arguments>
+        </listener>
+    </listeners>
+
+    <logging>
+        <log type="coverage-html"
+             target="webroot/coverage/html"
+             showUncoveredFiles="true"
+             lowUpperBound="60"
+             highLowerBound="95" />
+        <log type="coverage-clover"
+             target="webroot/coverage/clover.xml"
+             showUncoveredFiles="true" />
+        <log type="coverage-php"
+             target="webroot/coverage/coverage.serialized"
+             showUncoveredFiles="true" />
+        <log type="coverage-text"
+             target="php://stdout"
+             showUncoveredFiles="true" />
+        <log type="testdox-html" target="webroot/coverage/testdox.html" />
+        <log type="testdox-text" target="php://stdout" />
+    </logging>
+
+    <!-- Ignore vendor tests in code coverage reports -->
+    <filter>
+        <whitelist>
+            <directory suffix=".php">plugins/Dashboard/src/Controller/</directory>
+            <exclude>
+                <file>src/Console/Installer.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

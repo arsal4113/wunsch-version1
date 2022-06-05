@@ -1,0 +1,13 @@
+{
+    "change": "Ändern",
+    "currency": {
+        "EUR": "€",
+        "USD": "$"
+    },
+    "price": "{{price}} $t(common:currency.{{currency}})",
+    "free": "Kostenlos",
+    "here": "hier",
+    "Guest": "Gast",
+    "Login": "Anmelden",
+    "Hi": "Hallo"
+}

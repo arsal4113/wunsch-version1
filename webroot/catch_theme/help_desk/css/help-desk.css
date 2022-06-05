@@ -1,0 +1,215 @@
+/* line 3, src/help-desk.scss */
+div#orange-message-container {
+  display: none;
+}
+
+/* line 7, src/help-desk.scss */
+.help-page-banner {
+  width: 100%;
+  margin-top: -30px;
+}
+/* line 10, src/help-desk.scss */
+.help-page-banner .banner-img {
+  display: flex;
+  height: 350px;
+  background: url("../img/help-header.png") no-repeat center;
+  background-size: cover;
+}
+/* line 15, src/help-desk.scss */
+.help-page-banner .banner-img .header-text {
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: visuelt-bold;
+  font-size: 48px;
+  line-height: 58px;
+  width: 376px;
+  height: 60px;
+  margin: auto;
+}
+
+/* line 29, src/help-desk.scss */
+.help-page-content {
+  width: 100%;
+  padding-bottom: 150px;
+  background-color: #F7F5F6;
+}
+/* line 33, src/help-desk.scss */
+.help-page-content > .container {
+  padding-top: 48px;
+}
+/* line 35, src/help-desk.scss */
+.help-page-content > .container .faq-block {
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+/* line 39, src/help-desk.scss */
+.help-page-content > .container .faq-block section {
+  padding-top: 35px;
+  margin: auto 27px;
+  border-bottom: 2px solid #A9A9A9;
+}
+/* line 44, src/help-desk.scss */
+.help-page-content > .container .faq-block .help-category * {
+  color: #FBB603;
+  font-family: visuelt-bold;
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+/* line 51, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-title {
+  display: flex;
+  padding-top: 7px;
+  cursor: pointer;
+  border-top: 2px solid #A9A9A9;
+  font-family: visuelt-bold;
+  line-height: 22px;
+}
+/* line 58, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-title p {
+  width: calc(100% - 2px);
+}
+/* line 61, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-title span {
+  width: 16px;
+  height: 24px;
+  background: url("../img/down.svg") no-repeat center;
+}
+/* line 66, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-title.active span {
+  background: url("../img/up.svg") no-repeat center;
+}
+/* line 70, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-content {
+  display: none;
+  line-height: 24px;
+  width: calc(100% - 20px);
+}
+/* line 74, src/help-desk.scss */
+.help-page-content > .container .faq-block .item-content a {
+  color: #FBB603;
+}
+/* line 80, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper {
+  width: 300px;
+  height: 250px;
+  background-color: #ffffff;
+  margin-bottom: 11px;
+}
+/* line 86, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper .row-header {
+  padding-top: 20px;
+  width: 265px;
+}
+/* line 89, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper .row-header .ebay {
+  font-family: visuelt-bold;
+  line-height: 24px;
+  margin: 5px 0 15px;
+}
+/* line 93, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper .row-header .ebay img {
+  width: 50px;
+  height: 25px;
+}
+@-moz-document url-prefix() {
+  /* line 89, src/help-desk.scss */
+  .help-page-content > .container .info-content-wrapper .row-header .ebay {
+    display: -webkit-flex;
+    display: flex;
+    background-position-x: 78px;
+  }
+}
+@media not all and (min-resolution: 0.001dpcm) {
+  /* line 89, src/help-desk.scss */
+  .help-page-content > .container .info-content-wrapper .row-header .ebay {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    background-position-x: 78px;
+  }
+}
+/* line 110, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper .content-block {
+  width: 265px;
+}
+/* line 113, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper .redesign-button {
+  display: block;
+  width: 262px;
+  height: 30px;
+  line-height: 28px;
+}
+/* line 119, src/help-desk.scss */
+.help-page-content > .container .info-content-wrapper * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 126, src/help-desk.scss */
+#content .content-container-row {
+  display: none;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* line 133, src/help-desk.scss */
+  .help-page-banner .banner-img {
+    height: 250px;
+  }
+
+  /* line 137, src/help-desk.scss */
+  .help-page-content .extra-info-block {
+    max-width: 642px;
+    margin: auto;
+  }
+  /* line 141, src/help-desk.scss */
+  .help-page-content .info-content-wrapper {
+    height: auto;
+    width: 311px;
+  }
+  /* line 144, src/help-desk.scss */
+  .help-page-content .info-content-wrapper .content-block {
+    width: auto;
+    max-width: 440px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 155, src/help-desk.scss */
+  .help-page-banner .banner-img {
+    height: 190px;
+  }
+  /* line 157, src/help-desk.scss */
+  .help-page-banner .banner-img .header-text {
+    font-size: 28px;
+    line-height: 38px;
+    width: 226px;
+    height: 39px;
+  }
+
+  /* line 164, src/help-desk.scss */
+  .help-page-content {
+    padding-top: 18px;
+  }
+  /* line 167, src/help-desk.scss */
+  .help-page-content .row-content-wrapper .container {
+    padding: 0;
+  }
+  /* line 171, src/help-desk.scss */
+  .help-page-content .faq-block section {
+    margin: auto 15px;
+  }
+  /* line 175, src/help-desk.scss */
+  .help-page-content .extra-info-block .row {
+    max-width: 100%;
+    margin: auto;
+  }
+  /* line 180, src/help-desk.scss */
+  .help-page-content .info-content-wrapper {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=help-desk.css.map */

@@ -1,0 +1,32 @@
+.seller {
+    div {
+        margin-bottom: 10px;
+    }
+    .seller-name {
+        font-family: Visuelt-Bold, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        .feedback-score {
+            font-family: Visuelt-Regular, sans-serif;
+        }
+        .feedback-percentage {
+            font-family: Visuelt-Regular, sans-serif;
+            font-size: 13px;
+            line-height: 16px;
+            color: #569310;
+        }
+    }
+    .tab-link {
+        a {
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+    .item-condition {
+        font-size: 12px;
+        line-height: 25px;
+        span {
+            font-family: Visuelt-Regular, sans-serif;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "steps": {
+        "cart": "Warenkorb",
+        "delivery": "Versand",
+        "payment": "Zahlungsart",
+        "complete": "Kaufabschluss",
+        "complete_mobile": "Kauf",
+        "done": "Fertig"
+    },
+    "thanks": "Danke!",
+    "confirmMessage": "Deine Bestellung wird bearbeitet. Wir haben dir soeben eine E-Mail an {{email}} geschickt.",
+    "newsletter": {
+        "headline": "Catch dir deine Welt!",
+        "description": "Herzlichen Glückwunsch zu deinem neuen Catch! Abonniere jetzt unseren Newsletter und verpasse keine neuen Welten und Produkte mehr.",
+        "shortDescription": "Herzlichen Glückwunsch zu diesem tollen Catch!",
+        "button": "Newsletter abonnieren",
+        "disclaimer": "Du kannst diese E-Mails jederzeit in deinem Konto oder über einen Link in den E-Mails abbestellen."
+    },
+    "order": {
+        "headline": "Deine Bestellung",
+        "continue": "Weiter stöbern"
+    },
+    "cancelledItems": {
+        "headline": "Achtung",
+        "info": "Leider konnte der folgende Artikel nicht bestellt werden. Dies kann verschiedene Ursachen haben. Bitte probiere es einfach noch einmal.",
+        "back": "Zurück zum Warenkorb"
+    },
+    "email": "E-Mail",
+    "germany": "Deutschland"
+}

@@ -1,0 +1,160 @@
+@media (max-width: 1400px) {
+    body #content .content-container-row .content-area {
+        .cart-wrapper{
+            padding: 0 20px;
+        }
+        .bottom-wrapper .column .buyer-protection-wrapper{
+            padding: 0 30px;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+    body #content .container{
+        max-width: 994px;
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        #content,
+        &.orange-message-shown #content {
+            padding-bottom: 64px;
+        }
+        #content .content-container-row {
+            .content-area {
+                .widget-wrapper {
+                    &.totals-widget {
+                        transition: none;
+                        width: 100%;
+                        .checkout-button{
+                            width: 267px;
+                        }
+                    }
+                }
+                .bottom-wrapper{
+                    padding: 40px 33px 40px;
+                    .column{
+                        .buyer-protection-wrapper{
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        #content,
+        &.orange-message-shown #content {
+            padding-top: 129px;
+        }
+        #content .content-container-row .content-area .bottom-wrapper .column .payment-widget img.payment-methods{
+            max-width: 240px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        #content,
+        &.orange-message-shown #content {
+            padding: 76px 0 64px;
+            .row.deleted-item .text {
+                display: inline-block;
+                width: calc(100% - 75px);
+            }
+        }
+        #content .content-container-row .content-area{
+            .shopping-cart-heading{
+                margin-bottom: 10px;
+            }
+            .cart-wrapper{
+                padding: 0;
+            }
+            .widget-wrapper.totals-widget{
+                > div, .checkout-button{
+                    width: 100%;
+                }
+            }
+            .bottom-wrapper{
+                padding: 23px 14px 50px 18px;
+                .column {
+                    text-align: left;
+                    padding: 0;
+                    height: unset;
+                    &:nth-child(-n+2) {
+                        border-bottom: 1px solid #000;
+                        border-right: none;
+                    }
+                    .payment-widget {
+                        padding-bottom: 24px;
+                        img.payment-methods{
+                            max-width: 270px;
+                            width: 100%;
+
+                        }
+                    }
+                    .guarantee-wrapper{
+                        padding: 22px 0;
+                    }
+                    .buyer-protection-wrapper{
+                        padding-top: 27px;
+                        .image-wrapper{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        #content .content-container-row { // problems with footer? see https://github.com/i-ways/wunsch/commit/3f78441
+            //padding-bottom: 271px;
+            .content-area {
+                .widget-wrapper {
+                    &.item-widget .widget-body .row {
+                        .col-2 {
+                            flex: 0 0 33%;
+                            max-width: 33%;
+                            padding-right: 0;
+                        }
+                        .col-9 {
+                            flex: 0 0 56%;
+                            max-width: 56%;
+                            .title {
+                                .text {
+                                    display: block;
+                                    float: right;
+                                    width: 100%;
+                                }
+                                .right {
+                                    float: left;
+                                    &.base-price {
+                                        margin-left: 10px;
+                                        margin-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                        .col-1 {
+                            flex: 0 0 0;
+                            max-width: 0;
+                        }
+                    }
+                    &.payment-widget {
+                        img.payment-methods {
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

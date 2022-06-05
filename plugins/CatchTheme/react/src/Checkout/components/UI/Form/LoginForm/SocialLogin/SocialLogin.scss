@@ -1,0 +1,62 @@
+.social-login-wrapper {
+    margin: 8px auto 38px;
+    .text {
+        color: #B3B3B3;
+        text-align: center;
+        font-size: 12px;
+    }
+    .social-accounts {
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        max-width: 100%;
+        .outline-wrapper {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(90deg, #eae466, #6fc3c1);
+            border-radius: 26px;
+            &.ebay {
+                width: 68px;
+                border-radius: 30px;
+            }
+        }
+        a {
+            width: 40px;
+            height: 40px;
+            border-radius: inherit;
+            display: block;
+            text-indent: -100000px;
+            margin: -1px;
+            &.ebay {
+                width: 70px;
+                background: #F2F2F3 url("../../../../../assets/LoginForm/ebay.svg") no-repeat center;
+            }
+            &.facebook {
+                background: #F2F2F3 url("../../../../../assets/LoginForm/facebook.svg") no-repeat center;
+            }
+            &.google {
+                background: #F2F2F3 url("../../../../../assets/LoginForm/google.svg") no-repeat center;
+            }
+            &.instagram {
+                background: #F2F2F3 url("../../../../../assets/LoginForm/instagram.svg") no-repeat center;
+            }
+            &.twitter {
+                background: #F2F2F3 url("../../../../../assets/LoginForm/twitter.svg") no-repeat center;
+            }
+            &:hover {
+                width: calc(100% - 2px);
+                height: calc(100% - 2px);
+                margin: 1px;
+            }
+        }
+    }
+    .separator {
+        width: 100%;
+        height: 1px;
+        border-bottom:  1px solid #E7E7E7;
+        position: absolute;
+        left: 0;
+        margin: 15px 0;
+    }
+}

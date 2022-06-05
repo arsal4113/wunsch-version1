@@ -1,0 +1,34 @@
+.headline-wrapper {
+    margin-bottom: 11px;
+    .top-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .change-button{
+            display: none;
+            cursor: pointer;
+            font-size: 13px;
+            line-height: 19px;
+            text-decoration: underline;
+            &.show {
+                display: block;
+            }
+        }
+    }
+    p {
+        margin: 0 0 8px;
+        font-size: 20px;
+        line-height: 29px;
+        &.subtext{
+            font-size: 11px;
+            line-height: 15px;
+            margin: 0;
+        }
+    }
+    .change-button{
+        display: none;
+        &.show{
+            display: block;
+        }
+    }
+}

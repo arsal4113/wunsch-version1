@@ -1,0 +1,29 @@
+.accordion-button-wrapper {
+    border-bottom: 1px solid;
+    padding: 15px 35px;
+    @media only screen and (min-width: 768px) {
+        padding: 20px 35px;
+    }
+    &:last-of-type {
+        border-bottom: none;
+    }
+}
+.accordion-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    font-family: Visuelt-Bold, sans-serif;
+    font-size: 13px;
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+}
+.tab-content {
+    text-align: left;
+    @media only screen and (max-width: 767px) {
+        margin-top: 44px;
+    }
+}

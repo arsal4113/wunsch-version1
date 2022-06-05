@@ -1,0 +1,33 @@
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 17px;
+    @media (max-width: 767px) {
+        font-size: 11px;
+    }
+    &:not(.final){
+        span{
+            letter-spacing: 0.0028px;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    &.final{
+        .total-value{
+            font-family: visuelt-bold;
+        }
+    }
+    &.total-total{
+        span{
+            font-family: visuelt-bold;
+        }
+    }
+    &.total-total:not(.final) {
+        margin-top: 10px;
+        span{
+            font-size: 20px;
+            line-height: 29px;
+        }
+    }
+}

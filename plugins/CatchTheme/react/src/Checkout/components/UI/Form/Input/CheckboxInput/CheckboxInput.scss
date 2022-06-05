@@ -1,0 +1,62 @@
+.input.checkbox {
+    margin: 0 0 20px;
+    @media(max-width: 767px){
+        margin: 27px 0;
+    }
+    input{
+        width: initial;
+    }
+    input[type=radio] {
+        display: none;
+    }
+    label {
+        padding-left: 25px;
+        font-size: 11px;
+        line-height: 15px;
+        cursor: pointer;
+        display: block;
+        user-select: none;
+    }
+    &.shipping-method-check{
+        label {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &:before{
+                margin-left: -25px;
+                content: "";
+                width: 15px;
+                height: 36px;
+                position: absolute;
+                background: url('../../../../../assets/checkbox-round-unchecked.svg') left center no-repeat;
+            }
+            &.checked:before{
+                background: url('../../../../../assets/checkbox-round-checked.svg') left center no-repeat;
+            }
+            .shipping-method-label{
+                font-size: 13px;
+                line-height: 19px;
+                color: #000;
+                @media(max-width: 767px){
+                    font-size: 11px;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+    &.save-address, &.subscribe-newsletter{
+        label {
+            &:before{
+                margin-left: -25px;
+                content: "";
+                width: 14px;
+                height: 14px;
+                position: absolute;
+                background: url('../../../../../assets/checkbox-unchecked.svg') left center no-repeat;
+            }
+            &.checked:before{
+                background: url('../../../../../assets/checkbox-checked.svg') left center no-repeat;
+            }
+        }
+    }
+}

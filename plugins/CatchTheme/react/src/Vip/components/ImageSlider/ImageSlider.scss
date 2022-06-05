@@ -1,0 +1,32 @@
+.large-image-slider {
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 8px);
+    .slider-controls {
+        .controller {
+            display: block;
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+            position: absolute;
+            top: calc(50% - 8px);
+            z-index: 11;
+            @media only screen and (min-width: 768px) {
+                margin: 0 10px;
+            }
+            @media only screen and (min-width: 1024px) {
+                margin: 0 32px;
+            }
+            &.prev {
+                background: url("../../assets/larg-slider-prev.svg") no-repeat center;
+            }
+            &.next {
+                background: url("../../assets/larg-slider-next.svg") no-repeat center;
+                right: 0;
+            }
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

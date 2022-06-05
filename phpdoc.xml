@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpdoc>
+<parser>
+    <target>build/api/</target>
+</parser>
+<files>
+    <directory>./src</directory>
+    <directory>./plugins</directory>
+</files>
+    <transformations>
+        <template name="clean" />
+    </transformations>
+</phpdoc>

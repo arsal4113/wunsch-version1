@@ -1,0 +1,56 @@
+#item-info-box {
+    border-radius: 13px;
+    color: #000000;
+    width: 100%;
+    padding: 25px 15px 20px;
+    position: relative;
+    @media only screen and (min-width: 768px) {
+        width: 340px;
+        background-color: #ffffff;
+        padding: 20px 30px;
+        height: 100%;
+    }
+    .text-wrapper {
+        text-align: left;
+        font-family: Visuelt-Bold, sans-serif;
+        @media only screen and (min-width: 768px) {
+            padding: 0 15px;
+        }
+    }
+    .selector-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        padding-right: 10px;
+        label {
+            padding: 0 15px;
+            font-size: 13px;
+            margin: 0;
+            text-align: left;
+        }
+    }
+    .ebay-money-back {
+        width: 100%;
+        height: 21px;
+        background: url("../../assets/ebay-money-back.svg") no-repeat center;
+    }
+}
+
+@media (max-width: 767px) {
+    #item-info-box{
+        padding: 25px 0 20px;
+        .selector-wrapper {
+            padding-right: 0;
+            label {
+                padding: 0 15px 0 0;
+                @media (max-width: 350px) {
+                    font-size: 12px;
+                }
+            }
+        }
+        .buy-button-wrapper, .ebay-money-back {
+            display: none;
+        }
+    }
+}

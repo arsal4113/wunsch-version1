@@ -1,0 +1,195 @@
+#account-nav-container {
+    padding: 28px 10px 0 15px;
+    width: 210px;
+    z-index: 1;
+    @media only screen and (max-width: 1023px) {
+        display: none;
+    }
+    @media only screen and (min-width: 1400px) {
+        width: 270px;
+        padding: 28px 10px 0 15px;
+    }
+
+    .account-navigation {
+        @media only screen and (max-width: 1023px) {
+            &:not(.user-logged-in) {
+                display: none;
+            }
+        }
+
+        ul#account-navbar {
+            margin: 0px;
+            padding: 0;
+            list-style: none;
+
+            li {
+                border-bottom: 1px solid $box-border-color;
+                line-height: 34px;
+                box-sizing: border-box;
+                padding-bottom: 2px;
+                @media only screen and (min-width: 1400px) {
+                    line-height: 48px;
+                    width: 100%;
+                }
+
+                &:last-child {
+                    border-bottom: 0px solid $box-border-color;
+                }
+
+                &.active {
+                    background-color: $navigation-hover-background;
+                    width: 100%;
+                    border-radius: 3px 0 0 3px;
+                    border-bottom: 0px;
+                    a {
+                        color: $navigation-hover-text;
+
+                        &.user-account-edit::before {
+                            background-image: url('../img/settings-icon.svg');
+                        }
+
+                        &.user-account-orders::before {
+                            background-image: url('../img/orders-icon.svg');
+                        }
+
+                        &.user-account-interests::before {
+                            background-image: url('../img/my-world-icon.svg');
+                        }
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        width: 20px;
+                        height: 38px;
+                        right: -5px;
+                        background-image: url("../img/rectangle.svg");
+                        background-position: right;
+                        background-size: cover;
+                        @media only screen and (min-width: 1400px) {
+                            width: 25px;
+                            height: 52px;
+                            right: -10px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    background-color: $navigation-hover-background;
+                    cursor: pointer;
+                    border-bottom: 0px;
+                    border-radius: 3px 0 0 3px;
+                    a {
+                        color: $navigation-hover-text;
+
+                        &.user-account-edit::before {
+                            background-image: url('../img/settings-icon.svg');
+                        }
+
+                        &.user-account-orders::before {
+                            background-image: url('../img/orders-icon.svg');
+                        }
+
+                        &.user-account-interests::before {
+                            background-image: url('../img/my-world-icon.svg');
+                        }
+                    }
+                }
+                &:hover::after {
+                    content: '';
+                    position: absolute;
+                    width: 20px;
+                    height: 38px;
+                    right: -5px;
+                    background-image: url("../img/rectangle.svg");
+                    background-position: right;
+                    background-size: cover;
+                    @media only screen and (min-width: 1400px) {
+                        width: 25px;
+                        height: 52px;
+                        right: -10px;
+                    }
+                }
+
+                a {
+                    font-family: $font-family-base;
+                    font-size: $font-size + 1;
+                    color: #000000;
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 0 17px;
+                    width: 95%;
+                    @media only screen and (min-width: 1400px) {
+                        font-size: $font-size + 3;
+                    }
+
+                    &::before {
+                        content: ' ';
+                        width: 16px;
+                        height: 16px;
+                        display: inline-block;
+                        vertical-align: middle;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-right: 15px;
+                        margin-top: -4px;
+                        @media only screen and (min-width: 1400px) {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+
+                    &.user-account-edit::before {
+                        background-image: url('../img/settings-icon-black.svg');
+                    }
+
+                    &.user-account-orders::before {
+                        background-image: url('../img/orders-icon-black.svg');
+                    }
+
+                    &.user-account-interests::before {
+                        background-image: url('../img/my-world-icon-black.svg');
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: $bp-md) and (max-width: $bp-lg - 1) {
+    .account-navigation:not(.user-logged-in) {
+        ul#account-navbar {
+            display:flex;
+            flex-direction: row;
+                li {
+                flex: 0 0 25%;
+                max-width: 25%;
+                padding: 0;
+                float: none;
+                text-align: center;
+                border-left:none;
+                border-right: none;
+                &:first-child {
+                    border-left: 1px solid $box-border-color;
+                }
+                &:last-child {
+                    border-right: 1px solid $box-border-color;
+                }
+                &.active {
+                    padding-left: 0px;
+                    &:first-child {
+                        border-left: 1px solid $box-border-color;
+                    }
+                    &:last-child {
+                        border-right: 1px solid $box-border-color;
+                    }
+                }
+                a {
+                    padding: 20px 5px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

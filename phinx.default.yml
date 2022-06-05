@@ -1,0 +1,30 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/Migrations
+        
+environments:
+    default_migration_table: phinxlog
+    default_database: development
+    production:
+        adapter: mysql
+        host: 127.0.0.1
+        name: itool_3
+        user: itool
+        pass: ''
+        port: 8889
+                
+    development:
+        adapter: mysql
+        host: 127.0.0.1
+        name: itool_3
+        user: itool
+        pass: ''
+        port: 8889
+                    
+    testing:
+        adapter: mysql
+        host: localhost
+        name: testing_db
+        user: root
+        pass: ''
+        port: 8889
+                 

@@ -1,0 +1,35 @@
+.user-section-login {
+    > p {
+        font-size: 12px;
+        text-align: center;
+        color: #898989;
+    }
+     a {
+         cursor: pointer;
+     }
+    &.error {
+        div.input .outline-wrapper input {
+            border: 1px solid #F22823;
+        }
+        p.error-message {
+            font-size: 10px;
+            line-height: 13px;
+            margin: 0 0 0 22px;
+            padding-bottom: 5px;
+        }
+    }
+    .headline-wrapper {
+        p {
+            margin-left: 3px;
+        }
+    }
+    .registration-link {
+        font-weight: bold;
+        a {
+            color: #FDBE51 !important;
+        }
+    }
+    .button button {
+        margin-top: 6px;
+    }
+}

@@ -1,0 +1,17 @@
+#buy-on-ebay {
+    border-radius: 24px;
+    background: #FAB36D;
+    color: #fff;
+    font-size: 13px;
+    line-height: 40px;
+    width: 100%;
+    position: relative;
+    transition: background 200ms ease-in-out;
+    &:disabled {
+        opacity: 0.4;
+        cursor: default;
+    }
+    &:hover:not(:disabled) {
+        background: #FFCD86;
+    }
+}

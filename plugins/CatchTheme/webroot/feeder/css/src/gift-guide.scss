@@ -1,0 +1,568 @@
+@charset "UTF-8";
+@import "../../../css/src/variables";
+
+body.gift-guide {
+    background-color: #04352B;
+    color: #ffffff;
+    #header .orange-message {
+        display: none;
+    }
+    #content {
+        padding-top: 110px;
+        border-bottom: 0 solid;
+        min-height: calc(100vh - 194px);
+        @media only screen and (min-width: 768px) {
+            padding-top: 60px;
+        }
+        #mega-navi {
+            z-index: 5;
+            @media only screen and (max-width: 1024px) {
+                display: none;
+            }
+        }
+        .content-container-row {
+            width: 100%;
+            .content-area {
+                background-color: transparent;
+                @media only screen and (min-width: 480px) and (max-width: 767px) {
+                    margin: 0;
+                }
+                h1 {
+                    font-size: 20px;
+                    line-height: 28px;
+                    margin-bottom: 30px;
+                    font-family: $font-family-base;
+                    font-weight: normal;
+                    @media only screen and (min-width: 768px) {
+                        font-size: 23px;
+                        line-height: 32px;
+                        margin-bottom: 20px;
+                    }
+                    @media only screen and (min-width: 1024px) {
+                        font-size: 25px;
+                        line-height: 33px;
+                        margin-bottom: 20px;
+                    }
+                }
+                p {
+                    margin: 0;
+                    font-size: 13px;
+                    line-height: 20px;
+                    @media only screen and (min-width: 480px) {
+                        font-size: 12px;
+                    }
+                    @media only screen and (min-width: 1024px) {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+                .mobile-content {
+                    @media only screen and (min-width: 480px) {
+                        display: none;
+                    }
+                }
+                .content-wrapper {
+                    padding: 50px 0 35px;
+                    @media only screen and (min-width: 480px) {
+                        padding: 38px 0 30px;
+                    }
+                    @media only screen and (min-width: 768px) {
+                        padding: 70px 30px 60px;
+                    }
+                    @media only screen and (min-width: 1024px) and (max-width: 1399px){
+                        padding: 80px 35px 45px;
+                        //max-width: 994px;
+                        margin: auto;
+                    }
+                    @media only screen and (min-width: 1400px) {
+                        padding: 80px 35px 70px;
+                    }
+                    .cards-container {
+                        margin: 0 auto;
+                        @media only screen and (max-width: 479px) {
+                            max-width: 290px;
+                        }
+                        .text-card {
+                            @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                                padding: 0 50px;
+                            }
+                            .headline {
+                                @media only screen and (max-width: 479px) {
+                                    text-align: center;
+                                    width: 260px;
+                                    margin: auto;
+                                }
+                                @media only screen and (min-width: 480px) {
+                                    padding-top: 10px;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    width: 240px;
+                                    padding-top: 30px;
+                                }
+                                @media only screen and (min-width: 1024px) {
+                                    padding-top: 40px;
+                                }
+                                @media only screen and (min-width: 1400px) {
+                                    margin-left: 15px;
+                                }
+                                &::before {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 32px;
+                                    height: 32px;
+                                    top: -20px;
+                                    background-image: url("../img/gift-guide/splash.svg");
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    @media only screen and (max-width: 479px) {
+                                        margin-left: 220px;
+                                    }
+                                    @media only screen and (min-width: 480px) {
+                                        left: 130%;
+                                        top: -30px;
+                                    }
+                                    @media only screen and (min-width: 768px) {
+                                        top: -45px;
+                                        left: 135%;
+                                    }
+                                    @media only screen and (min-width: 1024px) {
+                                        top: -30px;
+                                        left: 820px;
+                                    }
+                                    @media only screen and (min-width: 1400px) {
+                                        left: 860px;
+                                    }
+                                }
+                            }
+                            .content {
+                                @media only screen and (max-width: 479px) {
+                                    text-align: center;
+                                    width: 206px;
+                                    margin: 0 auto 30px;
+                                }
+                                @media only screen and (min-width: 480px) {
+                                    margin-top: -190px;
+                                    width: 190px;
+                                }
+                                @media only screen and (min-width: 768px) {
+                                    margin-top: -270px;
+                                    width: 200px;
+                                }
+                                @media only screen and (min-width: 1024px) {
+                                    margin-top: -280px;
+                                    width: 250px;
+                                }
+                                @media only screen and (min-width: 1400px) {
+                                    margin-left: 15px;
+                                    margin-top: -280px;
+                                }
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    top: 100px;
+                                    left: -15px;
+                                    width: 70px;
+                                    height: 114px;
+                                    background-image: url("../img/gift-guide/baum.svg");
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    @media only screen and (max-width: 479px) {
+                                        transform: rotate(-6.73deg);
+                                    }
+                                    @media only screen and (min-width: 480px) {
+                                        top: -120px;
+                                        left: 180px;
+                                    }
+                                    @media only screen and (min-width: 768px) {
+                                        top: -205px;
+                                        left: 250px;
+                                    }
+                                    @media only screen and (min-width: 1024px) {
+                                        top: -135px;
+                                        left: 180px;
+                                    }
+                                    @media only screen and (min-width: 1400px) {
+                                        top: -140px;
+                                        left: 220px;
+                                    }
+                                }
+                            }
+                        }
+                        .card {
+                            margin-bottom: 30px;
+                            a {
+                                color: #000;
+                                .img-card {
+                                    background-color: #fff;
+                                    padding: 12px;
+                                    width: 264px;
+                                    transform: rotate(0.3deg);
+                                    margin: auto;
+                                    @media only screen and (min-width: 480px) and (max-width:767px) {
+                                        width: 100%;
+                                    }
+                                    @media only screen and (min-width: 768px) {
+                                        width: 294px;
+                                        padding: 12px;
+                                    }
+                                    @media only screen and (min-width: 1400px) {
+                                        width: 298px;
+                                        padding: 14px;
+                                    }
+                                    &.rotate-left {
+                                        transform: rotate(-2.38deg);
+                                    }
+
+                                    &.rotate-right {
+                                        transform: rotate(1.44deg);
+                                    }
+                                    .img-wrapper {
+                                        width: 100%;
+                                        @media only screen and (min-width: 480px) and (max-width:767px) {
+                                            width: auto;
+                                        }
+                                        img {
+                                            width: 100%;
+                                        }
+                                    }
+                                    .text-wrapper {
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        text-align: center;
+                                        margin: auto;
+                                        padding-top: 5px;
+                                        height: 50px;
+                                        font-size: 18px;
+                                        line-height: 25px;
+                                        @media only screen and (min-width: 480px) and (max-width: 767px) {
+                                            width: 100%;
+                                            font-size: 16px;
+                                        }
+                                    }
+                                    .particles{
+                                        width: 100%;
+                                        height: 100%;
+                                        position: absolute;
+                                        z-index: 200;
+                                        overflow: hidden;
+                                        left: 0;
+                                        top: 0;
+                                    }
+
+                                    .particle{
+                                        border-radius: 50%;
+                                        filter: blur(3px);
+                                        position: absolute;
+                                    }
+                                    @keyframes bg {
+                                        0%{ transform: scale(1.2);}
+                                        100%{ transform: scale(1.3);}
+                                    }
+                                    @keyframes move {
+                                        0%{
+                                            transform: translateY(0);
+                                            opacity: 0;
+                                        }
+                                        10% ,90%{
+                                            opacity: 1;
+                                        }
+                                        100%{
+                                            transform: translateY(45vh);
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-2 { /* Geschenke für Frauen */
+                                a {
+                                    .img-card {
+                                        &.rotate-left {
+                                            transform: rotate(-2.38deg);
+                                            @media only screen and (min-width: 480px) and (max-width: 767px) {
+                                                margin-left: -10px;
+                                            }
+                                            @media only screen and (min-width: 1024px) {
+                                                margin-left: -25px;
+                                            }
+                                            @media only screen and (min-width: 1400px) {
+                                                margin-left: -15px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-4 { /* Geschenke für Männer */
+                                a {
+                                    .img-card {
+                                        @media only screen and (min-width: 480px) {
+                                            margin-top: -300px;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: -430px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-top: 20px;
+                                        }
+                                        &.rotate-right {
+                                            transform: rotate(2.02deg);
+                                            @media only screen and (max-width: 479px) {
+                                                width: 252px;
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-5 { /* Geschenke für Unter 10€ */
+                                a {
+                                    .img-card {
+                                        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                                            margin-top: 15px;
+                                        }
+                                        @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                                            margin-top: -385px;
+                                        }
+                                        &.rotate-left {
+                                            transform: rotate(-2.62deg);
+                                            @media only screen and (max-width: 479px) {
+                                                width: 266px;
+                                                margin-top: 20px;
+                                            }
+                                            @media only screen and (min-width: 768px) {
+                                                width: 284px;
+                                                margin-left: 0;
+                                            }
+                                            @media only screen and (min-width: 1400px) {
+                                                width: 288px;
+                                                margin-left: auto;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-6 { /* Geschenke für die Schwiegereltern */
+                                a {
+                                    .img-card {
+                                        @media only screen and (min-width: 480px) {
+                                            margin-top: -300px;
+                                            margin-left: 10px;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: -440px;
+                                            margin-left: 25px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-left: 10px;
+                                            margin-top: -10px;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-top: -400px;
+                                        }
+                                        &.rotate-right {
+                                            @media only screen and (max-width: 479px) {
+                                                width: 250px;
+                                                margin-right: 0;
+                                                margin-top: 30px;
+                                            }
+                                            @media only screen and (min-width: 768px) and (max-width: 1399px) {
+                                                width: 274px;
+                                            }
+                                            @media only screen and (min-width: 1400px) {
+                                                transform: rotate(-4.53deg);
+                                                width: 278px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-7 { /* Geschenke für Musikfans */
+                                a {
+                                    .img-card {
+                                        transform: rotate(0.5deg);
+                                        @media only screen and (max-width: 479px) {
+                                            margin-top: 10px;
+                                        }
+                                        @media only screen and (min-width: 480px) {
+                                            margin-left: 0;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: 25px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-top: 30px;
+                                            margin-left: 0;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-top: 0;
+                                            margin-left: 20px;
+                                            width: 298px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-8 { /* Geschenke für Leute die schon alles haben */
+                                a {
+                                    .img-card {
+                                        width: 274px;
+                                        @media only screen and (max-width: 479px) {
+                                            margin-top: 30px;
+                                        }
+                                        @media only screen and (min-width: 480px) and (max-width: 767px) {
+                                            margin-top: -295px;
+                                            width: 100%;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: -470px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-top: -390px;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-top: 50px;
+                                            margin-left: 20px;
+                                            width: 278px;
+                                        }
+                                        &.rotate-right {
+                                            @media only screen and (max-width: 1023px) {
+                                                transform: rotate(-2.43deg);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-9 { /* Geschenke für Weltenbummler */
+                                a {
+                                    .img-card {
+                                        @media only screen and (max-width: 479px) {
+                                            margin-top: 30px;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: 30px;
+                                            margin-left: 7px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-top: -10px;
+                                            margin-left: -10px;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-left: auto;
+                                            margin-right: -10px;
+                                        }
+                                        &.rotate-left {
+                                            transform: rotate(0.3deg);
+                                            @media only screen and (max-width: 479px) {
+                                                width: 272px;
+                                            }
+                                            @media only screen and (min-width: 768px) {
+                                                width: 294px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-10 { /* Geschenke für Nerds */
+                                @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                                    margin-bottom: 0;
+                                }
+                                a {
+                                    .img-card {
+                                        @media only screen and (min-width: 480px) and (max-width: 767px) {
+                                            margin-top: -315px;
+                                            margin-left: -10px;
+                                        }
+                                        @media only screen and (min-width: 768px) and (max-width: 1023px) {
+                                            margin-top: -490px;
+                                            margin-left: 0;
+                                        }
+                                        @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                                            margin-top: 50px;
+                                        }
+                                        &.rotate-right {
+                                            transform: rotate(-2.62deg);
+                                            @media only screen and (max-width: 479px) {
+                                                width: 284px;
+                                                margin-top: 30px;
+                                                margin-left: -10px;
+                                            }
+                                            @media only screen and (min-width: 480px) {
+
+                                            }
+                                            @media only screen and (min-width: 768px) {
+                                                width: 284px;
+                                            }
+                                            @media only screen and (min-width: 1400px) {
+                                                margin-left: -60px;
+                                                width: 288px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.order-11 { /* Geschenke für Tierliebhaber */
+                                &::after {
+                                    content: '';
+                                    display: block;
+                                    position: absolute;
+                                    width: 95px;
+                                    height: 95px;
+                                    background-image: url("../img/gift-guide/zucker.svg");
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    bottom: 307px;
+                                    left: 163px;
+                                    @media only screen and (max-width: 479px) {
+                                        z-index: -1;
+                                    }
+                                    @media only screen and (min-width: 480px) {
+                                        left: -100px;
+                                        bottom: -70px;
+                                    }
+                                    @media only screen and (min-width: 768px) {
+                                        left: -150px;
+                                        bottom: -30px;
+                                    }
+                                    @media only screen and (min-width: 1024px) {
+                                        top: 125px;
+                                        right: -210px;
+                                        left: auto;
+                                    }
+                                    @media only screen and (min-width: 1400px) {
+                                        top: 125px;
+                                        right: -125px;
+                                    }
+                                }
+                                a {
+                                    .img-card {
+                                        transform: rotate(0.73deg);
+                                        @media only screen and (max-width: 479px) {
+                                            margin-top: 70px;
+                                            width: 273px;
+                                        }
+                                        @media only screen and (min-width: 480px) {
+                                            margin-top: 15px;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            margin-top: 25px;
+                                            margin-left: 0;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            margin-top: -30px;
+                                            margin-left: -15px;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-top: 20px;
+                                            margin-left: -50px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

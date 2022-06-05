@@ -1,0 +1,28 @@
+cron:
+- description: "automatic hero items check"
+  url: /google_cron/refresh_hero_items.php?securitas=v3rys3cUre
+  schedule: every 5 minutes
+
+- description: "automatic eBay checkout sessions export"
+  url: /google_cron/export_checkout_sessions.php?securitas=v3rys3cUre
+  schedule: every day 09:00
+
+- description: "Product visits export"
+  url: /google_cron/export_product_vip_visits.php?securitas=v3rys3cUre
+  schedule: every day 04:30
+
+- description: "eBay categories import"
+  url: /google_cron/ebay_categories_import.php?securitas=v3rys3cUre
+  schedule: every monday 05:30
+
+- description: "Customer customers and newsletter subscriptions export"
+  url: /google_cron/export_customers_and_newsletter_subscriptions.php?securitas=v3rys3cUre
+  schedule: every monday 03:45
+
+- description: "refresh feeder categories cache"
+  url: /google_cron/refresh_feeder_categories_cache.php?securitas=v3rys3cUre
+  schedule: every 55 minutes
+
+- description: "exclude customers from Newsletters and mark is_deleted in Customers"
+  url: /google_cron/exclude_customers.php?securitas=v3rys3cUre
+  schedule: every 60 minutes

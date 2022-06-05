@@ -1,0 +1,317 @@
+msgid "Order number: {0}"
+msgstr "Bestellnummer: {0}"
+
+msgid "Order number"
+msgstr "Bestellnummer"
+
+msgid "Order date"
+msgstr "Bestelldatum"
+
+msgid "Order total"
+msgstr "Gesamtbetrag"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Item price:"
+msgstr "Artikelpreis:"
+
+msgid "No orders yet."
+msgstr "Du hast noch keine Bestellungen."
+
+msgid "Find your first catch!"
+msgstr "Finde deinen ersten Catch!"
+
+msgid "Popular products on Catch"
+msgstr "Beliebte Produkte auf Catch"
+
+msgid "Orders"
+msgstr "Bestellungen"
+
+msgid "Shipping costs:"
+msgstr "Versandkosten:"
+
+msgid "Wishlist"
+msgstr "Wunschliste"
+
+msgid "Your Wishlist"
+msgstr "Deine Wunschliste"
+
+msgid "Interests"
+msgstr "Interessen"
+
+msgid "Your wishlist is empty."
+msgstr "Deine Wunschliste ist leer."
+
+msgid "Account edit"
+msgstr "Kontoeinstellungen"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Edit"
+msgstr "Ändern"
+
+msgid "Edit contact data"
+msgstr "Kontaktdaten bearbeiten"
+
+msgid "Edit shipping address"
+msgstr "Lieferadresse bearbeiten"
+
+msgid "Edit password"
+msgstr "Passwort ändern"
+
+msgid "Contact data"
+msgstr "Kontaktdaten"
+
+msgid "Shipping address"
+msgstr "Lieferadresse"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Please add your shipping address"
+msgstr "Bitte füge deine Lieferadresse hinzu"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Change shipping address"
+msgstr "Adresse ändern"
+
+msgid "Add shipping address"
+msgstr "Lieferadresse hinzufügen"
+
+msgid "Contact data changed"
+msgstr "Kontaktdaten geändert"
+
+msgid "Shipping address changed"
+msgstr "Lieferadresse geändert"
+
+msgid "Password changed"
+msgstr "Passwort geändert"
+
+msgid "Change password"
+msgstr "Passwort ändern"
+
+msgid "Ups! This did not work!"
+msgstr "Ups! Das hat nicht funktioniert!"
+
+msgid "Changes saved successfully"
+msgstr "Wir haben deine Änderungen gespeichert."
+
+msgid "Data could not be changed"
+msgstr "Wir konnten deine Änderungen leider nicht speichern."
+
+msgid "GERMANY"
+msgstr "DEUTSCHLAND"
+
+msgid "First name"
+msgstr "Vorname"
+
+msgid "Last name"
+msgstr "Nachname"
+
+msgid "Street and number"
+msgstr "Straße und Hausnummer"
+
+msgid "Street additional"
+msgstr "Adresszusatz (optional)"
+
+msgid "City"
+msgstr "Ort"
+
+msgid "Zip"
+msgstr "PLZ"
+
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+msgid "Order view"
+msgstr "Einzelheiten zur Bestellung"
+
+msgid "Back to order list"
+msgstr "Bestelldetails"
+
+msgid "Sold by <span>{0}</span>"
+msgstr "Verkauft von <span>{0}</span>"
+
+msgid "Item"
+msgstr "Artikel"
+
+msgid "Item price"
+msgstr "Artikelpreis"
+
+msgid "Qty"
+msgstr "Stückzahl"
+
+msgid "Item Id"
+msgstr "Artikelnummer"
+
+msgid "Shipping to"
+msgstr "Versand an"
+
+msgid "Germany"
+msgstr "Deutschland"
+
+msgid "Order totals"
+msgstr "Bestellübersicht"
+
+msgid "Items"
+msgstr "Artikel"
+
+msgid "Sold by:"
+msgstr "Verkauft von:"
+
+msgid "Qty:"
+msgstr "Menge:"
+
+msgid "free shipping"
+msgstr "kostenlos"
+
+msgid "Payment method:"
+msgstr "Zahlungsart:"
+
+msgid "Shipping date"
+msgstr "Versand am"
+
+msgid "Shipping status:"
+msgstr "Status:"
+
+msgid "Tax included"
+msgstr "Inklusive 19% MwSt."
+
+msgid "Tax incl."
+msgstr "inkl. MwSt."
+
+msgid "Bought"
+msgstr "Gekauft am"
+
+msgid "Payment date"
+msgstr "Zahlungsdatum"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Password repeat"
+msgstr "Passwortbestätigung"
+
+msgid "Password forgotten?"
+msgstr "Passwort vergessen?"
+
+msgid "New on catch?"
+msgstr "Neu hier?"
+
+msgid "Not registered?"
+msgstr "Registriere dich jetzt"
+
+msgid "Please sign in or register to save your Catch in your wishlist."
+msgstr "Bitte melde dich an oder registriere dich, um deinen Catch auf deiner Wunschliste speichern zu können."
+
+msgid "Please sign in or register to discover your own individual World."
+msgstr "Bitte melde dich an oder registriere dich, um deine individuelle Produktwelt zu entdecken."
+
+msgid "Reset your password"
+msgstr "Setze dein Passwort zurück"
+
+msgid "Please enter your username and password to recieve a reset link."
+msgstr "Bitte geben Sie Ihre E-Mail-Adresse an, um einen Link zu erhalten, um Ihr Passwort zurückzusetzen"
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Back"
+msgstr "Zuruck"
+
+msgid "You will revieve an email shortly"
+msgstr "In Kürze erhälst Du einen Link, mit welchem Du dein Passwort zurücksetzen kannst. Bitte klicke diesen an, um Dein Passwort zu ändern."
+
+msgid "Email was send to <span class=\"email\">{0}</span>"
+msgstr "E-Mail wurde an <span class=\"email\">{0}</span> gesendet."
+
+msgid "Thank you!"
+msgstr "Vielen Dank!"
+
+msgid "Please enter a new password."
+msgstr "Bitte geben Sie Ihr neues Passwort an."
+
+msgid "Change your password"
+msgstr "Passwort zurücksetzen"
+
+msgid "Welcome to the Catch universe!"
+msgstr "Willkommen im Catch Universum!"
+
+msgid "Enter your old password"
+msgstr "Aktuelles Passwort"
+
+msgid "New Password"
+msgstr "Neues Passwort"
+
+msgid "Confirm New Password"
+msgstr "Passwort bestätigen"
+
+msgid "State"
+msgstr "Bundesland"
+
+msgid "Password changed"
+msgstr "Du hast dein Passwort erfolgreich geändert."
+
+msgid "Newsletter settings"
+msgstr "Newslettereinstellungen"
+
+msgid "Select the frequency of Catch newsletter"
+msgstr "Hier kannst du auswählen, wie oft du den Catch Newsletter erhalten möchtest."
+
+msgid "Daily"
+msgstr "Täglich"
+
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+msgid "Unsubscribe from Catch newsletter"
+msgstr "Ich möchte den Newsletter von Catch "
+
+msgid "unsubscribe"
+msgstr "abbestellen."
+
+msgid "Delete account"
+msgstr "Konto löschen"
+
+msgid "We keep you up to date!"
+msgstr "Wir halten dich auf dem Laufenden!"
+
+msgid "From now on, you will receive the latest catch on <span>{0}</span>, so you will not miss anything."
+msgstr "Ab jetzt bekommst du die neuesten Catchs an <span>{0}</span>gesendet, damit du nichts mehr verpasst."
+
+msgid "Go to the start and find your first catch or get inspired by the catch worlds."
+msgstr "Gehe zum Start und finde jetzt deinen ersten Catch oder lass<br />dich von den Catch Welten inspirieren."
+
+msgid "You want it? We have it!"
+msgstr "Du willst es? Wir haben es!"
+
+msgid "Find your catch of the day now."
+msgstr "Finde jetzt deinen Catch des Tages."
+
+msgid "To homepage"
+msgstr "Zur Startseite"
+
+msgid "discover products"
+msgstr "Produkte entdecken"
+
+msgid "Male"
+msgstr "Herr"
+
+msgid "Female"
+msgstr "Frau"
+
+msgid "Please enter your email address to receive a link to reset your password."
+msgstr "Bitte gib deine E-Mail-Adresse an, um einen Link zu erhalten, mit dem du dein Passwort zurücksetzen kannst."
+
+msgid "Request new password"
+msgstr "Neues Passwort anfordern"
+
+msgid "Delivery"
+msgstr "Lieferung"
+
+msgid "Payment method"
+msgstr "Zahlungsart"

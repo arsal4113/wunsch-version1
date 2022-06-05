@@ -1,0 +1,49 @@
+.button-wrapper{
+    margin-bottom: 14px;
+    position: relative;
+    button{
+        width: 218px;
+        background: #fab60d;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20px;
+        border: none;
+        border-radius: 20px;
+        height: 36px;
+        font-family: visuelt-bold;
+        transition: opacity 0.2s ease-in-out;
+        &:hover{
+            background: linear-gradient(90deg, #FAD170 0%, #FDE988 32.6%, #F9C665 100%), #C4C4C4;
+            cursor: pointer;
+        }
+        &:focus {
+            outline: none;
+        }
+        &.hidden{
+            opacity: 0;
+        }
+    }
+    .loader{
+        opacity: 0;
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        border: 6px solid #Fbca15;
+        border-top: 6px solid #FAB60D;
+        animation: spin 2s linear infinite;
+        transition: opacity 0.2s ease-in-out;
+        &.shown{
+            opacity: 1;
+        }
+    }
+    @keyframes spin {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+}

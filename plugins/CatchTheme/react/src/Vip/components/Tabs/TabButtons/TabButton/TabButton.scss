@@ -1,0 +1,29 @@
+.tab-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 13px;
+    line-height: 52px;
+    border-radius: 3px;
+    outline: none;
+    -webkit-appearance: none;
+    &.selected {
+        background-color: #1E0339;
+        color: #ffffff;
+        span {
+            display: inline-block;
+            width: 100%;
+        }
+        &:after {
+            content: '';
+            width: 23px;
+            height: 52px;
+            background-image: url("../../../../assets/tab-arrow.svg");
+            background-position: right;
+            background-repeat: no-repeat;
+            display: inline-block;
+            position: absolute;
+        }
+    }
+}

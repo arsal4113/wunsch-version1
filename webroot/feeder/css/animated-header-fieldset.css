@@ -1,0 +1,81 @@
+.i-check {
+	margin-top: 8px;
+}
+
+.i-check > .input.checkbox {
+	display: inline;
+	padding: 4px 4px 10px;
+	text-align: center;
+	width: 20px;
+}
+
+.i-check > .input.checkbox ~ a {
+	border: solid 1.333pt #ddd;
+	border-bottom: solid 1.333pt white;
+	border-radius: 4px 4px 0 0;
+	display: none;
+	float: right;
+	margin-right: 12px;
+	padding: 4px;
+}
+
+
+.i-check > .input.checkbox.checked {
+	border: solid 1.333pt #ddd;
+	border-bottom: solid 1.333pt white;
+	border-radius: 4px 4px 0 0;
+	z-index: 1;
+}
+
+.i-check > .input.checkbox.checked ~ a {
+	display: inline-block;
+}
+
+.i-check > .input.checkbox input {
+	border: solid 1.333pt #ddd;
+	margin: 0 auto;
+	opacity: 1;
+	position: static;
+}
+
+fieldset.i-check-panel {
+	border: solid 1.333pt #ddd;
+	border-radius: 4px;
+	display: none;
+	padding: 10px;	
+	position: relative;
+}
+
+fieldset.i-check-panel .form-control.colorpicker-element {
+	margin-left: 25%;
+	max-width: 75%;
+	width: 75%;
+}
+
+br.clearfix {
+	clear: both;
+	margin: 1em;
+}
+
+.inline-selects select {
+	margin-right: 5%;
+}
+
+#animated-header-preview {
+	background-color: rgba(0, 0, 0, .75);
+	height: 100vh;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+#animated-header-preview > #animated-header {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	height: 275px;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}

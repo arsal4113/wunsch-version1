@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+    .card .card-img-wrapper .product-badge {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .badge-wrapper {
+        top: -18px;
+    }
+    .card .card-img-wrapper .product-badge {
+        background-size: 18px 18px;
+        height: 30px;
+        width: 30px;
+    }
+    .card .card-img-wrapper .product-badge.free-shipping-badge {
+        background-size: 21px;
+    }
+}
+

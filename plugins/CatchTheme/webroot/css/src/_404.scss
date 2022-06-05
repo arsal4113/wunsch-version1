@@ -1,0 +1,306 @@
+@import "variables";
+
+body.error404 {
+    .container.error-404 {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        max-width: 100%;
+        height: 610px;
+        background: url('../img/bg-404-xl.png') center no-repeat;
+        background-size: cover;
+    }
+    #footer {
+        margin-top: 670px;
+        @media (max-width: 1199px) {
+            margin-top: 613px;
+        }
+        @media (max-width: 1023px) {
+            margin-top: 765px;
+        }
+        @media (max-width: 767px) {
+            margin-top: 558px;
+        }
+    }
+}
+body.error404.orange-message-shown {
+    #error-content {
+        top: 90px;
+        @media (max-width: 767px) {
+            top: 139px;
+        }
+    }
+    #footer {
+        margin-top: calc(730px - #{$orange-message-height});
+        @media (max-width: 1199px) {
+            margin-top: calc(672px - #{$orange-message-height});
+        }
+        @media (max-width: 1023px) {
+            margin-top: calc(826px - #{$orange-message-height});
+        }
+        @media (max-width: 767px) {
+            margin-top: calc(619px - #{$orange-message-height});
+        }
+    }
+}
+
+#error-content {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    .error-message {
+        text-align: center;
+        color: #000;
+        font-family: $font-family-base;
+        margin: 130px auto 0;
+        p {
+            font-size: 62px;
+            line-height: 90px;
+            margin: 0;
+        }
+        .x-large {
+            width: 170px;
+            height: 60px;
+            margin: auto;
+            background: url("../img/404.svg") center no-repeat;
+        }
+        .smaller {
+            font-size: 24px;
+            font-family: $font-family-base;
+        }
+    }
+    .image-wrapper {
+        position: absolute;
+        top: 85px;
+        right: 540px;
+        background: url("../img/kaktus-404.png") top center no-repeat;
+    }
+    .image-link {
+        display: block;
+        width: 284px;
+        height: 370px;
+        cursor: pointer;
+        z-index: 100;
+        position: relative;
+    }
+    .text-wrapper {
+        position: relative;
+        text-align: center;
+        width: 800px;
+        height: auto;
+        background: url("../img/404-pinky.png") right no-repeat;
+        background-size: cover;
+        z-index: 10;
+        p {
+            font-size: 16px;
+            line-height: 23px;
+            position: absolute;
+            bottom: 170px;
+            left: 285px;
+            a {
+                text-decoration: underline;
+                color: #000000;
+            }
+        }
+        .vector {
+            position: absolute;
+            width: 160px;
+            height: 92px;
+            background: url("../img/vector-lg.svg") center no-repeat;
+            bottom: 275px;
+            left: 205px;
+        }
+    }
+
+}
+@media (max-width: 1399px) {
+    #error-content {
+        .error-message {
+            margin: 130px 180px 0 auto;
+            p {
+                font-size: 50px;
+            }
+        }
+        .image-wrapper {
+            right: 430px;
+        }
+        .text-wrapper {
+            width: 595px;
+            p {
+                bottom: 170px;
+                left: 235px;
+            }
+            .vector {
+                bottom: 280px;
+                left: 120px;
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    body.error404 {
+        .container.error-404 {
+            height: 553px;
+        }
+    }
+    #error-content {
+        .error-message {
+            margin: 130px 180px 0 auto;
+            p {
+                font-size: 40px;
+                line-height: 52px;
+            }
+            .x-large {
+                background-image: url("../img/404-lg.svg");
+            }
+        }
+        .image-wrapper {
+            right: 285px;
+        }
+        .text-wrapper {
+            width: 437px;
+            background: url("../img/pink-lg.png") bottom right no-repeat;
+            p {
+                bottom: 106px;
+                left: 192px;
+            }
+            .vector {
+                bottom: 210px;
+                left: 80px;
+            }
+        }
+    }
+}
+@media (max-width: 1023px) {
+    body.error404 {
+        .container.error-404 {
+            flex-direction: column;
+            background-position: 60%;
+            height: auto;
+        }
+    }
+    #error-content {
+        //top: 90px;
+        .error-message {
+            margin: 70px auto 50px;
+            p {
+                font-size: 30px;
+                line-height: 42px;
+            }
+            .x-large {
+                background-image: url("../img/404-md.svg");
+            }
+        }
+        .image-wrapper {
+            position: unset;
+            margin: auto;
+            padding-bottom: 52px;
+        }
+        .text-wrapper {
+            position: absolute;
+            height: 462px;
+            top: 244px;
+            right: 0;
+            background-size: 100% 100%;
+            p {
+                width: 180px;
+                bottom: 50px;
+                left: 32%;
+            }
+            .vector {
+                bottom: 148px;
+                left: 40px;
+            }
+        }
+    }
+}
+@media (max-width: 880px) and (min-width: 768px) {
+    #error-content {
+        .text-wrapper {
+            background-size: cover;
+            background-position: right top;
+            p {
+                left: 43%;
+            }
+            .vector {
+                left: 24%;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    body.error404 {
+        .container.error-404 {
+            background-position: 70%;
+        }
+    }
+    #error-content {
+        top: 111px;
+        .error-message {
+            margin: 20px auto 10px;
+            p {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .x-large {
+                background-image: url("../img/404-sm.svg");
+            }
+        }
+        .image-wrapper {
+            width: 182px;
+            height: 280px;
+            background-size: contain;
+            padding-bottom: 43px;
+        }
+        .image-link {
+            width: 182px;
+            height: 238px;
+        }
+        .text-wrapper {
+            width: 53%;
+            height: 240px;
+            right: -1px;
+            top: 210px;
+            p {
+                width: 132px;
+                font-size: 12px;
+                line-height: 17px;
+                bottom: 11px;
+                left: 32%;
+            }
+            .vector {
+                width: 65px;
+                height: 90px;
+                bottom: 87px;
+                left: 24%;
+                -webkit-transform: rotate(-5.28deg);
+                transform: rotate(-5.28deg);
+                background: url("../img/vector-mobile.svg") center no-repeat;
+            }
+        }
+    }
+}
+@media (max-width: 550px) {
+    #error-content {
+        .text-wrapper {
+            p {
+                left: 37%;
+            }
+            .vector {
+                bottom: 95px;
+                left: 31%;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    #error-content {
+        .text-wrapper {
+            p {
+                left: 24%;
+            }
+            .vector {
+            }
+        }
+    }
+}

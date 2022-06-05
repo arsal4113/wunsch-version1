@@ -1,0 +1,34 @@
+{
+    "address": {
+        "first_name": "Vorname",
+        "last_name": "Name",
+        "fullName": "Vollständiger Name",
+        "company": "Firma",
+        "address_line_1": "Straße und Hausnummer",
+        "address_line_2": "Zusatzinformation",
+        "postal_code": "PLZ",
+        "city": "Ort",
+        "state_or_province": "Bundesland",
+        "country": "Region",
+        "email": "E-Mail (bitte überprüfen)",
+        "phone_number": "Telefonnummer",
+        "legend": "notwendige Eingabe",
+        "show_more": "Mehr Felder",
+        "show_less": "Weniger Felder"
+    },
+    "empty_m_p": "Bitte gib einen gültigen $t(form:address.{{field}})n ein.",
+    "empty_m_s": "Bitte gib einen gültigen $t(form:address.{{field}}) ein.",
+    "empty_f": "Bitte gib eine gültige $t(form:address.{{field}}) ein.",
+    "empty_n": "Bitte gib ein gültiges $t(form:address.{{field}}) ein.",
+    "login": {
+        "email": "E-Mail",
+        "password": "Passwort",
+        "saveButton": "Anmelden",
+        "title": "Melde dich an",
+        "forgotPassword": "Passwort vergessen?",
+        "socialText": "Oder anmelden mit",
+        "registration": "Registriere dich jetzt",
+        "registerText": "Neu hier?",
+        "success": "Login erfolgreich"
+    }
+}

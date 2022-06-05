@@ -1,0 +1,241 @@
+@import "../../../css/src/variables";
+
+.bold {
+    font-family: $font-family-bold;
+}
+
+.orange-message {
+    display: none;
+}
+
+.redesign-button {
+    width: 273px;
+    height: 30px;
+    margin: auto;
+    background: linear-gradient(0deg, #F66B1C -128.96%, #FBCA15 211.72%);
+    @media only screen and (max-width: 767px) {
+        font-size: $font-size + 1;
+    }
+    &:hover {
+        background: linear-gradient(0deg, #FBCA15 -128.96%, #F66B1C 211.72%);
+    }
+    a {
+        display: block;
+        color: #FFFFFF;
+        padding-top: 2px;
+    }
+}
+
+.raffle-banner {
+    width: 100%;
+    .banner-img {
+        height: 745px;
+        position: relative;
+        margin-top: -48px;
+        background: url("../img/gewinn.png") no-repeat center;
+
+        @media only screen and (min-width: 1400px) {
+            background-size: cover !important;
+        }
+
+        &.easter {
+            background: url("../img/gewinnspiel-ostern.png") no-repeat center;
+        }
+        &.action-cam {
+            background: url("../img/gewinnspiel-action-cam.jpg") no-repeat center;
+            background-size: cover;
+        }
+    }
+    .header-text-container {
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .text-wrapper {
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                font-size: 28px;
+                line-height: $font-size + 15;
+                margin-top: 164px;
+                margin-bottom: 27px;
+
+                &.easter-header {
+                    margin-top: 170px;
+                    margin-bottom: 50px;
+                }
+                &.action-cam {
+                    margin-top: 180px;
+                    margin-bottom: 36px;
+                }
+            }
+            p {
+                max-width: 424px;
+                font-size: $font-size + 5;
+                line-height: 27px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+.page-content {
+    width: 100%;
+    .first-block {
+        height: 356px;
+        margin-bottom: 72px;
+        background-color: #F7F7F7;
+        h1 {
+            font-size: $font-size + 59;
+            line-height: 79px;
+            color:  #FBB603;
+            padding: 65px 0;
+        }
+        p {
+            font-size: $font-size + 15;
+            line-height: 34px;
+            padding: 0;
+        }
+    }
+    .text-content-wrapper {
+        font-size: $font-size + 5;
+        p {
+            line-height: 28px;
+        }
+        .title {
+            padding-top: 1rem;
+        }
+        ul {
+            padding-inline-start: 29px;
+            list-style: none;
+            li {
+                position: relative;
+                &:first-of-type {
+                    padding-bottom: 1rem;
+                }
+            }
+            li:before {
+                content: "\2022";
+                color: #FBB603;
+                font-weight: bold;
+                display: inline-block;
+                margin-left: -1em;
+                font-size: 27px;
+                position: absolute;
+                top: -7px;
+            }
+        }
+    }
+}
+
+//RWD
+
+@media only screen and (max-width: 1024px) {
+    .raffle-banner {
+        .banner-img {
+            display: flex;
+            align-items: center;
+            vertical-align: middle;
+        }
+        .header-text-container {
+            width: 560px;
+            height: 560px;
+        }
+    }
+    .page-content {
+        .first-block {
+            height: 420px;
+            margin-bottom:52px;
+            h1 {
+                width: 530px;
+                padding: 46px 0 54px;
+            }
+        }
+        .text-content-wrapper {
+            font-size: $font-size + 3;
+            p {
+                line-height: 21px;
+            }
+            ul {
+                padding-inline-start: 16px;
+                li:before {
+                    margin-left: -0.6em;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .redesign-button {
+        width: 223px;
+    }
+    .raffle-banner {
+        .banner-img {
+            height: 522px;
+        }
+        .header-text-container {
+            width: 370px;
+            height: 370px;
+            .text-wrapper {
+                h1 {
+                    font-size: $font-size + 7;
+                    line-height: 24px;
+                    margin-top: 70px !important;
+                    margin-bottom: 15px;
+
+                    &.easter-header {
+                        margin-bottom: 35px;
+                    }
+                }
+                p {
+                    width: 284px;
+                    font-size: $font-size + 2;
+                    line-height: 21px;
+                    &.action-cam {
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .page-content {
+        .first-block {
+            height: 250px;
+            margin-bottom:52px;
+            h1 {
+                font-size: $font-size + 28;
+                line-height: 50px;
+                width: 225px;
+                padding: 33px 0 10px;
+            }
+            p {
+                font-size: $font-size + 7;
+                line-height: 24px;
+                width: 293px;
+            }
+        }
+        .text-content-wrapper {
+            font-size: $font-size + 2;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+    .page-content {
+        .text-content-wrapper {
+            .container {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+        }
+    }
+}

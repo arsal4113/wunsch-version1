@@ -1,0 +1,1113 @@
+
+
+p.info {
+    font-family: "HelveticaNeue";
+    font-size: 13px;
+    color: #7F7F7F;
+    letter-spacing: 0;
+}
+
+.mobile-only {
+    display: none;
+}
+
+a {
+    color: #1057B7;
+}
+
+.btn-primary {
+    background-color: #1057B7;
+    border-color: #1057B7;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background: #C5C4C3;
+    border-color: #C5C4C3;
+}
+
+input[type=submit],
+button[type=submit] {
+    font-family: "HelveticaNeue-Bold";
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+address {
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0;
+}
+
+
+
+.error-message {
+    color: #F22823;
+    padding-bottom: 20px;
+}
+
+/* Loader */
+div.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .8;
+    z-index: 1000;
+    border-radius: 5px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+body > div.loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: .8;
+    z-index: 1000;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+/* Form default */
+div.submit {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.input {
+    background: #F4F4F4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+div.input.select {
+    background: #f4f4f4;
+    padding-top: 20px;
+}
+
+div.input.select select:focus {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+div.input label {
+    opacity: 0.5;
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    margin: 0.9rem .75rem;
+    cursor: text;
+    z-index: 1;
+    margin-top: -40px;
+    transition: margin-top .2s, font-size .2s;
+}
+
+a.remove-item.close {
+    padding: 10px 20px 0px;
+}
+
+div.input .bt-input,
+div.input select,
+div.input input,
+div.input input:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    height: 55px;
+    padding-top: 25px;
+    display: block;
+}
+
+div.input select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-top: 0px;
+    height: 35px !important;
+}
+
+div.input select ~ label,
+div.input input:not(:placeholder-shown) ~ label,
+div.input input:focus ~ label {
+    font-size: 13px;
+    margin-top: -50px;
+}
+
+div.row-email {
+    margin-top: 20px;
+}
+
+/* Widget defaults*/
+.widget-title > h2 {
+    font-family: "HelveticaNeue-Light", Sans-Serif;
+    opacity: 0.5;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #222222;
+    letter-spacing: 0;
+}
+
+.widget .widget-body {
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    position: relative;
+}
+
+#the-holy-shipping-address-edit,
+#the-holy-billing-address-edit {
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    color: #1057B7;
+    cursor: pointer;
+}
+
+/* Item widget*/
+.item-widget {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #CECECE;
+    margin-bottom: 30px;
+}
+
+.item-widget .widget-body {
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    border-top: 1px solid #CECECE;
+    margin-bottom: 0px;
+}
+
+.item-widget .widget-title h3 {
+    padding: 5px 30px;
+}
+
+.item-widget .widget-title h3 span.seller-info {
+    opacity: 0.6;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0;
+}
+
+.item-widget .widget-title h3 span.seller-name {
+    font-family: HelveticaNeue-Medium, sans-serif;
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0;
+}
+
+.item-widget .product-image-wrapper {
+    margin-left: 15px;
+}
+
+.item-widget .product-image-box {
+    width: 128px;
+    height: 128px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #D8D8D8;
+}
+
+.item-widget .product-image-box .product-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-widget .widget-body .title {
+    font-family: "HelveticaNeue-Bold", Sans-Serif;
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0;
+    padding-bottom: 30px;
+}
+
+.item-widget .widget-body .qty {
+    margin-bottom: 15px;
+}
+
+.item-widget .widget-body .qty label {
+    padding-top: 5px;
+    float: left;
+    padding-right: 15px;
+}
+
+.item-widget .widget-body .qty select {
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    width: 100px;
+    float: left;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .input-col {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.item-widget .widget-body .shipping-options-wrapper label {
+    margin-bottom: 0px;
+}
+
+.item-widget .widget-body .shipping-options-wrapper h4 {
+    font-family: "HelveticaNeue-Medium";
+    font-size: 20px;
+    color: #111111;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .delivery-date {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    color: #7F7F7F;
+    letter-spacing: 0;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .carrier-code {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .delivery-cost {
+    font-family: "HelveticaNeue-Bold";
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+}
+
+.item-widget .widget-body .shipping-options-wrapper label {
+    cursor: pointer;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .input-col input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/radio-unselected.png) no-repeat center center;
+    display: block;
+    height: 24px;
+    width: 24px;
+    box-shadow: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.item-widget .widget-body .shipping-options-wrapper .input-col input[type=radio]:checked {
+    background: url(../img/radio-selected.png) no-repeat center center;
+}
+
+/* Shipping Address Widget */
+#the-holy-shipping-address-edit-2.arrow-down {
+    text-indent: 100000px;
+    background: url('../img/arrow-down.svg') no-repeat center center;
+    display: block;
+    width: 13px;
+    height: 8px;
+    float: right;
+    cursor: pointer;
+}
+
+/* Payment Widget */
+.payment-widget .widget-title h4 {
+    margin-bottom: 0px;
+}
+
+.payment-widget .loader {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.payment-widget .widget-body {
+    padding: 0px;
+}
+
+.payment-widget .widget-body .payment-method-body {
+    padding: 30px;
+    border-top: 1px solid #CECECD;
+}
+
+.payment-widget .widget-body .payment-method-body:empty {
+    display: none;
+}
+
+.payment-widget .widget-body .payment-method-title {
+    padding: 15px 45px;
+    margin-bottom: 0px;
+}
+
+.payment-widget .widget-body .payment-method-title h4 {
+    font-family: "HelveticaNeue-Medium";
+    font-size: 16px;
+    color: #111111;
+    float: left;
+    display: block;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.payment-widget .widget-body .CREDIT_CARD .payment-method-title .logo {
+    content: " ";
+    display: block;
+    height: 21.3px;
+    width: 29.3px;
+    background: url(../img/finance-13.svg) no-repeat center center;
+    float: left;
+}
+
+.payment-widget .widget-body .CREDIT_CARD .payment-method-title .logo {
+    content: " ";
+    display: block;
+    height: 21.3px;
+    width: 29.3px;
+    background: url('../img/finance-13.svg') no-repeat center center;
+}
+
+.payment-method-cc .field-wrapper .bt-input {
+    padding: 20px 15px 0px 12px;
+}
+
+.payment-widget h5 {
+    font-family: "HelveticaNeue-Medium";
+    font-size: 20px;
+    color: #111111;
+    letter-spacing: 0;
+}
+
+.payment-widget .payment-method .payment-method-arrow {
+    text-indent: 100000px;
+    display: block;
+    width: 13px;
+    height: 8px;
+    float: right;
+    margin-right: 30px;
+}
+
+.payment-widget .payment-method-success-info {
+    text-align: right;
+}
+
+.payment-widget .payment-method-success-info img {
+    max-height: 27px;
+}
+
+.payment-widget .payment-method-success-info span.number {
+    display: block;
+    font-family: "HelveticaNeue";
+    font-size: 17.45px;
+    color: #111111;
+    float: right;
+}
+
+.payment-widget .payment-method-success-info span.card-type {
+    float: right;
+}
+
+.payment-widget .payment-method-success-info span.Visa {
+    width: 43px;
+    height: 27px;
+    background: url(../img/cards/visa.gif) no-repeat center center;
+    text-indent: 100000px;
+    margin-right: 10px;
+    background-size: 43px 27px;
+}
+
+.payment-widget .payment-method-success-info span.MasterCard {
+    width: 32px;
+    height: 27px;
+    display: block;
+    background: url(../img/cards/mc.png) no-repeat center center;
+    text-indent: 100000px;
+    margin-right: 10px;
+    background-size: 32px 27px;
+}
+
+.payment-widget .payment-method-success-info span.American.Express {
+    width: 27px;
+    height: 27px;
+    display: block;
+    background: url(../img/cards/amex.png) no-repeat center center;
+    text-indent: 100000px;
+    margin-right: 10px;
+    background-size: 27px 27px;
+}
+
+.payment-widget .payment-method-success-info span.Discover {
+    width: 43px;
+    height: 27px;
+    display: block;
+    background: url(../img/cards/discover.jpg) no-repeat center center;
+    text-indent: 100000px;
+    margin-right: 10px;
+    background-size: 43px 27px;
+}
+
+.payment-widget .payment-method .pointer {
+    cursor: pointer;
+}
+
+.payment-widget.disabled .payment-method .payment-method-arrow {
+    background: url('../img/arrow-down.svg') no-repeat center center;
+}
+
+.payment-widget.enabled .payment-method.payment-method-selected .payment-method-arrow {
+    background: url('../img/arrow-up.svg') no-repeat center center;
+}
+
+/* Totals Widget */
+.totals-widget .widget-title {
+    cursor: default;
+}
+
+.totals-widget .widget-body {
+    margin-bottom: 10px;
+}
+
+.totals-widget .ebay-money-back-guarantee-wrapper {
+    text-align: right;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.totals-widget .ebay-money-back-guarantee-wrapper a {
+    color: #555;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.totals-widget .step-info {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #F22823;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.totals-widget .total-name {
+    opacity: 0.6;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    color: #111111;
+}
+
+.totals-widget .total-price {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #111111;
+    text-align: right;
+}
+
+.totals-widget .totals {
+    padding-bottom: 20px;
+}
+
+.totals-widget .total-totals {
+    border-top: 1px solid #D8D8D8;
+}
+
+.totals-widget .total-totals .total-name {
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    color: #111111;
+}
+
+.totals-widget .total-totals.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.totals-widget .total-totals .col {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.totals-widget .total-totals .total-price {
+    font-family: "HelveticaNeue-Medium";
+    font-size: 20px;
+    color: #111111;
+}
+
+.totals-widget .legal-messages input[type=checkbox] {
+    cursor: pointer;
+}
+
+.totals-widget .legal-messages .paypal-legal .col-1 {
+    padding-right: 0px;
+    -ms-flex: 0 0 10%;
+    flex: 0 0 10%;
+    max-width: 10%;
+}
+
+.totals-widget .legal-messages .paypal-legal .col-11 {
+    -ms-flex: 0 0 89%;
+    flex: 0 0 89%;
+    max-width: 89%;
+}
+
+/* Success page */
+.success-page .widget-body h3 {
+    font-family: "HelveticaNeue-Medium";
+    font-size: 20px;
+    color: #111111;
+}
+
+.success-page .widget-body .delivery-date span {
+    font-family: "HelveticaNeue";
+    font-size: 14px;
+    color: #7F7F7F;
+    letter-spacing: 0;
+}
+
+.success-page .widget-body {
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.success-page .widget-bottom {
+    border: 1px solid #CECECE;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 30px 10px 30px;
+    background: #fff;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+    .totals-widget .total-totals.row {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+/* Mobile Portrait */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100vw;
+    }
+    body.no-scroll {
+        position: fixed;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* General */
+    .widget .widget-body {
+        padding: 0px;
+    }
+
+    .col-full {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    input {
+        z-index: 10;
+    }
+
+    div.loader {
+        margin-left: 0px;
+        margin-top: 0px;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    .mobile-only {
+        display: inherit;
+    }
+
+
+
+    /* Item widget */
+    .widget.item-widget {
+        overflow: hidden;
+    }
+
+    .item-widget-wrapper .widget-title {
+        display: none;
+    }
+
+    .item-widget-wrapper .item-widget .widget-title {
+        display: block;
+    }
+
+    .item-widget-wrapper .widget {
+        border: none;
+    }
+
+    .item-widget .widget-body {
+        border-top: none;
+    }
+
+    .item-widget-wrapper .item-widget {
+        border-radius: 0px;
+        padding-bottom: 10px;
+    }
+
+    .item-widget .widget-title h3 {
+        padding: 5px 15px;
+    }
+
+    .item-widget .widget-body .title {
+        opacity: 0.6;
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #111111;
+    }
+
+    .item-widget .widget-body .qty label {
+        opacity: 0.6;
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #111111;
+    }
+
+    .item-widget .widget-body div.qty {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #DDDDDD;
+        padding-left: 0px;
+        margin-left: 15px;
+    }
+
+    .item-widget .widget-body .shipping-options-wrapper h4 {
+        opacity: 0.6;
+        font-family: "HelveticaNeue-Medium";
+        font-size: 14px;
+        color: #111111;
+    }
+
+    .item-widget .product-image-box {
+        width: 69px;
+        height: 69px;
+        border: none;
+    }
+
+    .shipping-options-wrapper .offset-1 {
+        margin-left: 0px;
+    }
+
+    .item-widget .widget-body .shipping-options-wrapper .carrier-code {
+        opacity: 0.6;
+    }
+
+    .item-widget .widget-body .shipping-options-wrapper .delivery-cost {
+        font-family: "HelveticaNeue";
+    }
+
+    .item-widget .widget-body .shipping-options-wrapper .input-col {
+        text-align: right;
+        padding-right: 5px;
+        position: absolute;
+        margin-left: -40px;
+    }
+
+    /* shipping-address-widget */
+    .shipping-address-widget {
+        background: white;
+        border-bottom: 1px solid #DDDDDD;
+    }
+
+    .shipping-address-widget .widget-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .shipping-address-widget .widget-title > h2 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+        padding-top: 2px;
+        padding-left: 7px;
+        float: left;
+        width: 80px;
+    }
+
+    .shipping-address-widget .widget-title > span {
+        float: left;
+        display: block;
+    }
+
+    .shipping-address-widget .widget-body {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+    #shipping-address-form-row {
+        padding-bottom: 50px;
+    }
+
+    .shipping-address-widget #shipping-address-form-row {
+        display: block;
+        position: fixed;
+        top: 0px;
+        margin-left: 100%;
+        padding: 15px;
+        padding-top: 0px;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        background: white;
+        z-index: 100;
+        width: 100%;
+        transition: .2s margin-left;
+        padding-bottom: 30px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .shipping-address-widget #form-close-row {
+        border-bottom: 1px solid #DDDDDD;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .shipping-address-widget #form-close-row .col {
+        background: url(../img/arrow-left.svg) left center no-repeat;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
+    .shipping-address-widget #form-close-row h3 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .shipping-address-widget.form-shown #shipping-address-form-row {
+        display: block !important;
+        margin-left: -15px;
+        z-index: 110;
+    }
+
+    .shipping-address-widget .widget-title span.shipping-block-mobile {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #0654BA;
+    }
+
+    .shipping-address-widget.address-entered:not(.form-shown) {
+        cursor: pointer;
+    }
+
+    .shipping-address-widget .widget-title {
+        background: url(../img/arrow-right.svg) right center no-repeat;
+        margin-right: 25px;
+        z-index: 10;
+    }
+
+    .shipping-address-widget.address-entered #the-holy-shipping-address-edit,
+    .shipping-address-widget.address-entered #the-holy-shipping-address-edit-2,
+    .shipping-address-widget.address-entered span.shipping-block-mobile {
+        display: none;
+    }
+
+    .shipping-address-widget #shipping-address-block-row {
+        margin-left: 70px;
+        margin-top: -37px;
+        background: transparent;
+    }
+
+    /* payment-widget */
+    .payment-widget {
+        background: white;
+    }
+
+    .payment-widget .widget-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: url(../img/arrow-right.svg) right center no-repeat;
+        margin-right: 25px;
+
+    }
+
+    .payment-widget.enabled .widget-title {
+        cursor: pointer;
+    }
+
+    .payment-widget .widget-title span.payment-block-mobile {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #0654BA;
+    }
+
+    .payment-widget .widget-title > h2 {
+        float: left;
+        width: 80px;
+        padding-top: 2px;
+        padding-left: 7px;
+    }
+
+    .payment-widget .widget-title > span {
+        float: left;
+        display: block;
+    }
+
+    .payment-widget .widget-title > h2 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+    }
+
+    .payment-widget.disabled .widget-title span.payment-block-mobile {
+        color: #4A4A4A;
+    }
+
+    .payment-widget.payment-entered .payment-block-mobile {
+        display: none;
+    }
+
+    .payment-widget .payment-method {
+        display: none;
+    }
+
+    .payment-widget .widget-body {
+        border: none;
+        display: block;
+        position: fixed;
+        top: 0px;
+        margin-left: 100%;
+        padding: 15px;
+        padding-top: 0px;
+        height: 100%;
+        overflow-y: scroll;
+        background: white;
+        z-index: 100;
+        width: 100%;
+        transition: .2s margin-left;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .payment-widget.form-shown .widget-body {
+        display: block !important;
+        margin-left: -15px;
+        z-index: 110;
+    }
+
+    .payment-widget.form-shown .payment-method {
+        display: block !important;
+    }
+
+    .payment-widget #form-close-row {
+        border-bottom: 1px solid #DDDDDD;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .payment-widget #form-close-row .col {
+        background: url(../img/arrow-left.svg) left center no-repeat;
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
+    .payment-widget .widget-title span.payment-block-mobile {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #0654BA;
+    }
+
+    .payment-widget .widget-title > h2 {
+        float: left;
+        width: 80px;
+        padding-top: 2px;
+        padding-left: 7px;
+    }
+
+    .payment-widget .widget-title > span {
+        float: left;
+        display: block;
+    }
+
+    .payment-widget .widget-title > h2 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+    }
+
+    .payment-widget #form-close-row h3 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+
+    .payment-widget #billing-address-form-row {
+        display: block !important;
+    }
+
+    .payment-widget #billing-address-block-row {
+        display: none !important;
+    }
+
+    .payment-widget.disabled .widget-title span.payment-block-mobile {
+        color: #4A4A4A;
+    }
+
+    .payment-widget .widget-body .payment-method-title {
+        padding-bottom: 10px;
+        padding: 15px;
+    }
+
+    .payment-widget .widget-body .payment-method-title h4 {
+        opacity: 0.5;
+        font-size: 14px;
+    }
+
+    .payment-widget.enabled .payment-method.payment-method-selected .payment-method-arrow {
+        display: none;
+    }
+
+    .payment-widget .widget-body .CREDIT_CARD .payment-method-title .logo {
+        display: none;
+    }
+
+    .payment-widget .payment-method .payment-method-title-row .payment-method-success-info,
+    .payment-widget .widget-title > span.payment-method-success-info {
+        display: none;
+    }
+
+    .payment-widget.payment-entered .widget-title > span.payment-method-success-info {
+        display: block;
+    }
+
+    .payment-widget .payment-method .billing-address-title h5 {
+        opacity: 0.5;
+        font-size: 14px;
+    }
+
+    .payment-widget .widget-body .payment-method-body {
+        border-top: none;
+        padding: 0px;
+    }
+
+    .payment-widget .payment-method-success-info span.card-type {
+        float: left;
+    }
+
+    .payment-widget.payment-entered.disabled .widget-title {
+        cursor: pointer;
+    }
+
+    /* Totals Widget */
+    .totals-widget .widget-body {
+        border: none;
+        background: transparent;
+        margin-bottom: 80px;
+    }
+
+    .totals-widget .totals {
+        padding-bottom: 0px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .totals-widget .total-totals.row {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .totals-widget .total-totals.row {
+        margin-bottom: 20px;
+    }
+
+    .totals-widget .ebay-money-back-guarantee-wrapper {
+        text-align: left;
+    }
+
+    /* Success page */
+    body.success-page-body {
+        background: white;
+    }
+
+    .success-page .widget-title > h2 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #111111;
+        letter-spacing: 0;
+        padding: 15px 15px 0;
+    }
+
+    .success-page .widget-body {
+        border: none;
+        padding: 0px 15px;
+    }
+
+    .success-page .widget-bottom {
+        border: none;
+        padding: 0px;
+        margin-top: 40px;
+        border-top: 1px solid #DDDDDD;
+        padding-top: 5px;
+        margin-bottom: 100px;
+    }
+}
+
+@media all and (-ms-high-contrast: none) {
+    div.input label {
+        font-size: 13px;
+        margin-top: -50px;
+    }
+
+    .item-widget .product-image-wrapper {
+        margin-left: -10px;
+    }
+}
+
+@supports (-ms-ime-align:auto) {
+    div.input label {
+        font-size: 13px;
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 769px) {
+    body.ios > div.container {
+        max-width: 733px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 940px) {
+    body.ios > div.container {
+        max-width: 940px;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
+
+
+body.ios .payment-method-cc label {
+    font-size: 13px !important;
+    margin-top: -50px !important;
+}

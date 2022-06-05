@@ -1,0 +1,22 @@
+select.selector {
+    -webkit-appearance: none;
+    border-radius: 28px;
+    background-image: url("../../assets/select-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-size: 7px 5px;
+    background-position: calc(100% - 20px) center;
+    background-color: #fff;
+    font-family: Visuelt-Bold, sans-serif;
+    font-size: 13px;
+    line-height: 44px;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 66%;
+    outline: none;
+    &.error{
+        border-color: #f22823;
+    }
+    @media only screen and (min-width: 768px) {
+        background-color: #ffffff;
+    }
+}

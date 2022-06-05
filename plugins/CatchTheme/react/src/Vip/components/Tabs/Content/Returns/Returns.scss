@@ -1,0 +1,20 @@
+.tab-content.returns {
+    .tab-section {
+        p {
+            font-family: Visuelt-Regular, sans-serif !important;
+            font-size: 11px !important;
+            span {
+                display: block;
+                font-family: Visuelt-Regular, sans-serif;
+                font-size: 11px;
+                line-height: 19px;
+            }
+        }
+    }
+    .tab-link {
+        a {
+            font-size: 11px;
+            line-height: 19px;
+        }
+    }
+}

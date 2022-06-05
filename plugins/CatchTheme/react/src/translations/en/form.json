@@ -1,0 +1,29 @@
+{
+    "address": {
+        "firstname": "Vorname",
+        "lastname": "Nachname",
+        "fullName": "Vollständiger Name",
+        "company": "Firma",
+        "address_line_1": "Straße und Hausnummer",
+        "address_line_2": "Zusatzinformation",
+        "postal_code": "PLZ",
+        "city": "Ort",
+        "state_or_province": "Bundesland",
+        "country": "Region",
+        "email": "E-Mail (bitte überprüfen)",
+        "phone_number": "Telefonnummer",
+        "legend": "notwendige Eingabe",
+        "show_more": "Mehr Felder",
+        "show_less": "Weniger Felder"
+    },
+    "login": {
+        "email": "Email",
+        "password": "Password",
+        "saveButton": "log in",
+        "title" : "Please log in",
+        "forgotPassword": "Forgot password?",
+        "socialText": "Or login with",
+        "registration": "Register now",
+        "registerText": "new here?"
+    }
+}

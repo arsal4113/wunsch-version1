@@ -1,0 +1,27 @@
+.breadcrumb-wrapper{
+    font-size: 14px;
+    width: 50%;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+    text-align: left;
+    color: #000;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    opacity: 0.5;
+    white-space: nowrap;
+    a{
+        color: #000 !important;
+        padding-right: 12px;
+        white-space:nowrap;
+        &:not(:first-child){
+            padding-left: 11px;
+        }
+        background: url(../../assets/breadcrumb-arrow.svg) right no-repeat;
+    }
+    .short-title{
+        color: #000;
+        padding-left: 11px;
+        white-space:nowrap;
+    }
+}

@@ -1,0 +1,86 @@
+.cancelled-items {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-bottom: 36px;
+    @media (min-width: 768px) {
+        border-bottom: 1px solid #a8a8a8;
+    }
+    @media (min-width: 768px) and (max-width: 1023px){
+        margin-top: 15px;
+    }
+    .top-border{
+        height: 21px;
+        width: 100%;
+        background: #ff0000;
+        color: #fff;
+        padding: 0 0 0 22px;
+        position: relative;
+        display: flex;
+        span{
+            font-size: 13px;
+            line-height: 21px;
+        }
+        .red-bubble{
+            position: absolute;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            top: -12px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            background: #ff0000 url('../../assets/x.svg') center center no-repeat;
+        }
+    }
+    .content{
+        padding: 20px 21px 28px;
+        .info{
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 25px;
+            color: #000;
+        }
+        .item{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15px;
+            .img-wrapper{
+                height: 80px;
+                width: 80px;
+                min-width: 80px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-right: 10px;
+                img{
+                    max-height: 80px;
+                    max-width: 80px;
+                }
+            }
+            .item-name{
+                font-family: visuelt-bold;
+                font-size: 12px;
+                line-height: 17px;
+                @media (max-width: 767px) {
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+                margin: 0;
+            }
+        }
+        a{
+            margin: 20px 9px 0;
+            background: #FDBe51;
+            color: #fff;
+            font-family: visuelt-bold;
+            font-size: 13px;
+            line-height: 36px;
+            display: block;
+            border-radius: 20px;
+            text-align: center;
+            &:hover{
+                background: linear-gradient(90deg, #FAD170 0%, #FDE988 32.6%, #F9C665 100%), #C4C4C4;
+            }
+        }
+    }
+}

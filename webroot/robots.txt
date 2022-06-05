@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /feeder/product-description/*
+Disallow: /checkout
+Disallow: /customer
+Disallow: /feeder/search
+Disallow: /gutscheine/*
+Disallow: /*?*page=
+Disallow: /*?*upper=
+Disallow: /*?*under=
+Disallow: /*?*submit-filter=
+Allow: /gutscheine/ig-campaign
+
+sitemap: https://catch.app/sitemap.xml

@@ -1,0 +1,9 @@
+{
+    "This field cannot be left empty": "Dieses Feld darf nicht leer sein.",
+    "The provided value is invalid": "Der eingegebene Wert ist ungültig",
+    "The provided email address is invalid": "Bitte gib eine gültige E-Mail ein.",
+    "Unexpected end of JSON input": "Woops, da ist etwas schief gelaufen.",
+    "isSubscribed": "Diese E-Mail ist schon für den Newsletter eingetragen.",
+    "invalidEmail": "Bitte gib eine gültige E-Mail ein.",
+    "Invalid username or password, try again": "Das eingegebene Passwort oder Benutzername ist falsch. Bitte versuche es noch einmal"
+}

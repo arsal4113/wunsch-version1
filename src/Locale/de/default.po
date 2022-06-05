@@ -1,0 +1,2662 @@
+msgid "Participate"
+msgstr "Teilnehmen"
+
+msgid "Conditions of Participation"
+msgstr "Teilnahmebedingungen"
+
+msgid "Log out"
+msgstr "Abmelden"
+
+msgid "Activate Your Account"
+msgstr "Aktivieren Sie Ihren Account"
+
+msgid "Activate Account"
+msgstr "Account aktivieren"
+
+msgid "User Credentials"
+msgstr "Benutzerdaten"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Welcome to the catch universe!"
+msgstr "Wir freuen uns auf Dich!"
+
+#login error message
+msgid "Invalid username or password, try again"
+msgstr "Das eingegebene Passwort oder Benutzername ist falsch. Bitte versuche es noch einmal."
+
+msgid "Please enter a valid email address."
+msgstr "Bitte gebe eine gültige E-Mail Adresse ein."
+
+#change email
+msgid "E-Mail Address Change Request"
+msgstr "E-Mail-Adressänderung"
+
+msgid "You’ve requested to change your email address on file to {0}. Just click the link below and you’ll be all set."
+msgstr "Sie haben um eine Änderung Ihrer Email Adresse zu {0} gebeten. Klicken Sie hierzu einfach auf den unteren Link."
+
+msgid "Click here to confirm your request."
+msgstr "Klicken Sie hier, um Ihre Anfrage zu bestätigen."
+
+#new email notice
+msgid "E-Mail Address Change Request Confirmation"
+msgstr "E-Mail-Adressänderung"
+
+msgid "Nice job - you’ve successfully changed your email address on file to {0}."
+msgstr "Ihre E-Mail-Adresse wurde erfolgreich geändert in {0}."
+
+msgid "If you didn’t request this change, please get in touch and let us know immediately."
+msgstr "Sollten Sie diese Änderung nicht veranlasst haben, informieren Sie uns bitte umgehend."
+
+msgid "If you did not change your E-Mail, please contact us immediately."
+msgstr "Sollten Sie diese Änderung nicht veranlasst haben, informieren Sie uns bitte umgehend."
+
+#change password
+msgid "Change your password"
+msgstr "Ändere dein Passwort"
+
+msgid "Enter your new password."
+msgstr "Bitte gebe dein neues Passwort an."
+
+msgid "Enter your old password"
+msgstr "Gebe dein altes Passwort ein"
+
+#reset password
+msgid "Nice job – you’ve successfully changed your password."
+msgstr "Ihr Passwort wurde erfolgreich geändert."
+
+msgid "If you didn’t change your password, please get in touch and let us know immediately."
+msgstr "Falls Sie diese Passwortänderung nicht veranlasst haben, informieren Sie uns bitte umgehend."
+
+#forgot password
+msgid "You recently requested to reset your password for your eBay Free Template account with i-ways. Don’t worry - we all forget sometimes."
+msgstr "Sie haben vor Kurzem die Zurücksetzung Ihres Passwortes für Ihren eBay Free Template Account beantragt. Bitte klicken Sie auf den Button unten in der Mail, um das Passwort zurückzusetzen."
+
+msgid "Reset your password now"
+msgstr "Passwort zurücksetzen"
+
+msgid "Forgot Password Request"
+msgstr "Passwort wiederherstellen"
+
+msgid "Thanks,"
+msgstr "Beste Grüße"
+
+msgid "If you didn’t request a password reset, you can ignore this email or reply to let us know."
+msgstr "Sollten Sie die Zurücksetzung nicht beantragt haben, dann können Sie diese Mail ignorieren oder uns darüber informieren."
+
+msgid "This password reset link is only valid for the next 24 hours."
+msgstr "Bitte beachten Sie, dass dieser Link nur innerhalb der nächsten 24 Stunden gültig ist."
+
+#free template registration email start
+msgid "Welcome to i-ways eBay Template Creator"
+msgstr "Willkomen bei i-ways eBay Template Creator"
+
+msgid "Hello"
+msgstr "Hallo"
+
+msgid "Due to a technical issue, we are resending your activation email."
+msgstr "Aufgrund eines technischen Fehlers, schicken wir den Aktivierungslink erneut zu."
+
+msgid "Hi"
+msgstr "Hallo"
+
+msgid "Welcome to the i-ways eBay Template Creator, made in partnership with eBay!"
+msgstr "Herzlich Willkommen bei i-ways eBay Template Creator in Kooperation mit eBay!"
+
+msgid "With our free template design tool, you’ll be able to add attractive, fully-customisable design to your eBay item descriptions and your eBay shop."
+msgstr "Mit dem Free eBay Template wird es Ihnen möglich sein, Ihre Artikelbeschreibungen bei eBay und Ihren eBay Shop mit einem attraktiven, personalisierbaren Template zu versehen."
+
+msgid "You’ve specified the following login details to use our system:"
+msgstr "Für die Nutzung unseres Produktes, haben Sie folgende Daten eingegeben:"
+
+msgid "Your login data is your secret password and your user name:"
+msgstr "Ihre Login Daten bestehen aus Ihrem geheimen Passwort und Ihrem Benutzernamen:"
+
+msgid "User name:"
+msgstr "Benutzername:"
+
+msgid "More products on"
+msgstr "Mehr Produkte auf"
+
+msgid "Simply click the link below to start using our i-ways eBay Template Creator immediately. In just a few steps, you’ll be able to design and download your own template. Our templates are compatible with most common listing providers and tools."
+msgstr "Klicken Sie einfach auf den unteren Aktivierungslink und beginnen Sie gleich mit der Einrichtung Ihres Templates. In wenigen Schritten können Sie das personalisierte Template runterladen und in die meisten Listingtools und Middlewares einbinden(z.B. AfterBuy, DreamRobot usw.)."
+
+msgid "Activation link:"
+msgstr "Aktivierungslink:"
+
+msgid "Get started designing your template now"
+msgstr "Fangen Sie jetzt an, Ihr Template zu entwerfen"
+
+msgid "Have a great day,"
+msgstr "Mit freundlichen Grüßen"
+
+msgid "Your i-ways eBay Template Creator Team"
+msgstr "Ihr i-ways eBay Template Creator Team"
+
+#legal information
+msgid "Proprietor: Silvio von Krüchten, Arturas Sendrauskas<br>CRB-Nr: 103417B, Lower Regional Court Berlin<br>Headquarters of the company: Berlin<br>Sales tax ID: DE 814727405"
+msgstr "Geschäftsführer: Silvio von Krüchten, Arturas Sendrauskas<br>HRB-Nr: 103417B, Amtsgericht Berlin<br>Sitz der Gesellschaft: Berlin<br>UID: DE 814727405<br>"
+
+msgid "This email message (including attachments) contains information which may be confidential and/or legally privileged. Unless you are the intended recipient, you may not use, copy or disclose to anyone the message or any information contained in the message or from any attachments that were sent with this email, and If you have received this email message in error, please advise the sender by email, and delete the message. Unauthorised disclosure and/or use of information contained in this email may result in civil and criminal liability."
+msgstr "Die Information in dieser E-Mail ist vertraulich und kann dem Berufsgeheimnis unterliegen. Sie ist ausschließlich für den Adressaten bestimmt. Jeglicher Zugriff auf diese der für diese E-Mail bestimmte Adressat sein, ist Ihnen jede Veröffentlichung, Vervielfältigung oder Weitergabe wie auch das Ergreifen oder Unterlassen von Maßnahmen im Vertrauen auf erlangte Information untersagt."
+
+msgid "Manage Your Store"
+msgstr "Shop Management"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Did You forget Your password?"
+msgstr "Haben Sie das Passwort vergessen?"
+
+msgid "Please type your email here..."
+msgstr "Bitte geben Sie Ihre Email ein..."
+
+msgid "Send request"
+msgstr "Anfrage senden"
+
+msgid "Back to login"
+msgstr "Zurück zum Login"
+
+msgid "Back to sign in"
+msgstr "Zurück zur Anmeldung"
+
+msgid "If it says <b>\"Connected\"</b>, then you all set up :)"
+msgstr "Sie brauchen nichts zu tun, wenn der Status \"Verbunden\" ist"
+
+msgid "Your eBay account connection"
+msgstr "Ihre eBay Konto Verknüpfung"
+
+msgid "Show account information"
+msgstr "Kontoinformationen anzeigen"
+
+msgid "Edit connection"
+msgstr "Verknüpfung bearbeiten"
+
+msgid "Token exp. date"
+msgstr "Token verfällt"
+
+msgid "No Style"
+msgstr "Kein Stil"
+
+msgid "Your template status"
+msgstr "Ihr Template Status"
+
+msgid "Customize template"
+msgstr "Template bearbeiten"
+
+msgid "Help Center"
+msgstr "Hilfecenter"
+
+msgid "Read Documentation"
+msgstr "Anleitung zur Einbindung lesen"
+
+msgid "Registration could not be completed."
+msgstr "Registrierung konnte nicht abgeschlossen werden."
+
+msgid "An account with this email already exists."
+msgstr "Ein Account mit dieser Email Adresse existiert bereits."
+
+msgid "Your account was successfully activated! Please login."
+msgstr "Ihr Account wurde erfolgreich aktiviert! Bitte loggen Sie sich ein."
+
+msgid "Please check the captcha box."
+msgstr "Bitte markieren Sie die Captcha Box"
+
+msgid "Thank You for signing up!"
+msgstr "Danke für Ihre Anmeldung!"
+
+msgid "Password reset instructions have been sent to your email address. You have 24 hours to complete the request."
+msgstr "Instruktionen zum Zurücksetzen Ihres Passwortes wurden an Ihre Email geschickt. Sie haben 24 Stunden, um die Zurücksetzung zu vervollständigen."
+
+msgid "We have sent you an email with an account activation link. Please check Your emails."
+msgstr "Wir haben Ihnen eine Email mit einem Aktivierungslink geschickt. Bitte checken Sie Ihre Mails."
+
+msgid "Already registered? Log in here."
+msgstr "Schon registriert? Hier einloggen."
+
+msgid "Store Name"
+msgstr "Shop Name"
+
+msgid "Colour Theme"
+msgstr "Farbschema"
+
+msgid "i-Tool 3 is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+msgstr "i-Tool 3 mit <i class=\"fa fa-heart red\"></i> gemacht in Berlin"
+
+msgid "Sign in"
+msgstr "Anmelden"
+
+msgid "Sign in now"
+msgstr "Melde dich an"
+
+msgid "Register now"
+msgstr "Registrier dich jetzt"
+
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+msgid "Not registered yet?"
+msgstr "Nicht registriert?"
+
+msgid "Available after 1.12.2016"
+msgstr "Verfügbar nach 1.12.2016"
+
+msgid "Welcome to eBay Template Creator"
+msgstr "Willkommen zu eBay Template Creator"
+
+msgid "in cooperation with eBay"
+msgstr "in Kooperation mit eBay"
+
+msgid "eBay Template Creator in cooperation with eBay is crafted with <i class=\"fa fa-heart red\"></i> in Berlin, Germany"
+msgstr "eBay Template Creator in Kooperation mit eBay gemacht mit <i class=\"fa fa-heart red\"></i> in Berlin"
+
+msgid "Please sign in"
+msgstr "Bitte melden Sie sich an"
+
+#register form for iTemplate users
+msgid "Welcome to your free registration."
+msgstr "Willkommen zu Ihrer kostenlosen Registrierung."
+
+msgid "Choose your language"
+msgstr "Wählen Sie Ihre Sprache"
+
+#: Controller/AppController.php:83
+msgid "Unfortunately the authentication has failed."
+msgstr "Leider ist Ihre Anmeldung fehlgeschlagen."
+#: Controller/CoreUsersController.php:151
+msgid "Password and password confirmation do not match. Please input your password again."
+msgstr "Passwort und Passwortüberprüfung stimmen nicht überein. Bitte geben Sie Ihr Passwort erneut ein"
+#: Controller/CoreUsersController.php:219
+msgid "Invalid username or password, please try again."
+msgstr "Ungültiger Benutzername oder Passwort, bitte versuchen Sie es erneut."
+
+#: Controller/CoreUsersController.php:273
+msgid "The password reset request has either expired or is invalid."
+msgstr "Ihre Anfrage zur Zurücksetzung des Passwortes ist entweder abgelaufen oder ungültig."
+
+#: Controller/CoreUsersController.php:277;279
+msgid "You didn't specify any email or reset password token."
+msgstr "Sie haben keine E-Mail angegeben oder eine Passwortanfrage gesendet."
+#: Controller/CoreUsersController.php:285
+msgid "Please enter new password."
+msgstr "Bitte geben Sie ein neues Passwort ein."
+
+#: Controller/CoreUsersController.php:289
+msgid "Password mismatch. Please make sure that new password & password confirmation are identical."
+msgstr "Das Passwort stimmt nicht überein. Bitte stellen Sie sicher, dass das Passwort und die erneute Passworteingabe übereinstimmen."
+#: Controller/CoreUsersController.php:303;304
+msgid "Your password has been successfully changed."
+msgstr "Ihr Passwort wurde erfolgreich geändert. "
+
+#: Controller/CoreUsersController.php:324
+msgid "Sorry, the email you entered ({0}) was not found."
+msgstr "Die E-Mail Adresse, die Sie eingegeben haben ({0}), wurde leider nicht gefunden."
+
+#: Controller/CoreUsersController.php:337
+msgid "Please enter your email address."
+msgstr "Bitte geben Sie Ihre E-Mail Adresse ein."
+
+#: Template/CoreSellers/add.ctp:27
+#: Template/CoreSellers/edit.ctp:36
+msgid "code"
+msgstr "Code"
+
+#: Template/CoreSellers/add.ctp:33
+#: Template/CoreSellers/edit.ctp:42
+msgid "name"
+msgstr "Name"
+
+#: Template/CoreSellers/add.ctp:39
+#: Template/CoreSellers/edit.ctp:48
+#: Template/CoreSellers/index.ctp:29
+msgid "Seller Type"
+msgstr "Verkäufertyp"
+
+#: Template/CoreSellers/add.ctp:45
+#: Template/CoreSellers/edit.ctp:54
+#: Template/CoreSellers/index.ctp:30
+#: Template/CoreSellers/view.ctp:58
+msgid "Language"
+msgstr "Sprache"
+
+#: Template/CoreSellers/add.ctp:51
+#: Template/CoreSellers/edit.ctp:60
+#: Template/CoreSellers/index.ctp:31
+#: Template/CoreSellers/view.ctp:62
+msgid "Country"
+msgstr "Land"
+
+#: Template/CoreSellers/add.ctp:57
+#: Template/CoreSellers/edit.ctp:66
+#: Template/CoreSellers/index.ctp:32
+#: Template/CoreSellers/view.ctp:46;133;177
+msgid "Status"
+msgstr "Status"
+
+#: Template/CoreSellers/add.ctp:65
+msgid "Marketplaces"
+msgstr "Marktplatz"
+
+#: Template/CoreSellers/add.ctp:73
+#: Template/CoreSellers/edit.ctp:82
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: Template/CoreSellers/add.ctp:74
+#: Template/CoreSellers/edit.ctp:83
+msgid "Submit"
+msgstr "Übermitteln"
+
+#: Template/CoreSellers/edit.ctp:3
+#: Template/CoreSellers/view.ctp:20
+msgid "Edit Seller"
+msgstr "Verkäufer bearbeiten"
+#: Template/CoreSellers/edit.ctp:18
+#: Template/CoreSellers/index.ctp:64
+#: Template/CoreSellers/view.ctp:109;149;195
+msgid "Delete"
+msgstr "Löschen"
+
+#: Template/CoreSellers/edit.ctp:20
+#: Template/CoreSellers/index.ctp:64
+#: Template/CoreSellers/view.ctp:22;109;149;195
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Sind Sie sicher, dass Sie # {0} löschen wollen?"
+
+#: Template/CoreSellers/edit.ctp:74
+msgid "Marketplace"
+msgstr "Marktplatz"
+
+#: Template/CoreSellers/index.ctp:59
+#: Template/CoreSellers/view.ctp:97;137;180
+msgid "Actions"
+msgstr "Aktionen"
+
+#: Template/CoreSellers/index.ctp:62
+#: Template/CoreSellers/view.ctp:107;147;193
+msgid "View"
+msgstr "Anzeigen"
+
+#: Template/CoreSellers/index.ctp:63
+#: Template/CoreSellers/view.ctp:108;148;194
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: Template/CoreSellers/register.ctp:1
+msgid "Please sign up"
+msgstr "Bitte melden Sie sich an."
+
+#: Template/CoreSellers/register.ctp:16
+msgid "Choose a language"
+msgstr "Wählen Sie eine Sprache."
+
+#: Template/CoreSellers/register.ctp:19
+msgid "First name"
+msgstr "Vorname"
+
+#: Template/CoreSellers/register.ctp:22
+msgid "Last name"
+msgstr "Nachname"
+
+#: Template/CoreSellers/register.ctp:25
+#: Template/CoreSellers/view.ctp:134
+msgid "Email"
+msgstr "E-Mail"
+
+#: Template/CoreSellers/register.ctp:28
+msgid "Password"
+msgstr "Passwort"
+
+#: Template/CoreSellers/register.ctp:31
+msgid "Confirm password"
+msgstr "Passwortbestätigung"
+
+#: Template/CoreSellers/register.ctp:35
+msgid "Register"
+msgstr "Registrieren"
+
+#: Template/CoreSellers/view.ctp:14
+msgid "Sellers"
+msgstr "Verkäufer"
+
+#: Template/CoreSellers/view.ctp:22
+msgid "Delete Seller"
+msgstr "Verkäufer löschen"
+
+#: Template/CoreSellers/view.ctp:33
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: Template/CoreSellers/view.ctp:42;92;132;172
+msgid "Id"
+msgstr "Id"
+
+#: Template/CoreSellers/view.ctp:50;93;174
+msgid "Code"
+msgstr "Code"
+
+#: Template/CoreSellers/view.ctp:54;94;175
+msgid "Name"
+msgstr "Name"
+
+#: Controller/EbayFashionCoreUsersController.php:55
+msgid "A User already exists with mail {0}"
+msgstr "Ein Nutzer mit der E-Mail {0} existiert bereits."
+
+#: Controller/EbayFashionCoreUsersController.php:118
+msgid "{0} Admin"
+msgstr "{0} Administrator"
+
+#: Controller/EbayFashionCoreUsersController.php:201
+msgid "Welcome to your Ebay Fashion template"
+msgstr "Willkommen in Ihrem eBay Fashion Template."
+#: Controller/EbayFashionStoresController.php:104
+msgid "Your profile has been successfuly updated."
+msgstr "Ihr Profil wurde erfolgreich geändert."
+
+#: Controller/EbayFashionStoresController.php:107
+msgid "Your profile can't be saved. Please try again."
+msgstr "Ihr Profil konnte nicht gespeichert werden. Bitte versuchen Sie es noch einmal. "
+#: Controller/EbayFashionStoresController.php:161
+msgid "The new E-Mail couldn't be saved. Please try again."
+msgstr "Die neue E-Mail Adresse konnte nicht gespeichert werden. Bitte versuchen Sie es erneut. "
+
+#: Controller/EbayFashionStoresController.php:164
+msgid "Please enter the correct password."
+msgstr "Bitte geben Sie das richtige Passwort ein."
+
+#: Controller/EbayFashionStoresController.php:202
+msgid "The link isn't valid. Please be sure that it isn't older than 24 hours."
+msgstr "Dieser Link ist nicht mehr gültig. Bitte stellen Sie sicher, dass der Link nicht älter als 24 Stunden ist. "
+
+#: Controller/EbayFashionStoresController.php:224
+msgid "Your password has been successfuly changed."
+msgstr "Ihr Passwort wurde erfolgreich geändert. "
+
+#: Controller/EbayFashionStoresController.php:227
+msgid "Your new password can't be saved. Please try again."
+msgstr "Ihr neues Passwort konnte nicht gespeichert werden. Bitte versuchen Sie es erneut. "
+
+#: Controller/EbayFashionStoresController.php:230
+msgid "Passwords don't match. Please try again."
+msgstr "Ihr Passwort stimmt nicht überein. Bitte versuchen Sie es erneut. "
+
+#: Controller/EbayFashionStoresController.php:233
+msgid "Your password isn't correct. Please try again."
+msgstr "Ihr Passwort ist nicht korrekt. Bitte geben Sie es erneut ein."
+
+#: Event/AppEvents.php:39
+msgid "Assistant"
+msgstr "Assistent"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:23
+msgid "Customize"
+msgstr "Anpassen"
+
+#: Template/Cell/EbayTemplateNavigatorFree/download_template.ctp:26
+msgid "Download"
+msgstr "Herunterladen"
+
+#: Template/Cell/EbayTemplateNavigatorFree/manage.ctp:4
+msgid "Create your own template now"
+msgstr "Gestalten Sie jetzt ihr individuelles Template"
+
+#: Template/Cell/EbayTemplateNavigatorFree/start_configuration.ctp:3
+msgid "Add your company information - Step 1 of 2"
+msgstr "Bitte geben Sie Ihre Firmendaten an - Schritt 1 von 2"
+
+msgid "Add your billing address information - Step 1 of 2"
+msgstr "Bitte geben Sie Ihre Rechnungsadresse an - Schritt 1 von 2"
+
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+#: Template/EbayFashionCoreUsers/create.ctp:3
+msgid "Create Ebay Fashion Account"
+msgstr "Erstellen Sie Ihren eBay Fashion Account"
+
+#: Template/EbayFashionCoreUsers/create.ctp:20
+msgid "Merchant mail"
+msgstr "Händler E-Mail"
+
+#: Template/EbayFashionCoreUsers/create.ctp:28
+msgid "Ebay store name"
+msgstr "eBay Shop-Name"
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:44
+#: Template/EbayFashionCrossSellingItems/index.ctp:42
+#: Template/EbayFashionStoreBrands/index.ctp:58
+#: Template/EbayFashionStores/index.ctp:46
+#: Template/EbayFashionTemplates/index.ctp:46
+#: Template/EbayFashionTemplates/view.ctp:100
+msgid "Actions"
+msgstr "Aktionen"
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:47
+#: Template/EbayFashionCrossSellingItems/index.ctp:45
+#: Template/EbayFashionStoreBrands/index.ctp:61
+#: Template/EbayFashionStores/index.ctp:49
+#: Template/EbayFashionTemplates/index.ctp:49
+#: Template/EbayFashionTemplates/view.ctp:118
+msgid "View"
+msgstr "Sichtbarkeit"
+
+#: Template/EbayFashionCrossSellingCategories/index.ctp:48
+#: Template/EbayFashionCrossSellingItems/index.ctp:46
+#: Template/EbayFashionStoreBrands/index.ctp:62
+#: Template/EbayFashionStores/profile.ctp:38
+#: Template/EbayFashionTemplates/index.ctp:50
+#: Template/EbayFashionTemplates/view.ctp:119
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: Template/EbayFashionCrossSellingCategories/upload.ctp:35
+#: Template/EbayFashionCrossSellingItems/upload.ctp:35
+msgid "file_name"
+msgstr "Datei Name"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:29
+#: Template/EbayFashionCrossSellingItems/view.ctp:29
+#: Template/EbayFashionStoreBrands/view.ctp:33
+#: Template/EbayFashionStores/view.ctp:29
+#: Template/EbayFashionTemplates/view.ctp:33
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:38
+#: Template/EbayFashionCrossSellingItems/view.ctp:38
+#: Template/EbayFashionStores/view.ctp:38
+msgid "Ebay Account"
+msgstr "eBay Account"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:42
+msgid "eBay Category ID's"
+msgstr "eBay Kategorie ID's"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:46
+#: Template/EbayFashionStoreBrands/view.ctp:86
+#: Template/EbayFashionTemplates/view.ctp:50;98
+msgid "Created"
+msgstr "Erstellt"
+
+#: Template/EbayFashionCrossSellingCategories/view.ctp:50
+#: Template/EbayFashionStoreBrands/view.ctp:90
+#: Template/EbayFashionTemplates/view.ctp:54;99
+msgid "Modified"
+msgstr "Angepasst"
+
+#: Template/EbayFashionStoreBrands/add.ctp:33
+#: Template/EbayFashionStoreBrands/edit.ctp:45
+msgid "ebay_fashion_store_id"
+msgstr "eBay Fashion Shop ID"
+
+#: Template/EbayFashionStoreBrands/add.ctp:39
+#: Template/EbayFashionStoreBrands/edit.ctp:52
+msgid "ebay_fashion_template_id"
+msgstr "eBay Fashion Template ID"
+
+#: Template/EbayFashionStoreBrands/add.ctp:45
+#: Template/EbayFashionTemplates/add.ctp:33
+#: Template/EbayFashionTemplates/edit.ctp:42
+msgid "name"
+msgstr "Name"
+
+#: Template/EbayFashionStoreBrands/add.ctp:51
+#: Template/EbayFashionStoreBrands/edit.ctp:65
+msgid "description"
+msgstr "Beschreibung"
+
+#: Template/EbayFashionStoreBrands/add.ctp:57
+#: Template/EbayFashionStoreBrands/edit.ctp:58
+msgid "slogan"
+msgstr "Slogan"
+
+#: Template/EbayFashionStoreBrands/add.ctp:63
+#: Template/EbayFashionStoreBrands/edit.ctp:72
+msgid "logo"
+msgstr "Logo"
+
+#: Template/EbayFashionStoreBrands/add.ctp:69
+#: Template/EbayFashionStoreBrands/edit.ctp:78
+msgid "banner"
+msgstr "Banner"
+
+#: Template/EbayFashionStoreBrands/add.ctp:75
+msgid "promo_banner"
+msgstr "Promo_Banner"
+
+#: Template/EbayFashionStoreBrands/add.ctp:81
+msgid "promo_banner_link"
+msgstr "Promo_Banner_Link "
+
+#: Template/EbayFashionStoreBrands/add.ctp:87
+#: Template/EbayFashionStoreBrands/edit.ctp:84
+msgid "is_active"
+msgstr "Ist aktiv"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:3
+msgid "Edit eBay Fashion Store Brand"
+msgstr "eBay Fashion Shop Marke bearbeiten"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:36
+msgid "Brand Name"
+msgstr "Markenname"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:45
+msgid "eBay Fashion Store"
+msgstr "eBay Fashion Shop"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:52
+msgid "eBay Fashion Template"
+msgstr "eBay Fashion Template"
+
+#: Template/EbayFashionStoreBrands/edit.ctp:58
+#: Template/EbayFashionStoreBrands/view.ctp:62
+#: Template/EbayFashionTemplates/view.ctp:94
+msgid "Slogan"
+msgstr "Slogan"
+
+#: Template/EbayFashionStoreBrands/view.ctp:14
+msgid "Ebay Fashion Store Brands"
+msgstr "eBay Fashion Shop Marken"
+
+#: Template/EbayFashionStoreBrands/view.ctp:18
+msgid "List of Ebay Fashion Store Brands"
+msgstr "Liste der eBay Fashion Shop Marken"
+
+#: Template/EbayFashionStoreBrands/view.ctp:19
+msgid "Add New Ebay Fashion Store Brand"
+msgstr "Fügen Sie zusätzliche eBay Fashion Shop Marken hinzu."
+
+#: Template/EbayFashionStoreBrands/view.ctp:20
+msgid "Edit Ebay Fashion Store Brand"
+msgstr "Bearbeiten Sie die eBay Fashion Shop Marken "
+
+#: Template/EbayFashionStoreBrands/view.ctp:22
+msgid "Delete Ebay Fashion Store Brand"
+msgstr " Löschen Sie die eBay Fashion Shop Marken "
+
+#: Template/EbayFashionStoreBrands/view.ctp:42
+#: Template/EbayFashionStores/view.ctp:42
+msgid "Core Seller"
+msgstr "Core Seller"
+
+#: Template/EbayFashionStoreBrands/view.ctp:46
+msgid "Ebay Fashion Store"
+msgstr " Ebay Fashion Store "
+
+#: Template/EbayFashionStoreBrands/view.ctp:50
+msgid "Ebay Fashion Template"
+msgstr " Ebay Fashion Template "
+
+#: Template/EbayFashionStoreBrands/view.ctp:54
+#: Template/EbayFashionStores/view.ctp:58
+#: Template/EbayFashionTemplates/view.ctp:46;92
+msgid "Name"
+msgstr "Name"
+
+#: Template/EbayFashionStoreBrands/view.ctp:58
+#: Template/EbayFashionStores/view.ctp:66
+#: Template/EbayFashionTemplates/view.ctp:93
+msgid "Description"
+msgstr "Beschreibung"
+
+#: Template/EbayFashionStoreBrands/view.ctp:66
+#: Template/EbayFashionStores/view.ctp:70
+#: Template/EbayFashionTemplates/view.ctp:95
+msgid "Logo"
+msgstr "Logo"
+
+#: Template/EbayFashionStoreBrands/view.ctp:70
+#: Template/EbayFashionStores/view.ctp:74
+#: Template/EbayFashionTemplates/view.ctp:96
+msgid "Banner"
+msgstr "Banner"
+
+#: Template/EbayFashionStoreBrands/view.ctp:74
+#: Template/EbayFashionStores/view.ctp:78
+#: Template/EbayFashionTemplates/view.ctp:97
+msgid "Promo Banner"
+msgstr "Promo Banner"
+
+#: Template/EbayFashionStoreBrands/view.ctp:78
+msgid "Promo Banner Link"
+msgstr " Promo Banner Link "
+
+#: Template/EbayFashionStoreBrands/view.ctp:82
+#: Template/EbayFashionTemplates/view.ctp:87
+msgid "Id"
+msgstr "Id"
+
+#: Template/EbayFashionStoreBrands/view.ctp:94
+msgid "Is Active"
+msgstr "Ist Aktiv"
+
+#: Template/EbayFashionStoreBrands/view.ctp:95
+msgid "Yes"
+msgstr "Ja"
+
+#: Template/EbayFashionStoreBrands/view.ctp:95
+msgid "No"
+msgstr "Nein"
+
+#: Template/EbayFashionStores/ebay_connection.ctp:3
+msgid "Edit your eBay connection"
+msgstr "Bearbeiten Sie Ihre eBay Schnittstelle."
+
+#: Template/EbayFashionStores/edit_email.ctp:3
+msgid "Change E-Mail Address"
+msgstr "Ändern Sie Ihre E-Mail Adresse."
+
+#: Template/EbayFashionStores/edit_email.ctp:10
+msgid "New E-Mail"
+msgstr "Neue E-Mail Adresse"
+
+#: Template/EbayFashionStores/edit_email.ctp:16
+msgid "Confirm New E-Mail"
+msgstr "Bestätigen Sie Ihre neue E-Mail Adresse. "
+
+#: Template/EbayFashionStores/edit_email.ctp:22
+msgid "Current Password"
+msgstr "Aktuelles Passwort"
+
+#: Template/EbayFashionStores/edit_email.ctp:32
+#: Template/EbayFashionStores/edit_password.ctp:32
+#: Template/EbayFashionStores/edit_profile.ctp:59
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: Template/EbayFashionStores/edit_password.ctp:3
+#: Template/EbayFashionStores/profile.ctp:74
+msgid "Change Password"
+msgstr "Passwort ändern"
+
+#: Template/EbayFashionStores/edit_password.ctp:10
+msgid "Old Password"
+msgstr "Altes Passwort"
+
+#: Template/EbayFashionStores/edit_password.ctp:16
+msgid "New Password"
+msgstr "Neues Passwort"
+
+#: Template/EbayFashionStores/edit_password.ctp:22
+msgid "Confirm New Password"
+msgstr "Neues Passwort bestätigen"
+
+#: Template/EbayFashionStores/edit_profile.ctp:3
+msgid "Edit Account Data"
+msgstr "Accountdaten bearbeiten"
+
+#: Template/EbayFashionStores/edit_profile.ctp:10
+#: Template/EbayFashionStores/profile.ctp:20
+#: Template/Element/core_seller_address.ctp:8
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: Template/EbayFashionStores/edit_profile.ctp:16
+msgid "Street"
+msgstr "Strasse"
+
+#: Template/EbayFashionStores/edit_profile.ctp:27
+#: Template/Element/core_seller_address.ctp:35
+msgid "City"
+msgstr "Stadt"
+
+#: Template/EbayFashionStores/edit_profile.ctp:33
+#: Template/Element/core_seller_address.ctp:44
+msgid "Country"
+msgstr "Land"
+
+#: Template/EbayFashionStores/edit_profile.ctp:43
+#: Template/EbayFashionStores/profile.ctp:28
+#: Template/Element/core_seller_address.ctp:62
+msgid "Phone Number"
+msgstr "Telefon"
+
+#: Template/EbayFashionStores/edit_profile.ctp:49
+#: Template/EbayFashionStores/profile.ctp:32
+msgid "Webshop/Site"
+msgstr "Homepage"
+
+#: Template/EbayFashionStores/index.ctp:3
+#: Template/EbayFashionStores/view.ctp:14
+msgid "List of Ebay Stores"
+msgstr "Liste der eBay Shops"
+
+#: Template/EbayFashionStores/index.ctp:51
+msgid "Test Item Template"
+msgstr "Test Artikel Template"
+
+#: Template/EbayFashionStores/profile.ctp:24
+msgid "Address"
+msgstr "Adresse"
+
+#: Template/EbayFashionStores/profile.ctp:58
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: Template/EbayFashionStores/profile.ctp:63
+msgid "Change E-Mail"
+msgstr "E-Mail Adresse ändern"
+
+#: Template/EbayFashionStores/profile.ctp:69
+msgid "Password"
+msgstr "Passwort"
+
+#: Template/EbayFashionStores/test_mode.ctp:3
+msgid "Test Your eBay Template"
+msgstr "Testen Sie Ihr eBay Template"
+
+#: Template/EbayFashionStores/test_mode.ctp:14
+msgid "Ebay Item Id"
+msgstr "eBay Artikelnummer"
+
+#: Template/EbayFashionStores/view.ctp:10
+msgid "Ebay Fashion Stores"
+msgstr "eBay Fashion Shops"
+
+#: Template/EbayFashionStores/view.ctp:15
+msgid "Add New Ebay Store"
+msgstr "Neuen eBay Shop hinzufügen"
+
+#: Template/EbayFashionStores/view.ctp:16
+msgid "Edit Ebay Store"
+msgstr "eBay Shop bearbeiten"
+
+#: Template/EbayFashionStores/view.ctp:18
+msgid "Delete Ebay Store"
+msgstr "eBay Shop löschen"
+
+#: Template/EbayFashionStores/view.ctp:46
+msgid "Product Template"
+msgstr "Artikel Template"
+
+#: Template/EbayFashionStores/view.ctp:50
+#: Template/EbayFashionTemplates/view.ctp:58
+msgid "Store Template"
+msgstr "Shop Template"
+
+#: Template/EbayFashionStores/view.ctp:54
+#: Template/EbayFashionTemplates/view.ctp:42;91
+msgid "Code"
+msgstr "Code"
+
+#: Template/EbayFashionStores/view.ctp:62
+msgid "Test Mode"
+msgstr "Test Modus"
+
+#: Template/EbayFashionTemplates/add.ctp:3
+#: Template/EbayFashionTemplates/index.ctp:11
+#: Template/EbayFashionTemplates/view.ctp:19
+msgid "Add New Ebay Fashion Template"
+msgstr "Neues eBay Fashion Template hinzufügen."
+
+#: Template/EbayFashionTemplates/add.ctp:13
+#: Template/EbayFashionTemplates/edit.ctp:13
+#: Template/EbayFashionTemplates/index.ctp:3
+#: Template/EbayFashionTemplates/view.ctp:18
+msgid "List of Ebay Fashion Templates"
+msgstr "Liste der eBay Fashion Templates."
+
+#: Template/EbayFashionTemplates/add.ctp:27
+#: Template/EbayFashionTemplates/edit.ctp:36
+msgid "code"
+msgstr "Code"
+
+#: Template/EbayFashionTemplates/add.ctp:39
+#: Template/EbayFashionTemplates/edit.ctp:48
+msgid "store_template"
+msgstr "Shop_Template"
+
+#: Template/EbayFashionTemplates/add.ctp:45
+#: Template/EbayFashionTemplates/edit.ctp:54
+msgid "item_template"
+msgstr "Artikel_Template"
+
+#: Template/EbayFashionTemplates/add.ctp:51
+#: Template/EbayFashionTemplates/edit.ctp:60
+msgid "css"
+msgstr "css"
+
+#: Template/EbayFashionTemplates/add.ctp:57
+#: Template/EbayFashionTemplates/edit.ctp:66
+msgid "CoreSellerTypes"
+msgstr " CoreSellerTypes "
+
+#: Template/EbayFashionTemplates/edit.ctp:3
+#: Template/EbayFashionTemplates/view.ctp:20
+msgid "Edit Ebay Fashion Template"
+msgstr " eBay FashionTemplate bearbeiten."
+#: Template/EbayFashionTemplates/view.ctp:14
+msgid "Ebay Fashion Templates"
+msgstr " Ebay Fashion Templates "
+
+#: Template/EbayFashionTemplates/view.ctp:22
+msgid "Delete Ebay Fashion Template"
+msgstr "eBay Fashion Template löschen"
+
+#: Template/EbayFashionTemplates/view.ctp:62
+#: Template/Element/manage.ctp:123
+msgid "Item Template"
+msgstr "Artikel Template"
+
+#: Template/EbayFashionTemplates/view.ctp:66
+msgid "Css"
+msgstr "Css"
+
+#: Template/EbayFashionTemplates/view.ctp:77
+msgid "Related Ebay Fashion Stores"
+msgstr "Ähnliche eBay Shops"
+
+#: Template/EbayFashionTemplates/view.ctp:88
+msgid "Ebay Account Id"
+msgstr "eBay Account Id"
+
+#: Template/EbayFashionTemplates/view.ctp:89
+msgid "Core Seller Id"
+msgstr " Core Seller Id "
+
+#: Template/EbayFashionTemplates/view.ctp:90
+msgid "Ebay Fashion Template Id"
+msgstr "Ebay Fashion Template Id"
+
+#: Template/Element/core_seller_address.ctp:12
+msgid "Add your company name to get proper invoices from us."
+msgstr "Ergänzen Sie Ihren  Firmennamen, um eine korrekte Rechnung von uns zu erhalten."
+
+#: Template/Element/core_seller_address.ctp:18
+msgid "Street Name"
+msgstr "Strassenname"
+
+#: Template/Element/core_seller_address.ctp:26
+msgid "House Number"
+msgstr "Haus-Nr."
+
+#: Template/Element/core_seller_address.ctp:46
+msgid "Choose a country"
+msgstr "Wählen Sie ein Land"
+
+#: Template/Element/core_seller_address.ctp:53
+msgid "Zip Code"
+msgstr "PLZ"
+
+#: Template/Element/core_seller_address.ctp:69
+msgid "Website"
+msgstr "Webseite"
+
+#: Template/Element/core_seller_address.ctp:81
+msgid "Next step"
+msgstr "Nächster Schritt"
+
+#: Template/Element/ebay_connection.ctp:8
+msgid "We need to link eBay Template Creator to your eBay account in order to update the templates automatically."
+msgstr "Wir müssen eBay Template Creator mit Ihrem eBay Konto verknüpfen, damit sich die Templates automatisch aktualisieren können."
+
+#: Template/Element/ebay_connection.ctp:11
+msgid "Please press <strong>\"Connect your eBay account\"</strong> to do so."
+msgstr "Bitte klicken Sie hierfür auf <strong>\„eBay Konto verknüpfen\”</strong>."
+
+#: Template/Element/ebay_connection.ctp:13
+msgid "Then proceed with <strong>\"Get token\"</strong> in order to complete this step."
+msgstr "Klicken Sie dann auf den Button <strong>\„Token anfordern\“</strong>, um den Vorgang abzuschließen"
+
+#: Template/Element/ebay_connection.ctp:10
+msgid "Please pay attention to the fact that both steps need to be done within 5 minutes."
+msgstr "Bitte beachten Sie, dass beide Schritte innerhalb von 5 Minuten durchgeführt werden müssen. "
+
+#: Template/Element/ebay_connection.ctp:14
+msgid "eBay account status"
+msgstr "eBay Konto Status"
+
+#: Template/Element/ebay_connection.ctp:17
+msgid "Connected"
+msgstr "Verbunden"
+
+#: Template/Element/ebay_connection.ctp:17
+msgid "Not connected"
+msgstr "Nicht verbunden"
+
+#: Template/Element/ebay_connection.ctp:17
+msgid "Recreate connection"
+msgstr "Verbindung erneuern"
+
+#: Template/Element/ebay_connection.ctp:20
+msgid "Connect your eBay account"
+msgstr "Verbinden Sie Ihr eBay Konto"
+
+#: Template/Element/ebay_connection.ctp:22
+msgid "Get token"
+msgstr "Token anfordern"
+
+#: Template/Element/ebay_connection.ctp:29
+msgid "Next"
+msgstr "Weiter"
+
+#: Template/Element/ebay_connection.ctp:29
+msgid "Proceed without token"
+msgstr "Weiter ohne Token"
+
+#: Template/Element/manage.ctp:9
+msgid "eBay Account Name"
+msgstr "eBay Kontoname"
+
+#: Template/Element/manage.ctp:12
+msgid "If you ever changed your eBay store name, put the old name here."
+msgstr "Wenn Sie den Namen Ihres eBay-Shops schon einmal geändert haben, geben Sie den alten Namen hier ein. "
+
+#: Template/Element/manage.ctp:17
+msgid "eBay Store Name"
+msgstr "eBay Shop Name"
+
+#: Template/Element/manage.ctp:20
+msgid "Your actual store name. If you ever changed your eBay store name, put the new name here."
+msgstr "Ihr aktueller eBay Shop Name. Falls Sie Ihren eBay Shop Namen jemals geändert haben, geben Sie den neuen Namen bitte hier ein."
+
+#: Template/Element/manage.ctp:25
+msgid "Shop Template Design"
+msgstr "Shop Template Design"
+
+#: Template/Element/manage.ctp:27;35
+msgid "No Template"
+msgstr "Kein Template"
+
+#: Template/Element/manage.ctp:32
+msgid "Item Template Design"
+msgstr "Artikel Template Design"
+
+#: Template/Element/manage.ctp:41
+msgid "Store Slogan"
+msgstr "Shop Slogan"
+
+#: Template/Element/manage.ctp:45
+msgid "(max 80 symbols)"
+msgstr "maximal 80 Zeichen"
+
+#: Template/Element/manage.ctp:51
+msgid "Store Description"
+msgstr "Shopbeschreibung"
+
+#: Template/Element/manage.ctp:55
+msgid "(max 160 symbols)"
+msgstr "maximal 160 Zeichen"
+
+#: Template/Element/manage.ctp:67
+msgid "Change Store Logo"
+msgstr "Shoplogo wechseln"
+
+#: Template/Element/manage.ctp:70
+msgid "PNG- or JPG-file with max. 200x150px and {0} MB"
+msgstr ".png oder .jpg Datei mit maximal 200x150 Pixel und {0} MB"
+
+#: Template/Element/manage.ctp:82
+msgid "Change Store Banner"
+msgstr "Shopbanner wechseln"
+
+#: Template/Element/manage.ctp:85
+msgid "PNG- or JPG-file with max. 1140x450px and {0} MB"
+msgstr ".png oder .jpg Datei mit maximal 1140x450 Pixel und {0} MB"
+
+#: Template/Element/manage.ctp:90
+msgid "Main Colour"
+msgstr "Hauptfarbe"
+
+#: Template/Element/manage.ctp:100
+msgid "Accent Colour"
+msgstr "Akzentfarbe"
+
+#: Template/Element/manage.ctp:110
+msgid "Store Text Colour"
+msgstr "Shoptextfarbe"
+
+#: Template/Element/manage.ctp:124
+msgid "Shop Template"
+msgstr "Shopvorlage"
+
+#: Template/Element/manage.ctp:125
+msgid "Mobile Item Template"
+msgstr "Mobiles Artikel Template"
+
+#: Template/Element/manage.ctp:182
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: Template/Element/manage.ctp:185
+msgid "Download template"
+msgstr "Template herunterladen"
+
+#: Template/Element/manage.ctp:188
+msgid "Save"
+msgstr "Speichern"
+
+#: View/Cell/EbayTemplateNavigatorFreeCell.php:159
+msgid "The store was sucessful updated."
+msgstr "Der Shop wurde erfolgreich aktualisiert. "
+
+#: View/Cell/EbayTemplateNavigatorFreeCell.php:169
+msgid "The store could not be saved, please try again."
+msgstr "Der Shop konnte nicht gespeichert werden. Bitte versuchen Sie es erneut. "
+
+msgid "Activate Your Account"
+msgstr "Account aktivieren"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Create Your Template"
+msgstr "Template erstellen"
+
+msgid "Your i-Tool3 profile is being prepared.."
+msgstr "Ihr i-Tool3 Profil wird vorbereitet.."
+
+msgid "https://support.i-ways.net/hc/en-us/sections/202737349"
+msgstr "https://support.i-ways.net/hc/de/sections/202737349"
+
+#: Template/Element/paginator.ctp:39
+msgid "Page {{page}} of {{pages}}, showing {{current}} records out of {{count}} total, starting on record {{start}}, ending on {{end}}"
+msgstr "Seite {{page}} von {{pages}}, angezeigt werden {{current}} von {{count}} Einträgen, beginnend bei {{start}}, endend bei {{end}}"
+
+msgid "100% free of charge"
+msgstr "100% kostenlos"
+
+msgid "Fully mobile responsive"
+msgstr "Mobil optimiert"
+
+msgid "100% eBay conform"
+msgstr "100% eBay konform"
+
+msgid "Item Description"
+msgstr "Artikelbeschreibung"
+
+msgid "Technical Details"
+msgstr "Technische Daten"
+
+msgid "ebayItemDayFormat"
+msgstr "T"
+
+msgid "ebayItemHourFormat"
+msgstr "Std"
+
+msgid "ebayItemMinuteFormat"
+msgstr "Min"
+
+msgid "ShippingCost"
+msgstr "Versand"
+
+msgid "TimeLeft"
+msgstr "Restzeit"
+
+msgid "eBay Site"
+msgstr "eBay Seite"
+
+#ebay checkout
+msgid "Checkout"
+msgstr "Kasse"
+
+#: Template/Element/header.ctp
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Shop safely with eBay Guarantee"
+msgstr "Sicher Einkaufen mit eBay Garantie"
+
+msgid "Guest Checkout"
+msgstr "Kaufabwicklung als Gast"
+
+msgid "Purchase settlement"
+msgstr "Bestellabwicklung"
+
+msgid "Your order confirmation will be sent to the following e-mail: {0}"
+msgstr "Deine Bestellbestätigung wird an folgende E-Mail-Adresse gesandt: {0}"
+
+#: Template/EbayCheckoutSessions/success.ctp
+msgid "Congratulations!"
+msgstr "Vielen Dank für Ihren Kauf!"
+
+msgid "Your order was placed"
+msgstr "Ihre Bestellung wurde aufgegeben."
+
+msgid "Estimated delivery: "
+msgstr "Voraussichtliche Lieferzeit: "
+
+msgid "We’ll send you an email confirmation soon."
+msgstr "Wir senden Ihnen in Kürze eine Bestätigung per E-Mail."
+
+#: Template/Cell/ItemsWidget/display.ctp
+msgid "{0} Article"
+msgstr "{0} Artikel"
+
+msgid "Back to shopping cart"
+msgstr "Zurück zum Warenkorb"
+
+msgid "From"
+msgstr "Von"
+
+msgid "Quantity"
+msgstr "Anzahl"
+
+msgid "Shipping"
+msgstr "Versand"
+
+msgid "Other shipping options"
+msgstr "weitere Versandoptionen"
+
+#: Template/Cell/ShippingAddressWidget/display.ctp
+msgid "Ship to"
+msgstr "Versand an"
+
+msgid "Country or region"
+msgstr "Land oder Region"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Last name"
+msgstr "Nachname"
+
+msgid "Street address"
+msgstr "Straße und Hausnummer"
+
+msgid "Street address 2 (optional)"
+msgstr "Adresszusatz (optional)"
+
+msgid "City"
+msgstr "Ort"
+
+msgid "ZIP code"
+msgstr "PLZ"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Confirm email"
+msgstr "E-Mail bestätigen"
+
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+msgid "We will use this number only in case of shipping problems."
+msgstr "Wir verwenden diese Nummer nur, falls Probleme beim Versand auftreten."
+
+msgid "Save shipping address for further purchases"
+msgstr "Lieferadresse für weitere Einkäufe speichern"
+
+msgid "By pressing \"save\" you agree that we forward the shipping information above to PayPal. Please find further information <a href=\"/feeder/pages/display/datenschutz#paypal-target\" target=\"_blank\">here</a>."
+msgstr "Wenn du „speichern“ klickst, erteilst du dein Einverständnis, dass wir die oben angezeigten Versanddaten an PayPal weitergeben. Mehr dazu <a href=\"/feeder/pages/display/datenschutz#paypal-target\" target=\"_blank\">hier</a>."
+
+msgid "Save and continue"
+msgstr "Speichern und weiter"
+
+#: Template/Cell/PaymentWidget/display.ctp
+msgid "Choose payment method"
+msgstr "Zahlungsart auswählen"
+
+#: Template/Cell/PaymentMethodWallet/display.ctp
+msgid "Please enter your address first in order to choose a payment method."
+msgstr "Bitte gib zunächst deine Adresse an, um eine Zahlungsart auswählen zu können."
+
+msgid "Please select a payment method by clicking on the corresponding icon. You will be redirected to enter your payment details. The order will be placed in the following step."
+msgstr "Bitte wähle eine Zahlungsart aus, indem du auf das entsprechende Icon klickst. Du wirst zunächst weitergeleitet, um deine Zahlungsdaten einzugeben. Die Bestellung erfolgt im nächsten Schritt."
+
+#: Template/Cell/ProgressWidget/display.ctp
+msgid "Order"
+msgstr "Bestellung"
+
+msgid "Delivery address"
+msgstr "Lieferadresse"
+
+msgid "Delivery address "
+msgstr "Liefer-adresse"
+
+msgid "Payment"
+msgstr "Zahlung"
+
+msgid "Conclude the purchase"
+msgstr "Kaufabschluss"
+
+msgid "Conclude the purchase "
+msgstr "Kauf-abschluss"
+
+msgid "Reliable shipping to your home"
+msgstr "Zuverlässiger Versand zu dir nach Hause"
+
+msgid "Secure checkout with eBay Buyer Protection"
+msgstr "Sichere Kaufabwicklung mit eBay-Käuferschutz"
+
+msgid "One more click and you will catch some happiness"
+msgstr "Noch einen Klick zum Catch-Glücksgefühl"
+
+#: Template/Cell/TotalsWidget/display.ctp
+msgid "By clicking Purchase, you agree that you've read and accepted eBay's User <a href=\"https://pages.ebay.com/help/policies/user-agreement.html\" target=\"_blank\">Agreement</a> and you consent to eBay's <a href=\"https://pages.ebay.com/help/policies/privacy-policy.html\" target=\"_blank\">Privacy</a> Notice and receiving marketing communications from eBay."
+msgstr "Indem Du auf Kaufen klickst, stimmst Du den <a href=\"https://pages.ebay.de/help/policies/user-agreement.html?clk_rvr_id=1593586403553&rmvSB=true\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> sowie der <a href=\"https://pages.ebay.de/help/policies/privacy-policy.html?clk_rvr_id=1592800397309&rmvSB=true\" target=\"_blank\">Datenschutzerklärung</a> von eBay zu."
+#-----------------------------------------------------------------------------
+msgid "Free"
+msgstr "Kostenlos"
+
+msgid "incl. VAT"
+msgstr "inkl. MwSt."
+
+msgid "Buy now"
+msgstr "Jetzt Kaufen"
+
+msgid "By clicking on Buy, you agree to the <a href=\"https://pages.ebay.com/help/policies/user-agreement.html\" target=\"_blank\">terms and conditions</a>. Information on the processing of your data can be found in our <a href=\"/datenschutz\" target=\"_blank\">privacy policy</a>."
+msgstr "Indem du auf Kaufen klickst, stimmst du den <a href=\"https://pages.ebay.de/help/policies/user-agreement.html?clk_rvr_id=1593586403553&rmvSB=true\" target=\"_blank\">Allgemeinen Geschäftsbedingungen</a> zu. Informationen zu Verarbeitung deiner Daten findest du in unserer <a href=\"/datenschutz\" target=\"_blank\">Datenschutzerklärung</a>."
+
+msgid "Enter shipping address"
+msgstr "Gebe Deine Lieferadresse ein"
+
+msgid "Total"
+msgstr "Gesamtbetrag"
+
+msgid "Subscribe to the newsletter from ebay"
+msgstr "Ich möchte E-Mails über Verkaufsaktionen, Sonderangebote und Umfragen erhalten. Ich kann diese E-Mails jederzeit über den Link in den E-Mails abstellen."
+
+msgid "Subscribe to the newsletter from catch"
+msgstr "Newsletter von catch abonnieren"
+
+msgid "You can unsubscribe from these e-mails at any time via your account settings or a link in the e-mails."
+msgstr "Du kannst ihn jederzeit in deinem Konto oder über einen Link in den E-mails abbestellen."
+
+msgid "https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.com%2Febay-money-back-guarantee%2F"
+msgstr "https://rover.ebay.com/rover/1/707-53477-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.de%2Feinkaufen%2Febay-kaeuferschutz.html"
+
+#ebay-item-view
+
+msgid "Unknown Item"
+msgstr "Dieses Produkt ist leider nicht mehr verfügbar."
+
+msgid "product rating"
+msgstr "Produktbewertung"
+
+msgid "product ratings"
+msgstr "Produktbewertungen"
+
+msgid "We have no ratings yet."
+msgstr "Noch keine Bewertung verfügbar."
+
+msgid "Attributes"
+msgstr "Artikelmerkmale"
+
+msgid "Item attributes"
+msgstr "Artikelmerkmale"
+
+msgid "Invalid Item!"
+msgstr "Dieses Produkt ist leider nicht mehr verfügbar."
+
+msgid "- Select -"
+msgstr "- Auswählen -"
+
+msgid "Qty:"
+msgstr "Stückzahl"
+
+msgid "More than"
+msgstr "Mehr als"
+
+msgid "available"
+msgstr "verfügbar"
+
+msgid "sold"
+msgstr "verkauft"
+
+msgid "Last one"
+msgstr "1 verfügbar"
+
+msgid "[out of stock]"
+msgstr "[nicht mehr vorrätig]"
+
+msgid "Please complete your selection"
+msgstr "Bitte vervollständige deine Auswahl."
+
+msgid "Price: "
+msgstr ""
+
+msgid "Until now:"
+msgstr "Bisher:"
+
+msgid "Until now"
+msgstr "Bisher"
+
+msgid "TO BUY"
+msgstr "Kaufen"
+
+msgid "TO CHECKOUT"
+msgstr "Zur Kasse"
+
+msgid "Item Condition:"
+msgstr "Artikelzustand:"
+
+msgid "Sold by:"
+msgstr "Angaben zum Verkäufer:"
+
+msgid "% Positive Feedback"
+msgstr "% Positives Feedback"
+
+msgid "Sold by:"
+msgstr "Verkäufer:"
+
+msgid "Shipping:"
+msgstr "Versand:"
+
+msgid "Guarantee:"
+msgstr "Sicherheit:"
+
+msgid "to "
+msgstr ""
+
+#customer-account
+
+msgid "Log in"
+msgstr "Einloggen"
+
+msgid "Login"
+msgstr "Anmelden"
+
+#Template/Registration/create.ctp
+msgid "Repeat password"
+msgstr "Passwortbestätigung"
+
+msgid "Login with"
+msgstr "Anmelden mit"
+
+msgid "or login with"
+msgstr "Oder anmelden mit"
+
+msgid "Do you already have an account?"
+msgstr "Hast du schon einen Account?"
+
+msgid "Your username is too long."
+msgstr "Dein Nutzername ist zu lang."
+
+msgid "Your password needs to consist of at least 6 characters."
+msgstr "Dein Password muss mindestens 6 Zeichen lang sein."
+
+msgid "Your entered passwords do not match."
+msgstr "Die eingegebenen Passwörter stimmen nicht überein."
+
+msgid "The entered email is being used already."
+msgstr "Die E-mail-Addresse ist bereits vergeben."
+
+msgid "The entered Captcha is incorrect."
+msgstr "Das eingegebene Captcha ist nicht korrekt."
+
+msgid "Please solve the captcha."
+msgstr "Bitte löse die Captcha."
+
+msgid "Registration"
+msgstr "Registrierung"
+
+# nicht anzeigen ---------------------------------------------------------
+
+msgid " only"
+msgstr ""
+# nicht anzeigen ---------------------------------------------------------
+
+msgid "Item condition:"
+msgstr "Artikelzustand:"
+
+msgid "New"
+msgstr "Neu"
+
+msgid "Free Shipping"
+msgstr "Kostenlos"
+
+msgid "Item location:"
+msgstr "Artikelstandort:"
+
+msgid "Item location"
+msgstr "Artikelstandort"
+
+msgid "No location specified"
+msgstr "Kein Artikelstandort angegeben."
+
+msgid "Delivery:"
+msgstr "Lieferung:"
+
+msgid "No Delivery Date specified."
+msgstr "Kein Lieferdatum angegeben."
+
+msgid "Payments:"
+msgstr "Zahlungen:"
+
+msgid "Credit Cards processed by PayPal"
+msgstr "Kreditkartenzahlungen werden von PayPal bearbeitet"
+
+msgid "Return Policy:"
+msgstr "Rücknahmen:"
+
+msgid "Returns are accepted within"
+msgstr "Rücknahmen werden im folgenden Zeitraum akzeptiert: "
+
+msgid "The corresponding return costs have to be paid by the "
+msgstr "Die Kosten der Rücknahme werden entrichtet durch: "
+
+msgid "buyer"
+msgstr "Käufer"
+
+msgid "seller"
+msgstr "Händler"
+
+msgid "Returns are not accepted."
+msgstr "Rücknahmen werden nicht akzeptiert."
+
+msgid "No return terms specified."
+msgstr "Es wurden keine Rücknahmevereinbarungen hinterlegt."
+
+msgid "See details"
+msgstr "Weitere Details"
+
+msgid "Get the item you ordered or get your money back."
+msgstr "Bei Bezahlung mit PayPal, Lastschrift oder Kreditkarte."
+
+msgid "Covers your purchase price and original shipping."
+msgstr ""
+
+msgid "Condition:"
+msgstr "Zustand"
+
+msgid "Report item on eBay"
+msgstr "Melden an eBay"
+
+msgid "Seller's terms of sale"
+msgstr "Nutzungsbedingungen"
+
+msgid "Reviews"
+msgstr "Rezensionen"
+
+msgid "Shipping"
+msgstr "Versand"
+
+msgid "(You can choose your delivery option later in the checkout)"
+msgstr "(Die Versandmethode kann zu einem späteren Zeitpunkt ausgewählt werden.)"
+
+msgid "Ships from:"
+msgstr "Versandt aus:"
+
+msgid "Est. delivery: "
+msgstr "Vsl. Lieferdatum: "
+
+msgid "eBay Money Back Guarantee"
+msgstr "eBay Käuferschutz"
+
+msgid "Terms of sale"
+msgstr "Nutzungsbedingungen"
+
+msgid "Report item"
+msgstr "Melden"
+
+msgid "Ratings and Reviews"
+msgstr "Bewertungen und Rezensionen"
+
+msgid "Seller Contact"
+msgstr "Rechtliche Informationen des Verkäufers"
+
+msgid "Address:"
+msgstr "Adresse:"
+
+msgid "Vat ID:"
+msgstr "USt-IdNr."
+
+msgid "Contact:"
+msgstr "Kontakt:"
+
+msgid "Phone: "
+msgstr "Telefon: "
+
+msgid "Fax: "
+msgstr "Fax: "
+
+msgid "Email: "
+msgstr "E-Mail: "
+
+msgid "The seller has not provided any contact info."
+msgstr "Es wurden keine Verkäuferinformationen hinterlegt."
+
+msgid "Terms of service"
+msgstr "Widerrufsbelehrung"
+
+msgid "The seller has not provided any terms of service."
+msgstr "Der Verkäufer hat keine Widerrufsbelehrung hinterlegt."
+
+msgid "Buy it now on eBay"
+msgstr "Kaufen auf eBay"
+
+msgid "Buy it on"
+msgstr "Kaufen bei"
+
+msgid "This article is only available on eBay"
+msgstr "Dieser Artikel ist nur bei eBay verfügbar"
+
+msgid "< Back to category"
+msgstr "< Zurück zur Kategorie"
+
+msgid "No Information"
+msgstr "Keine Angabe"
+
+msgid "Between "
+msgstr "Zwischen "
+
+msgid " and "
+msgstr " und "
+
+msgid "Month"
+msgstr "Monat"
+
+msgid "Months"
+msgstr "Monate"
+
+msgid "Calendar days"
+msgstr "Kalendertage"
+
+msgid "Calendar day"
+msgstr "Kalendertag"
+
+msgid "(incl. tax)"
+msgstr "(inkl. MwSt.)"
+
+msgid "incl. tax"
+msgstr "inkl. MwSt."
+
+msgid "You save"
+msgstr "Sie sparen"
+
+msgid "Shipping Charges"
+msgstr "Versandkosten"
+
+msgid "Tax"
+msgstr "Steuern"
+
+msgid "Germany"
+msgstr "Deutschland"
+
+msgid "DONE"
+msgstr "Bestätigen"
+
+msgid "Credit or debit card"
+msgstr "Kredit- oder Debit-Karte"
+
+msgid "CC"
+msgstr "Kredit- oder Debit-Karte"
+
+msgid "WALLET"
+msgstr "PayPal"
+
+msgid "Delivery"
+msgstr "Lieferung"
+
+msgid "Check Delivery"
+msgstr "Versand prüfen"
+
+msgid "Item ({0})"
+msgstr "Artikel ({0})"
+
+msgid "Items ({0})"
+msgstr "Artikel ({0})"
+
+msgid "State or province"
+msgstr "Bundesland"
+
+msgid "Change"
+msgstr "Ändern"
+
+msgid "Billing address"
+msgstr "Rechnungsadresse"
+
+msgid "Edit your billing address"
+msgstr "Rechnungsadresse ändern"
+
+msgid "Payments processed by PayPal. No PayPal account required."
+msgstr "Zahlung mit PayPal verarbeitet. Kein PayPal-Konto erforderlich."
+
+msgid "Card Number"
+msgstr "Kartennummer"
+
+msgid "Expiration date"
+msgstr "Ablaufdatum"
+
+msgid "Security code"
+msgstr "CVC"
+
+msgid "Shipping address"
+msgstr "Lieferadresse"
+
+msgid "Enter shipping information"
+msgstr "Geben Sie die Lieferadresse ein"
+
+msgid "Enter your card details"
+msgstr "Zahlungsdetails eingeben"
+
+msgid "No items found."
+msgstr "Keine Artikel gefunden."
+
+msgid "We have millions of items, but unfortunately not"
+msgstr "Wir haben Millionen von Artikeln, aber leider nicht"
+
+msgid "Sadly, no items matched your filter configuration."
+msgstr "Leider konnten keine Artikel für Deine Filterkonfiguration gefunden werden."
+
+msgid "Change the filter or click on one of the categories to continue searching."
+msgstr "Ändere Deine Filtereinstellungen oder klicke auf eine der Kategorien um weiterzustöbern."
+
+msgid "Click on one of the categories to continue searching."
+msgstr "Klicke auf eine der Kategorien um weiterzustöbern."
+
+msgid "Item removed"
+msgstr "Der Artikel wurde entfernt."
+
+msgid "Do you really want to remove that item?"
+msgstr "Soll der Artikel wirklich entfernt werden?"
+
+msgid "Price discount"
+msgstr "Rabatt"
+
+msgid "Delivery discount"
+msgstr "Versandkostenrabatt"
+
+msgid "Registration number:"
+msgstr "Rechtliche Information des Käufers:"
+
+msgid "Load more products"
+msgstr "Mehr Produkte laden"
+
+msgid "Show more"
+msgstr "Mehr anzeigen"
+
+msgid "Load more"
+msgstr "Mehr laden"
+
+msgid "Load products..."
+msgstr "Lade Produkte..."
+
+msgid "Imprint"
+msgstr "Impressum"
+
+msgid "Ratings"
+msgstr "Produktbewertungen"
+
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+msgid "Shipping and Payments"
+msgstr "Versand und Zahlungsmethoden"
+
+msgid "Payments"
+msgstr "Bezahlungen"
+
+msgid "Telephone"
+msgstr "Telefon"
+
+msgid "Tax identification number"
+msgstr "Umsatzsteuer-Identifikationsnummer"
+
+msgid "back to"
+msgstr "zurück zu"
+
+msgid "Commercial registry number"
+msgstr "Handelregisternummer"
+
+msgid "The VAT will be shown separately on my bills."
+msgstr "Die Mehrwertsteuer wird auf meinen Rechnungen separat ausgewiesen."
+
+msgid "Platform of the European Commission for online dispute resolution: http://ec.europa.eu/consumers/odr The QE GmbH & Co. KG is represented by the general partner: QE24 GmbH, Register Court: Amtsgericht Osnabrück, HRB 200359. This again represented by the managing director: Martin Steinkamp member of the initiative 'fairness in the trade'. Further information: http://www.fairness-im-handel.de"
+msgstr "Plattform der EU-Kommission zur Online-Streitbeilegung: http://ec.europa.eu/consumers/odr Die QE GmbH & Co. KG wird vertreten durch die persönlich haftende Gesellschafterin: QE24 GmbH, Registergericht: Amtsgericht Osnabrück, HRB 200359. Diese wiederum wird vertreten durch den Geschäftsführer: Martin Steinkamp Mitglied der Initiative 'Fairness im Handel'. Nähere Informationen: http://www.fairness-im-handel.de"
+
+msgid "What are you searching?"
+msgstr "Wonach suchst du?"
+
+msgid "Search results for: {0}"
+msgstr "Suchergebnisse für: {0}"
+
+msgid "All categories"
+msgstr "Alle"
+
+msgid "Fast shipping"
+msgstr "Schnelle Lieferung"
+
+msgid "Almost sold out"
+msgstr "Fast ausverkauft"
+
+msgid "Fast and free"
+msgstr "Schnell + Portofrei"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Search product"
+msgstr "Suche"
+
+msgid "Order summary"
+msgstr "Bestellübersicht"
+
+msgid "Welcome to Catch"
+msgstr "Willkommen bei Catch"
+
+msgid "Wishlist"
+msgstr "Wunschliste"
+
+msgid "Coming soon"
+msgstr "Demnächst verfügbar!"
+
+msgid "wltn"
+msgstr "Welten"
+
+msgid "Worlds"
+msgstr "Welten"
+
+msgid "More about Catch"
+msgstr "Mehr von Catch"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "About us"
+msgstr "Über uns"
+
+msgid "Help Desk"
+msgstr "Hilfe & Kontakt"
+
+msgid "Magazin"
+msgstr "Magazin"
+
+msgid "Legal notice"
+msgstr "Impressum"
+
+msgid "Item not found"
+msgstr "Artikel nicht gefunden."
+
+msgid "Filter by"
+msgstr "Filtern nach"
+
+msgid "Price filter"
+msgstr "Preisfilter"
+
+msgid "Price filters"
+msgstr "Preisfilter"
+
+msgid "Filters"
+msgstr "Weitere Filter"
+
+msgid "Price range"
+msgstr "Preisspanne"
+
+msgid "Filter"
+msgstr "Filtern"
+
+msgid "Free shipping"
+msgstr "Versand kostenlos"
+
+msgid "Discounts"
+msgstr "Discounts"
+
+msgid "Fast shipping"
+msgstr "Schneller Versand"
+
+msgid "Fast delivery"
+msgstr "Schneller Versand"
+
+msgid "Low stock"
+msgstr "Fast weg"
+
+msgid "Almost gone"
+msgstr "Fast weg"
+
+msgid "Top rated"
+msgstr "Gut Bewertet"
+
+msgid "Good reviewed"
+msgstr "Gut Bewertet"
+
+msgid "Free return"
+msgstr "Kostenlose Retoure"
+
+msgid "Free returns"
+msgstr "Kostenlose Retoure"
+
+msgid "Confirm"
+msgstr "Speichern"
+
+msgid "Close"
+msgstr "Schliessen"
+
+msgid "More products"
+msgstr "Weitere Produkte"
+
+msgid "Let yourself be surprised!"
+msgstr "Lass dich überraschen!"
+
+msgid "Complete information"
+msgstr "Vollständige Informationen"
+
+msgid "Less information"
+msgstr "Weniger Informationen"
+
+msgid "Complete cancellation policy"
+msgstr "Vollständige Widerrufsbelehrung"
+
+msgid "Terms and conditions of this offer"
+msgstr "Allgemeine Geschäftsbedingungen für dieses Angebot"
+
+msgid "Shipping is excluded after"
+msgstr "Der Versand ist ausgeschlossen nach"
+
+msgid "Payment methods"
+msgstr "Zahlungsmethoden"
+
+msgid "All rights reserved"
+msgstr "Alle Rechte vorbehalten"
+
+msgid "show full description"
+msgstr "vollständige Beschreibung anzeigen"
+
+msgid "In order to give you a better user experience, we use cookies. By using eBay you agree to our <a href=\"{0}\">use of cookies</a>."
+msgstr "Um Dir ein besseres Nutzererlebnis zu bieten, verwenden wir Cookies. Durch Nutzung stimmst Du unserer <a href=\"{0}\">Verwendung von Cookies</a> zu."
+
+msgid "Cart"
+msgstr "Warenkorb"
+
+msgid "Your cart"
+msgstr "Dein Warenkorb"
+
+msgid "Your cart is empty"
+msgstr "Dein Warenkorb ist leer"
+
+msgid "Start and fill your cart"
+msgstr "Leg los und fülle deinen Warenkorb"
+
+msgid "Don't know where to start?"
+msgstr "Du weißt nicht, wo du anfangen sollst?"
+
+msgid "To the novelties"
+msgstr "Zu den Neuheiten"
+
+msgid "To checkout"
+msgstr "Zur Kasse"
+
+msgid "To cart"
+msgstr "Zum Warenkorb"
+
+msgid "To wishlist"
+msgstr "Auf die Wunschliste"
+
+msgid "Remove article"
+msgstr "Artikel entfernen"
+
+msgid "show full description"
+msgstr "vollständige Beschreibung anzeigen"
+
+msgid "eBay-Guarantee"
+msgstr "eBay-Garantie"
+
+msgid "warranty terms"
+msgstr "Garantiebedingungen"
+
+msgid "Delivery and Shipping"
+msgstr "Lieferung und Versand"
+
+msgid "eBay protection"
+msgstr "eBay Schutz"
+
+msgid "Returns"
+msgstr "Rücknahmen"
+
+msgid "Seller"
+msgstr "Verkäufer"
+
+#: Template/EbayCheckoutSessions/success.ctp
+msgid "Your order is being processed. We have just sent an e-mail to {0} confirming your order."
+msgstr "Deine Bestellung wird bearbeitet. Wir haben dir soeben eine E-mail an {0} geschickt."
+
+msgid "Catch your world!"
+msgstr "Catch dir deine Welt!"
+
+msgid "Congratulations on your great Catch! Subscribe to our newsletter now and don't miss out on any great offers!"
+msgstr "Herzlichen Glückwunsch zu deinem tollen Catch! Abonniere jetzt unseren Newsletter und verpasse keine tollen Welte und Produkte mehr!"
+
+msgid "e-mail"
+msgstr "E-Mail"
+
+msgid "Subscribe newsletter"
+msgstr "Newsletter abonnieren"
+
+msgid "e-mail"
+msgstr "E-Mail"
+
+msgid "Thank you!"
+msgstr "Danke!"
+
+msgid "Your order"
+msgstr "Deine Bestellung"
+
+msgid "Browse further"
+msgstr "Weiter stöbern"
+
+msgid "See our <a href=\"https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.com%2Febay-money-back-guarantee%2F\" target=\"_blank\">eBay Buyer Protection</a> for more details."
+msgstr "Unter <a href=\"https://rover.ebay.com/rover/1/707-53477-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.de%2Feinkaufen%2Febay-kaeuferschutz.html\" target=\"_blank\">eBay Käuferschutz</a> findest du mehr Informationen."
+
+msgid "Expected delivery"
+msgstr "Lieferung voraussichtlich"
+
+msgid "Quantity:"
+msgstr "Anzahl:"
+
+msgid "Item Price:"
+msgstr "Artikelpreis:"
+
+msgid "Shipping Cost:"
+msgstr "Lieferkosten:"
+
+msgid "Sub total:"
+msgstr "Zwischensumme:"
+
+msgid "Total:"
+msgstr "Gesamtbetrag:"
+
+msgid "Additional savings"
+msgstr "Gutscheine"
+
+msgid "We’ll send you an email confirmation soon."
+msgstr "Wir senden Ihnen in Kürze eine Bestätigung per E-Mail."
+
+msgid "https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.com%2Febay-money-back-guarantee%2F"
+msgstr "https://rover.ebay.com/rover/1/707-53477-19255-0/1?ff3=4&pub=5575585699&toolid=10001&campid=5338696426&customid=&mpre=https%3A%2F%2Fpages.ebay.de%2Feinkaufen%2Febay-kaeuferschutz.html"
+
+msgid "By clicking Purchase, you agree that you've read and accepted eBay's User <a href=\"https://pages.ebay.com/help/policies/user-agreement.html\" target=\"_blank\">Agreement</a> and you consent to eBay's <a href=\"https://pages.ebay.com/help/policies/privacy-policy.html\" target=\"_blank\">Privacy</a> Notice and receiving marketing communications from eBay."
+msgstr "Indem Sie fortfahren, stimmen Sie den <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal Datenschutzgrundsätzen</a> sowie (im Fall einer Zahlung per Lastschrift) einer <a href=\"https://www.paypal.com/de/webapps/mpp/ua/creditchk?locale.x=de_DE\" target=\"_blank\">Bonitätsprüfung</a> zu, und akzeptieren die <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacywax-full\" target=\"_blank\">Nutzungsbedingungen</a> für Zahlungen ohne PayPal-Konto"
+
+msgid "I agree to the PayPal <a href=\"https://www.paypal.com/uk/webapps/mpp/ua/privacywax-full\" target=\"_blank\">terms</a> and <a href=\"https://www.paypal.com/uk/webapps/mpp/ua/privacy-full\" target=\"_blank\">Privacy Policy</a>. PayPal provides this payment service. PayPal account not required."
+msgstr "Markieren Sie dieses Kästchen, um den <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacywax-full\" target=\"_blank\">PayPal-Nutzungsbedingungen</a> für Zahlungen ohne ein PayPal-Konto und den <a href=\"https://www.paypal.com/de/webapps/mpp/ua/privacy-full\" target=\"_blank\">Datenschutzgrundsätzen von PayPal</a> zuzustimmen."
+
+msgid "CC"
+msgstr "Kredit- oder Debit-Karte"
+
+msgid "WALLET"
+msgstr "PayPal"
+
+msgid "Click on one of the categories to continue searching."
+msgstr "Klicke auf eine der Kategorien um weiterzustöbern."
+
+msgid "I would like to receive emails about promotions, special offers and surveys. I can stop these emails at any time via the link in the emails."
+msgstr "Ich möchte E-Mails über Verkaufsaktionen, Sonderangebote und Umfragen erhalten. Ich kann diese E-Mails jederzeit über den Link in den E-Mails abstellen."
+
+msgid "Amount"
+msgstr "Betrag"
+
+msgid "Marketing Consent"
+msgstr "Marketing Zustimmung"
+
+msgid "Seems like the inserted Email´s do not match. Please look over it again!"
+msgstr "Leider stimmen die eingegebenen E-Mail-Adresse nicht überein. Bitte überprüfe deine Eingabe."
+
+msgid "Unfortunately the entered phone numbers contains superfluous characters. Please re-check!"
+msgstr "Deine Eingabe der Telefonnummer ist ungültig. Bitte korrigiere deine Eingabe."
+
+msgid "Unfortunately the entered postal code contains superfluous characters. Please re-check!"
+msgstr "Deine eingegebene Postleitzahl ist ungültig. Bitte korrigiere deine Eingabe."
+
+msgid "Unfortunately the entered email contains superfluous characters. Please re-check!"
+msgstr "Deine eingegebene E-Mail ist ungültig. Bitte korrigiere deine Eingabe."
+
+msgid "Unfortunately the field \"{0}\" contains superfluous characters. Please re-check!"
+msgstr "Deine Eingabe in diesem Feld ist ungültig: {0}. Bitte korrigiere deine Eingabe."
+
+msgid "Internal Error"
+msgstr "Ups ... das hätte nicht passieren sollen. Bitte versuch es noch einmal."
+
+msgid "You have exceeded the maximum number of ten line items."
+msgstr "Leider können Sie maximal zehn Artikel in den Warenkorb legen."
+
+msgid "<span class=\"boxes\"></span>You have exceeded the maximum number of ten line items. <div class=\"fifth-item-error-message\"><a href=\"{0}\">To cart</a></div>"
+msgstr "<span class=\"boxes\"></span>Leider können Sie maximal zehn Artikel in den Warenkorb legen. <div class=\"fifth-item-error-message\"><a href=\"{0}\">Zum Warenkorb</a></div>"
+
+msgid "Please enter a valid email address."
+msgstr "Bitte gibt eine gültige E-Mail-Addresse ein."
+
+msgid "Discover the Catch universe"
+msgstr "Entdecke das Catch Universum"
+
+msgid "Catchy highlights"
+msgstr "Catchy Highlights"
+
+msgid "See it. Love it. Catch it."
+msgstr "See it. Love it. Catch it."
+
+msgid "Catch it now or cry later"
+msgstr "Catch it now or cry later"
+
+msgid "discover"
+msgstr "entdecken"
+
+msgid "All worlds of Catch"
+msgstr "Alle Welten von Catch"
+
+msgid "Sorry product unknown."
+msgstr "Leider haben wir dieses Produkt nicht mehr."
+
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+msgid "Discover now"
+msgstr "Jetzt entdecken"
+
+msgid "<span class=\"alert\"></span>Item not enabled for guest checkout. Buy it on <a href=\"{0}\">eBay</a>"
+msgstr "<span class=\"alert\"></span>Leider kannst du das Produkt bei uns nicht kaufen versuche es doch <a href=\"{0}\" target=\"_blank\">direkt auf eBay</a>"
+
+msgid "Homepage"
+msgstr "Startseite"
+
+msgid "Free shipping on some items"
+msgstr "Kostenloser Versand bei vielen Artikeln!"
+
+msgid "If it is not ok send it back"
+msgstr "Wenn es nicht gefällt schick es einfach zurück!"
+
+msgid "Get eBay money back guarantee"
+msgstr "Profitiere vom ebay Käuferschutz"
+
+msgid "eBay Buyer Protection with every purchase"
+msgstr "eBay-Käuferschutz bei jedem Kauf"
+
+msgid "Shopping with the eBay warranty"
+msgstr "Einkaufen mit der eBay Garantie"
+
+msgid "Secure payment with PayPal, SEPA direct debit and credit card"
+msgstr "Zahlen mit PayPal, SEPA Lastschrift & Kreditkarte"
+
+msgid "Account"
+msgstr "Kontoeinstellungen"
+
+msgid "My Wishlist"
+msgstr "Meine Wunschliste"
+
+msgid "My Orders"
+msgstr "Meine Bestellungen"
+
+msgid "All about us"
+msgstr "Alles über uns"
+
+msgid "Follow us"
+msgstr "Folge uns"
+
+msgid "Email Address"
+msgstr "Deine E-Mail"
+
+msgid "Help & Contact"
+msgstr "Hilfe & Kontakt"
+
+msgid "Subscribe to Newsletter"
+msgstr "Newsletter abonnieren"
+
+msgid "You can unsubscribe news letter at any time through your account settings or a links in emails."
+msgstr "Du kannst diese E-Mails jederzeit über deine Kontoeinstellungen oder einen Link in den E-Mails abstellen."
+
+msgid "Please log in or create an account to save items to your wish list."
+msgstr "Bitte logge dich ein, um Artikel zu deiner Wunschliste hinzuzufügen."
+
+msgid "Shopping cart"
+msgstr "Warenkorb"
+
+msgid "Get started and fill your cart with the latest trends."
+msgstr "Leg los und fülle deinen Warenkorb mit den neuesten Trends."
+
+msgid "Do you need more inspiration?"
+msgstr "Brauchst du mehr Inspiration?"
+
+msgid "Discover World of Trends"
+msgstr "Entdecke World of Trends"
+
+msgid "Pay conveniently with"
+msgstr "Bezahle bequem mit"
+
+msgid "When paying with PayPal, direct debit or credit card."
+msgstr "Bei Bezahlung mit PayPal, Lastschrift oder Kreditkarte."
+
+msgid "Your Shopping Cart"
+msgstr "Dein Warenkorb"
+
+msgid "Items in the basket are not reserved!"
+msgstr "Artikel im Warenkorb werden nicht reserviert!"
+
+msgid "It will be tight in the shopping cart!"
+msgstr "Es wird eng im Warenkorb!"
+
+msgid "You can put a maximum of ten different items in the cart."
+msgstr "Du kannst maximal zehn verschiedene Artikel in den Warenkorb legen."
+
+msgid "You can put a maximum of {0} different items in the cart."
+msgstr "Du kannst maximal {0} verschiedene Artikel in den Warenkorb legen."
+
+msgid "Now safe to Checkout"
+msgstr "Jetzt sicher zur Kasse"
+
+msgid "By"
+msgstr "Von"
+
+msgid "Number"
+msgstr "Anzahl"
+
+msgid "Undo"
+msgstr "Rückgängig"
+
+msgid "Article has been removed"
+msgstr "Artikel wurde entfernt"
+
+msgid "Add to cart"
+msgstr "In den Warenkorb"
+
+msgid "Added"
+msgstr "Hinzugefügt"
+
+msgid "Add coupon"
+msgstr "Gutscheincode hinzufügen"
+
+msgid "Add code"
+msgstr "Code eingeben"
+
+msgid "Redeem"
+msgstr "Einlösen"
+
+msgid "To apply a coupon you need to add your shipping information first."
+msgstr "Bitte gebe zuerst Deine Adresse an, damit Du einen Gutschein hinzufügen kannst."
+
+msgid "Finished!"
+msgstr "Fertig!"
+
+
+msgid "Unfortunately the following article could not be ordered. This can have different causes. Please try again."
+msgstr "Leider konnte der folgende Artikel nicht bestellt werden. Dies kann verschiedene Ursachen haben. Bitte probiere es einfach noch einmal."
+
+
+msgid "Attention"
+msgstr "Achtung"
+
+# Checkout Error Messages
+
+msgid "There was a problem with an eBay internal system or process. Contact eBay developer support for assistance."
+msgstr "Entschuldige bitte, hier ist wohl ein Fehler aufgetreten. Bitte versuche es noch einmal."
+
+msgid "The coupon provided could not be applied. You may proceed with this session or provide another coupon."
+msgstr "Dieser Code ist leider falsch oder abgelaufen."
+
+msgid "The checkout session requested does not exist."
+msgstr "Die angeforderte Checkout-Sitzung exisitert leider nicht oder wurde geschlossen."
+
+msgid "If this is a eBay member checkout, this error indicates that the buyer does not have a PayPal account linked to their eBay account. If this is a guest checkout, this indicates that the buyer's credit card information is missing. In both cases, submit the buyer's credit card information."
+msgstr "Füge bitte deine Kreditkarteninformationen hinzu. Du bist schon eBay-Mitglied? Dann scheint kein PayPal-Konto mit deinem eBay-Konto verknüpft zu sein. Du bist als Gast bei eBay? Dann liegen uns deine Kreditkarteninformationen noch nicht vor."
+
+msgid "This transaction cannot be processed."
+msgstr "Diese Überweisung konnte leider nicht durchgeführt werden."
+
+msgid "This transaction cannot be processed. Please enter a valid credit card number and type."
+msgstr "Leider konnte die Überweisung nicht durchgeführt werden. Bitte wähle die Kartenart und gib eine gültige Kreditkartennummer ein."
+
+msgid "This transaction cannot be processed. Please use a valid credit card."
+msgstr "Leider konnte die Überweisung nicht durchgeführt werden. Bitte gib die Kreditkartennummer einer gültigen Kreditkarte ein."
+
+msgid "You have exceeded the maximum number of four line items. Correct the request and resubmit the call."
+msgstr "Leider hast du die maximale Anzahl von vier verschiedenen Produkten im Warenkorb überschritten. Gern kannst du aber weitere Produkte auf deiner Wunschliste speichern und später kaufen."
+
+msgid "There is a limit on the quantity of this item that can be purchased. Reduce the quantity and resubmit the call."
+msgstr "Leider hast du die maximale Anzahl von vier verschiedenen Produkten im Warenkorb überschritten. Gern kannst du aber weitere Produkte auf deiner Wunschliste speichern und später kaufen."
+
+msgid "The quantity value is greater then the quantity available. Correct the quantity and resubmit the call."
+msgstr "Leider ist der Artikel in der von dir gewünschten Anzahl nicht mehr verfügbar. Bitte reduziere die Menge."
+
+msgid "The quantity submitted for this item is invalid. Correct the quantity value and resubmit the call."
+msgstr "Leider ist der Artikel in der von dir ausgewählten Anzahl nicht mehr verfügbar. Bitte passe die Artikelmenge an und versuche es noch einmal."
+
+msgid "There is a problem with the credit card and it cannot be used to purchase items. Use the updatePaymentInfo call to change the payment information."
+msgstr "Die von dir angegebene Kreditkarte kann leider nicht verwendet werden. Bitte aktualisiere deine Zahlungsinformationen und versuche es noch einmal."
+
+msgid "The buyer is the seller of the item, which is not allowed"
+msgstr "Leider kannst du diesen Artikel als Verkäufer nicht selbst kaufen."
+
+msgid "The item is not available for purchase at this time. Try to purchase this item at a later time."
+msgstr "Dieser Artikel ist momentan leider nicht verfügbar. Versuche es zu einem späteren Zeitpunkt gerne nochmal."
+
+msgid "The item is not available for purchase. This can be for several reasons such as, the listing has ended, this is n auction time, etc. Remove the item and resubmit the call."
+msgstr "Dieser Artikel ist aktuell leider nicht verfügbar. Bitte entferne ihn aus deinem Warenkorb, um fortzufahren."
+
+msgid "To place an order, you must have at least one item. Use the initiateCheckoutSession call to add line items (maximum of 4) and create a now checkout session."
+msgstr "Dein Warenkorb ist aktuell leer. "
+
+msgid "During the checkout process the item has been changed. Create a new checkout for this item using the initiateCheckoutSession call."
+msgstr "Etwas hat sich an diesem Artikel geändert, nachdem du ihn ausgewählt hast. Bitte aktualisiere deinen Warenkorb."
+
+msgid "This checkout session cannot be updated because the order has already been placed."
+msgstr "Diese Checkout-Sitzung kann nicht aktualisiert werden, da deine Bestellung bereits aufgegeben wurde."
+
+msgid "Some of the items cannot be purchased using a credit card and must be removed from the checkout session."
+msgstr "Einige deiner ausgewählten Artikel können nicht mit einer Kreditkarte gekauft werden. Bitte entferne ihn aus deinem Warenkorb oder ändere die Zahlungsmethode."
+
+msgid "The credit card was declined, which means you cannot use the current checkout session to complete this order. Use the initiateCheckoutSession call to create a new checkout session and provide new payment information."
+msgstr "Leider kannst du die von dir angegebene Kreditkarte für diesen Kauf nicht nutzen. Bitte aktualisiere deine Zahlungsinformationen und versuche es noch einmal."
+
+msgid "There is a problem with the buyer's PayPal account. The buyer should checkout their account or provide a credit card to pay for the order."
+msgstr "Leider gibt es ein Problem mit deinem PayPal-Konto. Bitte überprüfe dein Konto oder zahle die Bestellung mit deiner Kreditkarte."
+
+msgid "The App is not authorized to access this resource."
+msgstr "Hier ist wohl ein Fehler aufgetreten. Bitte lade die Seite neu."
+
+msgid "The item is not shippable to the specified shipping address."
+msgstr "Leider ist dieser Artikel nicht an die von dir angegebene Adresse lieferbar."
+
+msgid "To place this order, the user must have accepted the PayPal User Agreement and Privacy Policy. If they have explicitly accepted these, pass in true in the paymentTermsAccepted field. For more information, see the documentation for this call."
+msgstr "Bitte akzeptiere die PayPal-Benutzervereinbarung und die Datenschutzrichtlinien, um die Bestellung aufgeben zu können. Wenn du zugestimmt hast, wirst du weitergeleitet. "
+
+msgid "The item is not purchasable because the buyer has been blocked by the seller."
+msgstr "Leider kannst du diesen Artikel nicht kaufen, da der Verkäufer dich gesperrt hat."
+
+msgid "The coupon was not applied to this cart."
+msgstr "Leider funktioniert der Gutscheincode nicht."
+
+msgid "The request body is invalid or empty."
+msgstr "Das Textfeld ist leer oder deine Eingabe ungültig."
+
+msgid "The coupon is not valid for any of the items in the order. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode für die Artikel deiner Bestellung nicht gültig."
+
+msgid "You cannot apply multiple coupons to the same order. No discount was applied to this order."
+msgstr "Du kannst pro Bestellung nur einen Gutscheincode nutzen."
+
+msgid "The coupon does not exist. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider gibt es den von dir eingegebenen Gutscheincode nicht."
+
+msgid "The coupon has expired. No discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode abgelaufen."
+
+msgid "The coupon has not been activated. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode nicht gültig."
+
+msgid "The coupon requires the buyer to spend a specific monetary amount. This threshold has not been met. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der Wert deiner Bestellung zu niedrig, um deinen Gutschein einzulösen."
+
+msgid "The coupon code is invalid. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode ungültig."
+
+msgid "This coupon has already been used. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider wurde der von dir eingegebene Gutscheincode bereits genutzt."
+
+msgid "This coupon is no longer valid. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode nicht mehr gültig."
+
+msgid "The coupon is not valid for the currency being used by the items. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode in der Währung des angebotenen Artikels nicht gültig."
+
+msgid "The coupon is not valid for any of the item categories in the order. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode für die Produktwelten in deinem Warenkorb nicht gültig."
+
+msgid "The coupon is not valid for the selected payment method. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode für die von dir ausgewählte Zahlungsmethode nicht gültig."
+
+msgid "The coupon is not valid for the selected shipping option. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode für die von dir ausgewählte Versandmethode nicht gültig."
+
+msgid "The coupon is valid only for items that are shipped domestically. The coupon was ignored and no discount was applied to this order."
+msgstr "Der von dir eingegebene Gutscheincode ist nur für Artikel aus Deutschland gültig."
+
+msgid "The coupon is valid only for items that are shipped internationally. The coupon was ignored and no discount was applied to this order."
+msgstr "Der von dir eingegebene Gutscheincode ist nur für Artikel aus dem Ausland gültig."
+
+msgid "The buyer is not eligible for this coupon. The coupon was ignored and no discount was applied to this order."
+msgstr "Du kannst diesen Gutscheincode leider nicht nutzen."
+
+msgid "The coupon is not valid for guest eBay checkouts. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode bei einem Gast-Einkauf nicht gültig. Registriere dich, um den Gutschein zu nutzen."
+
+msgid "Your application is not eligible for this coupon. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist der von dir eingegebene Gutscheincode für deine Bestellung nicht gültig."
+
+msgid "Your order could not be created."
+msgstr "Es gab ein Problem mit deiner Bestellung."
+
+msgid "Please fill out this field."
+msgstr "Bitte fülle dieses Feld aus."
+
+msgid "Sign up to complete the order process easily, safely and quickly."
+msgstr "Melde dich an, um den Bestellvorgang einfach, sicher und schnell abzuschließen."
+
+msgid "Here you can continue without login:"
+msgstr "Hier geht es auch ohne Login weiter:"
+
+msgid "Checkout as a guest"
+msgstr "Checkout als Gast"
+
+msgid "Buy as a guest"
+msgstr "Als Gast bestellen"
+
+msgid "Female"
+msgstr "Frau"
+
+msgid "Male"
+msgstr "Herr"
+
+msgid "Divers"
+msgstr "Divers"
+
+msgid "Back to login"
+msgstr "Zurück zur Anmeldung"
+
+msgid "Reset password"
+msgstr "Passwort zurücksetzen"
+
+msgid "Please enter your email address to receive a link to reset your password."
+msgstr "Bitte gib deine E-Mail-Adresse an, um einen Link zu erhalten, mit dem du dein Passwort zurücksetzen kannst."
+
+msgid "Request new password"
+msgstr "Neues Passwort anfordern"
+
+msgid "Subscribed"
+msgstr "Abonniert"
+
+msgid "Shortly you will receive a link with which you can confirm the creation of your account. Please click this link to complete the build."
+msgstr "In Kürze erhältst du einen Link, mit welchem du die Erstellung deines Accounts bestätigen kannst. Bitte klicke diesen Link an, um die Erstellung abzuschließen."
+
+msgid "E-mail was sent to <span class=\"email-placeholder\"></ span>."
+msgstr "E-Mail wurde an <span class=\"email-placeholder\"></span> gesendet."
+
+msgid "If you did not receive an email, you can request it here again."
+msgstr "Falls du keine E-Mail erhalten hast, kannst du sie hier erneut anfordern."
+
+msgid "Resend email"
+msgstr "E-Mail erneut senden"
+
+msgid "back to login"
+msgstr "Zurück zur Anmeldung"
+
+msgid "Shortly you will receive a link with which you can reset your password. Please click on it to change your password."
+msgstr "In Kürze erhältst du einen Link, mit welchem du dein Passwort zurücksetzten kannst. Bitte klicke diesen an, um dein Passwort zu ändern."
+
+msgid "Sorry, the email you entered was not found."
+msgstr "Die E-Mail Adresse, die du eingegeben hast, wurde leider nicht gefunden."
+
+msgid "Hello! Enter a new password here to replace the old one. Safety first!"
+msgstr "Hallo! Gib hier ein neues Passwort ein, um das alte zu ersetzen. Safety first!"
+
+msgid "Your password has been successfully reset."
+msgstr "Du hast dein Passwort erfolgreich geändert."
+
+msgid "The password have to be at least 6 characters!"
+msgstr "Das Passwort muss mindestens 6 Zeichen lang sein!"
+
+msgid "The passwords does not match!"
+msgstr "Die Passwörter stimmen nicht überein!"
+
+msgid "The quantity value is greater than the quantity available. Correct the quantity value and resubmit the call."
+msgstr "Leider haben wir nicht mehr genügend Produkte auf Lager. Bitte wähle eine kleine Stückzahl aus."
+
+msgid "Attention"
+msgstr "Vorsicht"
+
+msgid "You have successfully logged out!"
+msgstr "Du hast dich erfolgreich abgemeldet."
+
+msgid "I would like to receive emails about sales promotions, special offers and surveys from eBay."
+msgstr "Ich möchte E-Mails über Verkaufsaktionen, Sonderangebote und Umfragen von eBay erhalten."
+
+msgid "I would like to receive emails about sales promotions, special offers and surveys from Catch."
+msgstr "Ich möchte E-Mails über Verkaufsaktionen, Sonderangebote und Umfragen von Catch erhalten."
+
+msgid "On the wish list"
+msgstr "Auf die Wunschliste"
+
+msgid "Remove from wishlist"
+msgstr "Aus dem Wunschzettel entfernen"
+
+msgid "Cancel action"
+msgstr "Rückgängig machen"
+
+msgid "The item has been added to your wish list."
+msgstr "Der Artikel wurde deiner Wunschliste hinzugefügt."
+
+msgid "You successfully saved your interests!"
+msgstr "Deine Interessen wurden gespeichert!"
+
+msgid "There was an error saving your interests. Please try again."
+msgstr "Beim speichern deiner Interessen ist ein Fehler aufgetreten. Bitte versuche es erneut."
+
+msgid "My World"
+msgstr "Meine Welt"
+
+msgid "Gift Guide"
+msgstr "Geschenkefinder"
+
+msgid "Show different Products"
+msgstr "Andere Produkte anzeigen"
+
+msgid "Change my interests"
+msgstr "Meine Interessen ändern"
+
+msgid "More categories"
+msgstr "Weitere Kategorien"
+
+msgid "There was a problem with an eBay internal system or process. Contact eBay developer support for assistance."
+msgstr "Leider ist ein internes Problem aufgetreten. Bitte wende dich an den Catch Kundensupport."
+
+msgid "The checkout session requested does not exist."
+msgstr "Leider ist die Checkout Session abgelaufen. Bitte lade die Seite neu."
+
+msgid "This checkout session cannot be updated because the order has already been placed."
+msgstr "Wir können deinen Warenkorb nicht mehr editieren, weil deine Bestellung bereits aufgegeben wurde."
+
+msgid "The App is not authorized to access this resource."
+msgstr "Leider ist ein internes Problem aufgetreten. Bitte wende dich an den Catch Kundensupport."
+
+msgid "The coupon is not valid for any of the items in the order. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider kannst du den Coupon nicht auf die Artikel in deinem Warenkorb anwenden."
+
+msgid "You cannot apply multiple coupons to the same order. No discount was applied to this order."
+msgstr "Leider ist es nicht möglich mehrere Coupons für eine Bestellung zu verwenden."
+
+msgid "The coupon does not exist. The coupon was ignored and no discount was applied to this order."
+msgstr "Den eingegebene Coupon erkennen wir nicht. Bitte überprüfe deine Eingabe."
+
+msgid "The coupon has expired. No discount was applied to this order."
+msgstr "Der eingegebene Coupon ist leider schon abgelaufen."
+
+msgid "The coupon has not been activated. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon wurde noch nicht aktiviert und kann deshalb nicht verwendet werden."
+
+msgid "The coupon requires the buyer to spend a specific monetary amount. This threshold has not been met. The coupon was ignored and no discount was applied to this order."
+msgstr "Der Mindestbestellwert für das Nutzen dieses Coupons wurde leider noch nicht erreicht."
+
+msgid "The coupon code is invalid. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon ist leider nicht mehr gültig."
+
+msgid "This coupon has already been used. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon wurde bereits verwendet."
+
+msgid "This coupon is no longer valid. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon ist leider nicht mehr gültig."
+
+msgid "The coupon requires the buyer to spend a specific monetary amount. This threshold has not been met. The coupon was ignored and no discount was applied to this order."
+msgstr "Der Mindestbestellwert für das Nutzen dieses Coupons wurde leider noch nicht erreicht."
+
+msgid "The coupon is not valid for the currency being used by the items. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon kann für diese Währung nicht eingelöst werden."
+
+msgid "The coupon has not been activated. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon wurde noch nicht aktiviert und kann deshalb nicht verwendet werden."
+
+msgid "The coupon is not valid for the {fieldName}. The coupon was ignored and no discount was applied to this order."
+msgstr "Der Coupon kann nicht für {fieldName} verwendet werden."
+
+msgid "The coupon is not valid for any of the item categories in the order. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider kann der Coupon nicht für die Artikelkategorien verwendet werden, welche im Warenkorb vorhanden sind."
+
+msgid "The coupon is not valid for the selected payment method. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon kann nicht mit der ausgewählten Zahlungsmethode verwendet werden."
+
+msgid "The coupon is not valid for the selected shipping option. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon kann nicht für die ausgewählte Versandmethode verwendet werden."
+
+msgid "The coupon is valid only for items that are shipped domestically. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon kann nur für Artikel verwendet werden, welche innerhalb von DE versendet werden."
+
+msgid "The coupon is valid only for items that are shipped internationally. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon kann nur für Artikel verwendet werden, welche weltweit versendet werden."
+
+msgid "The buyer is not eligible for this coupon. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider können Sie diesen Coupon nicht nutzen."
+
+msgid "The coupon is not valid for guest eBay checkouts. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider kann dieser Coupon nicht mit dem Gastkauffunktionalität verwendet werden."
+
+msgid "Your application is not eligible for this coupon. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist ein internes Problem aufgetreten. Bitte wende dich an den Catch Kundensupport."
+
+msgid "The coupon is not valid for the {fieldName}. The coupon was ignored and no discount was applied to this order."
+msgstr "Der Coupon kann nicht für {fieldName} verwendet werden."
+
+msgid "The coupon code is invalid. The coupon was ignored and no discount was applied to this order."
+msgstr "Der eingegebene Coupon ist leider nicht mehr gültig."
+
+msgid "You cannot apply multiple coupons to the same order. The coupon was ignored and no discount was applied to this order."
+msgstr "Leider ist es nicht möglich mehrere Coupons für eine Bestellung zu verwenden."
+
+msgid "The coupon provided could not be applied. You may proceed with this session or provide another coupon."
+msgstr "Leider kann der eingegebene Coupon nicht verwendet werden."
+
+msgid "Discover more Worlds"
+msgstr "Entdecke weitere Welten"
+
+msgid "still"
+msgstr "Noch"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "hours"
+msgstr "Stunden"
+
+msgid "Browse our inventory of over 50 Mio. products - fashion, games, tech and more fun"
+msgstr "Über 5 Millionen Produkte aus Mode, Sport, Spiele, Technik und Interior. Jetzt stöbern!"
+
+msgid "Stay up to date and catch up"
+msgstr "Bleib auf dem Laufenden und catch dir"
+
+msgid "{0}% discount"
+msgstr "{0}% Rabatt"
+
+msgid "close"
+msgstr "schließen"
+
+msgid "Enter a valid email address."
+msgstr "Gib eine gültige E-Mail Adresse ein."
+
+msgid "Already finished!"
+msgstr "Schon fertig!"
+
+msgid "Your one-time {0}%"
+msgstr "Dein einmaliger {0}%"
+
+msgid "Code is {0}"
+msgstr "Code lautet <span class=\"code\">{0}</span>"
+
+msgid "Copy code"
+msgstr "Code kopieren"
+
+msgid "Yay, your code has been copied!"
+msgstr "Yay, dein Code wurde kopiert!"
+
+msgid "This E-mail is already in use."
+msgstr "Diese E-Mail wird bereits verwendet."

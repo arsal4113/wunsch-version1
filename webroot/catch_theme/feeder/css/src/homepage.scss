@@ -1,0 +1,181 @@
+@import "../../../css/src/variables";
+
+.headline {
+    text-align: center;
+    margin: 38px auto 5px;
+    @media only screen and (min-width: 768px) {
+        margin: 59px auto 15px;
+    }
+    @media only screen and (min-width: 1024px) {
+        margin: 58px auto 24px;
+    }
+    @media only screen and (min-width: 1400px) {
+        margin: 58px auto 30px;
+    }
+    h1 {
+        font-family: $font-family-base;
+        text-align: center;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.0028px;
+        color: #000000;
+        //padding-bottom: 10px;
+        margin: 0;
+        @media (min-width: 1024px) {
+            font-size: 28px;
+            line-height: 28px;
+        }
+    }
+    h2 {
+        font-family: $font-family-base;
+        font-size: 26px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.0026px;
+        color: #000000;
+        padding-top:50px;
+        @media (max-width: 1024px) {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        @media (max-width: 767px) {
+            font-size: 18px;
+            line-height: 20px;
+            padding-top:0px;
+            padding-bottom: 0px;
+        }
+    }
+
+}
+
+h2 {
+    color: #000000;
+    font-family: $font-family-base;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    @media (max-width: 1024px) {
+        padding-top: 21px;
+    }
+    @media (max-width: 990px) {
+        font-size: 30px;
+        line-height: 39px;
+        padding-top: 0;
+    }
+    @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+h2.orange {
+    color: #F9B500;
+    font-family: $font-family-bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    @media (max-width: 767px) {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    &.lightblue {
+        color: #00C2D3;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#filter {
+    display: none;
+}
+
+.loading-animator {
+    background: #000;
+    width: 0;
+    height: 4px;
+    position: absolute;
+    left: 0;
+}
+
+#homepage-banners {
+    height: 450px;
+    width: 100%;
+    margin-top: -91px;
+    @media (max-width: 767px) {
+        margin-top: -20px;
+        height: auto;
+    }
+    a > span {
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    .large-banner {
+        height: 450px;
+        width: 100%;
+        @media (max-width: 1199px) {
+            & > a > span {
+                background-position: center;
+            }
+        }
+        @media (max-width: 990px) {
+            padding-right: 15px;
+            margin-bottom: 2px;
+        }
+        @media (max-width: 767px) {
+            height: 194px;
+        }
+    }
+    .small-banner-col {
+        padding-left: 1px;
+        @media (max-width: 991px) {
+            padding-left: 15px;
+        }
+        .small-banner {
+            height: 234px;
+            @media (max-width: 991px) {
+                height: 234px;
+            }
+            @media (max-width: 767px) {
+                height: 96px;
+            }
+        }
+        .first-small-banner {
+            margin-bottom: 2px;
+            @media (max-width: 991px) {
+                padding-right: 1px;
+            }
+        }
+        .second-small-banner {
+            @media (max-width: 991px) {
+                padding-left: 1px;
+            }
+        }
+    }
+}
+
+#homepage-contents {
+    background-color: #f2f2f3;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+}
+
+@import "homepage-rwd";
+@import "price-slider";
+@import "price-slider-rwd";
+@import "fizzy-bubble";
+
+
+

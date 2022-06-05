@@ -1,0 +1,38 @@
+.ebay-protection {
+    .ebay-guarantee {
+        display: flex;
+        align-items: center;
+        img {
+            width: 16px;
+            height: 16px;
+        }
+        span {
+            font-family: Visuelt-Bold, sans-serif;
+            font-size: 12px;
+            line-height: 17px;
+            margin-left: 10px;
+        }
+    }
+    .tab-link {
+        a {
+            font-size: 12px;
+            line-height: 25px;
+        }
+    }
+    .ebay-money-back {
+        margin-top: 25px;
+        max-width: 263px;
+        span {
+            font-family: Visuelt-Regular, sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+        }
+        .tab-link {
+            a {
+                font-family: Visuelt-Regular, sans-serif;
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+    }
+}

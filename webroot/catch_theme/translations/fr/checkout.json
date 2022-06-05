@@ -1,0 +1,26 @@
+{
+    "header": {
+        "title": "Checkout"
+    },
+    "items": {
+        "price": "Price: {{price}} {{currency}}"
+    },
+    "shippingAddress" : {
+        "title": "Ship to",
+        "saveButton": "Save"
+    },
+    "shippingMethods": {
+        "title": "Shipping options",
+        "description": "Please enter shipping address to choose options."
+    },
+
+    "totals": {
+        "subtotal": "Subtotal",
+        "shipping": "Shipping",
+        "discount": "Discount",
+        "total": "Total"
+    },
+    "submit" : {
+        "buyButton": "Buy"
+    }
+}

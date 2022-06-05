@@ -1,0 +1,97 @@
+.items-slider-wrapper {
+    @media only screen and (min-width: 1400px) {
+        max-width: 1175px;
+        margin: auto;
+    }
+}
+
+.card-wrapper {
+    padding: 0 10px;
+    @media only screen and (min-width: 1400px) {
+        max-width: 197px;
+    }
+    .surprise-item {
+        position: relative;
+        @media only screen and (max-width:480px) {
+            border: none;
+        }
+        @media (max-width: 1024px) {
+            //margin: 5px 0 21px;
+        }
+        span.wishlist-icon {
+            top: 5px;
+            right: 5px;
+            backdrop-filter: none;
+        }
+        a.surprise-item-link {
+            //background: #fff;
+            display: block;
+            //height: 100%;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+            transition: .25s;
+            text-decoration: none !important;
+            border-radius: 15px;
+        }
+
+        a:focus {
+            outline: none;
+        }
+
+        a {
+            .deals-badge{
+                position: absolute;
+                top: 20px;
+                span {
+                    background-color: #F9B500;
+                    color: #ffffff;
+                    font-size: 12px;
+                    line-height: 14px;
+                    padding: 4px 15px 6px 8px;
+                    border-radius: 0 24px 24px 0;
+                }
+            }
+            &:hover {
+                @media only screen and (min-width: 1200px) {
+                    //box-shadow: 0 0 21px rgba(0, 0, 0, 0.29) !important;
+                    //border-image: -webkit-linear-gradient(#67c2c5, #8dd7ba, #aedf9d, #c6e284, #f2e754) 1 1 1 1 repeat;
+                    .deals-badge span {
+                        margin-left: 0;
+                    }
+                    .card-label-wrapper .item-label {
+                        margin-left: 0;
+                    }
+                }
+            }
+            &.wishlist-item-link:hover {
+                box-shadow: none; // iOS Safari fix
+                border-image: none; // iOS Safari fix
+            }
+
+            .card-label-wrapper {
+                position: absolute;
+                width: 100%;
+                margin: -13px auto;
+                height: 50px;
+                .item-label {
+                    position: absolute;
+                    bottom: 0;
+                    margin-left: 0;
+                }
+            }
+
+            .card-body {
+                color: #000000;
+                font-family: $font-family-bold;
+                font-size: 20px;
+                letter-spacing: -0.08px;
+                line-height: 26px;
+                text-align: center;
+                margin: 0;
+                .card-price {
+                    position: relative;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}

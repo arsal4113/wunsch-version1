@@ -1,0 +1,80 @@
+.animation-default .animated-block {
+	border-radius: 50%;
+	height: 50%;
+	opacity: .875;
+	position: absolute;
+	top: 90%;
+	width: 100%;
+}
+
+.animation-default .animated-block.first {
+	animation: treble-first 6s ease-in-out infinite;
+	left: -40%;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+.animation-default .animated-block.second {
+	animation: treble-second 8s ease-in-out infinite;
+	left: -10%;
+	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+	
+.animation-default .animated-block.third {
+	animation: treble-third 7s ease-in-out infinite;
+	left: 20%;
+	transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+}
+
+.animation-default .animated-block.fourth {
+	animation: treble-fourth 5s ease-in-out infinite;
+	left: 50%;
+	transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+}
+
+@keyframes treble-first {
+	50% {
+		transform: rotate(10deg);
+		-webkit-transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@keyframes treble-second {
+	50% {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(10deg);
+		-webkit-transform: rotate(10deg);
+	}
+}
+
+@keyframes treble-third {
+	50% {
+		transform: rotate(5deg);
+		-webkit-transform: rotate(5deg);
+	}
+	100% {
+		transform: rotate(-5deg);
+		-webkit-transform: rotate(-5deg);
+	}
+}
+
+@keyframes treble-fourth {
+	50% {
+		transform: rotate(-5deg);
+		-webkit-transform: rotate(-5deg);
+	}
+	100% {
+		transform: rotate(5deg);
+		-webkit-transform: rotate(5deg);
+	}
+}

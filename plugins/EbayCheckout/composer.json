@@ -1,0 +1,24 @@
+{
+    "name": "i-ways/ebay-checkout",
+    "description": "EbayCheckout plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "cakephp/cakephp": "^3.4",
+        "braintree/braintree_php" : "3.25.0"
+        //your-name-here/BraintreePayment <- json broken // But is required
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EbayCheckout\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EbayCheckout\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}

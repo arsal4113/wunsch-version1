@@ -1,0 +1,95 @@
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    position: absolute;
+}
+
+#language-dropdown {
+    height: 11px;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.show {
+    display:block;
+    margin-top: 12px;
+}
+
+.language-selector {
+    display: inline-block;
+    margin-top: 24px;
+    margin-right: 45px;
+}
+.show:first-child {
+
+}
+
+.flag {
+    width: 16px;
+    height: 11px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.flag-de {
+    background-image: url("../img/flags/de.svg");
+    /*background-position: 0 0;*/
+}
+.flag-en {
+    background-image: url("../img/flags/gb.svg");
+    /*background-position: -60px 0;*/
+}
+.flag-fr {
+    background-image: url("../img/flags/fr.svg");
+    /*background-position: -120px 0;*/
+}
+.flag-es {
+    background-image: url("../img/flags/es.svg");
+    /*background-position: -179px 0;*/
+}
+.flag-it {
+    background-image: url("../img/flags/it.svg");
+    /*background-position: -239px 0;*/
+}
+.flag-ru {
+    background-image: url("../img/flags/ru.svg");
+    /*background-position: -239px 0;*/
+}
+
+@media (max-width: 767px) {
+    .pull-right-xs {
+        float: right;
+    }
+}
+
+/* Move to own css */
+
+/*.flag-selector:after {*/
+    /*display: block;*/
+    /*content: '▼';*/
+    /*position: absolute;*/
+    /*right: -20px;*/
+    /*top: -5px;*/
+    /*width: 20px;*/
+    /*height: 27px;*/
+    /*background: none;*/
+    /*cursor: pointer;*/
+    /*text-align: center;*/
+    /*line-height: 25px;*/
+    /*font-size: 9px;*/
+    /*color: #ccc;*/
+/*}*/
+
+

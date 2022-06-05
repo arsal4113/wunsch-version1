@@ -1,0 +1,30 @@
+.button {
+    &.hidden{
+        display: none;
+    }
+    button {
+        background: #FAB60D;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 7px;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        &:disabled {
+            background: #DFDFDF;
+            color: #888;
+            pointer-events: none;
+        }
+        &:focus{
+            outline: none;
+        }
+        &:hover{
+            background: linear-gradient(90deg, #FAD170 0%, #FDE988 32.6%, #F9C665 100%), #C4C4C4;
+        }
+    }
+}

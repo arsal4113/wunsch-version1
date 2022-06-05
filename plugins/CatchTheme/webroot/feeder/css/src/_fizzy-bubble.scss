@@ -1,0 +1,994 @@
+#bubble-banner{
+    height: 454px;
+    width: 100%;
+    background: url('../../img/worlds-background-desktop.svg');
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    .banner-container{
+        .fizzy-bubble-container{
+            .bubble-text{
+                max-width: 300px;
+                min-width: 300px;
+                position: absolute;
+                display: none;
+                font-size: 20px;
+                line-height: 33px;
+                z-index: 4;
+                text-align: left;
+                transform: rotate(-3.98deg);
+                .title{
+                    display: inline-block;
+                    background: #fff;
+                    padding: 0 10px;
+                    margin-bottom: 9px;
+                }
+                .subline{
+                    display: inline-block;
+                    background: #fff;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1024px){
+    #bubble-banner{
+        #hover-background{
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(13, 29, 41, 0.8);
+            z-index: 2;
+        }
+        .banner-container{
+            width: 1440px;
+            display: inline-block;
+            position: relative;
+            .fizzy-bubble-container{
+                position: absolute;
+                &.selected{
+                    z-index: 3;
+                }
+                &.bubble-0, &.bubble-1, &.bubble-2, &.bubble-3, &.bubble-4, &.bubble-5, &.bubble-6 {
+                    .bubble-wrapper{
+                        position: relative;
+                        .bubble-image{
+                            transition: transform 0.2s ease-in-out;
+                            position: relative;
+                            border-radius: 50%;
+                        }
+                        &.hovering{
+                            .bubble-text{
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+                &.total-count-5{
+                    &.bubble-0{
+                        top: 33px;
+                        left: 379px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 216px;
+                                height: 216px;
+                            }
+                            .bubble-text{
+                                right: -282px;
+                                top: 225px;
+                                .title{
+                                    margin-left: 15px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.92);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-0{
+                        top: 46px;
+                        left: 373px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 203px;
+                                height: 203px;
+                            }
+                            .bubble-text{
+                                right: -290px;
+                                top: 218px;
+                                .title{
+                                    margin-left: 15px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.03);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-0{
+                        top: 44px;
+                        left: 441px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 205px;
+                                height: 205px;
+                            }
+                            .bubble-text{
+                                right: -293px;
+                                top: 218px;
+                                .title{
+                                    margin-left: 15px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.01);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5{
+                    &.bubble-1{
+                        top: 57px;
+                        left: 885px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 215px;
+                                height: 215px;
+                            }
+                            .bubble-text{
+                                right: 252px;
+                                top: 37px;
+                                text-align: right;
+                                .title{
+                                    margin-right: 18px;
+
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.93);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-1{
+                        top: 36px;
+                        left: 755px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 208px;
+                                height: 208px;
+                            }
+                            .bubble-text{
+                                right: 248px;
+                                top: 76px;
+                                text-align: right;
+                                .title{
+                                    margin-right: 18px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.99) translateY(21px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-1{
+                        top: 25px;
+                        left: 838px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 209px;
+                                height: 209px;
+                            }
+                            .bubble-text{
+                                text-align: right;
+                                right: 249px;
+                                top: 65px;
+                                .title{
+                                    margin-right: 18px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.98) translateY(14px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5{
+                    &.bubble-2{
+                        top: 184px;
+                        left: 129px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 227px;
+                                height: 227px;
+                            }
+                            .bubble-text{
+                                right: -329px;
+                                top: 131px;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.82);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-2{
+                        top: 175px;
+                        left: 135px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 228px;
+                                height: 228px;
+                            }
+                            .bubble-text{
+                                right: -328px;
+                                top: 108px;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.82) translateY(-10px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-2{
+                        top: 205px;
+                        left: 270px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 222px;
+                                height: 222px;
+                            }
+                            .bubble-text{
+                                right: -327px;
+                                top: 87px;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.86) translateY(-23px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5{
+                    &.bubble-3{
+                        top: 178px;
+                        left: 581px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 302px;
+                                height: 302px;
+                            }
+                            .bubble-text{
+                                right: -250px;
+                                top: 26px;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.38) translateY(-50px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-3{
+                        top: 210px;
+                        left: 533px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 260px;
+                                height: 260px;
+                            }
+                            .bubble-text{
+                                right: -270px;
+                                top: -10px;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.6) translateY(-50px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-3{
+                        top: 198px;
+                        left: 618px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 276px;
+                                height: 276px;
+                            }
+                            .bubble-text{
+                                right: -265px;
+                                top: 0;
+                                .title{
+                                    margin-left: 31px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.51) translateY(-54px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5{
+                    &.bubble-4{
+                        top: 208px;
+                        left: 1120px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 216px;
+                                height: 216px;
+                            }
+                            .bubble-text{
+                                right: 288px;
+                                top: 40px;
+                                text-align: right;
+                                .title{
+                                    margin-right: 18px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.92) translateY(-20px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-4{
+                        top: 222px;
+                        left: 922px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 208px;
+                                height: 208px;
+                            }
+                            .bubble-text{
+                                right: 247px;
+                                top: 56px;
+                                text-align: right;
+                                .title{
+                                    margin-right: 25px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.99) translateY(-31px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-4{
+                        top: 229px;
+                        left: 977px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 192px;
+                                height: 192px;
+                            }
+                            .bubble-text{
+                                right: 247px;
+                                text-align: right;
+                                top: 46px;
+                                .title{
+                                    margin-right: 17px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.16) translateY(-31px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-6{
+                    &.bubble-5{
+                        top: 82px;
+                        left: 1127px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 227px;
+                                height: 227px;
+                            }
+                            .bubble-text{
+                                text-align: right;
+                                right: 291px;
+                                top: 80px;
+                                .title{
+                                    margin-right: 20px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.83);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-5{
+                        top: 104px;
+                        left: 1178px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 201px;
+                                height: 201px;
+                            }
+                            .bubble-text{
+                                right: 283px;
+                                text-align: right;
+                                top: 69px;
+                                .title{
+                                    margin-right: 18px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.065);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-6{
+                        top: 86px;
+                        left: 94px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 192px;
+                                height: 192px;
+                            }
+                            .bubble-text{
+                                right: -358px;
+                                top: 67px;
+                                .title{
+                                    margin-left: 15px;
+                                }
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.16);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1024px){
+    #bubble-banner{
+        .banner-container{
+            width: 100%;
+            .fizzy-bubble-container{
+                &.total-count-5{
+                    &.bubble-0 {
+                        left: 24%;
+                        top: 20px;
+                        .bubble-wrapper {
+                            .bubble-image {
+                                width: 183px;
+                                height: 183px;
+                            }
+                            .bubble-text {
+                                right: -280px;
+                                top: 255px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.26) translateY(20px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-0 {
+                        left: 24%;
+                        top: 20px;
+                        .bubble-wrapper {
+                            .bubble-image {
+                                width: 183px;
+                                height: 183px;
+                            }
+                            .bubble-text {
+                                right: -300px;
+                                top: 255px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.26) translateY(20px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-0 {
+                        left: 28%;
+                        top: 13px;
+                        .bubble-wrapper {
+                            .bubble-image {
+                                width: 173px;
+                                height: 173px;
+                            }
+                            .bubble-text {
+                                right: -310px;
+                                top: 242px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.39) translateY(15px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5 {
+                    &.bubble-1{
+                        left: 59%;
+                        top: 29px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 188px;
+                                height: 188px;
+                            }
+                            .bubble-text{
+                                right: 238px;
+                                top: 63px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.2) translateY(16px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-1{
+                        left: 53%;
+                        top: 10px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 188px;
+                                height: 188px;
+                            }
+                            .bubble-text{
+                                right: 237px;
+                                top: 84px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.2) translateY(26px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-1{
+                        left: 55%;
+                        top: 30px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 176px;
+                                height: 176px;
+                            }
+                            .bubble-text{
+                                right: 232px;
+                                top: 58px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.35) translateY(16px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-5, &.total-count-6 {
+                    &.bubble-2 {
+                        left: 6%;
+                        top: 180px;
+                        .bubble-wrapper {
+                            .bubble-image {
+                                width: 206px;
+                                height: 206px;
+                            }
+                            .bubble-text {
+                                right: -388px;
+                                top: 82px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.01) translate(25px, -19px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-2 {
+                        .bubble-wrapper {
+                            .bubble-text {
+                                right: -345px;
+                                top: 104px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.01) translate(4px, -5px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7 {
+                    &.bubble-2 {
+                        left: 15%;
+                        top: 255px;
+                        .bubble-wrapper {
+                            .bubble-image {
+                                width: 194px;
+                                height: 194px;
+                            }
+                            .bubble-text {
+                                right: -342px;
+                                top: 31px;
+                            }
+                            &.hovering {
+                                .bubble-image {
+                                    transform: scale(2.13) translateY(-38px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-5 {
+                    &.bubble-3{
+                        left: 37%;
+                        top: 186px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 267px;
+                                height: 267px;
+                            }
+                            .bubble-text{
+                                right: -267px;
+                                top: 13px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.56) translateY(-36px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-3{
+                        left: 34%;
+                        top: 211px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 235px;
+                                height: 235px;
+                            }
+                            .bubble-text{
+                                right: -286px;
+                                top: -15px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.77) translateY(-40px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-3{
+                        left: 37%;
+                        top: 187px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 232px;
+                                height: 232px;
+                            }
+                            .bubble-text{
+                                right: -285px;
+                                top: 8px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(1.79) translateY(-27px);
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.total-count-5 {
+                    &.bubble-4{
+                        left: 74%;
+                        top: 170px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 205px;
+                                height: 205px;
+                            }
+                            .bubble-text{
+                                right: 313px;
+                                top: 58px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.02) translate(-14px, -8px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-4{
+                        left: 62%;
+                        top: 220px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 188px;
+                                height: 188px;
+                            }
+                            .bubble-text{
+                                right: 235px;
+                                top: 61px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.2) translateY(-24px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-4{
+                        left: 64%;
+                        top: 273px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 177px;
+                                height: 177px;
+                            }
+                            .bubble-text{
+                                right: 239px;
+                                top: -8px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.34) translateY(-43px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-6{
+                    &.bubble-5{
+                        left: 78%;
+                        top: 60px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 205px;
+                                height: 205px;
+                            }
+                            .bubble-text{
+                                right: 325px;
+                                top: 80px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.02) translate(-22px, 4px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-5{
+                        left: 78%;
+                        top: 92px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 193px;
+                                height: 193px;
+                            }
+                            .bubble-text{
+                                right: 334px;
+                                top: 54px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.15) translate(-27px, -3px);
+                                }
+                            }
+                        }
+                    }
+                }
+                &.total-count-7{
+                    &.bubble-6{
+                        left: 5%;
+                        top: 69px;
+                        .bubble-wrapper{
+                            .bubble-image{
+                                width: 177px;
+                                height: 177px;
+                            }
+                            .bubble-text{
+                                right: -413px;
+                                top: 80px;
+                            }
+                            &.hovering{
+                                .bubble-image{
+                                    transform: scale(2.34) translate(21px, 9px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    #bubble-banner{
+        overflow: hidden;
+        position: relative;
+        .banner-container{
+            position: absolute;
+            top: 162px;
+            left: 0;
+            text-align: left;
+            width: 3000px;
+            .fizzy-bubble-container{
+                width: 136px;
+                display: inline-block;
+                padding: 0 7px;
+                .bubble-wrapper{
+                    position: relative;
+                    text-align: center;
+                    .bubble-image{
+                        height: 122px;
+                        width: 122px;
+                    }
+                    .bubble-text{
+                        display: block;
+                        position: absolute;
+                        opacity: 0;
+                        transition: opacity 0.2s ease-in-out;
+                        left: -10px;
+                        bottom: -100px;
+                        font-size: 14px;
+                        line-height: 24px;
+                        .title{
+                            margin-left: 40px;
+                        }
+                    }
+                }
+                &.active{
+                    .bubble-wrapper{
+                        .bubble-text{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #bubble-banner{
+        background: url('../../img/worlds-background-mobile.svg');
+        height: 380px;
+        .banner-container{
+            top: 152px;
+            .fizzy-bubble-container{
+                width: 130px;
+                transition: width 0.2s ease-in-out;
+                display: inline-block;
+                padding: 0 9px;
+                .bubble-wrapper{
+                    .bubble-image{
+                        transition: transform 0.2s ease-in-out;
+                        height: 112px;
+                        width: 112px;
+                    }
+                    .bubble-text{
+                        left: 3px;
+                        bottom: -82px;
+                        font-size: 14px;
+                        line-height: 24px;
+                        .title{
+                            margin-left: 30px;
+                        }
+                    }
+                }
+                &.active{
+                    width: 201px;
+                    .bubble-wrapper{
+                        .bubble-text{
+                            opacity: 1;
+                        }
+                        .bubble-image{
+                            transform: scale(1.634);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

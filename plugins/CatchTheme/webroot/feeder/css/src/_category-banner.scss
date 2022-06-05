@@ -1,0 +1,83 @@
+body.feeder.browse.view #customer-segment-row.category-page {
+    display: block;
+}
+
+.row.category-hero-container {
+    #category-banner {
+        width: 100%;
+        overflow: hidden;
+        height: 320px;
+        &.empty-banner  {
+            height:0;
+        }
+        transition: height .5s;
+        .banner-wrapper {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            .title-wrapper {
+                color: #FFFFFF;
+                font-size: 55px;
+                line-height: normal;
+                letter-spacing: 2px;
+                span {
+                    padding: 0 8px;
+                    -webkit-box-decoration-break: clone;
+                    -ms-box-decoration-break: clone;
+                    -o-box-decoration-break: clone;
+                    box-decoration-break: clone;
+                }
+                .category-banner-headline {
+                    font-family: $font-family-bold;
+                }
+                .category-banner-caption {
+                    font-family: $font-family-normal;
+                }
+                padding: 100px 0 0 80px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .row.category-hero-container {
+        #category-banner {
+            height: 250px;
+            .banner-wrapper {
+                .title-wrapper {
+                    font-size: 40px;
+                    letter-spacing: 1px;
+                    padding: 40px 15px 0;
+                }
+            }
+        }
+    } 
+}
+@media screen and (max-width: 768px) {
+    .row.category-hero-container {
+        #category-banner {
+            height: 250px;
+            .banner-wrapper {
+                .title-wrapper {
+                    font-size: 25px;
+                    letter-spacing: 1px;
+                    padding: 80px 15px 0;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .row.category-hero-container {
+        #category-banner {
+            height: 200px;
+            .banner-wrapper {
+                .title-wrapper {
+                    //font-size: 25px;
+                    padding: 60px 25px 0;
+                }
+            }
+        }
+    }
+}

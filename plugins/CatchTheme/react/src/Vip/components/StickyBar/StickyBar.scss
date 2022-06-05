@@ -1,0 +1,322 @@
+#item-info-box .sticky-bar-container{
+    width: 100vw;
+    position: fixed;
+    top: 59px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    overflow-y: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-in-out;
+    z-index: 100;
+    padding: 0 37px;
+    &.show{
+        max-height: 113px;
+    }
+    .content-wrapper{
+        max-width: 1143px;
+        margin: auto;
+        padding: 7px 0;
+        display: flex;
+        flex-direction: row;
+        .product-info{
+            display: flex;
+            flex-direction: row;
+            margin-right: 16px;
+            img{
+                max-width: 54px;
+                max-height: 54px;
+                margin-right: 12px;
+            }
+            .item-pricing{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                height: 54px;
+                .price{
+                    font-size: 22px;
+                    font-family: Visuelt-Bold, sans-serif;
+                    &.discounted{
+                        color: #DD0202;
+                    }
+                }
+                .mobile-buy-button{
+                    display: none;
+                }
+                .original-price {
+                    font-size: 12px;
+                    text-decoration: line-through;
+                    text-decoration-color: #DD0202;
+                    line-height: 18px;
+                }
+            }
+        }
+        .user-input{
+            display: flex;
+            flex-direction: row;
+            margin: 9px 0;
+            border-left: 1px solid #f2f2f3;
+            padding-left: 18px;
+            width: 100%;
+            &.empty-fix{
+                justify-content: flex-end;
+            }
+            .attribute-selection{
+                max-width: 470px;
+                min-width: 290px;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-right: 20px;
+                .selector-container{
+                    display: flex;
+                    align-items: center;
+                    max-width: 272px;
+                    width: calc(50% - 10px);
+                    height: 36px;
+                    &:only-child{
+                        width: 100%;
+                    }
+                    @media (min-width: 1024px){
+                        &:nth-child(odd) {
+                            margin-right: 20px;
+                        }
+                        &:nth-child(n + 3){
+                            margin-top: 9px;
+                        }
+                    }
+                    .label{
+                        font-size: 13px;
+                        line-height: 15px;
+                        margin-right: 8px;
+                        white-space: nowrap;
+                    }
+                    select.selector{
+                        height: 36px;
+                        line-height: 36px;
+                        background-position: calc(100% - 17px) 15px;
+                        padding: 0 30px 0 16px;
+                        max-width: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+            .wrapper{
+                display: flex;
+                flex-direction: row;
+                height: 36px;
+                width: 100%;
+                max-width: 520px;
+                justify-content: space-between;
+                .selector-wrapper{
+                    padding-right: 0;
+                    margin: 0 10px 0 0;
+                    label{
+                        padding: 0 8px 0 0;
+                    }
+                    .quantity-selector{
+                        width: auto;
+                        max-width: unset;
+                    }
+                }
+                .buy-button-wrapper{
+                    margin: 0;
+                    width: 270px;
+                    height: 36px;
+                    #add-to-cart{
+                        line-height: 36px;
+                    }
+                }
+                .ebay-buy-button-wrapper{
+                    margin: 0;
+                    #buy-on-ebay{
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+        .mobile-top-element{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    #item-info-box .sticky-bar-container{
+        top: 60px;
+        &.show{
+            max-height: 197px;
+        }
+        .content-wrapper{
+            padding: 10px 0;
+            justify-content: space-between;
+            .product-info{
+                align-items: center;
+            }
+            .user-input{
+                margin: 0;
+                border: none;
+                width: auto;
+                .attribute-selection{
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    max-width: unset;
+                    margin-right: 17px;
+                    min-width: unset;
+                    .selector-container{
+                        width: auto;
+                        margin-right: 0;
+                        justify-content: space-between;
+                        &:not(:last-child){
+                            margin-bottom: 11px;
+                        }
+                        select.selector{
+                            width: 156px;
+                        }
+                    }
+                }
+                .wrapper{
+                    flex-direction: column;
+                    height: 83px;
+                    min-width: 181px;
+                    .selector-wrapper{
+                        margin: 0;
+                    }
+                    .buy-button-wrapper{
+                        width: 100%;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #item-info-box .sticky-bar-container {
+        max-height: 75px;
+        top: unset;
+        bottom: 0;
+        padding: 0 16px;
+        &.show {
+            max-height: 302px;
+            z-index: 102;
+        }
+        .content-wrapper{
+            max-width: 290px;
+            flex-direction: column-reverse;
+            padding: 5px 0 0;
+            position: relative;
+            transition: height 0.3s ease-in-out;
+            align-items: center;
+            .product-info{
+                margin: 0;
+                justify-content: center;
+                background: #fff;
+                width: 100%;
+                position: relative;
+                z-index: 2;
+                padding-bottom: 10px;
+                img{
+                    display: none;
+                }
+                .item-pricing{
+                    height: 40px;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: space-between;
+                    .price{
+                        margin-right: 10px;
+                        &.discounted{
+                            color: #000;
+                        }
+                    }
+                    .original-price {
+                        display: none;
+                    }
+                    .mobile-buy-button{
+                        display: block;
+                        .buy-button-wrapper{
+                            display: block;
+                            margin: 0;
+                            width: 192px;
+                            #add-to-cart{
+                                line-height: 40px;
+                            }
+                        }
+                        .ebay-buy-button-wrapper{
+                            margin: 0;
+                            #buy-on-ebay{
+                                width: 192px;
+                            }
+                        }
+                    }
+                }
+            }
+            .user-input{
+                flex-direction: column;
+                padding: 0;
+                position: absolute;
+                bottom: 61px;
+                opacity: 1;
+                transition: bottom 0.4s ease-out, opacity 0.8s ease-out;
+                width: 100%;
+                &.hide{
+                    bottom: -300px;
+                    opacity: 0;
+                }
+                .attribute-selection{
+                    margin: 0;
+                    .selector-container{
+                        min-width: 290px;
+                        margin-bottom: 10px !important;
+                        .label{
+                            font-size: 12px;
+                            margin: 0;
+                            padding-right: 15px;
+                            max-width: 33.33%;
+                        }
+                        select.selector{
+                            width: 192px;
+                        }
+                    }
+                }
+                .wrapper{
+                    height: auto;
+                    .selector-wrapper{
+                        .quantity-selector{
+                            width: 192px;
+                        }
+                    }
+                    .ebay-buy-button-wrapper{
+                        display: none;
+                    }
+                }
+            }
+            .mobile-top-element{
+                display: flex;
+                justify-content: center;
+                width: 70px;
+                height: 10px;
+                .indicator{
+                    width: 25px;
+                    height: 3px;
+                    background: #c8c8c8;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    #item-info-box .sticky-bar-container {
+        .content-wrapper {
+            //max-width: calc(100% - 30px);
+        }
+    }
+}

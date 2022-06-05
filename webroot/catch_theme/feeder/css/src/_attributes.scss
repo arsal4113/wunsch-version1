@@ -1,0 +1,22 @@
+.product-iteminfo dl {
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    dt {
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: top;
+        width: 35%;
+       @media only screen and (max-width: 480px) {
+           width: 49%;
+       }
+    }
+    dd {
+        display: inline-block;
+        vertical-align: top;
+        max-width: calc(100% - 38%);
+        @media only screen and (max-width: 480px) {
+            max-width: calc(100% - 50%);
+        }
+    }
+}

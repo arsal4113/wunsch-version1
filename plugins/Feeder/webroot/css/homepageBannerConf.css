@@ -1,0 +1,129 @@
+.suh p {
+    color: red;
+}
+
+.file ul.error{
+    color: red;
+    list-style: none;
+    margin-bottom: 4px;
+    margin-top: 6px;
+    padding-left: 0;
+}
+
+.btndrp {
+    text-decoration: none;
+    border: 1px solid #979797;
+    background-color: white;
+    color: #767676 !important;
+    padding: 8px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none !important;
+}
+.btndrp:hover{
+    color: #949aa3 !important;
+}
+
+#big .breakpoint-input{
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+#big .breakpoint-input label{
+    margin-bottom: 2px;
+}
+
+.banner-image-preview{
+    position: relative;
+    display: inline-block;
+}
+
+.banner-image-preview img{
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.collapse {
+    margin-top: 10px;
+}
+
+.alt-img-download-button {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #979797;
+    transition: 0.25s;
+    background: #efefef;
+    color: #676a6c;
+    margin-left: 7px;
+}
+
+.alt-img-download-button:hover{
+    background: #676a6c;
+    color: #efefef;
+}
+
+.img-download-button{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 3.5vw;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: center;
+}
+.img-download-button.sm-font{
+    font-size: 3vw;
+}
+.img-download-button.xs-font{
+    font-size: 2vw;
+}
+
+.img-download-button:hover{
+    opacity: 1;
+    color: #fff;
+}
+
+.image-name{
+    margin-bottom: 0;
+}
+
+@media (min-width: 1921px){
+    .img-download-button{
+        font-size: 70px;
+    }
+    .img-download-button.md-font{
+        font-size: 60px;
+    }
+    .img-download-button.sm-font{
+        font-size: 55px;
+    }
+    .img-download-button.xs-font{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1550px){
+    .img-download-button.sm-font{
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 1200px){
+    .img-download-button.xs-font{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 768px){
+    .img-download-button, .img-download-button.md-font, .img-download-button.sm-font, .img-download-button.xs-font{
+        font-size: 4.5vw;
+    }
+}

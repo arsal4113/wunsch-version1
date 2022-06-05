@@ -1,0 +1,29 @@
+.shipping-method-wrapper{
+    margin-bottom: 10px;
+    //position: relative;
+    .shipping-method-container{
+        transition: filter 0.4s ease-in-out;
+        &.blurred{
+            filter: blur(3px);
+        }
+        .error{
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 10px;
+            color: #e53238;
+        }
+        .item-name{
+            margin: 10px;
+            @media(max-width: 767px){
+                font-size: 13px;
+                line-height: 19px;
+            }
+        }
+        .item-shipping-wrapper{
+            &:not(:nth-last-child(1)){
+                margin-bottom: 10px;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

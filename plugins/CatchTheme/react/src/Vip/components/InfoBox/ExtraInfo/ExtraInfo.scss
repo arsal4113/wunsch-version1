@@ -1,0 +1,41 @@
+.extra-info-wrapper {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    .separator {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        border-top: 1px solid #C4C4C4;
+    }
+    .payment-method-info {
+        padding-top: 10px;
+        .payment-method-image {
+            width: 100%;
+            display: flex;
+            margin: 10px 0 10px;
+            div {
+                height: 30px;
+                width: 56px;
+            }
+            .paypal {
+                background: url("../../../assets/payment-methods/paypal.png") no-repeat center;
+                background-size: contain;
+            }
+            .visa {
+                background: url("../../../assets/payment-methods/visa.svg") no-repeat center;
+            }
+            .express {
+                background: url("../../../assets/payment-methods/express.png") no-repeat center;
+                background-size: contain;
+            }
+            .master {
+                background: url("../../../assets/payment-methods/master-cart.svg") no-repeat center;
+            }
+            .sepa {
+                background: url("../../../assets/payment-methods/sepa.png") no-repeat center;
+                background-size: contain;
+            }
+        }
+    }
+}

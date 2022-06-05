@@ -1,0 +1,90 @@
+{
+    "header": {
+        "title": "Checkout"
+    },
+    "items": {
+        "price": "Preis: {{price}} $t(common:currency.{{currency}})",
+        "inclTax": "(inkl. MwSt.)"
+    },
+    "steps": {
+        "cart": "Warenkorb",
+        "delivery": "Versand",
+        "payment": "Zahlungsart",
+        "complete": "Kaufabschluss",
+        "complete_mobile": "Kauf",
+        "done": "Fertig"
+    },
+    "shippingAddress" : {
+        "title": "Versandadresse eingeben",
+        "subtitle": "Lieferadresse gleich Rechnungsadresse",
+        "saveAddress": "Lieferadresse für weitere Einkäufe speichern",
+        "saveButton": "Adresse speichern und weiter",
+        "disclaimer": "Wenn du \"speichern\" klickst, erteilst du dein Einverständnis, dass wir die oben angezeigten Versanddaten an PayPal weitergeben. Mehr dazu"
+    },
+    "shippingMethods": {
+        "title": "Versandmethode",
+        "Delivery": "Lieferung"
+    },
+    "coupon":{
+        "title": "Gutscheincode einlösen",
+        "mobile-title": "Einlösen",
+        "label": "Gutscheincode",
+        "success": "Du hast den Gutschein erfolgreich hinzugefügt"
+    },
+    "paymentMethods": {
+        "title": "Zahlungsart auswählen",
+        "description": "Bitte geben Sie zunächst eine Versandmethode an, um eine Zahlungsart auswählen zu können.",
+        "chooseDescription": "Bitte wähle eine Zahlungsart aus, indem du auf das entsprechende Icon klickst. Du wirst zunächst weitergeleitet, um deine Zahlungsdaten einzugeben. \nDie Bestellung erfolgt im nächsten Schritt.",
+        "shippingAddress": "Versandadresse"
+    },
+    "totals": {
+        "title": "Summe",
+        "priceSubtotal": "Artikel ({{count}})",
+        "deliveryCost": "Versand",
+        "deliveryCostFinal": "Versandkosten",
+        "additionalSavings": "Gutscheincode",
+        "additionalSavingsFinal": "Gutscheincode",
+        "total": "Gesamt",
+        "totalFinal": "Gesamtbetrag inkl. MwSt"
+    },
+    "country": {
+        "Germany": "Deutschland"
+    },
+    "orderOverview": {
+        "title": "Überprüfen und Kaufen",
+        "deliveryTo": "Versand an:",
+        "payment": "Zahlungsart:",
+        "amount": "Anzahl:",
+        "delivery": "Versand:",
+        "arrival": "Lieferung:",
+        "coupon": "Gutscheincode:",
+        "withoutCoupon": "Nicht eingelöst",
+        "total": "Gesamtsumme:"
+    },
+    "buyNow": {
+        "newsletter": "Ich möchte E-Mails über Verkaufsaktionen, Sonderangebote und Umfragen von Catch erhalten.",
+        "optOut": "Du kannst sie jederzeit in deinem Konto oder über einen Link in den E-Mails abbestellen.",
+        "submit": "Kaufen",
+        "disclaimerFirst": "Indem du auf Kaufen klickst, stimmst du den ",
+        "disclaimerSecond": " zu. Informationen zur Verarbeitung deiner Daten findest du in unserer ",
+        "terms": "Allgemeinen Geschäftsbedingungen",
+        "privacy": "Datenschutzerklärung"
+
+    },
+    "success": {
+        "title": "Glückwunsch!",
+        "yours": "Es gehört Ihnen!",
+        "next": "Ihre Bestellung wurde entgegen genommen und wird in kürze zu der von Ihnen angegebenen Adresse geliefert.",
+        "nextMail": "In wenigen Minuten werden Sie eine E-Mail erhalten, die die Details Ihrer Bestellung so wie die Sendungsnummer enthalten wird.",
+        "orderNumber": "Bestellnummer: {{orderNumber}}",
+        "shipsTo": "Versand an:",
+        "details": "Details:",
+        "soldBy": "Verkauf von: {{sellerName}}",
+        "soldQty": "Anzahl: {{quantity}}",
+        "paymentMethod": "Zahlungsart:",
+        "expectedDeliveryDate": "Erwartetes Lieferdatum:",
+        "shopMore": "Weiter einkaufen",
+        "shippedBy": "Versand:"
+    },
+    "closeMessage": "Wollen Sie den Checkout wirklich verlassen?"
+}

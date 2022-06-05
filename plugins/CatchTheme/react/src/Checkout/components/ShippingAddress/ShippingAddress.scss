@@ -1,0 +1,102 @@
+.shipping-address-wrapper {
+    //position: relative;
+    .shipping-address-form {
+        transition: filter 0.4s ease-in-out;
+        &.blurred{
+            filter: blur(3px);
+        }
+        .error{
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 10px;
+            color: #e53238;
+        }
+        .address{
+            display: flex;
+            flex-direction: row;
+            align-content: flex-start;
+            flex-flow: row wrap;
+            .input {
+                flex: 0 0 100%;
+                &.input-first_name,
+                &.input-last_name{
+                    flex: 0 0 calc(50% - 5px);
+                    margin-bottom: 25px;
+                }
+                &.input-postal_code,
+                &.input-first_name {
+                    margin-right: 10px;
+                }
+                &.input-postal_code {
+                    flex: 0 0 calc(50% - 5px);
+                }
+                &.input-city {
+                    flex: 0 0 calc(50% - 5px);
+                }
+                &.input-country{
+                    select{
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        &::-ms-expand{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .more-inputs-wrapper {
+                width: 100%;
+                margin-top: 8px;
+                .text-wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 12px;
+                    line-height: 15px;
+                    margin-bottom: 14px;
+                    .more-link {
+                        display: flex;
+                        text-decoration: underline;
+                        cursor: pointer;
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+                    .red {
+                        color: #FF0000;
+                    }
+                }
+            }
+        }
+        .button {
+            margin: 15px 0;
+            text-align: right;
+        }
+        .disclaimer{
+            font-size: 11px;
+            line-height: 15px;
+            padding: 0 20px;
+            margin: 0;
+            a{
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .shipping-address-wrapper{
+        border-radius: 20px 20px 0 0 !important;
+        .shipping-address-form{
+            .address .input{
+                &.input-first_name, &.input-last_name,
+                &.input-postal_code, &.input-city{
+                    flex: 0 0 100%;
+                    margin-bottom: 0;
+                }
+                &.input-last_name{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}

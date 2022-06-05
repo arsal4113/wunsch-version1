@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+
+@media only screen and (max-width: 1165px) {
+    .header-wrapper {
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+    }
+    .header-middle {
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        -ms-justify-content: space-around;
+        justify-content: space-around;
+        width: 85%;
+        padding: 0 15px;
+    }
+    .header-middle-1, .header-middle-2, .header-middle-3   {
+        padding-left: 0;
+        font-size: 18px;
+    }
+    .language-selector {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .header-middle {
+        width: 80%;
+    }
+    .header-middle-1, .header-middle-2, .header-middle-3   {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header-middle {
+        width: 80%;
+    }
+    .header-middle-1, .header-middle-2, .header-middle-3   {
+        display: flex;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+    }
+    .check-icon {
+        width: 20pt;
+        height: 20pt;
+        margin: 0 10px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 704px) {
+    .header-middle-1, .header-middle-2, .header-middle-3   {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 668px) {
+    .check-icon {
+        width: 15pt;
+        height: 15pt;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+    
+@media only screen and (max-width: 644px) {
+    .header {
+        height: 125px;
+    }
+    .header-middle {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+    .header-middle-2 {
+        width: 31%;
+    }
+    .right {
+        float: none;
+        text-align: right;
+        width: 80%;
+    }
+    .margin-top-100 {
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .header {
+        height: 155px;
+    }
+    .header-middle {
+        width: 95%;
+        left: 10px;
+    }
+    .header-middle-1, .header-middle-2, .header-middle-3 {
+        -webkit-flex-flow: column;
+        -moz-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        text-align: center;
+    }
+    .check-icon {
+        margin: 0 auto 10px;
+    }
+    .margin-top-100 {
+        margin: 50px 20px 10px;
+    }
+
+}

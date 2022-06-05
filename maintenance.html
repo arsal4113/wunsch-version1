@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-config" content="none"/>
+    <title>i-ways digital values</title>
+
+    <link rel="stylesheet" href="/inspiria/css/bootstrap.min.css"/><link rel="stylesheet" href="/inspiria/css/animate.css"/><link rel="stylesheet" href="/inspiria/css/style.css"/><link rel="stylesheet" href="/inspiria/css/login.css"/><script src="/inspiria/js/google-analytics.js"></script><script src="/inspiria/js/yandex-metrica.js"></script><script src="/inspiria/js/zendesk.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body class="gray-bg">
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/41209684" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+
+<div class="header">
+    <div class="header-wrapper">
+        <div class="left">
+            <a href="/">
+                <img src="/Inspiria/img/logo_white.png" class="logo" alt="i-ways digital values"/>            </a>
+        </div>
+        <div class="header-middle">
+            <div class="header-middle-1">
+                <img src="/Inspiria/img/check_icon.png" class="check-icon" alt="icon"/>                100% kostenlos            </div>
+            <div class="header-middle-2">
+                <img src="/Inspiria/img/check_icon.png" class="check-icon" alt="icon"/>                Mobil optimiert            </div>
+            <div class="header-middle-3">
+                <img src="/Inspiria/img/check_icon.png" class="check-icon" alt="icon"/>                100% eBay konform            </div>
+        </div>
+
+        <div class="right">
+            <div class="language-selector">
+                <div class="dropdown">
+                    <button onclick="showDropdown(this)"
+                            class="dropbtn flag flag-selector flag-de"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                                                        <a class="flag flag-en" href="#"
+                                   data-language-code="en"></a>
+                                                            <a class="flag flag-es" href="#"
+                                   data-language-code="es"></a>
+                                                            <a class="flag flag-it" href="#"
+                                   data-language-code="it"></a>
+                                                            <a class="flag flag-fr" href="#"
+                                   data-language-code="fr"></a>
+                                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center white margin-top-100">Willkommen zu eBay Template Creator</h2>
+<h4 class="text-center margin-top-10" style="color:#ccc; font-size: 150%;">in Kooperation mit eBay</h4>
+
+<div class="middle-box loginscreen animated fadeInDown">
+    <div>
+
+
+        <p class="m-t text-center margin-top-70 white">
+            &copy; 2017 i-ways digital values<br/>eBay Template Creator in Kooperation mit eBay gemacht mit <i class="fa fa-heart red"></i> in Berlin        </p>
+    </div>
+</div>
+
+<script src="/inspiria/js/jquery-2.1.1.js"></script><script src="/inspiria/js/bootstrap.min.js"></script><script src="/inspiria/js/jquery.blockUI.js"></script>    <script>
+        function showDropdown(element) {
+            $(element).closest('.dropdown').find('.dropdown-content').toggleClass('show');
+        }
+
+        $(window).click(function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = $(".dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = $(dropdowns[i]);
+                    if(openDropdown.hasClass('show')) {
+                        openDropdown.removeClass('show');
+                    }
+                }
+            }
+        });
+
+        $(document).ready(function() {
+
+            $(".language-selector .dropdown-content .flag").click(function (evt) {
+                evt.preventDefault();
+                $.get('/core_sellers/setLanguage/' + $(this).data('languageCode'), function (data) {
+                    location.reload();
+                });
+            });
+
+            $(document).on('click', '#login-button', function(e) {
+                var form = this.form;
+                var message = document.getElementById("profile-loading-message").innerHTML;
+                e.preventDefault();
+                $.blockUI({
+                    message: message,
+                    css: {
+                        border: 'none',
+                        padding: '15px',
+                        backgroundColor: '#000',
+                        '-webkit-border-radius': '10px',
+                        '-moz-border-radius': '10px',
+                        opacity: 1,
+                        color: '#fff',
+                        top: '10px',
+                        left: '',
+                        right: '10px'
+                    },
+                    overlayCSS: {
+                        'z-index': '9999'
+                    }
+                });
+
+                setTimeout(function () {
+                    form.submit();
+                }, 200);
+            });
+        });
+    </script>
+
+</body>
+</html>

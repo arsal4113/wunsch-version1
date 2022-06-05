@@ -1,0 +1,92 @@
+#surprise-item-row {
+    //margin-bottom: 10px; removed because of WD-1142
+    //padding-bottom: 30px; WD-750
+    max-height: 309px;
+    overflow: hidden;
+    @media (max-width: 575px) {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    h3 {
+        padding-bottom: 10px;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .card-wrapper {
+        padding: 0 10px;
+        .surprise-item {
+            position: relative;
+            @media (max-width: 1024px) {
+                //margin: 5px 0 21px;
+            }
+            span.wishlist-icon {
+                top: 5px;
+                right: 5px;
+                backdrop-filter: none;
+            }
+            a.surprise-item-link {
+                display: block;
+                transition: .25s;
+            }
+
+            a:focus {
+                outline: none;
+            }
+
+            a {
+                .deals-badge{
+                    position: absolute;
+                    top: 20px;
+                    span {
+                        background-color: #F9B500;
+                        color: #ffffff;
+                        font-size: 12px;
+                        line-height: 14px;
+                        padding: 4px 15px 6px 8px;
+                        border-radius: 0 24px 24px 0;
+                    }
+                }
+                &:hover {
+                    .deals-badge span {
+                        margin-left: 0;
+                    }
+                    .card-label-wrapper .item-label {
+                        margin-left: 0;
+                    }
+                }
+                &.wishlist-item-link:hover {
+                    box-shadow: none; // iOS Safari fix
+                    border-image: none; // iOS Safari fix
+                }
+
+                .card-label-wrapper {
+                    position: absolute;
+                    width: 100%;
+                    margin: -13px auto;
+                    height: 50px;
+                    .item-label {
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+
+                .card-body {
+                    color: #000000;
+                    font-family: $font-family-bold;
+                    font-size: 20px;
+                    letter-spacing: -0.08px;
+                    line-height: 26px;
+                    text-align: center;
+                    margin: 0;
+                    .card-price {
+                        position: relative;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

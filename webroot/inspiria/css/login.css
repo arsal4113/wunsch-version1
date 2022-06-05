@@ -1,0 +1,235 @@
+.logo {
+    width: 70%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    filter: grayscale(25%);
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-70 {
+    margin-top: 70px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.red {
+    color: #ed5565;
+}
+
+body {
+    background: url(../img/register_background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a, a:hover, a:active, a:focus {
+    color: #ffffff;
+}
+
+.error-message {
+    color: #ffffff;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0px 30px;
+}
+
+.header-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.middle-box {
+    padding: 0;
+}
+
+#register-button,
+#login-button {
+    background-color: #f22922;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    outline: none;
+    border: none;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+.show {
+    display: block;
+}
+
+.language-selector {
+    margin-top: 24px;
+}
+
+.header-middle {
+  width: 90%;
+
+}
+.header-middle-1 {
+    padding-left: 100px;
+    width: 30%;
+    float: left;
+    font-size: 14pt;
+    margin-top: 15px;
+    color: white;
+}
+
+.header-middle-2 {
+    padding-left: 70px;
+    width: 30%;
+    float: left;
+    font-size: 14pt;
+    margin-top: 15px;
+    color: white;
+}
+
+.header-middle-3 {
+    padding-left: 60px;
+    width: 28%;
+    float: left;
+    font-size: 14pt;
+    margin-top: 15px;
+    color: white;
+}
+
+.check-icon {
+    width: 20pt;
+}
+
+
+.flag {
+    width: 36px;
+    height: 27px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.flag-de {
+    background-image: url("../img/flags/de.svg");
+    /*background-position: 0 0;*/
+}
+
+.flag-en {
+    background-image: url("../img/flags/us_uk.svg");
+    /*background-position: -60px 0;*/
+}
+
+.flag-fr {
+    background-image: url("../img/flags/fr.svg");
+    /*background-position: -120px 0;*/
+}
+
+.flag-es {
+    background-image: url("../img/flags/es.svg");
+    /*background-position: -179px 0;*/
+}
+
+.flag-it {
+    background-image: url("../img/flags/it.svg");
+    /*background-position: -239px 0;*/
+}
+
+.flag-ru {
+    background-image: url("../img/flags/ru.svg");
+    /*background-position: -239px 0;*/
+}
+
+/* Move to own css */
+
+.flag-selector:after {
+    display: block;
+    content: '▼';
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 20px;
+    height: 27px;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    font-size: 9px;
+    color: #ccc;
+}
+
+.BDC_CaptchaDiv {
+    margin: 0 auto !important;
+}
+

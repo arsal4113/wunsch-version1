@@ -1,0 +1,93 @@
+#banners-carousel {
+    height: 500px;
+    .slick-list .banner-slide {
+        height:500px;
+        .banner-picture-wrapper {
+            .banner-image {
+                height: 500px;
+                display: block;
+                picture {
+                    width: auto;
+                    height: 500px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
+.slick-button a {
+    top: -98px;
+}
+@media (min-width: 2000px) {
+    #banners-carousel {
+        height: 669px;
+        .slick-list .banner-slide {
+            height:669px;
+            .banner-picture-wrapper {
+                .banner-image {
+                    height: 669px;
+                    picture {
+                        height: 669px;
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1440px) {
+    .slick-button a {
+        top: -84px;
+    }
+
+    #banners-carousel .slick-list .banner-slide .banner-picture-wrapper .banner-image picture img {
+        max-height: 100%;
+    }
+}
+@media (max-width: 1024px) {
+
+    #banners-carousel {
+        height: 400px;
+    }
+    #banners-carousel .slick-list .banner-slide {
+        height: 400px;
+    }
+
+    #banners-carousel .slick-list .banner-slide .banner-picture-wrapper .banner-image {
+        height: 400px;
+        picture {
+            height: 400px;
+            img {
+                max-height: 100%;
+            }
+        }
+    }
+
+    .slick-button a {
+        top: -79px;
+        min-width: 183px;
+    }
+}
+
+@media (max-width: 767px) {
+    #banners-carousel {
+        height: 250px;
+    }
+    #banners-carousel .slick-list .banner-slide {
+        height: 250px;
+    }
+    #banners-carousel .slick-list .banner-slide .banner-picture-wrapper .banner-image {
+        height: 250px;
+        picture {
+            height: 250px;
+        }
+    }
+}

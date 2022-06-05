@@ -1,0 +1,264 @@
+body.itoolcustomer.account.interests {
+    background-image: url("../img/interests-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right 83px;
+    @media only screen and (min-width: 481px) {
+        background-position: -60px -95px;
+        background-image: url("../img/interests-background.svg");
+    }
+    @media only screen and (min-width: 1024px) {
+        background-position: right -120px;
+    }
+    @media only screen and (min-width: 1400px) {
+        background-position: right top;
+    }
+    &.cookies-layer-shown {
+        background-position: right 164px;
+        @media only screen and (min-width: 481px) {
+            background-position: -60px -31px;
+        }
+        @media only screen and (min-width: 1024px) {
+            background-position: 0px -73px;
+        }
+        @media only screen and (min-width: 1400px) {
+            background-position: right 47px;
+        }
+        #content {
+            padding-top: calc(108px + 81px);
+            @media only screen and (min-width: 445px) {
+                padding-top: calc(108px + 64px);
+            }
+            @media only screen and (min-width: 768px) {
+                padding-top: calc(110px + 64px);
+            }
+            @media only screen and (min-width: 1024px) {
+                padding-top: calc(124px + 47px);
+            }
+        }
+    }
+    #content {
+        @media only screen and (min-width: 1024px) {
+            padding-top: 124px;
+        }
+        .content-container-row {
+            .container {
+                .content-area {
+                    .headline {
+                        @media only screen and (min-width: 1024px) and (max-width: 1399px) {
+                            justify-content: flex-end;
+                        }
+                        .account-title {
+                            padding: 0 6px;
+                        }
+                        .account-subtitle {
+                            text-align: right;
+                            padding: 0 6px;
+                            @media only screen and (max-width: 767px) {
+                                margin: 5px auto 0;
+                            }
+                            @media only screen and (min-width: 768px) {
+                                text-align: center;
+                            }
+                            @media only screen and (min-width: 1024px) {
+                                text-align: left;
+                                max-width: calc(100% - 210px);
+                            }
+                            @media only screen and (min-width: 1400px) {
+                                display: none;
+                            }
+
+                            h2 {
+                                font-family: $font-family-base;
+                                font-size: $font-size + 1;
+                                margin: 0;
+                                @media only screen and (min-width: 768px) {
+                                    font-size: $font-size + 5;
+                                    margin-bottom: 30px;
+                                }
+                                @media only screen and (min-width: 1024px) {
+                                    font-size: $font-size + 3;
+                                    margin-bottom: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .content-wrapper {
+                        @media only screen and (max-width: 480px) {
+                            padding-top: 5px;
+                        }
+                        @media only screen and (min-width: 481px) and (max-width: 1023px) {
+                            padding-top: 15px;
+                        }
+                        #account-interests-container {
+                            width: 100%;
+                            //margin-bottom: 60px;
+                            @media only screen and (max-width: 1023px) {
+                                padding: 0 15px;
+                            }
+                            @media only screen and (min-width: 1024px) {
+                                padding: 0px 7px;
+                                background-color: transparent;
+                                border-radius: 13px;
+                                width: calc(100% - 210px);
+                            }
+                            @media only screen and (min-width: 1400px) {
+                                width: calc(100% - 270px);
+                            }
+                            .interests-content-container {
+                                padding: 0;
+                            }
+                            .box {
+                                font-size: 13px;
+                                padding: 0;
+                                background-color: transparent;
+                                @media only screen and (max-width: 1023px) {
+                                    padding: 0 6px 12px;
+                                    min-height: 390px;
+                                }
+                                @media only screen and (min-width: 1024px) {
+                                    background-color: transparent;
+                                    padding: 0 10px 20px;
+                                    min-height: 400px;
+
+                                }
+                                @media only screen and (min-width: 1400px) {
+                                    min-height: 360px;
+                                    padding: 0 12.5px 25px;
+                                }
+                                .box-content-container {
+                                    border-radius: 15px;
+                                    background-color: #fff;
+                                    padding: 15px;
+                                    height: 100%;
+                                    background-repeat: no-repeat;
+                                    background-size: 180px;
+                                    background-position: left 84px;
+                                    @media only screen and (min-width: 481px) {
+                                        background-position: left 78px;
+                                        padding: 20px 15px 15px;
+                                    }
+                                    @media only screen and (min-width: 1024px) {
+                                        padding: 25px 15px 15px;
+                                        background-size: 85px;
+                                        background-position: left 16px;
+                                    }
+                                    @media only screen and (min-width: 1400px) {
+                                        padding: 35px 15px 15px;
+                                    }
+                                    h3 {
+                                        font-family: $font-family-base;
+                                        font-size: 13px;
+                                        display: inline-block;
+                                        @media only screen and (min-width: 1024px) {
+                                            display: block;
+                                            padding-right: 15px;
+                                            text-align: right;
+                                            margin-bottom: 20px;
+                                        }
+                                        @media only screen and (min-width: 1400px) {
+                                            margin-bottom: 30px;
+                                        }
+                                    }
+                                    .select-link {
+                                        float: right;
+                                        font-size: $font-size - 2;
+                                        color: $font-color;
+                                        text-decoration: underline;
+                                        margin-top: 2px;
+                                        @media only screen and (min-width: 1024px) {
+                                            display: none;
+                                        }
+                                    }
+                                    .box-content {
+                                        padding-left: 60px;
+                                        @media only screen and (min-width: 480px) {
+                                            padding-left: 0;
+                                        }
+                                        @media only screen and (min-width: 768px) {
+                                            padding-left: 35px;
+                                        }
+                                        @media only screen and (min-width: 1024px) {
+                                            padding-left: 0;
+                                        }
+                                    }
+                                    .sub-categories {
+                                        text-align: center;
+                                        .sub-category {
+                                            display: flex;
+                                            justify-content: center;
+                                            width: calc(50% - 6px);
+                                            padding: 5px 10px;
+                                            align-items: center;
+                                            border: 1px solid #000;
+                                            border-radius: 22px;
+                                            height: 34px;
+                                            background-color: rgba(255,255,255,.8);
+                                            margin: 0 0 6px 6px;
+                                            cursor: pointer;
+                                            &.selected {
+                                                background-color: #000000;
+                                                color: #ffffff;
+                                            }
+                                            &:hover {
+                                                @media only screen and (min-width: 1024px) {
+                                                    background-color: #000000;
+                                                    color: #ffffff;
+                                                }
+                                            }
+                                            .sub-category-name {
+                                                display: block;
+                                                font-size: $font-size - 2;
+                                                line-height: 120%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #button-container {
+                        padding: 15px 0;
+                        position: fixed;
+                        bottom: 0;
+                        width: 100%;
+                        max-width: 100%;
+                        left: 0;
+                        background-color: $background-color;
+                        z-index: 20;
+                        .container {
+                            .content-wrapper {
+                                padding: 0;
+                                .account-content-container {
+                                    padding: 0;
+                                    margin: auto;
+                                    @media only screen and (min-width: 1024px) {
+                                        margin-right: 0;
+                                    }
+
+                                    .button-wrapper {
+                                        margin: auto;
+                                        padding: 0 6px;
+
+                                        .submit-button {
+                                            display: block;
+                                            text-align: center;
+                                            width: 100%;
+
+                                            &.disabled {
+                                                opacity: .4;
+                                                outline: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        margin-bottom: 62px;
+    }
+}

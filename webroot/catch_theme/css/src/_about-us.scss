@@ -1,0 +1,1086 @@
+html{
+    scroll-behavior: smooth;
+    #mega-navi {
+        z-index: 100;
+    }
+}
+
+.about-us #orange-message-container{
+    display: none !important;
+}
+
+.about-us #content{
+    padding-top: 60px !important;
+    padding-bottom: 30px;
+}
+.about-us-wrapper{
+    h1, h2{
+        color: #FBB603;
+        font-family: $font-family-bold;
+        font-size: 72px;
+        line-height: 86px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #000;
+        margin-bottom: 0;
+    }
+
+    .redesign-button{
+        width: 223px;
+        height: 30px;
+        font-size: 14px;
+        display: inline-block;
+        line-height: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .welcome-wrapper{
+        background-color: #fff;
+        background-image: url('../img/welcome-wrapper-image.png');
+        background-size: auto 742px;
+        background-repeat: no-repeat;
+        background-position: 50% 60px;
+        background-attachment: fixed;
+        padding: 218px 0 165px;
+        text-align: center;
+        .about-us-background{
+            display: none;
+        }
+        .headline{
+            font-size: 80px;
+            line-height: 96px;
+            color: #000;
+            margin-bottom: 28px;
+            font-family: $font-family-bold;
+        }
+        p{
+            color: #FBB603;
+            font-size: 16px;
+            font-family: $font-family-bold;
+            line-height: 23px;
+            margin-bottom: 30px;
+        }
+    }
+
+    #about-us{
+        background: #f7f7f7;
+        position: relative;
+        #about-us-scroller{
+            position: absolute;
+            top: 0;
+        }
+        .info-col{
+            padding: 154px 19px 191px 140px;
+            h1{
+                margin-bottom: 18px;
+            }
+            .subtitle{
+                color: #000;
+                font-family: $font-family-bold;
+                font-size: 28px;
+                line-height: 33px;
+                margin: 0 0 22px;
+            }
+            p{
+                margin-bottom: 40px;
+            }
+            .mobile-break{
+                display: none;
+            }
+        }
+        .img-col{
+            position: relative;
+            .about-us-image{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 93%;
+            }
+        }
+    }
+
+    .about-worlds{
+        text-align: center;
+        padding: 111px 0;
+        position: relative;
+        .no-overflow-background, .overflow-background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+        .worlds-background-image{
+            position: absolute;
+            &.bubble-1-circle{
+                width: 432px;
+                height: 432px;
+                top: 120px;
+                transform: translateX(-183%);
+            }
+            &.bubble-2-circle{
+                width: 216px;
+                height: 216px;
+                top: 598px;
+                transform: translateX(-268%);
+            }
+            &.bubble-12-circle{
+                display: none;
+            }
+            &.bubble-3-circle{
+                width: 134px;
+                height: 134px;
+                top: 214px;
+                transform: translateX(-236%);
+            }
+            &.bubble-4-circle{
+                width: 369px;
+                height: 369px;
+                transform: translateX(-84%);
+                top: 410px;
+            }
+            &.bubble-5-circle{
+                width: 224px;
+                height: 224px;
+                top: 55px;
+                transform: translateX(-77%);
+            }
+            &.bubble-6-circle{
+                width: 432px;
+                height: 432px;
+                top: 154px;
+                transform: translateX(43%);
+            }
+            &.bubble-7-circle{
+                width: 156px;
+                height: 156px;
+                top: 616px;
+                transform: translateX(103%);
+            }
+            &.bubble-8-circle{
+                width: 87px;
+                height: 87px;
+                top: 551px;
+                transform: translateX(649%);
+            }
+            &.bubble-9-circle{
+                width: 216px;
+                height: 216px;
+                top: 23px;
+                transform: translateX(264%);
+            }
+            &.bubble-10-circle{
+                width: 224px;
+                height: 224px;
+                top: -33px;
+                transform: translateX(40%);
+            }
+            &.bubble-11-circle{
+                width: 240px;
+                height: 240px;
+                top: 709px;
+                transform: translateX(178%);
+            }
+        }
+        .text-wrapper{
+            z-index: 2;
+            position: relative;
+            display: inline-block;
+            width: 598px;
+            height: 598px;
+            border-radius: 50%;
+            padding: 144px 71px 0;
+            background: #fff;
+            .title {
+                margin: 0 0 25px;
+                color: #000;
+                font-family: $font-family-bold;
+                font-size: 28px;
+                line-height: 33px;
+            }
+            p{
+                margin-bottom: 39px;
+            }
+        }
+    }
+
+    .about-order{
+        background: #F7F7F7;
+        .order-description{
+            padding: 190px 30px 209px 140px;
+            .subtitle{
+                color: #000;
+                font-family: $font-family-bold;
+                font-size: 28px;
+                line-height: 33px;
+                margin: 0 0 26px;
+            }
+        }
+        .payment-bubble-wrapper{
+            position: relative;
+            &.mobile{
+                display: none;
+            }
+            .bubble{
+                width: 240px;
+                height: 240px;
+                border-radius: 50%;
+                background: #fff;
+                position: absolute;
+                &.ebay-bubble{
+                    top: 165px;
+                    left: 40px;
+                    background: #fff url('../img/ebay-logo-color.svg') 50% 50% no-repeat;
+                }
+                &.safety-bubble{
+                    top:199px;
+                    left: 314px;
+                    background: #fff url('../img/safety-logo.svg') 50% 50% no-repeat;
+                }
+                &.paypal-bubble{
+                    top: 426px;
+                    left: 133px;
+                    background: #fff url('../img/paypal-logo.svg') 50% 50% no-repeat;
+                }
+            }
+        }
+    }
+
+    .about-account{
+        padding: 131px 0 89px;
+        text-align: center;
+        position: relative;
+        .no-overflow-wrapper{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            .account-background-image{
+                position: absolute;
+                &.heart-1{
+                    width: 220px;
+                    height: 193px;
+                    top: 50px;
+                    transform: translateX(-350%);
+                }
+                &.heart-2{
+                    width: 433px;
+                    height: 383px;
+                    top: 175px;
+                    transform: translateX(-131%);
+                }
+                &.heart-3{
+                    width: 93px;
+                    height: 82px;
+                    top: 564px;
+                    transform: translateX(-689%);
+                }
+                &.heart-4{
+                    width: 149px;
+                    height: 131px;
+                    top: 629px;
+                    transform: translateX(-183%);
+                }
+                &.heart-5{
+                    width: 205px;
+                    height: 181px;
+                    top: 82px;
+                }
+                &.heart-6{
+                    width: 106px;
+                    height: 92px;
+                    top: 242px;
+                    transform: translateX(219%);
+                }
+                &.heart-7{
+                    width: 370px;
+                    height: 331px;
+                    top: 444px;
+                    transform: translateX(-5%);
+                }
+                &.heart-8{
+                    width: 424px;
+                    height: 374px;
+                    top: 170px;
+                    transform: translateX(92%);
+                }
+                &.heart-9{
+                    display: none;
+                }
+                &.heart-10{
+                    width: 232px;
+                    height: 206px;
+                    top: 729px;
+                    transform: translateX(-268%);
+                }
+                &.heart-11{
+                    width: 225px;
+                    height: 199px;
+                    top: -28px;
+                    transform: translateX(-118%);
+                }
+                &.heart-12{
+                    width: 235px;
+                    height: 206px;
+                    top: 637px;
+                    transform: translateX(165%);
+                }
+            }
+        }
+        .text-wrapper{
+            display: inline-block;
+            padding: 188px 67px 0;
+            border-radius: 50%;
+            width: 598px;
+            position: relative;
+            z-index: 2;
+            height: 598px;
+            background: #fff url('../img/heart-icon.svg') 50% 76px/86px 86px no-repeat;
+            .title{
+                color: #000;
+                font-family: $font-family-bold;
+                font-size: 28px;
+                line-height: 33px;
+                margin: 0 0 17px;
+            }
+            p{
+                margin-bottom: 56px;
+            }
+        }
+    }
+
+    .about-support{
+        background: #F7F7F7;
+        padding: 113px 88px 114px;
+        text-align: center;
+        .support-header{
+            margin-bottom: 51px;
+            padding: 0 281px;
+            h1{
+                margin-bottom: 25px;
+            }
+        }
+        .support-topic-wrapper{
+            padding: 0 40px;
+            .redesign-button{
+                margin-top: 56px;
+            }
+            .support-icon{
+                margin-bottom: 21px;
+            }
+            h3{
+                margin: 0 0 20px;
+                color: #000;
+                font-family: $font-family-bold;
+                font-size: 28px;
+                line-height: 33px;
+            }
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .about-follow{
+        padding: 117px 0 62px;
+        .follow-wrapper{
+            text-align: center;
+            padding: 0 389px 71px;
+            .big-title{
+                color: #FBB603;
+                font-family: $font-family-bold;
+                font-size: 72px;
+                line-height: 86px;
+                margin: 0 0 25px;
+            }
+            p{
+                margin-bottom: 30px;
+            }
+            .icon-wrapper{
+                .social-icon{
+                    padding: 0 10px;
+                }
+            }
+        }
+        .insta-container{
+            text-align: center;
+            #insta-wrapper{
+                display: inline-block;
+                width: 625px;
+                .insta-post{
+                    display: inline-block;
+                    margin-bottom: 15px;
+                    float:left;
+                    transition: all .2s ease-in-out;
+                    .insta-image div{
+                        width: 145px;
+                        height: 145px;
+                    }
+                    &:nth-child(2n + 5){
+                        margin-top: -75px;
+                    }
+                    &:not(:nth-child(4n)){
+                        margin-right: 15px;
+                    }
+                    &:nth-child(6), &:nth-child(10){
+                        margin-top: -25px;
+                    }
+                    &:nth-child(2){
+                        margin-top: 50px;
+                    }
+                    &:nth-child(4){
+                        margin-top: 75px
+                    }
+                    &:hover{
+                        transform: scale(1.1);
+                        -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
+                        -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
+                        box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
+                    }
+                }
+            }
+        }
+    }
+
+    .about-sign-up{
+        text-align: center;
+        padding: 0 410px 84px;
+        p{
+            margin-bottom: 31px;
+        }
+    }
+}
+
+@media (max-width: 1399px) {
+    .about-us-wrapper{
+        .about-worlds{
+            .worlds-background-image{
+                &.bubble-9-circle{
+                    display: none;
+                }
+            }
+        }
+        .about-support{
+            .support-header{
+                padding: 0 50px;
+            }
+        }
+        .about-account{
+            .no-overflow-wrapper{
+                .account-background-image{
+                    &.heart-12, &.heart-10{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .about-follow{
+            .follow-wrapper{
+                padding: 0 189px 71px;
+            }
+        }
+        .about-sign-up{
+            padding: 62px 200px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .about-us-wrapper{
+        h1, h2{
+            font-size: 50px;
+            line-height: 58px;
+        }
+        .welcome-wrapper{
+            padding: 166px 0 64px;
+            background-size: auto 512px;
+            background-attachment: scroll;
+            background-position: 50% 0;
+            p{
+                font-size: 14px;
+                line-height: 21px;
+                margin-bottom: 11px;
+            }
+            .headline{
+                font-size: 50px;
+                line-height: 58px;
+                margin-bottom: 29px;
+            }
+        }
+        #about-us{
+            #about-us-scroller{
+                top: -70px;
+            }
+            .info-col{
+                padding: 74px 0 104px 44px;
+                p{
+                    margin-bottom: 39px;
+                }
+            }
+            .img-col{
+                overflow: hidden;
+                .about-us-image{
+                    right: -71px;
+                    width: 107%;
+                }
+            }
+        }
+        .about-worlds{
+            padding: 196px 0 150px;
+            .text-wrapper{
+                width: 560px;
+                height: 560px;
+                padding: 132px 52px 0;
+            }
+            .worlds-background-image{
+                &.bubble-1-circle{
+                    width: 323px;
+                    height: 323px;
+                    top: 311px;
+                    transform: translateX(-199%);
+                }
+                &.bubble-2-circle{
+                    display: none;
+                }
+                &.bubble-12-circle{
+                    display: block;
+                    width: 133px;
+                    height: 133px;
+                    top: -19px;
+                    transform: translateX(128%);
+                }
+                &.bubble-3-circle{
+                    width: 100px;
+                    height: 100px;
+                    top: 93px;
+                    transform: translateX(-401%);
+                }
+                &.bubble-4-circle{
+                    width: 222px;
+                    height: 222px;
+                    transform: translateX(-157%);
+                    top: 634px;
+                }
+                &.bubble-5-circle{
+                    width: 168px;
+                    height: 168px;
+                    top: 190px;
+                    transform: translateX(-175%);
+                }
+                &.bubble-6-circle{
+                    width: 162px;
+                    height: 162px;
+                    top: 311px;
+                    transform: translateX(111%);
+                }
+                &.bubble-7-circle{
+                    width: 117px;
+                    height: 117px;
+                    top: 682px;
+                    transform: translateX(-6%);
+                }
+                &.bubble-8-circle{
+                    display: inline-block;
+                    width: 123px;
+                    height: 123px;
+                    top: 598px;
+                    transform: translateX(205%);
+                }
+                &.bubble-9-circle{
+                    display: inline-block;
+                    width: 162px;
+                    height: 162px;
+                    top: 130px;
+                    transform: translateX(165%);
+                }
+                &.bubble-10-circle{
+                    width: 248px;
+                    height: 248px;
+                    top: 29px;
+                    transform: translateX(-17%);
+                }
+                &.bubble-11-circle{
+                    width: 179px;
+                    height: 179px;
+                    top: 767px;
+                    display: block;
+                    transform: translateX(263%);
+                }
+            }
+        }
+        .about-order{
+            .order-description{
+                padding: 114px 50px 134px 44px;
+                h2{
+                    margin-bottom: 29px;
+                }
+                .subtitle{
+                    margin-bottom: 20px;
+                }
+            }
+            .payment-bubble-wrapper{
+                .bubble{
+                    width: 144px;
+                    height: 144px;
+                    &.ebay-bubble{
+                        background-size: 102px 39px;
+                        top: 281px;
+                        left: -20px;
+                    }
+                    &.safety-bubble{
+                        background-size: 62px 68px;
+                        left: 144px;
+                        top: 302px;
+                    }
+                    &.paypal-bubble{
+                        background-size: 73px 70px;
+                        left: 36px;
+                        top: 438px;
+                    }
+                }
+            }
+        }
+        .about-account{
+            padding: 255px 0 203px;
+            .text-wrapper{
+                background-position: 50% 43px;
+                width: 560px;
+                height: 560px;
+                padding: 155px 33px 0;
+                p{
+                    padding: 0 19px;
+                }
+            }
+            .no-overflow-wrapper{
+                .account-background-image{
+                    &.heart-1, &.heart-3, &.heart-10{
+                        display: none;
+                    }
+                    &.heart-2{
+                        width: 303px;
+                        height: 268px;
+                        top: 191px;
+                        transform: translateX(-144%);
+                    }
+                    &.heart-4{
+                        width: 131px;
+                        height: 116px;
+                        top: 838px;
+                        transform: translateX(-183%);
+                    }
+                    &.heart-5{
+                        width: 187px;
+                        height: 165px;
+                        top: 94px;
+                        transform: translateX(18%);
+                    }
+                    &.heart-6{
+                        width: 97px;
+                        height: 84px;
+                        top: 288px;
+                        transform: translateX(161%);
+                    }
+                    &.heart-7{
+                        width: 325px;
+                        height: 290px;
+                        top: 672px;
+                        transform: translateX(-1%);
+                    }
+                    &.heart-8{
+                        width: 199px;
+                        height: 176px;
+                        top: 135px;
+                        transform: translateX(148%);
+                    }
+                    &.heart-9{
+                        display: inline-block;
+                        height: 158px;
+                        width: 178px;
+                        top: 600px;
+                        transform: translateX(-227%);
+                    }
+                    &.heart-11{
+                        width: 205px;
+                        height: 181px;
+                        top: -46px;
+                        transform: translateX(-110%);
+                    }
+                }
+            }
+        }
+        .about-support{
+            padding: 56px 108px 17px;
+            p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            h3{
+                font-size: 24px;
+                line-height: 28px;
+                padding: 0 50px;
+            }
+            .support-header{
+                padding: 0 15px;
+                margin-bottom: 71px;
+                h2{
+                    margin-bottom: 40px;
+                }
+            }
+            .support-topic-wrapper{
+                padding: 0 100px;
+                margin-bottom: 71px;
+                .redesign-button{
+                    margin-top: 21px;
+                }
+            }
+        }
+        .about-follow{
+            padding: 47px 0 24px;
+            p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .follow-wrapper{
+                padding: 0 108px 55px;
+                .big-title{
+                    margin-bottom: 31px;
+                }
+            }
+        }
+        .about-sign-up{
+            padding: 0 119px;
+        }
+    }
+}
+
+@media (max-width: 991px){
+    .about-us #content {
+        padding-top: 80px !important;
+    }
+}
+
+@media (max-width: 767px){
+    .about-us #content{
+        padding-top: 111px !important;
+    }
+    .about-us-wrapper{
+        h1, h2{
+            font-size: 42px;
+            line-height: 50px;
+        }
+        .subtitle{
+            font-size: 20px;
+            line-height: 24px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 21px;
+        }
+        .welcome-wrapper{
+            overflow: hidden;
+            padding: 144px 0 111px;
+            position: relative;
+            background-image: url(../img/mobile-paralax.jpg);
+            background-size: auto 422px;
+            p{
+                font-family: $font-family-normal;
+                line-height: 16px;
+            }
+            .headline{
+                font-size: 38px;
+                line-height: 45px;
+                margin-bottom: 20px;
+            }
+        }
+        #about-us{
+            #about-us-scroller{
+                top: -25px;
+            }
+            .info-col{
+                padding: 41px 27px 35px 24px;
+                h1{
+                    margin-bottom: 8px;
+                }
+                .subtitle{
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 20px;
+                }
+                .desktop-break{
+                    display: none;
+                }
+                .mobile-break{
+                    display: block;
+                }
+                .redesign-button{
+                    display: block;
+                    margin: auto;
+                }
+            }
+            .img-col{
+                height: 409px;
+                .about-us-image{
+                    right: -116px;
+                    height: 409px;
+                    width: auto;
+                }
+            }
+        }
+        .about-worlds{
+            height: 709px;
+            padding: 0;
+            .worlds-background-image{
+                &.bubble-1-circle, &.bubble-2-circle, &.bubble-3-circle,
+                &.bubble-6-circle, &.bubble-8-circle, &.bubble-9-circle,
+                &.bubble-11-circle, &.bubble-12-circle{
+                    display: none;
+                }
+                &.bubble-4-circle{
+                    width: 263px;
+                    height: 263px;
+                    transform: translateX(-92%);
+                    top: 421px;
+                }
+                &.bubble-5-circle{
+                    width: 145px;
+                    height: 145px;
+                    top: 53px;
+                    transform: translateX(-120%);
+                }
+                &.bubble-7-circle{
+                    width: 90px;
+                    height: 90px;
+                    top: 571px;
+                    transform: translateX(104%);
+                }
+                &.bubble-10-circle{
+                    width: 248px;
+                    height: 248px;
+                    top: 29px;
+                    transform: translateX(-17%);
+                }
+                &.bubble-10-circle{
+                     display: inline-block;
+                     width: 184px;
+                     height: 184px;
+                     top: 25px;
+                     transform: translateX(23%);
+                 }
+            }
+            .text-wrapper{
+                width: 429px;
+                height: 429px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 124px;
+                padding: 68px 72px 0;
+                .title{
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 16px;
+                }
+                p{
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        .about-order{
+            .payment-bubble-wrapper{
+                max-width: 198px;
+                margin: auto;
+                .bubble{
+                    width: 91px;
+                    height: 91px;
+                    &.ebay-bubble{
+                        background-size: 64px 25px;
+                        top: 138px;
+                        left: 85px;
+                    }
+                    &.paypal-bubble{
+                        background-size: 47px 44px;
+                        top: 64px;
+                        left: 0;
+                    }
+                    &.safety-bubble{
+                        top: 27px;
+                        left: 107px;
+                        background-size: 40px 43px;
+                    }
+                }
+                &.mobile{
+                    display: block;
+                    height: 256px;
+                }
+                &.desktop{
+                    display: none;
+                }
+            }
+            .order-description{
+                padding: 0 27px 53px 24px;
+                h2{
+                    margin-bottom: 8px;
+                }
+                .subtitle{
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .about-account{
+            height: 736px;
+            .text-wrapper{
+                background-size: 44px 44px;
+                background-position: 50% 20px;
+                width: 430px;
+                height: 430px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 196px;
+                padding: 76px 72px 0 74px;
+                .title{
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 16px;
+                }
+                p{
+                    padding: 0;
+                    margin-bottom: 17px;
+                }
+            }
+            .no-overflow-wrapper{
+                .account-background-image{
+                    &.heart-2, &.heart-6, &.heart-7,
+                    &.heart-8, &.heart-9, &.heart-11{
+                        display: none;
+                    }
+                    &.heart-1{
+                        width: 106px;
+                        height: 93px;
+                        top: 7px;
+                        display: inline-block;
+                        transform: translateX(-117%);
+                    }
+                    &.heart-3{
+                        width: 133px;
+                        height: 117px;
+                        top: 174px;
+                        transform: translateX(-153%);
+                        display: inline-block;
+                    }
+                    &.heart-4{
+                        width: 122px;
+                        height: 107px;
+                        top: 600px;
+                        transform: translateX(-136%);
+                    }
+                    &.heart-5{
+                        width: 214px;
+                        height: 189px;
+                        top: 79px;
+                        transform: translateX(11%);
+                    }
+                    &.heart-10{
+                        display: inline-block;
+                        width: 197px;
+                        height: 175px;
+                        top: 579px;
+                        transform: translateX(20%);
+                    }
+                }
+            }
+        }
+        .about-support{
+            padding: 41px 24px 0;
+            p{
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .support-header{
+                margin-bottom: 68px;
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+            .support-topic-wrapper{
+                padding: 0 18px;
+                margin-bottom: 62px;
+                h3{
+                    padding: 0;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                .support-icon{
+                    margin-bottom: 14px;
+                    &.icon-1{
+                        height: 52px;
+                        width: 52px;
+                    }
+                    &.icon-2{
+                        height: 49px;
+                        width: 50px;
+                    }
+                    &.icon-3{
+                        height: 55px;
+                        width: 45px;
+                    }
+                }
+                .redesign-button{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .about-follow{
+            padding: 60px 10px;
+            .follow-wrapper{
+                padding: 0 17px 32px;
+                .big-title{
+                    font-size: 42px;
+                    line-height: 50px;
+                }
+                .icon-wrapper{
+                    .social-icon{
+                        padding: 0 20px;
+                    }
+                }
+            }
+            .insta-container{
+                #insta-wrapper{
+                    width: 304px;
+                    .insta-post{
+                        &:nth-child(odd){
+                            margin: 0 14px 14px 0;
+                        }
+                        &:nth-child(even){
+                            margin: 0 0 14px 0;
+                        }
+                        &:nth-child(n+9){
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .about-sign-up{
+            padding: 0 19px;
+            p{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .about-us-wrapper .welcome-wrapper {
+        background-position: 75% 0;
+    }
+}

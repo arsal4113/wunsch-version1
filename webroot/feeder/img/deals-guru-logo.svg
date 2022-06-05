@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="55px" viewBox="0 0 91 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-132.000000, -6.000000)">
+            <g id="Group-7">
+                <g id="Group" transform="translate(132.000000, 6.000000)">
+                    <g id="Group-11" transform="translate(45.500000, 27.500000) rotate(-10.000000) translate(-45.500000, -27.500000) translate(3.000000, 8.000000)" fill="#FFC106">
+                        <path d="M47.4813154,-5.32907052e-14 L85,-5.32907052e-14 L85,39 L47.4813154,39 C47.2708034,36.6233315 45.3075177,34.7608696 42.9166667,34.7608696 C40.5258156,34.7608696 38.5625299,36.6233315 38.3520179,39 L0,39 L0,-5.32907052e-14 L38.3520179,-5.32907052e-14 C38.5625299,2.37666848 40.5258156,4.23913043 42.9166667,4.23913043 C45.3075177,4.23913043 47.2708034,2.37666848 47.4813154,7.36105621e-13 Z" id="Combined-Shape"></path>
+                    </g>
+                    <text id="DealsGuru" transform="translate(46.509412, 26.578460) rotate(-1.000000) translate(-46.509412, -26.578460) " font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#37474F">
+                        <tspan x="6.00941158" y="33.0784597">DealsGuru</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

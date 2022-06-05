@@ -1,0 +1,112 @@
+div.input {
+    margin: 0;
+    width: 100%;
+    .error-message, .success-message{
+        font-size: 10px;
+        line-height: 13px;
+        margin: 0 0 0 22px;
+        padding: 0;
+    }
+    &.error{
+        .error-message{
+            color: #e53238;
+        }
+        color: #FF0F0F;
+        .outline-wrapper{
+            input {
+                border: 1px solid #FF0F0F !important;
+                color: #FF0F0F;
+                &:focus{
+                    height: 36px;
+                    margin: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &.success {
+        .success-message{
+            color: #92af59;
+        }
+        input{
+            background: #fff url('../../../../assets/green-tick.svg') no-repeat 96% center;
+        }
+    }
+    &.animated .outline-wrapper .zip-loader{
+        opacity: 1;
+    }
+    &.input-firstname, &.input-lastname{
+        margin-bottom: 25px;
+    }
+    .outline-wrapper{
+        background: linear-gradient(90deg, #eae466, #6fc3c1);
+        width: 100%;
+        height: 36px;
+        border-radius: 20px;
+        margin-bottom: 6px;
+        position: relative;
+        input{
+            width: 100%;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            height: 36px;
+            padding: 7px 22px 8px;
+            letter-spacing: 0.0028px;
+            position: absolute;
+            background: #fff;
+            z-index: 1;
+            &:focus {
+                outline: none;
+                height: 34px;
+                width: calc(100% - 2px);
+                margin: 1px;
+                border: none;
+            }
+        }
+        input[required] + label {
+            color: transparent;
+            position: absolute;
+            left: 23px;
+            top: 5px;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        input[required] + label:after {
+            content:'*';
+            color: #FF0000;
+            margin-left: 3px;
+        }
+
+        /* show the placeholder when input has no content (no content = invalid) */
+        input[required]:invalid + label {
+            display: inline-block;
+        }
+
+        /* hide the placeholder when input has some text typed in (content = valid) */
+        input[required]:valid + label{
+            display: none;
+        }
+        .zip-loader{
+            border: 3px solid #fbca15;
+            border-top: 3px solid #FAB60D;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+            animation: spin 2s linear infinite;
+            position: absolute;
+            top: 8px;
+            right: 8px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    }
+}

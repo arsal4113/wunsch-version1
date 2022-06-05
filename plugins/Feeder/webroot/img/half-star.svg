@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.3488248,18.1147616 L5.21646033,21.3258346 C4.56814787,21.6653087 4.14293816,21.3577548 4.26988221,20.6205762 L5.43795409,13.8374484 L0.476767003,9.0208389 C-0.0477287896,8.51162782 0.114550542,8.01380831 0.839513875,7.90888654 L7.6957058,6.9166104 L10.7537577,0.745116933 C11.0824042,0.0818712496 11.6135235,0.0783962278 11.9412554,0.739796053 L14.7950694,6.49911445 L15.0019438,6.9166104 L21.8581357,7.90888654 C22.5829711,8.01378979 22.745471,8.51153791 22.2208826,9.0208389 L17.2596955,13.8374484 L18.4277674,20.6205762 C18.5532992,21.3495537 18.1296162,21.6653686 17.4811893,21.3258346 L11.3488248,18.1147616 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mashable-Checkout-STEP-5" transform="translate(-290.000000, -290.000000)">
+            <g id="Group-4" transform="translate(184.000000, 290.000000)">
+                <g id="Group-4-Copy-3">
+                    <g id="Rectangle-3" transform="translate(106.333333, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#C3C3C3" opacity="0.337803172" xlink:href="#path-1"></use>
+                        <rect fill="#FF9100" mask="url(#mask-2)" x="0" y="-1.22222222" width="11" height="24.4444444"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

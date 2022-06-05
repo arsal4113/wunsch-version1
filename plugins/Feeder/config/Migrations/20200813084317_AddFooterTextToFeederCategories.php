@@ -1,0 +1,19 @@
+<?php
+use Migrations\AbstractMigration;
+
+class AddFooterTextToFeederCategories extends AbstractMigration
+{
+    /**
+     * Change Method.
+     *
+     * More information on this method is available here:
+     * http://docs.phinx.org/en/latest/migrations.html#the-change-method
+     * @return void
+     */
+    public function change()
+    {
+        $table = $this->table('feeder_categories');
+        $table->addColumn('footer_text', 'text', ['null' => true, 'default' => null, 'after' => 'meta_description']);
+        $table->update();
+    }
+}

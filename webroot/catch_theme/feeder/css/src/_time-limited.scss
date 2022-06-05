@@ -1,0 +1,18 @@
+.deals-label-wrapper {
+    margin: 0;
+    font-size: $font-size - 1;
+    color: #ffffff;
+    background: linear-gradient(90deg, #F76B1C 0%, #F9B500 100%);
+    opacity: .9;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .deal-label {
+        padding: 3px 8px;
+    }
+    .deal-time-limit {
+        background: rgba(255,255,255,.2);
+        text-align: right;
+        padding: 3px 8px;
+    }
+}

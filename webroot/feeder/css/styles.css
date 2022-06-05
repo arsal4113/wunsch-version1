@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "HelveticaNeue-Light";
+    src: url(fonts/HelveticaNeue-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(fonts/Helvetica.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Medium";
+    src: url(fonts/HelveticaNeue-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Bold";
+    src: url(fonts/HelveticaNeue-Bold.otf) format("opentype");
+}
+
+body {
+    background:#ECEFF1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+header {
+    padding: 6px 0px;
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: rgba(0,254,204, 1);
+}
+
+.navbar-dark .navbar-toggler:focus {
+    outline-color: rgba(0,254,204, .1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,254,204, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+nav.navigation {
+    background: #6200EA;
+    min-height:61px;
+}
+
+.content-area {
+    padding-top: 20px;
+}
+
+.card {
+    background:none;
+    border:none;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    padding: 15px 0px 0px;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card a:hover .card-title{
+    text-decoration: underline;
+}
+
+.item-discount-wrapper {
+    background: url('../img/price-tag.png') top left no-repeat;
+    height: 65px;
+    width: 94px;
+    position: absolute;
+}
+
+.item-discount-percent {
+    height: 65px;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    line-height: 55px;
+    font-size:24px;
+    font-family: "HelveticaNeue-Bold";
+}
+
+.card-title {
+    font-family: 'HelveticaNeue-Medium', 'Open Sans', Sans-Serif;
+    font-size:16px;
+    color:#1d1d1d;
+    letter-spacing:0;
+    text-align:left;
+}
+
+.header {
+    height: 95px;
+}
+
+
+.logo > a {
+    position: absolute;
+    z-index: 100;
+    margin-top: 20px;
+}
+
+#navbarSupportedContent {
+    margin-left: 250px;
+}
+
+.card-img-wrapper {
+    width: 100%;
+    height: 236px;
+    line-height: 230px;
+    text-align: center;
+    border:1px solid #dddddc;
+    background: #ffffff;
+}
+.card-img-top {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.item-price {
+    font-family: 'HelveticaNeue-Bold', 'Open Sans', Sans-Serif;
+    font-size:18px;
+    color:#1d1d1d;
+    letter-spacing:0;
+    text-align:left;
+}
+
+.item-discount-price {
+    font-family: 'HelveticaNeue', 'Open Sans', Sans-Serif;
+    font-size:12px;
+    color:#949aa3;
+    letter-spacing:0;
+    text-align:left;
+    padding-left: 10px;
+}
+
+.navbar {
+    padding: .5rem 1rem 0rem;
+    font-family: 'HelveticaNeue-Medium', 'Open Sans', Sans-Serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'HelveticaNeue-Medium', 'Open Sans', Sans-Serif;
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-bottom: 5px solid transparent;
+}
+
+.navbar .nav-item.active .nav-link {
+    border-bottom: 5px solid #00FECC;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 5px solid #00FECC;
+}
+
+.load-more-button-container,
+.loader{
+    width: 100%;
+    text-align: center;
+    font-family:'HelveticaNeue-Medium', 'Open Sans', Sans-Serif;
+    font-size:14px;
+    color:#4a4a4a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.loader img{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.load-more-button-container button {
+    cursor: pointer;
+    background: #6200EA;
+    font-family: 'HelveticaNeue-Bold';
+    font-size:12px;
+    color:#ffffff;
+    padding: 15px 40px 15px;
+    text-transform: uppercase;
+}
+
+.load-more-button-container button:hover,
+.load-more-button-container button:active {
+}
+
+.eu-legal {
+    text-align: center;
+}
+
+#to-top {
+    position: fixed;
+    z-index: 100;
+    top: calc(100% - 125px);
+    left: calc(50% + 610px);
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -100000px;
+    background: url('../img/scrollup-button.svg') center center no-repeat;
+}
+
+.footer {
+    background:#ffffff;
+    box-shadow:0 -1px 0 0 rgba(0,0,0,0.30);
+    margin-top: 30px;
+}
+
+.footer .legal {
+    font-family: "HelveticaNeue", "Open Sans", Sans-Serif;
+    font-size: 11px;
+    color: #333;
+    padding-top: 25px;
+}
+
+.footer #footer-links {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.footer #footer-links .nav-item {
+    padding-right: 25px;
+}
+
+.footer #footer-links .nav-item a {
+    font-family: "HelveticaNeue", "Open Sans", Sans-Serif;
+    font-size: 12px;
+    color: #767676;
+}
+
+.footer #footer-links .nav-item a:hover {
+    text-decoration: underline;
+}
+
+.footer .legal a {
+    color: #727272;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+@media (max-width: 1275px) {
+    #to-top {
+        left: calc(100% - 75px);
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar .nav-item.active {
+    }
+    .navbar {
+        padding: 0rem 1rem 0rem;
+    }
+    .header {
+        text-align:center;
+        height: auto;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .logo > a {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #navbarSupportedContent {
+        margin-left: 0px;
+    }
+
+    nav.navigation {
+        padding: 12px 15px 12px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .load-more-button-container button {
+        width: calc(100% - 30px);
+        margin: 0px 15px;
+    }
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

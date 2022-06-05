@@ -1,0 +1,39 @@
+
+.badge-wrapper {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: initial;
+    @media all and (-ms-high-contrast:none) { // IE11 fix
+        top: 0;
+        margin-top: -80px;
+        z-index: 1;
+    }
+}
+.card .card-img-wrapper .product-badge  {
+    background: #FEDA46 no-repeat center;
+    background-size: 13px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-block;
+}
+.card .card-img-wrapper .product-badge.free-shipping-badge {
+    background-image: url('../../img/free-delivery-black.svg');
+    background-size: 16px;
+}
+.card .card-img-wrapper .product-badge.top-rated-badge {
+    background-image: url('../../img/like-black.svg');
+}
+.card .card-img-wrapper .product-badge.fast-shipping-badge {
+    background-image: url('../../img/schneller-versand-black.svg');
+}
+.card .card-img-wrapper .product-badge.free-return-badge {
+    background-image: url('../../img/return-black.svg');
+}

@@ -1,0 +1,139 @@
+body.feeder.products.view.unknown {
+    #content{
+        background: #D7E1C6;
+        min-height: calc(100vh - 194px);
+        overflow: hidden;
+        .content-area{
+            padding-bottom: 0;
+            .product-unknown-banner{
+                padding-top: 43px;
+                .top-message-container{
+                    text-align: center;
+                    margin-bottom: 67px;
+                    .message-wrapper{
+                        display: inline-block;
+                        background: #900E00;
+                        transform: rotate(-1.47deg);
+                        padding: 0 8px;
+                        &.top{
+                            margin-bottom: 6px;
+                        }
+                        span{
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+                    }
+                }
+                .content-container{
+                    width: 738px;
+                    margin: auto;
+                    min-height: 515px;
+                    position: relative;
+                    .skateboard-image{
+                        position: absolute;
+                        top: 0;
+                        left: 70px;
+                    }
+                    .text-wrapper{
+                        margin-top: 100px;
+                        margin-left: 451px;
+                        float: left;
+                        .text{
+                            width: 212px;
+                            font-size: 15px;
+                            line-height: 23px;
+                            color: #000;
+                        }
+                        a{
+                            text-decoration: underline;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #footer{
+        position: relative;
+    }
+    #messages .alert.alert-dismissable {
+        display: none;
+    }
+}
+
+@media (max-width: 1399px){
+    body.feeder.products.view.unknown {
+        #content{
+            .content-area{
+                .product-unknown-banner{
+                    .content-container{
+                        min-height: 390px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    body.feeder.products.view.unknown {
+        #content {
+            min-height: calc(100vh - 380px);
+            .content-area {
+                .product-unknown-banner {
+                    .top-message-container {
+                        margin-bottom: 59px;
+                    }
+                    .content-container{
+                        min-height: 444px;
+                        .skateboard-image{
+                            left: 67px;
+                            width: 384px;
+                        }
+                        .text-wrapper{
+                            margin-top: 110px;
+                            margin-left: 480px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    body.feeder.products.view.unknown {
+        #content {
+            padding-left: 0;
+            padding-right: 0;
+            min-height: calc(100vh - 371px);
+            .content-area{
+                .product-unknown-banner{
+                    padding: 32px 0 0;
+                    .top-message-container{
+                        margin-bottom: 25px;
+                    }
+                    .content-container{
+                        min-height: 458px;
+                        width: 320px;
+                        .skateboard-image{
+                            width: 209px;
+                            left: -53px;
+                        }
+                        .text-wrapper{
+                            margin-top: 76px;
+                            margin-left: 175px;
+                            .text{
+                                font-size: 15px;
+                                line-height: 23px;
+                                width: 140px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "HelveticaNeue-Light";
+    src: url(fonts/HelveticaNeue-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url(fonts/Helvetica.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Medium";
+    src: url(fonts/HelveticaNeue-Medium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Bold";
+    src: url(fonts/HelveticaNeue-Bold.otf) format("opentype");
+}
+
+/* Globals */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #F0EEEC;
+    font-size: 16px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header .logo {
+    width: 128px;
+    float: left;
+}
+
+.header img#logo {
+    width: 128px;
+}
+
+.header h1 {
+    font-family: HelveticaNeue-Light;
+    font-size: 30px;
+    color: #222222;
+    letter-spacing: 0;
+}
+
+.header .title {
+    width: 300px;
+    padding-top: 5px;
+    float: left;
+    margin-left: 15px;
+}
+
+footer {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: #111111;
+    letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+        padding-top: 10px;
+        margin-bottom: 0px;
+        border-bottom: 1px solid #DDDDDD;
+        padding-bottom: 10px;
+        background: white;
+    }
+
+    .header .logo {
+        width: 84px;
+        position: absolute;
+    }
+
+    .header img#logo {
+        width: 70px;
+    }
+
+    .header .title {
+        width: 100%;
+        padding-top: 5px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .header .title h1 {
+        font-family: "HelveticaNeue";
+        font-size: 14px;
+        color: #4A4A4A;
+    }
+}

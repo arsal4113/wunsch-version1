@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@media (min-width: 1280px) {
+    .browse-row {
+        .browse-col {
+            -ms-flex: 0 0 16.666%;
+            flex: 0 0 16.666%;
+            max-width: 16.666%;
+        }
+        .browse-col-2 {
+            -ms-flex: 0 0 33.333%;
+            flex: 0 0 33.333%;
+            max-width: 33.333%;
+        }
+    }
+}
+
+@media (max-width: 1279px) {
+    .catch-worlds-slider{
+        margin: 38px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .browse-row {
+        .browse-col {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+        }
+        .browse-col-2 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .surprise-item span.wishlist-icon {
+        top: 11px;
+    }
+
+    .catch-worlds-slider{
+        margin: 35px 0 34px;
+    }
+    .additional-footer-content{
+        width: 100%;
+        margin-left: 0;
+        border-top: 1px solid rgba(136,130,130, 0.2);
+        .footer-text-container{
+            padding: 40px 0 0;
+            h2{
+                font-size: 34px;
+                line-height: 38px;
+                margin-bottom: 20px;
+            }
+            .footer-text-wrapper{
+                flex-direction: column;
+                .footer-text{
+                    width: 100%;
+                    &:first-child{
+                        margin-right: 0;
+                    }
+                    h3{
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        color: #383838;
+                        letter-spacing: 0.0028px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 992px){
+    body.browse.search {
+        #customer-segment-row {
+            &:not(.scrolled) {
+                margin-top: 33px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .row.content-area .col-6.col-lg-3 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .load-more-button-container button {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .browse-row .browse-col {
+        padding: 0 5px;
+    }
+
+    body.browse.search {
+        #customer-segment-row {
+            &:not(.scrolled) {
+                margin-top: 55px;
+            }
+        }
+    }
+    #customer-segment-row {
+        &:not(.scrolled) {
+            margin-left: -20px;
+            width: calc(100% + 40px);
+        }
+        .navbar-control {
+            display: none;
+        }
+    }
+    .card .wishlist-icon, .surprise-item .wishlist-icon {
+      right: 11px;
+    }
+    .card-body .top-rated-badge {
+        height: 12px;
+        margin-top: 13px;
+    }
+    .catch-worlds-slider{
+        margin: 18px 0 25px;
+        padding: 0;
+        p{
+            margin-bottom: 20px;
+        }
+        .slider-rail{
+            overflow: visible;
+        }
+    }
+    .additional-footer-content{
+        border: none;
+        .footer-text-container{
+            padding-top: 65px;
+            h2{
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 10px;
+            }
+            .footer-text-wrapper{
+                .footer-text{
+                    h3{
+                        font-size: 18px;
+                        line-height: 24px;
+                        margin-bottom: 8px;
+                        font-family: $font-family-normal;
+                        font-weight: 500;
+                    }
+                    p{
+                        line-height: 20px;
+                        color: rgba(0, 0, 0, 0.5);
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .browse-row {
+        .banner-col {
+            padding: 0 5px;
+        }
+    }
+    .card .card-label-wrapper .eek-label-wrapper .eek-label .energy-rating-symbol {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 444px) {
+    body.browse.search {
+        #customer-segment-row {
+            &:not(.scrolled) {
+                margin-top: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.toggle-link {
+    font-family: Visuelt-Regular, sans-serif;
+    color: #000000;
+    text-decoration: underline;
+    font-size: 11px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.toggle-text {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    span {
+        width: 100%;
+        overflow: hidden;
+        font-family: Visuelt-Regular, sans-serif;
+        color: #000000;
+        font-size: 11px;
+        line-height: 14px;
+    }
+}

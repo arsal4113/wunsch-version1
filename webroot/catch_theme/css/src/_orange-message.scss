@@ -1,0 +1,71 @@
+@import "variables";
+
+#header {
+    .orange-message {
+        background-color: #F2F2F3;
+        color: #555555;
+        text-align: center;
+        font-family: $font-family-base;
+        font-size: 15px;
+        line-height: 26px;
+        height: $orange-message-height;
+        padding-left: 0;
+        padding-right: 0;
+        ul#orange-message-list {
+            width: 100%;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            position:relative;
+            @media (max-width: 1199px) {
+                max-width: 994px;
+            }
+            @media (max-width: 1023px) {
+                max-width: 740px;
+            }
+            @media (max-width: 767px) {
+                max-width: 460px;
+            }
+            @media (max-width: 480px) {
+                max-width: 90%;
+            }
+            li {
+                width: 100%;
+                position: absolute;
+                list-style-position: inside;
+                top:0;
+                height: $orange-message-height;
+                left: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                // left: 100% + max-width of ul
+                @media (max-width: 1199px) {
+                    left: calc(100% + 994px);
+                }
+                @media (max-width: 1023px) {
+                    left: calc(100% + 740px);
+                }
+                @media (max-width: 767px) {
+                    left: calc(100% + 460px);
+                }
+                @media (max-width: 480px) {
+                    left: calc(100% + 280px);
+                }
+                a {
+                    color: #555555;
+                }
+                .text-wrapper{
+                    display: inline-block;
+                }
+            }
+        }
+        &.rendered-message {
+            background-color: #BFBDBA;
+            font-size: 13px;
+            color: #ffffff;
+        }
+    }
+}

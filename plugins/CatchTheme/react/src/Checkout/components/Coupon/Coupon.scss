@@ -1,0 +1,66 @@
+.coupon-wrapper{
+    margin-top: 24px;
+    .coupon-form{
+        position: relative;
+        .input-coupon{
+            width: 99%;
+            &.success{
+                width: 100%;
+            }
+            .outline-wrapper{
+                height: 36px;
+                input{
+                    padding-right: 175px;
+                    margin-bottom: 0;
+                    height: 36px;
+                    &:focus{
+                        height: 34px;
+                    }
+                }
+            }
+            &.error {
+                .outline-wrapper input:focus{
+                    height: 36px;
+                }
+            }
+        }
+        .button{
+            position: absolute;
+            z-index: 2;
+            width: 203px;
+            top: 0;
+            right: 0;
+            .mobile-title{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1399px){
+    .coupon-wrapper .coupon-form{
+        .input-coupon .outline-wrapper input{
+            padding-right: 170px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .coupon-wrapper{
+        margin-bottom: 42px;
+        .coupon-form{
+            .input-coupon .outline-wrapper input{
+                padding-right: 85px;
+            }
+            .button{
+                width: 113px;
+                .desktop-title{
+                    display: none;
+                }
+                .mobile-title{
+                    display: block;
+                }
+            }
+        }
+    }
+}

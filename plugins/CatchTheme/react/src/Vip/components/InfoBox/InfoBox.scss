@@ -1,0 +1,81 @@
+#what-is-catch {
+    border-radius: 13px 13px 0 0;
+    text-align: center;
+    background-color: #FDBE51;
+    color: #fff;
+    width: calc(100% - 26px);
+    margin: 20px auto 0;
+    padding: 12px 22px;
+    @media only screen and (min-width: 768px) {
+        border-radius: 0 13px 13px 0;
+        padding: 16px 16px 30px;
+        width: 130px;
+        height: 95px;
+        position: fixed;
+        left: 0;
+        top: 190px;
+        z-index: 100;
+        margin: 20px auto 0;
+    }
+    &.expanded {
+        height: auto;
+        @media only screen and (max-width: 767px) {
+            border-radius: 13px;
+            margin-bottom: 17px;
+        }
+        @media only screen and (min-width: 768px) {
+            width: 330px;
+        }
+        #close-button {
+            width: 15px;
+            height: 15px;
+            background-image: url("../../assets/close-x.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            left: 300px;
+            cursor: pointer;
+        }
+        .main-text {
+            font-size: 20px;
+            line-height: 28px;
+            font-family: visuelt-bold, sans-serif;
+            width: 236px;
+            margin: 0 auto 60px;
+            @media only screen and (max-width: 767px) {
+                margin-top: 30px;
+            }
+        }
+    }
+    .teaser-links {
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (min-width: 768px) {
+            flex-flow: column;
+            margin-bottom: 45px;
+        }
+        a {
+            font-size: 10px;
+            color: #ffffff;
+        }
+        span {
+            font-size: 10px;
+            color: #ffffff;
+        }
+    }
+    #expand-button {
+        width: 27px;
+        height: 27px;
+        background-image: url("../../assets/arrow-right.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        left: 51px;
+        margin-top: -25px;
+        &:hover {
+            background-image: url("../../assets/arrow-right-hover.svg");
+        }
+    }
+}

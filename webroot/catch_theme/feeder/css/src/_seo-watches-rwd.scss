@@ -1,0 +1,242 @@
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .seo-watches-header {
+    height: 602px;
+    .row-header-wrapper {
+      margin: 76px auto;
+
+      h1 {
+        width: 450px;
+        font-size: 40px;
+        line-height: 46px;
+        margin: 45px auto;
+      }
+
+      p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+      }
+      .seo-button {
+        margin: 32px auto;
+      }
+      .image-wrapper {
+        width: 450px;
+        height: 450px;
+        background-size: contain;
+      }
+    }
+  }
+
+  .seo-content {
+    .row-content-wrapper .container {
+      .header-number {
+        font-size: 66px;
+        line-height: 84px;
+        margin-right: 20px;
+      }
+      h2 {
+        font-size: 25px;
+        width: 548px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .image-wrapper {
+        width: 372px;
+        margin: 60px 0 auto auto;
+      }
+      &.text-text-row {
+        .text-wrapper {
+          margin-top: 88px;
+          h2 {
+            width: 485px;
+          }
+          p {
+            width: 450px;
+          }
+        }
+      }
+      &.digital-watch {
+        .text-wrapper {
+          margin-top: 160px;
+        }
+
+      }
+      &.pink-watch {
+        .image-wrapper {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .seo-watches-header {
+    height: 982px;
+    .row-header-wrapper {
+      margin: 38px auto;
+
+      h2 {
+        margin: 38px auto 0;
+      }
+      p {
+        margin: 84px auto;
+      }
+
+      .seo-button {
+        margin: 0 auto 55px;
+      }
+      .image-wrapper {
+        width: 355px;
+        height: 355px;
+        margin: auto;
+      }
+    }
+  }
+
+  .seo-content {
+    .row-content-wrapper .container {
+      .text-wrapper {
+        width: 650px;
+        margin-top: 70px !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .image-wrapper {
+        width: 300px;
+        height: 300px;
+        margin: 80px auto;
+      }
+      p {
+        width: inherit !important;
+      }
+      &.pink-watch {
+        .seo-button {
+          margin: 0 auto 80px;
+        }
+      }
+    }
+  }
+
+  .this-order-change:first-of-type {
+    order: 2;
+  }
+  .this-order-change:last-of-type {
+    order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .seo-watches-header {
+    height: 780px;
+    .row-header-wrapper {
+      margin: 25px auto;
+
+      h1 {
+        width: 335px;
+        font-size: 28px;
+        line-height: 31px;
+        margin: 29px auto 0;
+      }
+      p {
+        width: 370px;
+        font-size: 15px;
+        line-height: 21px;
+        margin: 45px auto;
+      }
+
+      .seo-button {
+        width: 300px;
+        margin: 5px auto 44px;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .image-wrapper {
+        width: 315px;
+        height: 315px;
+      }
+    }
+  }
+  .seo-content {
+    .row-content-wrapper .container {
+      .header-number {
+        font-size: 52px;
+        line-height: 86px;
+        float: unset;
+      }
+      .text-wrapper {
+        width: 280px;
+        margin: 35px auto 0 !important;
+      }
+      .image-wrapper {
+        width: 245px;
+        height: 245px;
+        margin: 50px auto 60px;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 22px;
+        width: 246px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 21px;
+      }
+      &.digital-watch {
+        h2 {
+          width: 220px;
+        }
+      }
+      &.text-text-row {
+        p {
+          margin-top: 30px;
+        }
+        .seo-button {
+          width: 157px;
+          font-size: 15px;
+        }
+      }
+      &.pink-watch {
+        .seo-button {
+          width: 273px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  .sm-no-padding {
+    padding: 0;
+
+  }
+}
+
+@media (max-width: 445px) {
+  .seo-watches-header {
+    height: 780px;
+    .row-header-wrapper {
+      margin: 38px auto;
+
+      h1 {
+        width: 230px;
+      }
+      p {
+        width: 260px;
+      }
+
+      .seo-button {
+        width: 260px;
+        margin: 0 auto 55px;
+      }
+      .image-wrapper {
+        width: 207px;
+        height: 207px;
+      }
+    }
+  }
+  .xs-no-padding {
+    padding: 0;
+  }
+}

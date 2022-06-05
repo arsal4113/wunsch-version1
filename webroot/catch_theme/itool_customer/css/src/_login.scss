@@ -1,0 +1,346 @@
+@import "variables";
+
+@mixin no-padding($side) {
+    @if $side == 'all' {
+        .no-padding {
+            padding: 0 !important;
+        }
+    } @else {
+        .no-padding-#{$side} {
+            padding-#{$side}: 0 !important;
+        }
+    }
+}
+
+@include no-padding("left");
+@include no-padding("right");
+@include no-padding("all");
+
+body {
+    &.itoolcustomer.login {
+        #content {
+            padding-right: 0;
+            padding-left: 0;
+            background: #193D3B url("../img/weird-shape-bg.svg") center 135px no-repeat;
+            @media only screen and (max-width: 767px) {
+                padding-top: 50px;
+            }
+            @media only screen and (max-width: 991px) {
+                padding-top: 80px;
+            }
+            @media only screen and (max-width: 1023px) {
+                padding-top: 95px;
+            }
+
+            .content-container-row {
+                min-height: calc(100vh - 96px);
+
+                .content-area{
+                    #main-login-page {
+                        width: 440px;
+                        background: #fff;
+                        border-radius: 13px;
+                        margin-top: 70px;
+                        text-align: center;
+                        color: $font-color-light;
+                        font-size: $font-size - 1;
+                        padding: 14px 15px 0;
+                        position: relative;
+                        .login-title{
+                            font-size: 15px;
+                            line-height: 20px;
+                            margin-bottom: 20px;
+                        }
+                        .look-at-this{
+                            position: absolute;
+                            text-align: left;
+                            font-size: 20px;
+                            color: #193D3B;
+                            left: -204px;
+                            top: 26px;
+                            height: 110px;
+                            padding: 79px 0 0;
+                            width: 243px;
+                            background: url('../img/weird-arrow.svg') top right no-repeat;
+                        }
+                        input {
+                            border: 1px solid #ffffff;
+                            border-bottom: 1px solid #B3B3B3;
+                            outline: none;
+                            font-size: 15px;
+                            -webkit-appearance: none;
+                            border-radius: 0;
+
+                            &:-webkit-autofill {
+                                font: 15px $font-family-base;
+                            }
+
+                            &:focus {
+                                background: linear-gradient(white, white) padding-box, linear-gradient(to right, #67c2c5, #8dd7ba, #aedf9d, #c6e284, #f2e754) border-box;
+                                border-bottom: 1px solid transparent;
+                                outline: none;
+                            }
+                        }
+
+                        .redesign-button {
+                            width: 218px;
+                            margin: 0 auto 16px;
+                            display: block;
+                            height: 40px;
+                            border-radius: 20px;
+                            border: none;
+                            background: #FDBE51;
+                            font-size: 15px;
+                            line-height: 38px;
+                            padding: 0 20px;
+
+                            &:hover {
+                                @media only screen and (min-width: 1025px) {
+                                    background: linear-gradient(to right, #FAD170 0%, #FDE988 32.6%, #F9C665 100%), #C4C4C4;
+                                }
+                            }
+                        }
+
+                        .newsletter-wrapper {
+                            width: 281px;
+                            margin: 20px auto;
+                            padding: 0 2px;
+
+                            .container {
+                                width: 281px;
+                                padding: 0;
+
+                                .input {
+                                    margin-bottom: 20px;
+                                }
+                            }
+
+                            .newsletter-text {
+                                margin: 20px auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.form-login-box {
+    font-family: $font-family-base;
+
+    .form-login-wrapper {
+        width: 281px;
+        margin: 0 auto 20px;
+        padding: 0 2px;
+
+        .form-login-text {
+            margin: 20px auto;
+        }
+
+        a {
+            color: $font-color-login;
+            text-decoration: underline;
+
+            &.not-registered {
+                color: $link-color;
+                font-family: $font-family-bold;
+            }
+        }
+    }
+}
+
+.social-login {
+    background-color: #F2F2F3;
+    padding: 18px 0 23px;
+    border-radius: 0 0 13px 13px;
+    font-size: 12px;
+    .social-icons {
+        width: 200px;
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 12px auto 0;
+
+        .icons-item {
+            flex: 4 0;
+            margin-right: 13px;
+
+            &.ebay {
+                flex: 0 100%;
+                margin-right: 0;
+
+                &.disabled {
+                    button {
+                        outline: none;
+                        opacity: .5;
+                        border: 1px solid #cdcdcd;
+                    }
+
+                    cursor: auto;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            button {
+                width: 40px;
+                height: 40px;
+                border: 1px solid transparent;
+                border-radius: 20px;
+                cursor: pointer;
+                &.ebay-icon {
+                    width: 100%;
+                    margin: 0 auto 12px;
+                    background: #fff url("../img/ebay_logo_catch.svg") no-repeat center;
+                    background-size: 47px;
+                    height: 36px;
+                    &:hover, &:active, &:focus {
+                        outline: none;
+                        background: url("../img/ebay_logo_catch.svg") no-repeat center, linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        background-size: 47px, cover, cover;
+                        border: 1px solid transparent;
+                    }
+                }
+                &.facebook-icon {
+                    background: #fff url("../img/facebook-f-logo-blue.svg") no-repeat center center;
+                    &:hover, &:active, &:focus {
+                        outline: none;
+                        background: url("../img/facebook-f-logo-blue.svg") no-repeat center, linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        border: 1px solid transparent;
+                    }
+                }
+
+                &.twitter-icon {
+                    background: #fff url("../img/Twitter_bird_logo_2012.svg") no-repeat center center;
+                    background-size: 17px;
+                    &:hover, &:active, &:focus {
+                        outline: none;
+                        background: url("../img/Twitter_bird_logo_2012.svg") no-repeat center, linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        background-size: 17px, cover, cover;
+                        border: 1px solid transparent;
+                    }
+                }
+
+                &.google-icon {
+                    background: #fff url("../img/Google__G__Logo.svg") no-repeat center center;
+                    background-size: 18px;
+                    &:hover, &:active, &:focus {
+                        outline: none;
+                        background: url("../img/Google__G__Logo.svg") no-repeat center, linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        background-size: 18px, cover, cover;
+                        border: 1px solid transparent;
+                    }
+                }
+
+                &.instagram-icon {
+                    background: #fff url("../img/instagram-logo-color.svg") no-repeat center center;
+                    &:hover, &:active, &:focus {
+                        outline: none;
+                        background: url("../img/instagram-logo-color.svg") no-repeat center, linear-gradient(white, white) padding-box, linear-gradient(to bottom left, #67c2c5, #8dd7ba, #f2e754, #aedf9d, #c6e284, #f2e754) border-box;
+                        border: 1px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* style of error message */
+input#email, input#password {
+    &.error-message {
+        border-color: #D0021B;
+        color: #000;
+        outline: none;
+    }
+}
+
+.login-error,
+.email-error,
+.password-forgotten-email-error {
+    font-size: 13px;
+    color: #D0021B;
+    display: none;
+    margin-bottom: 12px;
+
+    .alert-success {
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 345px) {
+        font-size: 4vw;
+        padding-left: 10px;
+    }
+}
+
+.login-error.active {
+    margin-top: -11px;
+    margin-bottom: 9px;
+}
+
+
+#login-messages,
+#registration-messages,
+#password-messages {
+    color: #D0021B;
+    font-family: $font-family-base;
+    font-size: 12px;
+    line-height: 18px;
+    margin: auto;
+    width: 260px;
+
+    button.close {
+        display: none;
+    }
+
+    .alert-success {
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1023px){
+    body {
+        &.itoolcustomer.login {
+            #content {
+                background-image: url("../img/weird-shape-bg-mobile.svg");
+                background-position: 25% 143px;
+                .content-container-row .content-area #main-login-page .look-at-this{
+                    width: 186px;
+                    left: -154px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    body {
+        &.itoolcustomer.login {
+            #content {
+                background-image:none;
+                .content-container-row{
+                    padding-bottom: 0;
+                    .content-area #main-login-page .look-at-this{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .social-login {
+        @media (max-height: 633px){
+            border-radius: 0;
+        }
+    }
+}

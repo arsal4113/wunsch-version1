@@ -1,0 +1,88 @@
+.order-overview{
+    position: relative;
+    padding: 28px 48px 50px;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000;
+    .loader-wrapper{
+        @media (min-width: 1024px){
+            display: none;
+        }
+    }
+    .content{
+        transition: filter 0.4s ease-in-out;
+        &.blurred{
+            @media(max-width: 1023px) {
+                filter: blur(3px);
+            }
+        }
+        .headline{
+            margin-bottom: 25px;
+        }
+        .order-details{
+            border-bottom: 1px solid #a8a8a8;
+            margin-bottom: 29px;
+            .detail{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 24px;
+                .identifier{
+                    width: 130px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    margin: 0;
+                }
+                address, .value{
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #000;
+                    margin: 0;
+                }
+            }
+        }
+        .items-wrapper{
+            border-bottom: 1px solid #a8a8a8;
+            margin-bottom: 25px;
+        }
+        .error{
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 10px;
+            color: #e53238;
+            text-align: center;
+            @media(min-width: 1024px){
+                display: none;
+            }
+        }
+        .button{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .order-overview{
+        padding: 26px 32px 54px;
+        .content{
+            .items-wrapper{
+                padding-right: 127px;
+            }
+            .final-totals-wrapper{
+                margin-bottom: 25px;
+            }
+            .button{
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .order-overview .content{
+        .items-wrapper{
+            padding-right: 10px;
+        }
+    }
+}

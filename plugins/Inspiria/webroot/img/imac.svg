@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="520px" height="443px" viewBox="0 0 520 443" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>iMac 27"</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="20 0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="25.2858292%" fx="50%" fy="25.2858292%" r="777.8396%" id="radialGradient-2">
+            <stop stop-color="#E9EBED" offset="0%"></stop>
+            <stop stop-color="#9D9FA2" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="25.2858292%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#848589" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" offset="56.5841003%"></stop>
+            <stop stop-color="#D6D6D6" offset="80.702943%"></stop>
+            <stop stop-color="#BCBCBC" offset="90.8405902%"></stop>
+            <stop stop-color="#8D8E92" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#D2D3D5" offset="0%"></stop>
+            <stop stop-color="#95979B" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="92.9403782%" cy="-1.1418124%" fx="92.9403782%" fy="-1.1418124%" r="96.0040657%" id="radialGradient-5">
+            <stop stop-color="#282828" offset="0%"></stop>
+            <stop stop-color="#141414" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-6" x="23" y="21" width="475" height="285"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-4" y="-4" width="483" height="293">
+            <rect x="19" y="17" width="483" height="293" fill="white"></rect>
+            <use xlink:href="#path-6" fill="black"></use>
+        </mask>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#B3B5BA" offset="0%"></stop>
+            <stop stop-color="#F6F8FA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="26.2029892%" fx="50%" fy="26.2029892%" r="40.7383851%" id="radialGradient-10">
+            <stop stop-color="#0E0036" offset="0%"></stop>
+            <stop stop-color="#26006E" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-11">
+            <stop stop-color="#404040" offset="0%"></stop>
+            <stop stop-color="#222222" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-devices" transform="translate(-179.000000, -27.000000)">
+            <g id="iMac-27&quot;" transform="translate(179.000000, 27.000000)">
+                <g id="Foot" transform="translate(160.000000, 352.000000)">
+                    <ellipse id="shadow" fill-opacity="0.249999985" fill="#000000" filter="url(#filter-1)" cx="100.5" cy="85" rx="100.5" ry="6"></ellipse>
+                    <path d="M101.032505,78 C4.08888929,78 12.0380282,82.5 13.0213926,84.75 C13.9125512,86.7890273 57.2727923,86.9997379 101.032504,86.9997359 C144.792215,86.9997339 188.152456,86.7890273 189.043615,84.75 C190.026979,82.5 197.97612,78 101.032505,78 Z" id="rubber" fill="#000000"></path>
+                    <path d="M101.03287,77 C3.00000041,77 11.0384555,81 12.0328689,83 C12.9340405,84.8124687 56.7814754,84.999767 101.032869,84.9997652 C145.284263,84.9997635 189.131697,84.8124687 190.032869,83 C191.027282,81 199.065739,77 101.03287,77 Z" id="front" fill="url(#radialGradient-2)"></path>
+                    <path d="M42.8596846,0 C42.8596846,0 38.8820309,71 35.8987907,75 C32.9155505,79 11.0384555,79 12.0328689,81 C12.9340405,82.8124687 56.7814754,82.999767 101.032869,82.9997652 C145.284263,82.9997635 189.131697,82.8124687 190.032869,81 C191.027282,79 169.150187,79 166.166947,75 C163.183707,71 159.206053,0 159.206053,0 L101.032869,0 L42.8596846,0 Z" fill="url(#linearGradient-3)"></path>
+                </g>
+                <g id="Screen">
+                    <rect id="blackglass" fill="#010000" x="0" y="0" width="520" height="329" rx="15"></rect>
+                    <rect id="alu" fill="url(#linearGradient-4)" x="0" y="329" width="520" height="46" rx="15"></rect>
+                    <rect id="alu" fill="url(#linearGradient-4)" x="0" y="329" width="520" height="23"></rect>
+                    <rect id="blackglass" fill="#010000" x="0" y="306" width="520" height="23"></rect>
+                    <g id="pixels">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <use stroke="url(#radialGradient-5)" mask="url(#mask-7)" stroke-width="8" stroke-linejoin="round" xlink:href="#path-6"></use>
+                    </g>
+                    <rect id="edge" fill="url(#linearGradient-8)" x="0" y="329" width="520" height="1"></rect>
+                    <path d="M283.193359,0 L459.4375,329 L520,329 L520,14.9913586 C520,6.71185988 513.278592,0 505.007033,0 L283.193359,0 Z" id="glare" fill="url(#linearGradient-9)"></path>
+                    <circle id="camera" stroke="url(#linearGradient-11)" fill="url(#radialGradient-10)" cx="260.5" cy="9.5" r="2.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

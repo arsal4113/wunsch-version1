@@ -1,0 +1,357 @@
+@import "../../../css/src/variables";
+body {
+    background: #ffffff;
+}
+.pink {
+    background-color: #ECC7CB;
+}
+.grey {
+    background-color: #F7F7F7;
+}
+.white {
+    background-color: #ffffff;
+}
+.bold {
+    font-family: $font-family-bold;
+}
+
+.redesign-button {
+    background: linear-gradient(0deg, #F66B1C -128.96%, #FBCA15 211.72%);
+    text-align: center;
+    @media only screen and (max-width: 767px) {
+        font-size: $font-size + 2;
+    }
+    &:hover {
+        background: linear-gradient(0deg, #FBCA15 -128.96%, #F66B1C 211.72%);
+    }
+}
+
+.banner {
+    padding: 100px 0;
+    @media only screen and (max-width: 1023px) {
+        padding: 40px 0 55px;
+    }
+    @media only screen and (max-width: 767px) {
+        padding: 25px 0 50px;
+    }
+    .banner-img {
+        background-image: url("../img/seo-pages/ian-dooley-298769-unsplash.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+        width: 550px;
+        @media only screen and (max-width: 1399px) {
+            width: 450px;
+            height: 450px;
+        }
+        @media only screen and (max-width: 1023px) {
+            width: 314px;
+            height: 314px;
+            margin: 0 auto 40px;
+        }
+        @media only screen and (max-width: 767px) {
+            width: 207px;
+            height: 207px;
+            margin: 0 auto 30px;
+        }
+    }
+    .banner-text {
+        text-align: center;
+        padding: 20px 0;
+        @media only screen and (max-width: 1399px) {
+            padding: 0 0 20px;
+        }
+        .content-wrapper {
+            margin: auto;
+            @media only screen and (max-width: 1023px) {
+                padding: 0 60px;
+            }
+            @media only screen and (max-width: 767px) {
+                padding: 0 30px;
+            }
+            h1 {
+                font-family: $font-family-normal;
+                font-size: $font-size + 36;
+                line-height: 53px;
+                color: #ffffff;
+                @media only screen and (max-width: 767px) {
+                    font-size: $font-size + 16;
+                    line-height: 31px;
+                }
+            }
+            p {
+                font-size: $font-size + 6;
+                line-height: 28px;
+                @media only screen and (max-width: 767px) {
+                    font-size: $font-size + 3;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+}
+.content-block {
+    .container {
+        padding: 100px 30px;
+        @media only screen and (max-width: 1023px) {
+            padding: 65px 45px;
+        }
+        @media only screen and (max-width: 767px) {
+            padding: 46px 15px 10px;
+        }
+        .content-img {
+            width: 480px;
+            height: 480px;
+            background-image: url("../img/seo-pages/ian-dooley-298769-unsplash-copy-7-2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: inline-block;
+            vertical-align: middle;
+            @media only screen and (max-width: 1399px) {
+                width: 360px;
+                height: 360px;
+            }
+            @media only screen and (max-width: 1023px) {
+                display: block;
+                width: 296px;
+                height: 296px;
+                margin: 0 auto;
+            }
+            @media only screen and (max-width: 767px) {
+                width: 245px;
+                height: 245px;
+            }
+        }
+        .content-wrapper {
+            padding: 0 55px 0 0;
+            @media only screen and (max-width: 1023px) {
+                padding: 0 0 0 60px;
+            }
+            @media only screen and (max-width: 767px) {
+                padding: 0;
+            }
+            .row {
+                margin: 0;
+                @media only screen and (max-width: 767px) {
+                    margin-left: -15px;
+                    margin-right: -15px;
+                }
+            }
+        }
+        .text-container {
+            width: calc(100% - 675px);
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 115px;
+            @media only screen and (max-width: 1399px) {
+                width: calc(100% - 430px);
+                margin-left: 65px;
+            }
+            @media only screen and (max-width: 1023px) {
+                display: block;
+                margin: 70px 0 0;
+                width: 100%
+            }
+            @media only screen and (max-width: 767px) {
+                margin: 60px 0;
+            }
+        }
+        .text-wrapper {
+            border-radius: 15px;
+            h2 {
+                font-size: $font-size + 16;
+                line-height: 34px;
+                margin-bottom: 45px;
+                @media only screen and (max-width: 767px) {
+                    font-size: $font-size + 8;
+                    line-height: 22px;
+                    width: 90%;
+                    margin-bottom: 30px;
+                }
+            }
+            p {
+                font-size: $font-size + 6;
+                line-height: 28px;
+                width: 94%;
+                @media only screen and (max-width: 1399px) {
+                    width: 100%;
+                }
+                @media only screen and (max-width: 767px) {
+                    font-size: $font-size + 3;
+                    line-height: 21px;
+                }
+            }
+            .checklist {
+                font-size: $font-size + 6;
+                list-style: none;
+                padding-left: 30px;
+                margin: 45px 0;
+                @media only screen and (max-width: 767px) {
+                    font-size: $font-size + 3;
+                    line-height: 21px;
+                    margin: 30px 0;
+                }
+                li {
+                    margin-bottom: 10px;
+                    &::before {
+                        content: ' ';
+                        background-image: url("../img/seo-pages/checklist-icon.svg");
+                        display: inline-block;
+                        background-size: cover;
+                        width: 14px;
+                        height: 12px;
+                        margin: 0 13px 0 -28px;
+                    }
+                }
+            }
+            &.white {
+                padding: 0 75px;
+                @media only screen and (max-width: 1399px) {
+                    padding: 0 0 0 55px;
+                }
+                @media only screen and (max-width: 1023px) {
+                    padding: 0 15px;
+                }
+                h2 {
+                    width: 80%;
+                    @media only screen and (max-width: 1399px) {
+                        width: 100%;
+                    }
+                    @media only screen and (max-width: 1023px) {
+                        width: 90%;
+                    }
+                }
+                .checklist {
+                    width: 94%;
+                    @media only screen and (max-width: 1399px) {
+                        width: 100%;
+                    }
+                }
+            }
+            &.grey {
+                padding: 65px 25px 85px 40px;
+                @media only screen and (max-width: 767px) {
+                    margin-top: -55px;
+                    border-radius: 0;
+                    padding: 100px 30px;
+                }
+                h2 {
+                    width: 90%;
+                    @media only screen and (max-width: 1399px) {
+                        width: 100%;
+                    }
+                    @media only screen and (max-width: 1023px) {
+                        width: 80%;
+                    }
+                    @media only screen and (max-width: 767px) {
+                        width: 100%;
+                    }
+                }
+            }
+            &.pink {
+                p {
+                    width: 87%;
+                    @media only screen and (max-width: 1399px) {
+                        width: 100%;
+                    }
+                }
+                .checklist {
+                    width: 88%;
+                    @media only screen and (max-width: 1399px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .img-container {
+            width: 206px;
+            height: 206px;
+            margin: 55px 0 45px;
+            padding: 0;
+            @media only screen and (max-width: 1399px) {
+                width: 165px;
+                height: 165px;
+            }
+            &.img-top {
+                text-align: center;
+                @media only screen and (max-width: 767px) {
+                    margin-bottom: 0;
+                    z-index: 1;
+                }
+            }
+            &.img-right {
+                position: absolute;
+                right: -30px;
+                margin-top: 225px;
+                z-index: 1;
+                @media only screen and (max-width: 1399px) {
+                    margin-top: 190px;
+                    right: -30px;
+                }
+                @media only screen and (max-width: 1023px) {
+                    right: 30px;
+                }
+                @media only screen and (max-width: 767px) {
+                    position: relative;
+                    margin-top: -55px;
+                    right: 0;
+                    text-align: center;
+                }
+            }
+            &.img-bottom {
+                padding: 0 40px;
+                margin-top: -45px;
+                @media only screen and (max-width: 1023px) {
+                    padding: 0 70px;
+                }
+                @media only screen and (max-width: 767px) {
+                    display: none;
+                }
+            }
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        .button-wrapper {
+            margin: 65px auto 0;
+            @media only screen and (max-width: 1023px) {
+                margin: 25px auto 0;
+            }
+        }
+    }
+}
+#extensions {
+    background-color: #ffffff;
+    background-image: url("../img/seo-pages/Bildschirmfoto-2019-02-18-um-12-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 100px 300px;
+    margin-bottom: 64px;
+    @media only screen and (max-width: 1023px) {
+        background-size: contain;
+        padding: 110px 100px 0px;
+    }
+    @media only screen and (max-width: 767px) {
+        padding: 20px 30px;
+    }
+    > .container > .row {
+        justify-content: flex-end;
+        .text-wrapper {
+            padding: 55px 65px 65px;
+            border-radius: 15px;
+            @media only screen and (max-width: 767px) {
+                padding: 30px 20px;
+            }
+        }
+        .button-wrapper {
+            margin: 0;
+        }
+    }
+
+}
+#content .content-container-row {
+    display: none;
+}

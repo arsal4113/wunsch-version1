@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="768px" height="3576px" viewBox="0 0 768 3576" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>background_tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.6777713%" y1="9.49118508%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9B500" offset="0%"></stop>
+            <stop stop-color="#F17E00" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="446.499621 0.0355747768 0.293109263 46.9231306 1.07194245 614.893276"></polygon>
+        <filter x="-71.9%" y="-32.3%" width="243.8%" height="164.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="21.2667411" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <polygon id="path-5" points="446.499621 0.0355747768 0.293109263 46.9231306 1.07194245 614.893276"></polygon>
+        <filter x="-71.9%" y="-32.3%" width="243.8%" height="164.6%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="21.2667411" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="2.77555756e-15%" x2="50%" y2="92.1175036%" id="linearGradient-8">
+            <stop stop-color="#F9B500" offset="24.8080744%"></stop>
+            <stop stop-color="#F17E00" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-9" points="-2.84217094e-14 735.522317 772 560.675255 772 196.955299 -2.84217094e-14 0.506737072"></polygon>
+        <filter x="-62.7%" y="-61.9%" width="225.5%" height="223.7%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="background_tablet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="t.2" transform="translate(-2.000000, 626.000000)">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="1" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <polygon id="2" fill="#F17E00" filter="url(#filter-4)" mask="url(#mask-3)" points="78.5598272 544.400457 -10.1834532 468.75 -10.1834532 666.194196"></polygon>
+        </g>
+        <polygon id="t.1" fill="#F9B500" points="444 626 770 591.268581 770 174"></polygon>
+        <g id="t.2" transform="translate(-1.000000, 2820.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="1" fill="url(#linearGradient-1)" xlink:href="#path-5"></use>
+            <polygon id="2" fill="#F17E00" filter="url(#filter-7)" mask="url(#mask-6)" points="78.5598272 544.400457 -10.1834532 468.75 -10.1834532 666.194196"></polygon>
+        </g>
+        <polygon id="t.1" fill="#F9B500" points="446 2819 772 2784.26858 772 2367"></polygon>
+        <g id="t.3" transform="translate(-1.000000, 1479.000000)">
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <use id="1" fill="url(#linearGradient-8)" xlink:href="#path-9"></use>
+            <polygon id="2" fill="#F17E00" filter="url(#filter-11)" mask="url(#mask-10)" points="239.072049 678.332484 0 493.293882 0 735.765477"></polygon>
+        </g>
+    </g>
+</svg>

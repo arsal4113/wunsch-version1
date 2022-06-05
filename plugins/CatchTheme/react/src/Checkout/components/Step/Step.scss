@@ -1,0 +1,112 @@
+.step-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 150px;
+    margin-bottom: 85px;
+    .step-connector {
+        flex-grow: 1;
+        margin: 7px 10px 0;
+        hr{
+            border: none;
+            border-top: 1px solid #000;
+        }
+        &.finished{
+            hr{
+                border-top: 1px solid #92AF59;
+            }
+        }
+    }
+    .step {
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background: transparent;
+        z-index: 2;
+        line-height: 24px;
+        position: relative;
+        &.clickable {
+            cursor: pointer;
+        }
+        &.selected{
+            border-color: #000 !important;
+        }
+        span{
+            &.index{
+                line-height: 13px;
+                font-size: 11px;
+            }
+            &.step-name{
+                font-size: 13px;
+                position: absolute;
+                top: 37px;
+                display: block;
+                width: 90px;
+                text-align: center;
+                left: -30px;
+            }
+            &.mobile{
+                display: none;
+            }
+        }
+        &.active {
+            background: #000;
+            span {
+                &.index{
+                    color: white;
+                }
+            }
+        }
+        &.finished {
+            border-color: #92AF59;
+            background: #92AF59 url('../../assets/white-tick.svg') center no-repeat;
+            span {
+                &.index{
+                    display: none;
+                }
+                &.step-name{
+                    color: #92AF59;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px){
+    .step-wrapper{
+        padding: 0;
+        margin-bottom: 73px;
+    }
+}
+
+@media (max-width: 767px){
+    .step-wrapper{
+        padding: 0 38px;
+        margin-bottom: 40px;
+        .step-connector{
+            margin: 2px 4px 0;
+        }
+        .step{
+            width: 22px;
+            height: 22px;
+            line-height: 16px;
+            span{
+                &.step-name{
+                    font-size: 9px;
+                    top: 30px;
+                    width: 80px;
+                }
+                &.desktop{
+                    display: none;
+                }
+                &.mobile{
+                    display: block;
+                }
+            }
+            &.finished{
+                background: #92AF59 url('../../assets/white-tick.svg') center/auto 8px no-repeat;
+            }
+        }
+    }
+}

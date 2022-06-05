@@ -1,0 +1,142 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/wunsch/plugins/Dashboard/src/Model/Entity/DashboardConfiguration.php' => 
+  array (
+  ),
+  '/var/www/html/wunsch/plugins/Dashboard/src/Model/Table/DashboardConfigurationsTable.php' => 
+  array (
+    73 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    75 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    76 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    77 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    79 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    80 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    81 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    83 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    84 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    89 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    90 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    95 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    96 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    99 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll',
+      1 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    110 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    111 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    114 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    117 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    120 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    123 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    124 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    127 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    129 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    130 => NULL,
+    141 => 
+    array (
+      0 => 'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd',
+    ),
+    142 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testFindAll' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Dashboard\\Test\\TestCase\\Model\\Table\\DashboardConfigurationsTableTest::testAdd' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/wunsch/plugins/Dashboard/src/Model/Entity/DashboardConfiguration.php' => true,
+  '/var/www/html/wunsch/plugins/Dashboard/src/Model/Table/DashboardConfigurationsTable.php' => true,
+));
+
+return $coverage;
